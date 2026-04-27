@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: undated, classical
 translator: Hari Prasad Shastri
 translatorDates: 1882–1956
-translationYear: "1934"
+translationYear: '1934'
 sourceUrl: https://archive.org/details/AvadhutGitaHariPrasadShastri
 sourcePlatform: Internet Archive
 licence: free-distribution
@@ -17,6 +17,11 @@ imagePrompt: Symbolic image of a wandering naked sage at the edge of a forest un
 image: /images/text-avadhuta-gita.jpg
 order: 11
 description: The song of the avadhuta, the one beyond all categories. Pure recognition without instruction. A text that speaks from realisation rather than toward it, attributed to Dattatreya, the wandering sage who renounced even renunciation.
+downloadTxt: /downloads/avadhuta-gita.txt
+downloadPdf: /downloads/avadhuta-gita.pdf
+downloadEpub: /downloads/avadhuta-gita.epub
+wordCount: 7730
+readingTimeMinutes: 35
 ---
 
 The Avadhuta Gita is among the most direct of all nondual texts. Where most teaching texts build a method, the Avadhuta Gita simply declares. There is no graduated path here, no scaffolding, no accommodation for the seeker. The text speaks as the awakened do: from what is, not toward it.
