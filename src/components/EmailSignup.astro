@@ -1,0 +1,90 @@
+---
+// Kit (formerly ConvertKit) form embed.
+// Replace KIT_FORM_ID below with your actual form ID once you have it,
+// or swap the form action to whichever provider you want.
+const kitFormId = import.meta.env.PUBLIC_KIT_FORM_ID || '';
+const kitAction = kitFormId
+  ? `https://app.kit.com/forms/${kitFormId}/subscriptions`
+  : '#';
+---
+<section class="signup">
+  <span class="eyebrow">Stay connected</span>
+  <h2>Join Our Circle</h2>
+  <p>Receive exclusive insights, guided meditations, and updates on our latest offerings.</p>
+
+  <form
+    class="signup-form"
+    action={kitAction}
+    method="post"
+    data-sv-form={kitFormId}
+    data-uid={kitFormId}
+    data-format="inline"
+    data-version="5"
+  >
+    <input type="email" name="email_address" placeholder="Enter your email" required aria-label="Email address" />
+    <button type="submit" class="btn primary">Subscribe</button>
+  </form>
+  <p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+</section>
+
+<style>
+  .signup {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 64px var(--gutter);
+  }
+  .signup .eyebrow {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .signup h2 {
+    font-family: var(--serif);
+    font-size: 44px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .signup p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .signup-form {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--line-strong);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 460px;
+  }
+  .signup-form input {
+    flex: 1;
+    padding: 14px 18px;
+    border: none;
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    outline: none;
+  }
+  .signup-form input::placeholder { color: var(--text-faint); }
+  .signup-form input:focus { background: rgba(255, 255, 255, 0.08); }
+  .signup-form .btn {
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid var(--accent-soft);
+    padding: 14px 24px;
+  }
+  .privacy-note {
+    font-size: 12px;
+    color: var(--text-faint);
+    margin-top: 16px;
+  }
+  @media (max-width: 600px) {
+    .signup-form { flex-direction: column; }
+    .signup-form .btn { border-left: none; border-top: 1px solid var(--accent-soft); }
+  }
+</style>

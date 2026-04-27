@@ -1,0 +1,19 @@
+{
+  "name": "soul-spirit-self",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Soul Spirit Self - contemplative content hub",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.0",
+    "@astrojs/sitemap": "^3.2.0",
+    "@rollup/rollup-darwin-arm64": "^4.60.2",
+    "astro": "^5.1.0"
+  }
+}

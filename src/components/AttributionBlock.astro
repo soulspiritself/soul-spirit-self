@@ -1,0 +1,45 @@
+---
+interface Props {
+  translator?: string;
+  translatorDates?: string;
+  translationYear?: string;
+  sourceUrl?: string;
+  sourcePlatform?: string;
+  licence: string;
+  licenceNote?: string;
+}
+const { translator, translatorDates, translationYear, sourceUrl, sourcePlatform, licence, licenceNote } = Astro.props;
+
+const licenceLabel: Record<string, string> = {
+  'public-domain': 'Public Domain',
+  'free-distribution': 'Free distribution',
+  'cc0': 'CC0 (Public Domain Dedication)',
+  'cc-by': 'CC BY 4.0',
+  'cc-by-nc': 'CC BY-NC 4.0',
+  'cc-by-sa': 'CC BY-SA 4.0',
+  'cc-by-nc-sa': 'CC BY-NC-SA 4.0',
+  'fresh-translation': 'Fresh translation by Soul Spirit Self',
+};
+---
+<div class="attrib">
+  {translator && <p><strong>Translator:</strong> {translator}{translatorDates && ` (${translatorDates})`}{translationYear && `, ${translationYear}`}.</p>}
+  {sourceUrl && (
+    <p><strong>Source:</strong> <a href={sourceUrl} target="_blank" rel="noopener">{sourcePlatform || sourceUrl}</a></p>
+  )}
+  <p><strong>Licence:</strong> {licenceLabel[licence] || licence}{licenceNote && `. ${licenceNote}`}</p>
+</div>
+
+<style>
+  .attrib {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-muted);
+    padding: 20px 24px;
+    border-left: 2px solid var(--accent-deep);
+    background: rgba(201, 169, 97, 0.04);
+  }
+  .attrib p { margin: 0; }
+  .attrib p + p { margin-top: 6px; }
+  .attrib strong { color: var(--text); font-weight: 500; }
+  .attrib a { color: var(--accent); }
+</style>

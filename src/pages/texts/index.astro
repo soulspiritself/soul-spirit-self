@@ -1,0 +1,152 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allTexts = await getCollection('texts');
+const allTraditions = await getCollection('traditions');
+const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
+
+const grouped = new Map<string, typeof allTexts>();
+for (const text of allTexts) {
+  const slug = text.data.tradition.slug;
+  if (!grouped.has(slug)) grouped.set(slug, []);
+  grouped.get(slug)!.push(text);
+}
+const groups = [...grouped.entries()].map(([slug, texts]) => ({
+  slug,
+  title: traditionMap.get(slug) || slug,
+  texts: texts.sort((a, b) => a.data.order - b.data.order),
+}));
+---
+<BaseLayout
+  title="Texts"
+  description="The full library of foundational and classical texts represented at Soul Spirit Self, with proper attribution and source links."
+>
+  <section class="page-hero">
+    <span class="eyebrow">The library</span>
+    <h1>Texts</h1>
+    <p class="lede">
+      The foundational and classical works of each tradition. Properly attributed, sourced from public-domain or freely-distributable editions, and freely shared.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="texts-page">
+    {groups.map(group => (
+      <div class="tradition-group">
+        <h2><a href={`/traditions/${group.slug}/`}>{group.title}</a></h2>
+        <div class="texts-list">
+          {group.texts.map(text => (
+            <a href={`/texts/${text.slug}/`} class="text-row">
+              <div class="text-thumb" style={text.data.image ? `background-image:url(${text.data.image});` : ''}></div>
+              <div class="text-meta">
+                <h3>{text.data.title}</h3>
+                {text.data.subtitle && <p class="subtitle">{text.data.subtitle}</p>}
+                <p class="period">
+                  {text.data.period}
+                  {text.data.translator && <span class="translator"> · trans. {text.data.translator} ({text.data.translationYear})</span>}
+                </p>
+              </div>
+              <span class="text-arrow">→</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    text-align: center;
+    padding: 96px var(--gutter) 48px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .page-hero h1 {
+    font-family: var(--serif);
+    font-size: 84px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 12px 0 24px;
+  }
+  .page-hero .lede {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .texts-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px var(--gutter) 96px;
+  }
+  .tradition-group { margin-bottom: 64px; }
+  .tradition-group h2 {
+    font-family: var(--serif);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    color: var(--text);
+    letter-spacing: 0.01em;
+  }
+  .tradition-group h2 a { color: var(--text); }
+  .tradition-group h2 a:hover { color: var(--accent); }
+
+  .texts-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--line);
+  }
+  .text-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--line);
+    color: inherit;
+    transition: padding 0.3s ease;
+  }
+  .text-row:hover { padding-left: 12px; color: inherit; }
+  .text-thumb {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg-panel);
+    border: 1px solid var(--line);
+  }
+  .text-row h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .text-row .subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .text-row .period {
+    font-size: 12px;
+    color: var(--text-faint);
+    letter-spacing: 0.04em;
+  }
+  .text-row .translator { color: var(--text-faint); }
+  .text-row .text-arrow {
+    color: var(--accent);
+    font-size: 22px;
+    transition: transform 0.3s ease;
+  }
+  .text-row:hover .text-arrow { transform: translateX(6px); }
+  @media (max-width: 600px) {
+    .text-row { grid-template-columns: 64px 1fr; gap: 16px; }
+    .text-thumb { width: 64px; height: 64px; }
+    .text-row .text-arrow { display: none; }
+  }
+</style>

@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="About"
+  description="About Soul Spirit Self. An open library of nondual wisdom across contemplative traditions."
+>
+  <section class="page-hero">
+    <span class="eyebrow">The project</span>
+    <h1>About</h1>
+    <p class="lede">
+      A continuous lineage of contemplatives in every culture has pointed at one recognition. This site gathers the texts and teaching that carry that pointing forward, and shares them freely.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="about-body">
+    <p>
+      Soul Spirit Self is an open library of nondual wisdom. Across the traditions represented here, from Advaita Vedanta in the Indian classical world to the Christian mystics of medieval Europe, from Sufism to Taoism to the modern voices, the family resemblance is unmistakable. Different vocabulary. Different rituals. Different lineages. The same pointing.
+    </p>
+    <p>
+      Every text on the site has been sourced from public-domain or freely-distributable editions. Every teacher and tradition page is written in the spirit of accessible, scholarly hospitality. Where modern translations are still under copyright, we link out to the authoritative editions rather than reproduce them.
+    </p>
+    <p>
+      The video library at <a href="/watch/">/watch</a> is curated from the Soul Spirit Self YouTube channel. New material is added as it becomes available.
+    </p>
+    <p>
+      If you're new to the project, the best place to start is <a href="/traditions/">the traditions index</a>. Pick a tradition that calls to you and follow the lineage from there.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    text-align: center;
+    padding: 96px var(--gutter) 48px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .page-hero h1 {
+    font-family: var(--serif);
+    font-size: 84px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 12px 0 24px;
+  }
+  .page-hero .lede {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .about-body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px var(--gutter) 96px;
+  }
+  .about-body p {
+    font-family: var(--serif);
+    font-size: 19px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+  }
+  .about-body p:first-child { font-size: 22px; color: var(--text); }
+  .about-body a { border-bottom: 1px solid var(--accent); }
+</style>

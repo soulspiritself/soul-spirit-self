@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allTeachers = await getCollection('teachers');
+const allTraditions = await getCollection('traditions');
+const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
+
+// Group teachers by tradition
+const grouped = new Map<string, typeof allTeachers>();
+for (const teacher of allTeachers) {
+  const slug = teacher.data.tradition.slug;
+  if (!grouped.has(slug)) grouped.set(slug, []);
+  grouped.get(slug)!.push(teacher);
+}
+const groups = [...grouped.entries()].map(([slug, teachers]) => ({
+  slug,
+  title: traditionMap.get(slug) || slug,
+  teachers: teachers.sort((a, b) => a.data.name.localeCompare(b.data.name)),
+}));
+---
+<BaseLayout
+  title="Teachers"
+  description="The contemplatives, sages, and lineage holders represented in the Soul Spirit Self library."
+>
+  <section class="page-hero">
+    <span class="eyebrow">The lineage</span>
+    <h1>Teachers</h1>
+    <p class="lede">
+      The contemplatives, sages, and lineage holders represented across the traditions. Each one a voice in the long conversation about what is already and always the case.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="teachers-page">
+    {groups.map(group => (
+      <div class="tradition-group">
+        <h2><a href={`/traditions/${group.slug}/`}>{group.title}</a></h2>
+        <div class="teachers-grid">
+          {group.teachers.map(t => (
+            <article class="teacher-card">
+              <div class="teacher-photo" style={t.data.image ? `background-image:url(${t.data.image});` : ''}></div>
+              <h3>{t.data.name}</h3>
+              {(t.data.born || t.data.died) && (
+                <p class="dates">{t.data.born}{t.data.born && t.data.died ? ' – ' : ''}{t.data.died}</p>
+              )}
+              <p class="summary">{t.data.summary}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    text-align: center;
+    padding: 96px var(--gutter) 48px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .page-hero h1 {
+    font-family: var(--serif);
+    font-size: 84px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 12px 0 24px;
+  }
+  .page-hero .lede {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .teachers-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px var(--gutter) 96px;
+  }
+  .tradition-group { margin-bottom: 80px; }
+  .tradition-group h2 {
+    font-family: var(--serif);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: var(--text);
+    letter-spacing: 0.01em;
+  }
+  .tradition-group h2 a { color: var(--text); }
+  .tradition-group h2 a:hover { color: var(--accent); }
+  .teachers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 36px 28px;
+  }
+  .teacher-card {
+    background: rgba(10, 30, 45, 0.4);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 28px 24px;
+    transition: all 0.3s;
+  }
+  .teacher-card:hover {
+    border-color: var(--accent);
+    background: rgba(10, 30, 45, 0.55);
+  }
+  .teacher-photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg-panel);
+    margin-bottom: 18px;
+    border: 1px solid var(--line-strong);
+  }
+  .teacher-card h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .dates {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .summary {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+</style>

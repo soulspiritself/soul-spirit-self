@@ -1,0 +1,188 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AttributionBlock from '../../components/AttributionBlock.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const texts = await getCollection('texts');
+  return texts.map(text => ({
+    params: { slug: text.slug },
+    props: { text },
+  }));
+}
+
+const { text } = Astro.props;
+const { Content } = await text.render();
+const tradition = await getEntry(text.data.tradition);
+
+const allTexts = await getCollection('texts');
+const related = (text.data.related || [])
+  .map(ref => allTexts.find(t => t.slug === ref.slug))
+  .filter(Boolean)
+  .slice(0, 3);
+---
+<BaseLayout title={text.data.title} description={text.data.description} image={text.data.image}>
+
+  <div class="breadcrumb">
+    <div class="wrapper">
+      <a href="/traditions/">Traditions</a>
+      <span>/</span>
+      <a href={`/traditions/${tradition.slug}/`}>{tradition.data.title}</a>
+      <span>/</span>
+      {text.data.title}
+    </div>
+  </div>
+
+  <section class="text-hero">
+    <div class="wrapper">
+      <div class="text-hero-grid">
+        <div class="text-hero-image">
+          {text.data.image
+            ? <img src={text.data.image} alt={text.data.imagePrompt || text.data.title} />
+            : <div class="imagen-placeholder"></div>}
+          <span class="img-tag">{text.data.image ? 'Imagen 4' : 'Image pending'}</span>
+        </div>
+        <div class="text-hero-meta">
+          <div class="text-hero-tradition">
+            <a href={`/traditions/${tradition.slug}/`}>{tradition.data.title}</a> · classical text
+          </div>
+          <h1>{text.data.title}</h1>
+          {text.data.subtitle && <p class="orig">{text.data.subtitle}</p>}
+
+          <AttributionBlock
+            translator={text.data.translator}
+            translatorDates={text.data.translatorDates}
+            translationYear={text.data.translationYear}
+            sourceUrl={text.data.sourceUrl}
+            sourcePlatform={text.data.sourcePlatform}
+            licence={text.data.licence}
+            licenceNote={text.data.licenceNote}
+          />
+
+          <div class="text-hero-actions">
+            {text.data.downloadPdf && <a href={text.data.downloadPdf} class="btn primary"><span>↓</span> Download PDF</a>}
+            {text.data.downloadEpub && <a href={text.data.downloadEpub} class="btn"><span>↓</span> EPUB</a>}
+            <a href="#text-body" class="btn"><span>▼</span> Read on this page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section">
+    <div class="wrapper">
+      <div class="intro-grid">
+        <div class="intro-prose">
+          <p>{text.data.description}</p>
+        </div>
+        <aside class="intro-sidebar">
+          <h4>About this text</h4>
+          {text.data.originalLanguage && <div class="meta-row"><span class="label">Original</span><span class="value">{text.data.originalLanguage}</span></div>}
+          {text.data.composedDate && <div class="meta-row"><span class="label">Date</span><span class="value">{text.data.composedDate}</span></div>}
+          <div class="meta-row"><span class="label">Tradition</span><span class="value">{tradition.data.title}</span></div>
+          {text.data.translator && <div class="meta-row"><span class="label">Translator</span><span class="value">{text.data.translator}</span></div>}
+          {text.data.translationYear && <div class="meta-row"><span class="label">Translation</span><span class="value">{text.data.translationYear}</span></div>}
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-section" id="text-body">
+    <div class="wrapper">
+      <div class="text-section-bar">
+        <h2>The text</h2>
+      </div>
+      <article class="text-body prose">
+        <Content />
+      </article>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="related">
+      <div class="wrapper">
+        <div class="related-header">
+          <span class="eyebrow">From the same lineage</span>
+          <h3>Related texts</h3>
+        </div>
+        <div class="related-grid">
+          {related.map(r => (
+            <a href={`/texts/${r.slug}/`} class="related-card">
+              <div class="meta">{tradition.data.title}</div>
+              <div class="title">{r.data.title}</div>
+              <p class="blurb">{r.data.description.split('.')[0]}.</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": text.data.title,
+  "description": text.data.description,
+  "author": text.data.translator || "Anonymous",
+  "datePublished": text.data.translationYear || "1900",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Soul Spirit Self",
+    "url": "https://soulspiritself.com"
+  }
+})} />
+
+<style>
+  .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb span { margin: 0 12px; color: var(--text-faint); }
+
+  .text-hero { padding: 64px 0 0; }
+  .text-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+  .text-hero-image { aspect-ratio: 1/1; background: var(--bg-soft); border: 1px solid var(--line); position: relative; overflow: hidden; }
+  .text-hero-image img { width: 100%; height: 100%; object-fit: cover; }
+  .img-tag { position: absolute; bottom: 12px; right: 12px; padding: 4px 10px; background: rgba(10,14,26,0.7); border: 1px solid var(--line-strong); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); }
+  .text-hero-tradition { font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; font-weight: 500; }
+  .text-hero h1 { font-size: 72px; font-weight: 400; line-height: 1; letter-spacing: -0.02em; margin-bottom: 16px; }
+  .orig { font-family: var(--serif); font-size: 24px; font-style: italic; color: var(--text-muted); margin-bottom: 32px; }
+  .text-hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+
+  .intro-section { padding: 80px 0 0; }
+  .intro-grid { display: grid; grid-template-columns: 1fr 320px; gap: 80px; }
+  .intro-prose { font-family: var(--serif); font-size: 21px; line-height: 1.7; color: var(--text); font-weight: 300; }
+  .intro-prose p { margin-bottom: 24px; }
+  .intro-prose p:first-child::first-letter { font-size: 64px; float: left; line-height: 0.85; margin: 8px 12px 0 0; color: var(--accent); font-weight: 500; }
+  .intro-sidebar { padding-top: 8px; }
+  .intro-sidebar h4 { font-family: var(--sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); font-weight: 500; margin-bottom: 18px; }
+  .meta-row { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; font-size: 14px; }
+  .meta-row .label { color: var(--text-faint); }
+  .meta-row .value { color: var(--text); font-weight: 400; }
+
+  .text-section { padding: 80px 0 0; scroll-margin-top: 80px; }
+  .text-section-bar { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 64px; }
+  .text-section-bar h2 { font-family: var(--serif); font-size: 28px; font-weight: 500; color: var(--text); }
+  .text-body { max-width: 780px; margin: 0 auto; font-family: var(--serif); font-size: 22px; line-height: 1.85; color: var(--text); font-weight: 300; }
+  .text-body :global(h2) { font-family: var(--serif); font-size: 32px; margin: 48px 0 24px; color: var(--accent); font-style: italic; font-weight: 400; }
+  .text-body :global(h3) { font-family: var(--sans); font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; margin: 32px 0 12px; }
+  .text-body :global(p) { margin-bottom: 16px; }
+  .text-body :global(em) { color: var(--text-muted); }
+
+  .related { padding: 64px 0; margin-top: 120px; border-top: 1px solid var(--line); }
+  .related-header { text-align: center; margin-bottom: 48px; }
+  .related-header h3 { font-family: var(--serif); font-size: 36px; font-weight: 400; color: var(--text); margin-top: 14px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; }
+  .related-card { padding: 28px; border: 1px solid var(--line); transition: border-color 0.3s; color: inherit; display: block; }
+  .related-card:hover { border-color: var(--accent-deep); color: inherit; }
+  .related-card .meta { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; font-weight: 500; }
+  .related-card .title { font-family: var(--serif); font-size: 24px; color: var(--text); margin-bottom: 8px; font-weight: 500; }
+  .related-card .blurb { font-size: 14px; color: var(--text-muted); line-height: 1.6; font-weight: 300; }
+
+  @media (max-width: 900px) {
+    .text-hero-grid { grid-template-columns: 1fr; gap: 32px; }
+    .text-hero h1 { font-size: 48px; }
+    .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+  }
+</style>

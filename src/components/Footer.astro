@@ -1,0 +1,106 @@
+---
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="brand-col">
+      <div class="footer-brand">
+        <img src="/images/soul-spirit-self-logo.png" alt="Soul Spirit Self" />
+        <span class="brand-text">Soul Spirit Self</span>
+      </div>
+      <p>An open library of nondual wisdom. Foundational texts, contemplative teaching, and the lineages that carry them forward.</p>
+    </div>
+    <div>
+      <h4>Library</h4>
+      <ul>
+        <li><a href="/traditions/">Traditions</a></li>
+        <li><a href="/teachers/">Teachers</a></li>
+        <li><a href="/texts/">Texts</a></li>
+        <li><a href="/watch/">Watch</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Traditions</h4>
+      <ul>
+        <li><a href="/traditions/advaita-vedanta/">Advaita Vedanta</a></li>
+        <li><a href="/traditions/christian-mysticism/">Christian Mysticism</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="/about/">The mission</a></li>
+        <li><a href="https://www.youtube.com/@soulspiritself" target="_blank" rel="noopener">YouTube channel</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {year} Soul Spirit Self. All rights reserved.</span>
+    <span>All texts attributed to original sources. Public domain and freely-distributable material.</span>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid var(--line);
+    background: rgba(10, 30, 45, 0.55);
+    padding: 64px var(--gutter) 48px;
+    margin-top: 80px;
+  }
+  .footer-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+  }
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .footer-brand img { width: 38px; height: 38px; border-radius: 50%; }
+  .footer-brand .brand-text {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  .footer h4 {
+    font-family: var(--sans);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .footer p, .footer li {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+  .footer ul { list-style: none; }
+  .footer ul li a { color: var(--text-muted); }
+  .footer ul li a:hover { color: var(--accent); }
+  .footer-bottom {
+    max-width: var(--max-width);
+    margin: 48px auto 0;
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--text-faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  @media (max-width: 700px) {
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .footer-bottom { flex-direction: column; gap: 8px; }
+  }
+</style>
