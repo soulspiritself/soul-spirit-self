@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: c. mid-first millennium BCE
 translator: Friedrich Max Müller
 translatorDates: 1823–1900
-translationYear: "1884"
+translationYear: '1884'
 sourceUrl: https://sacred-texts.com/hin/sbe15/
 sourcePlatform: Sacred Texts Archive
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: An empty stone chariot drawn by five luminous horses on an open pla
 image: /images/text-katha-upanishad.jpg
 order: 2
 description: The boy Nachiketa is sent by his father to Yama, the lord of death. He waits three days at Yama's gate without food or drink. When Yama returns and offers him three boons, Nachiketa asks last for the answer to the question that admits no easy answer, what becomes of a person at death.
+downloadTxt: /downloads/katha-upanishad.txt
+downloadPdf: /downloads/katha-upanishad.pdf
+downloadEpub: /downloads/katha-upanishad.epub
+wordCount: 4341
+readingTimeMinutes: 20
 ---
 
 ## Nachiketa's third question
