@@ -15,7 +15,7 @@ licence: public-domain
 licenceNote: Harvard Oriental Series. Strict PD.
 imagePrompt: Symbolic image of a single steady flame in a clay lamp under a vast night sky, contemplative atmosphere, deep blue and warm gold
 image: /images/text-yoga-sutras.jpg
-order: 9
+order: 13
 description: The classical text on yoga as the systematic stilling of the modifications of mind. Patanjali's compact aphorisms map the entire territory between ordinary distracted awareness and the recognition of the witness. Bridges the territory between Samkhya, Yoga, and Vedanta.
 ---
 

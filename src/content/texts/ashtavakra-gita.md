@@ -15,7 +15,7 @@ licence: free-distribution
 licenceNote: Shanti Sadan free-distribution policy. UK life+70 PD from 2027.
 imagePrompt: Symbolic image evoking the Ashtavakra Gita, golden ripple of awareness on dark water, soft minimal contemplative composition
 image: /images/text-ashtavakra-gita.jpg
-order: 3
+order: 10
 description: The Ashtavakra Gita is among the most uncompromising texts in the Advaita tradition. King Janaka asks how liberation is attained, and the sage Ashtavakra answers with verses that leave no foothold for the seeker to stand on.
 ---
 

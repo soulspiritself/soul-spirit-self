@@ -15,7 +15,7 @@ licence: public-domain
 licenceNote: Complete 4-volume English translation. Strict PD in both US and UK.
 imagePrompt: Symbolic image of an ancient sage teaching a young prince beneath a vast sky, soft golden dawn light, painterly contemplative composition, deep blue and amber palette
 image: /images/text-yoga-vasistha.jpg
-order: 2
+order: 9
 description: A vast work of stories, dialogues, and direct teaching on the nature of consciousness and the dreamlike quality of the apparent world. Vasistha instructs the young prince Rama on the path of self-knowledge, weaving philosophy and parable into one of the longest spiritual texts in any tradition.
 ---
 

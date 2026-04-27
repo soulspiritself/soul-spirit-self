@@ -71,6 +71,61 @@ IMAGES = [
     },
     # ── Text images ──
     {
+        "filename": "text-mandukya-upanishad.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A single luminous concentric ring of warm gold suspended in deep cosmic blue space, "
+            "with three faint outer rings receding into shadow representing waking, dream, and "
+            "deep sleep, and a single radiant point of pure gold at the centre representing "
+            "turiya the fourth, minimalist sacred geometry composition, contemplative atmosphere, "
+            "no text, no watermarks"
+        ),
+    },
+    {
+        "filename": "text-isha-upanishad.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A vast warm golden radiance enveloping a small dark spherical world held suspended "
+            "at its centre, the radiance soft and limitless extending outward to the edge of the "
+            "frame, the small world held tenderly within it, faint stars in the surrounding "
+            "cosmic blue beyond, contemplative atmosphere, painterly minimalist composition, "
+            "no text, no watermarks"
+        ),
+    },
+    {
+        "filename": "text-katha-upanishad.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "An empty ancient Indian stone chariot drawn by five luminous horses on an open plain "
+            "at dusk, the chariot itself silent and unoccupied, the reins still and untouched, "
+            "deep cosmic blue sky above with faint stars, soft amber dawn light breaking on the "
+            "distant horizon, painterly contemplative composition, no driver, no people, no text, "
+            "no watermarks"
+        ),
+    },
+    {
+        "filename": "text-mundaka-upanishad.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Two birds perched on the slender branch of a single dark tree silhouetted against a "
+            "vast cosmic blue night sky scattered with faint stars, one bird leaning forward to "
+            "take a small fruit hanging on the branch, the other still and watching with quiet "
+            "attention, soft warm golden light from a single point on the horizon, painterly "
+            "contemplative composition, no text, no watermarks"
+        ),
+    },
+    {
+        "filename": "text-brahma-sutras.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A single fine golden thread descending vertically through a vast deep cosmic blue "
+            "space, passing through a series of nested concentric translucent circles each glowing "
+            "softly from within, the thread continuous and unbroken from top to bottom of the "
+            "frame, contemplative sacred geometry composition, painterly minimalist style, "
+            "no text, no watermarks"
+        ),
+    },
+    {
         "filename": "text-mandukya-karika.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (

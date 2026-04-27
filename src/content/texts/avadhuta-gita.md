@@ -15,7 +15,7 @@ licence: free-distribution
 licenceNote: Shanti Sadan free-distribution policy. UK life+70 PD from 2027.
 imagePrompt: Symbolic image of a wandering naked sage at the edge of a forest under a starlit sky, contemplative and unadorned, deep blue and warm amber palette, painterly style
 image: /images/text-avadhuta-gita.jpg
-order: 4
+order: 11
 description: The song of the avadhuta, the one beyond all categories. Pure recognition without instruction. A text that speaks from realisation rather than toward it, attributed to Dattatreya, the wandering sage who renounced even renunciation.
 ---
 

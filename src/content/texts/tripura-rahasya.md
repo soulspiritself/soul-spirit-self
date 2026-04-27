@@ -15,7 +15,7 @@ licence: free-distribution
 licenceNote: Sri Ramanasramam free-distribution policy. Originally serialised in the Bangalore Mythic Society Journal, 1938–40.
 imagePrompt: Symbolic image of a glowing yantra of three nested triangles in deep gold against a dark cosmic blue, soft radiance, contemplative composition
 image: /images/text-tripura-rahasya.jpg
-order: 5
+order: 12
 description: One of the texts Ramana Maharshi recommended most often. The story of Hemachuda's awakening, told as a sustained dialogue between Parashurama and Dattatreya, mapping the territory between Tantric Shaivism and Advaita Vedanta. Translated by the same Munagala Venkataramiah who recorded Talks with Ramana Maharshi.
 ---
 

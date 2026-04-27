@@ -16,7 +16,7 @@ licence: public-domain
 licenceNote: First English translation. Bombay Theosophical Publication Fund, 1894. Strict PD.
 imagePrompt: Symbolic image of consciousness layers, four concentric circles in deep blue and gold, minimal contemplative composition representing the four states of consciousness
 image: /images/text-mandukya-karika.jpg
-order: 1
+order: 4
 description: The Mandukya Karika is the bridge between the Upanishads and Shankara's systematic Advaita. In four chapters Gaudapada develops the doctrine of ajativada — the teaching of non-origination — and turns the Mandukya Upanishad into the foundational text of nondual recognition.
 ---
 
