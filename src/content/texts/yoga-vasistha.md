@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: c. 10th century, with later additions
 translator: Vihari Lala Mitra
 translatorDates: c. 1830–1894
-translationYear: "1891"
+translationYear: '1891'
 sourceUrl: https://archive.org/details/YogaVasishthaMaharamayana
 sourcePlatform: Internet Archive
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: Symbolic image of an ancient sage teaching a young prince beneath a
 image: /images/text-yoga-vasistha.jpg
 order: 9
 description: A vast work of stories, dialogues, and direct teaching on the nature of consciousness and the dreamlike quality of the apparent world. Vasistha instructs the young prince Rama on the path of self-knowledge, weaving philosophy and parable into one of the longest spiritual texts in any tradition.
+downloadTxt: /downloads/yoga-vasistha.txt
+downloadPdf: /downloads/yoga-vasistha.pdf
+downloadEpub: /downloads/yoga-vasistha.epub
+wordCount: 33994
+readingTimeMinutes: 155
 ---
 
 The Yoga Vasistha is among the most ambitious works in the Indian nondual canon. Across thirty-two thousand verses Vasistha instructs the young Rama on the nature of consciousness, the dreamlike quality of the apparent world, and the recognition of one's true nature as awareness itself.
