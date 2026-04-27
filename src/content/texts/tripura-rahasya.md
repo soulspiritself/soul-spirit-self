@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: medieval, undated
 translator: Munagala S. Venkataramiah (Swami Ramanananda Saraswathi)
 translatorDates: 1882–1957
-translationYear: "1938"
+translationYear: '1938'
 sourceUrl: https://archive.org/details/tripura-rahasya-eng
 sourcePlatform: Internet Archive
 licence: free-distribution
@@ -17,6 +17,11 @@ imagePrompt: Symbolic image of a glowing yantra of three nested triangles in dee
 image: /images/text-tripura-rahasya.jpg
 order: 12
 description: One of the texts Ramana Maharshi recommended most often. The story of Hemachuda's awakening, told as a sustained dialogue between Parashurama and Dattatreya, mapping the territory between Tantric Shaivism and Advaita Vedanta. Translated by the same Munagala Venkataramiah who recorded Talks with Ramana Maharshi.
+downloadTxt: /downloads/tripura-rahasya.txt
+downloadPdf: /downloads/tripura-rahasya.pdf
+downloadEpub: /downloads/tripura-rahasya.epub
+wordCount: 74981
+readingTimeMinutes: 341
 ---
 
 The Tripura Rahasya occupies a distinctive position in the Indian nondual canon. Where the classical Advaita texts insist on a strictly impersonal Self, the Tripura Rahasya allows the recognition of nonduality to be approached through the goddess Tripura, the threefold reality that is both the world and what underlies it.
