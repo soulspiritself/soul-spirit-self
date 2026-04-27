@@ -9,7 +9,7 @@ originalLanguage: Latin
 composedDate: c. 397–400
 translator: Edward Bouverie Pusey
 translatorDates: 1800–1882
-translationYear: "1838"
+translationYear: '1838'
 sourceUrl: https://ccel.org/ccel/augustine/confessions/confessions
 sourcePlatform: Christian Classics Ethereal Library
 licence: public-domain
@@ -18,6 +18,11 @@ imagePrompt: Symbolic image of an open ancient codex on a stone surface, single 
 image: /images/text-confessions.jpg
 order: 1
 description: The first sustained spiritual autobiography in Western literature. Augustine writes the Confessions as a long prayer addressed directly to God, tracing the movement of his soul from dispersion in worldly desire to the recognition that God is interior to the soul itself.
+downloadTxt: /downloads/confessions.txt
+downloadPdf: /downloads/confessions.pdf
+downloadEpub: /downloads/confessions.epub
+wordCount: 112554
+readingTimeMinutes: 512
 ---
 
 The *Confessions* is the founding text of Christian contemplative interiority. Written by Augustine in his early forties, around 397, while he was bishop of the small North African town of Hippo, the book is structured as a continuous prayer addressed in the second person to God. The reader overhears, but the form is direct address.
