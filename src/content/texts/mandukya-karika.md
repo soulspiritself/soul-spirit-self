@@ -1,43 +1,676 @@
 ---
 title: Mandukya Karika
 originalTitle: Māṇḍūkya Kārikā
-subtitle: Gaudapada's verses on the Mandukya Upanishad
+subtitle: Gaudapada's verse commentary on the Mandukya Upanishad, the foundational text of Advaita Vedanta
 tradition: advaita-vedanta
 teacher: gaudapada
 period: Pre-Shankara · 6th c. CE
 originalLanguage: Sanskrit
 composedDate: c. 6th century CE
-translator: Manilal Nabhubhai Dvivedi
-translatorDates: 1858–1898
-translationYear: "1894"
-sourceUrl: https://archive.org/details/mandukyopanisha00agoog
+translator: Swami Nikhilananda
+translatorDates: 1895–1973
+translationYear: "1936"
+sourceUrl: https://archive.org/details/MandukyaUpanishadKarikaWithShankaraBhashya-SwamiNikhilananda
 sourcePlatform: Internet Archive
-licence: public-domain
-licenceNote: First English translation. Bombay Theosophical Publication Fund, 1894. Strict PD.
+licence: free-distribution
+licenceNote: From The Mandukya Upanishad with Gaudapada's Karika and Shankara's Commentary, Sri Ramakrishna Ashrama, Mysore, 1936. Reproduced under the Ramakrishna Order's long-standing policy permitting free reproduction of its translations of foundational texts for non-commercial spiritual study. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).
 imagePrompt: Symbolic image of consciousness layers, four concentric circles in deep blue and gold, minimal contemplative composition representing the four states of consciousness
 image: /images/text-mandukya-karika.jpg
 order: 4
-description: The Mandukya Karika is the bridge between the Upanishads and Shankara's systematic Advaita. In four chapters Gaudapada develops the doctrine of ajativada — the teaching of non-origination — and turns the Mandukya Upanishad into the foundational text of nondual recognition.
+description: The Mandukya Karika is the bridge between the Upanishads and Shankara's systematic Advaita. In four prakaranas Gaudapada develops the doctrine of ajativada, non-origination, and turns the twelve mantras of the Mandukya Upanishad into the foundational treatise of nondual recognition.
 ---
 
-## Chapter one — Agama Prakarana, on Tradition
+The Mandukya Karika is the foundation stone of the entire Advaita lineage. Gaudapada writes in the sixth century, two hundred years before Shankara, taking the twelve short mantras of the [Mandukya Upanishad](/texts/mandukya-upanishad/) as his point of departure and developing them across four prakaranas (chapters): Agama on tradition, Vaitathya on the unreality of the apparent, Advaita on non-duality, and Alatasanti on the quenching of the firebrand.
 
-### 1.1
-*Aum* is all this. A clear explanation of it is that all that is past, present, and future is verily Aum. That which is beyond the threefold time is also indeed Aum.
+Across two hundred and fifteen verses Gaudapada works out the doctrine of *ajativada*, non-origination: the claim that nothing has ever truly come into being, that birth and death are appearances within an unborn awareness, and that the apparent world is to consciousness what dream is to the dreamer. Shankara's Advaita, and through it the entire later tradition, descends from this text.
 
-### 1.2
-All this is verily Brahman. This Self is Brahman. The Self has four quarters.
+What follows is the complete two hundred and fifteen verses in Swami Nikhilananda's 1936 translation, lightly modernised. Sanskrit terms (Atman, Brahman, Aum, Maya, Jiva, Vishva, Taijasa, Prajna, Turiya, Akasa, Prana, and so on) are kept; archaic English verb forms and pronouns are updated. Shankara's commentary, which accompanies the karikas in the original Sanskrit edition, is omitted here in favour of Gaudapada's verses themselves.
 
-### 1.3
-The first quarter is Vaishvanara, whose sphere is the waking state, who is conscious of the external, who has seven limbs and nineteen mouths, and who experiences the gross.
+# Prakarana One — Agama (On Tradition)
+## 1.1
+Viswa (the first quarter) is he who is all-pervading and who experiences the external (gross) objects. Taijasa (the second quarter) is he who cognizes the internal (the subtle) objects. Prajna is he who is a mass of consciousness. It is one alone who is thus known in the three states.
 
-### 1.4
-The second quarter is Taijasa, whose sphere is the dream state, who is conscious of the internal, who has seven limbs and nineteen mouths, and who experiences the subtle.
+## 1.2
+Viswa is he who cognizes in the right eye, Taijasa is he who cognizes in the mind within and Prajna is he who constitutes the Akasa in the heart. Thus the one Atman is (conceived as) threefold in the (one) body.
 
-### 1.5
-The third quarter is Prajna, where one in deep sleep neither desires anything nor sees any dream. In whom all these become one, who is verily a mass of consciousness, who is full of bliss and experiences bliss, and who is the door to the experiences of the dream and waking states.
+## 1.3
+Viswa always experiences the gross (object), Taijasa the subtle and Prajna the blissful. Know these to be the threefold experiences.
 
-### 1.6
-This is the lord of all, this is the knower of all, this is the inner controller, this is the source of all, for it is the origin and end of all beings.
+## 1.4
+The gross (object) satisfies Viswa, the subtle the Taijasa and the blissful the Prajna. Know these to be threefold satisfaction.
 
-*[ These verses open the first prakarana. The full Karika continues across four — Agama on tradition, Vaitathya on the unreality of the apparent, Advaita on non-duality, and Alatashanti on the firebrand — developing the doctrine of ajativada through 215 verses. The complete Dvivedi 1894 edition is at the source linked above. ]*
+## 1.5
+He who knows both the experiencer and the objects of experience that have been described (associated) with the three states, is not affected though experiencing: the objects.
+
+## 1.6
+It is thoroughly established that the coming into effect can be predicated only of all positive entities that exist. The Prana manifests all; the Purusha creates the conscious beings (the Jivas) in their manifold form separately.
+
+## 1.7
+Those who think of (the process of) creation believe it to be the manifestation of the superhuman power of God', while others look upon it as of the same nature as dream and illusion.
+
+## 1.8
+Those who affirm (the existence of the) created objects attribute this manifestation to the mere will of God, while those who look upon time as real declare time to be the manifestor of all beings.
+
+## 1.9
+Others think that the manifestation is for the purpose of enjoyment {of God) while still others attribute it to mere diversion (on the part of God). But it is the very nature of the Effulgent Being (Atman) (for), what other desire is possible for Him whose desire is always in the state of fulfilment?
+
+## 1.10
+In it, indicated as the changeless and the Supreme Lord, there is a cessation of all miseries. It is the one without a second among all entities. It is known as the Turlya (Fourth), effulgent and all-pervading.
+
+## 1.11
+Viswa and Taijasa are conditioned by cause and effect. But Prajna is conditioned by cause alone. These two (cause and effect) do not exist inTuriya.
+
+## 1.12
+Prajna does not know anything of the self or the non-self nor truth nor untruth. But Turiya is ever existent and ever all-seeing.
+
+## 1.13
+The non-cognition of duality is common to both Prajna and Turiya. (But) Prajna is associated with sleep in the form of cause and this (sleep) does not exist in Turiya.
+
+## 1.14
+The first two (Viswa and Taijasa) are associated with the conditions of dream and sleep', Prajna is the condition of sleep without dream. Those who have known the truth see neither sleep nor dream in Turlya.
+
+## 1.15
+Svapna or dream is the wrong cognition of Reality. Nidra or sleep is the state in which one does not know what Reality is. When the erroneous knowledge in these two disappears, Turlya is realized.
+
+## 1.16
+When the Jiva or the individual soul sleeping (i.e., not knowing the Reality) under the influence of the beginningless Maya, is awakened, it, then, realises (in itself) the non-duality, beginningless and dreamless. 68 MA ND VKYOPA NISH AD [I -7 (16)
+
+## 1.17
+If the perceived manifold were real then certainly it would disappear. This duality (that is cognized) is mere illusion (Maya). Non-duality is (alone) the Supreme ' Reality.
+
+## 1.18
+If anyone has ever imagined the manifold ideas (such for instance as the teacher, the taught, and the scripture), they might disappear. This explanation is for the purpose of teaching. Duality (implied in explanation) ceases to exist when the Highest Truth is known.
+
+## 1.19
+When the identity of Viswa and the sound (letter) A is intended to be described, the conspicuous ground is the circumstance of each being the first {in their respective position); another reason for this identity is also the fact of the all-pervasiveness of each.
+
+## 1.20
+The clear ground of realising Taijasa as of the same nature as U is the common feature of Superiority. Similarly another plain reason of such identity is being in the middle.
+
+## 1.21
+Of the identity of Prajna and M R) the dear reason is the common feature, i.e., they both are the measure. The other reason for such identity is another common feature, namely, all become one in both Prajna and M.
+
+## 1.22
+He who knows without doubt, what the common features' are in the three states, is worshipped and adored by all beings and he is also the greatest sage.,1-11(23)] AG AM A PRAKARANA 81
+
+## 1.23
+The sound (letter) helps its worshipper tp. attain to Viswa, U to Taijasa, and M to Prajna. In the Soundless there is no attainment.
+
+## 1.24
+(The meaning of) Aumkara should he known quarter by quarter. There is no doubt that quarters are the same sounds (letters). Having grasped the (meaning of) Aumkara nothing else should be thought of.
+
+## 1.25
+The mind should be unified with (the sacred.syllable) Aum. (For) Aum is Brahman, the everfearless. He who is always unified with Aum knows no fear whatever.
+
+## 1.26
+(The sacred syllable) Aum is the Lower Brahman, and it is also admitted to be the Supreme Brahman. Aum is without beginning (cause), unique, without anything outside itself, unrelated to any effect and changeless.
+
+## 1.27
+Aum is the beginning, middle and end of all. Knowing Aum as such, one, without doubt, attains immediately to that (the Sup 'erne Reality).
+
+## 1.28
+Know Aum to be Iswara, ever present in the.mind of all', the man of discrimination realising Aum as all-pervading, does not grieve.
+
+## 1.29
+One who has known Aum which is soundless and of infinite sounds and which is ever-peaceful on account of negation of duality is the (real) sage and none other.
+
+# Prakarana Two — Vaitathya (On Unreality)
+## 2.1
+The wise declare the unreality of all the objects seen in the dream, they all being located within (the J)ody) and on account of their being in a confined space.
+
+## 2.2
+On account of the shortness of time it is not possible for the dreamer to go out of the body and see (the dream objects). Nor does the dreamer, when he wakes up, find himself in the place (seen in his dream).
+
+## 2.3
+Following reason, (as indicatea above) Sruti declares the non-existence of the chariots, etc. (perceived in dream). Therefore it is said (by the wise) that Sruti itself declares the illusoriness (of the dream-experiences), established (by reason).
+
+## 2.4
+Different objects cognized in dream (are illusory) on account of their being perceived to exist. For the same reason, the objects seen in the waking state are illusory. The nature of objects is the same in the waking state and dream. The only difference is the limitation of space (associated with dream objects).
+
+## 2.5
+The thoughtful persons speak of the sameness of the waking and dream states on account of similarity of objects (perceived in both the states) on grounds already described.
+
+## 2.6
+That which is non-existent at the beginning and in the end, is necessarily so (non-existent) in the middle. The objects are like the illusions we see, still they are regarded as if real.
+
+## 2.7
+The serving a purpose (as means to an end), of them (the objects of waking experience) is contradicted (opposed) in dream. Therefore they are undoubtedly admitted to be illusory on account of their (both waking and dream) being with a beginning and an end.
+
+## 2.8
+The objects (perceived by the dreamer), not usually met with (in the waking state) undoubtedly, owe their existence to the (peculiar) condition in which the cognizer, that is, his mind, works for the time being, as in the case of those residing in heaven. The dreamer associating himself (with the dream conditions) experiences those (objects), even as the one, well-instructed here (goes j'rom one place to another and sees objects belonging to those places).
+
+## 2.9
+In dream, also, what is imagined within by:the mind is illusory and what is cognized outside (by the mind) appears to be real. But (in truth) both these are known to be unreal. Similarly, in the waking state, also, what is imagined within by the mind is illusory, and what is experienced outside (by the mind) appears to be real. But in fact, both should be rationally held to be unreal.
+
+## 2.10
+In dream, also, what is imagined within by:the mind is illusory and what is cognized outside (by the mind) appears to be real. But (in truth) both these are known to be unreal. Similarly, in the waking state, also, what is imagined within by the mind is illusory, and what is experienced outside (by the mind) appears to be real. But in fact, both should be rationally held to be unreal.
+
+## 2.11
+If the objects cognized in both the conditions (of dream and of waking) be illusory, who cognizes all these (illusory objects) and who again imagines them?
+
+## 2.12
+Atman, the self-luminous, through the power of his own Maya, imagines in himself by himself (all the objects that the subject experiences within or without). He alone is the cognizer of the objects (so created). This is the decision of the Vedanta.
+
+## 2.13
+The Lord (Atman), with his mind turned outward, variously imagines the diverse objects (such as sound, etc.), which are already in his mind (in the form of Vasanas or Sankalpas or desires). The Atman again (with his mind turned within), imagines in his mind various (objects of) ideas.
+
+## 2.14
+Those that are cognized within only as long as the; thought of them lasts, as well as those that are perceived by the senses and that conform to two points of time, are all mere imaginations. There is no other ground for differentiating the one from the other.
+
+## 2.15
+Those that exist within the mind (as mere subjective imaginations) and are known as the unmanifested as well as those that exist without in a manifested form (as perceived objects), — all are mere imaginations, the difference lying only in the sense-organs (by means of.which the latter are cognized).
+
+## 2.16
+First of all, is imagined the Jiva {the embodied being) and then are imagined the various entities, objective and subjective, that are perceived. As is {one's) knowledge so is (ones) memory of it.
+
+## 2.17
+As the rope, whose nature is not really known,, is imagined in the dark to be a snake, a water-line, etc.,, so also is the Atman imagined {in various ways).
+
+## 2.18
+When the real nature of the rope is ascertained all illusions about it disappear and there arises the conviction that it is the one (unchanged) rope and nothing else; even so is the nature of the conviction regarding Atman.
+
+## 2.19
+The Atman is imagined as Prana and other - endless objects. This is due to Maya (ignorance) of the luminous (Atman itself) by which It is (as it were) deluded.
+
+## 2.20
+Those that know only Prana, 8 call It (Atman),. PrSpa, those that know Bhfltas call It Bhfitas, those*' II -211 inknowing Gunas call It Gunas,* those 7 knowing Tattvas,. call It Tattvas.* Those — e.g., the Vaiseshikas and the worshippers of Hiratiyagarbha, etc. 1 Prarta — They hold Prana, i.c., Hiranyagarbha or extra-cosmicGod, to be the cause of the universe. This is mere imagination of the mind. There is no rational proof of the reality of an extracosmic God or Person as the cause of the world. Those, etc. — e.g., the Charvakas or the atheists. 4 Bhntas — They designate the four elements, such as, earth,, water, fire and air, which are directly perceived by them, as the cause of the universe. The insentient elements cannot be the cause of the sentient beings. Therefore, this theory also is an imagination.. Those, etc. — e.g., the Siimkhyas. Gunas — According to the Samkhyas, the state of equilibriumof the three Gunas, viz, Sattva, Rajas and Tamas, produces Mahat,. etc., and through them the universe. This is also mere idea. Those, etc. — /.?., the Saivas. Tattvas — The Saivas enumerate three Tattvas or categories,. viz., Atma, Avidya and Siva as the cause of the universe. This is also an imagination and hence untenable. For, Siva being an entity separated from Atman, becomes an object like a pot, etc. qre;r firr fqqqr crfiTI ster fte isteRTf rr frn dsT; II W II 21. Those acquainted with the quarters 1 (Padas) call It quarters; those 2 with objects, the objects 3; those 4 with
+
+## 2.21
+Prana means Prajna (the Jiva associated with deep sleep) and Bijatma (the causal self). All the entities from Prana to the Sthiti (subsistence) are only various effects of Prana. These and other popular ideas of their kind, imagined by all beings, are like the imaginations of the snake, etc., in the rope, etc. These are through ignorance imagined in Atman which is free from all these distinctions. These fancies are due to the lack of determination of the real nature of the Self. This is the purport of these slokas. No attempt is made to explain the meaning of each word in the texts beginning with Prana, etc., on account of the futility of such effort and also on account of the clearness of the meaning of the terms. II -29] Free from, etc.-i-Atman is free from all these imaginations. It is because of the ignorance of the real nature of the Atman that it is thought to be the substratum (another entity) of all imaginations. No useful purpose can be served by the discussion of imaginations which are unreal and illusory. q qrq qrcq nrq s g qqicr l q =err#r g rsr; Hgqfa qq. ii ll
+
+## 2.22
+Those knowing the Vedas call It the Vedas 1; those 2 acquainted with the sacrifices, call It the sacrifices 8 t(Yagna); those 4 conversant with the enjoyer, designate It as the enjoyer 5 and those 8 with the object of enjoyment, call It such. Vedas — e.g., the four Vedas, Rig, Yajus, Sdma and Atharva. These Vedas cannot be the Ultimate Reality inasmuch as they are sounds. Those, etc. — i.e., sages such as Bodhayana and others who -are adept in the performance of sacrifices. Sacrifices — The upholders of sacrifices and rituals like the Yagnas think that sacrifices, such as Jyotishtoma, etc., constitute the Highest Reality. But this is also an illusion. For, according to them, the sacrifice signifies the object (offered), the deity and the act of offering. Any one of these, singly, does not constitute sacrifice. Again three of them, combined together, do not constitute any real entity. Those, etc. — viz., the Stlmkhyas. 8 Bh/oyer— -According to the Samkhvas the Ultimate Reality a $ the Purusha who is not the agent or doer but a mere e'njoyerV This II -23] ' theory is not rational; for enjoyment, means some change in theenjoyer which thus contradicts the idea of his being eternal and changeless. If enjoyment be predicated as the inherent nature of' Purusha, then the conception of extraneous objects, conducive to its enjoyments, is inconsistent. Those, etc. — That is, the cook, to whom the only reality appears - to be delicious dishes. jjr ffa w II 23. The Knowers of the subtle designate It as the subtle, 2 the Knowers of the gross call It the gross.*'
+
+## 2.23
+Prana means Prajna (the Jiva associated with deep sleep) and Bijatma (the causal self). All the entities from Prana to the Sthiti (subsistence) are only various effects of Prana. These and other popular ideas of their kind, imagined by all beings, are like the imaginations of the snake, etc., in the rope, etc. These are through ignorance imagined in Atman which is free from all these distinctions. These fancies are due to the lack of determination of the real nature of the Self. This is the purport of these slokas. No attempt is made to explain the meaning of each word in the texts beginning with Prana, etc., on account of the futility of such effort and also on account of the clearness of the meaning of the terms. II -29] Free from, etc.-i-Atman is free from all these imaginations. It is because of the ignorance of the real nature of the Atman that it is thought to be the substratum (another entity) of all imaginations. No useful purpose can be served by the discussion of imaginations which are unreal and illusory. q qrq qrcq nrq s g qqicr l q =err#r g rsr; Hgqfa qq. ii ll
+
+## 2.24
+Th? Know trs x of time call It time 2; the Knowers of space {ether) call It space {ether). Those versed in disputation call It the problem in dispute and the Knowers of the worlds call It the worlds. 3 1 Knowers, etc. — Such as the astrologers (astronomers). 2 Time — This theory is also fallacious as time is divided into various parts as moment, minute, hour, etc. Time is also an object (thought) of the perceiving mind. Worlds — This is also an illusory conception. crfa-: i f%tTR?cT q-flWr ctfis: 25. The Cognizers of the mind call It the mind; 2 'op the Buddhi {intellect) the Buddhi 4; of the Chitta 0 mind-stuff), the Chitta 6; and the Knowers of Dharma {righteousness) and Adharma {unrighteousness) call It the one 1 or the other. 1 Cognizers, etc. — i.e., a sect of the materialists. Mind— This theory is also not tenable as mind is also an object, an instrument of the perceiving ego. Of, etc. — They are a class of Buddhists. 4 Buddhi — This is also a wrong view of the Reality, as the functionings of Buddhi disappear at the time of deep sleep. Further Buddhi is also an object cognized by the perceiver. 5 Chitta— Chitta is an aspect of mind which has no particular external form. It cannot be Atman for the reasons given regarding mind. Knowers, etc. — i.e., the MimSmsakas. 1 The one, etc. — None of these can be the Ultimate Reality because one cannot be conceived without the other and they have mo absolute standard. They vary with different conditions of time -and country. II-26-27]
+
+## 2.25
+Prana means Prajna (the Jiva associated with deep sleep) and Bijatma (the causal self). All the entities from Prana to the Sthiti (subsistence) are only various effects of Prana. These and other popular ideas of their kind, imagined by all beings, are like the imaginations of the snake, etc., in the rope, etc. These are through ignorance imagined in Atman which is free from all these distinctions. These fancies are due to the lack of determination of the real nature of the Self. This is the purport of these slokas. No attempt is made to explain the meaning of each word in the texts beginning with Prana, etc., on account of the futility of such effort and also on account of the clearness of the meaning of the terms. II -29] Free from, etc.-i-Atman is free from all these imaginations. It is because of the ignorance of the real nature of the Atman that it is thought to be the substratum (another entity) of all imaginations. No useful purpose can be served by the discussion of imaginations which are unreal and illusory. q qrq qrcq nrq s g qqicr l q =err#r g rsr; Hgqfa qq. ii ll
+
+## 2.26
+Some 1 say that the Reality consists of twentyfive categories, others 2 twenty-six, while there are others 3 who conceive It as consisting of thirty-one categories and lastly people are not wanting who think such categories to he infinite. Some — i.e., the Sdmkhyas according to whom the Reality consists of twenty-five categories, viz., Prakriti, Mahat, Ahamkdra, five Tanmdtras (subtle elements), five organs of perception, five organs of action, five objects, mind and the Purusha. Others — i.e., the followers of Patanjali who add Iswara to the categories of the Sdmkhyas. Others — i.e., the Pasupatas who add to the categories of Sdmkhyas six more, vi-., Raga, Avidya, Kala, Kali, Mdyd and Niyati. The mutual contradictions among these different schools prove the fallacious character of their theories. The difference of opinion is due to the ignorance of the nature of Reality. snsrowr cngs;: 1 %r; totww 11 11 27. Those 1 who know only to please others call It {Reality) such 2 pleasure', those 3 who are cognizant of the Asramas call It the Asramas; the grammarians call It the male, female or the neuter, and others know It as the Para 4 and Apara. Those, etc. — i.t., a sect of the atheists. Such, etc. — This is also a delusion as it is impossible to please everybody on account of the different tastes of the people. Those, etc. — i.e., men like Daksha, etc. 4 Para, etc. — i.e., the Brahman who is regarded as high and low. An entity, subject to division of any sort, can never be the Supreme Reality. 7 122 MAND 0 KYOPA NISH A D
+
+## 2.27
+Prana means Prajna (the Jiva associated with deep sleep) and Bijatma (the causal self). All the entities from Prana to the Sthiti (subsistence) are only various effects of Prana. These and other popular ideas of their kind, imagined by all beings, are like the imaginations of the snake, etc., in the rope, etc. These are through ignorance imagined in Atman which is free from all these distinctions. These fancies are due to the lack of determination of the real nature of the Self. This is the purport of these slokas. No attempt is made to explain the meaning of each word in the texts beginning with Prana, etc., on account of the futility of such effort and also on account of the clearness of the meaning of the terms. II -29] Free from, etc.-i-Atman is free from all these imaginations. It is because of the ignorance of the real nature of the Atman that it is thought to be the substratum (another entity) of all imaginations. No useful purpose can be served by the discussion of imaginations which are unreal and illusory. q qrq qrcq nrq s g qqicr l q =err#r g rsr; Hgqfa qq. ii ll
+
+## 2.28
+The Knowers of creation call It creation; the Knowers of dissolution describe It as dissolution and the believers in subsistence believe It to be subsistence. Really speaking, all these ideas are always imagined 8 in Atman. 1 Knowers, etc. — i.e., the Panranikas (the believers in Mythology) who believe in the reality of creation, preservation and destruction. All these — i.e., those enumerated above and which may be enumerated by others in future. Imagined— So long as men are given to imagining, they have recourse to all such imaginations regarding Atman. But Atman, from its own standpoint, does not imagine anything. Tt is because all these ideas, described above, are mere imaginations, that they cannot be the underlying Reality.
+
+## 2.29
+He (the inquirer) cognizes only that idea that is presented to him. It (Atman) assumes the form {of what is cognized) and thus protects {the inquirer). Possessed by that {idea) he realises it (as the sole essence).
+
+## 2.30
+This Atman, though non-separate from all these, appears, as it were, separate. One who knows this truly imagines (interprets) (the meaning of the Vedas) without hesitation.
+
+## 2.31
+As are dreams and illusions or a castle in the air seen in the sky, so is the universe viewed by the wise in the Vedanta.
+
+## 2.32
+There is no dissolution, no birth, none in bondage, none aspiring for wisdom, no seeker of liberation and none liberated. This is the absolute truth.
+
+## 2.33
+This (the Atman) is imagined both as unreal objects that are perceived and as the non-duality. The objects (Bhavas) are imagined in the non-duality itself. Therefore, non-duality (alone) is the (highest) bliss.
+
+## 2.34
+This manifold does not exist as identical with Atman nor does it ever stand independent by itself It is neither separate from Brahman nor is it non-separate. This is the statement of the wise.
+
+## 2.35
+By the wise, who are free from attachment, fear and anger and who are well versed in the meaning of the Vedas, this (Atman) has been realised as totally devoid of all imaginations (such as those of Prana, etc.), free from the illusion of the manifold, and non-dual.
+
+## 2.36
+Therefore knowing the Atman to be such, fix your attention on non-duality. Having realised non-duality behave in the world like an insensible object.
+
+## 2.37
+The man of self-restraint should be above all praise, salutation and all rites prescribed by the Smriti in connection with the departed ancestors. He should have this body and the Atman as his support and depend upon chances, i.e., he should be satisfied with those things for his physical wants, that chance brings to him.
+
+## 2.38
+Having known the truth regarding what exists internally (i.e., within the body) as well as the truth regarding what exists externally (i.e., the earth, etc.) he becomes one with Reality, derives his pleasure from It and never deviates from the Real.
+
+# Prakarana Three — Advaita (On Non-Duality)
+## 3.1
+The.Tiva betaking itself to devotion (upasana) thinks itself to be related to the Brahman that is supposed to have manifested Himself He is said to be of narrow intellect because he thinks that before creation all was of the nature of the unborn (Reality).
+
+## 3.2
+Therefore T shall now describe that (Brahman) which is free from limitations, unborn and which is the same throughout; and from this, one understands that it is not (in reality) born though it appears to be manifested everywhere.
+
+## 3.3
+Atman may be said to be similar to Akasa (ether) manifested in the ' forms of the Jivas (embodied selves) which may be compared to the ether enclosed in pots. Again, as pots, etc., are said to be produced from the Akasa (ether), similarly (gross) bodies are said to be evolved from the Atman. This is the illustration of the manifestation (from Brahman, if any).
+
+## 3.4
+As on the destruction of the pot, etc., the ether enclosed in the pot, etc., merges in the Akasa (the great expanse of ether), similarly the Jivas merge in the Atman.
+
+## 3.5
+As any portion of AkaSa enclosed in a pot being soiled by dust, smoke, etc., all such other portions of AkaSa enclosed in other pots are not soiled, so is the happiness, etc., of the Jivas, i.e., the happiness, misery, etc., of one Jiva do not affect other Jivas.
+
+## 3.6
+Though form, function and name are different here and there yet this does not imply any difference in the Akasa (which is one). The same is the conclusion {truth) with regard to the Jivas.
+
+## 3.7
+As the Ghatakasa (i.e., the ether portioned off by the pot) is neither the (evolved) effect nor part of the Akasa (ether), so is the Jiva (the embodied being) neither the effect nor part of the Atman.
+
+## 3.8
+As the ether appears to the ignorant children to be soiled by dirt, similarly, the Atman also is regarded by the ignorant as soiled.
+
+## 3.9
+Atman, in regard to its birth, death, going and coming (i.e., transmigration) and its existing in different bodies, is not dissimilar to the AkaSa (i.e., the Ghataka$a or the ether portioned off by a jar). Ill -10]
+
+## 3.10
+All aggregates (such as body, etc.) are produced by the illusion of the Atman (i.e., the perceiver) as in a dream. No rational arguments can be adduced to establish their reality, whether they be equal or superior {to one another).
+
+## 3.11
+The Supreme Jiva (i.e., the non-dual Brahman) is the self of the (five) sheaths, such as the physical, etc., which have been explained in the Taittirlyaka Upanishad. That the Supreme Jiva is like the Akasa has already been described by us (in the third verse of this chapter). Ill'll]
+
+## 3.12
+The description by pairs, as that of the Akasa, which is in the earth as also in the stomach (though referred to separately), applies equally to the Supreme Brahman described in the Madhu Brahmana (a chapter in the Brihadarapyaka Upanishad), as being both in the corporeal (Adhyatma) and in the celestial (Adhidaiva) regions.
+
+## 3.13
+As the identity of Jiva and Atman, through their non-dual character, is praised and multiplicity is condemned (in the scriptures), therefore, that (non-duality) alone is rational and correct.
+
+## 3.14
+The separateness of Jiva and Atman which has been declared, in (the ritual portion of the) Upanishad, dealing with the origin (of the universe), is only figurative, because this portion (of the Vedas) describes only what is to be. This statement regarding separateness can never have any meaning as truth.
+
+## 3.15
+(The scriptural statements regarding) creation as illustrated by examples of earth, iron, sparks, etc., or otherwise, (only) serve the purpose of (ultimately) explaining the unity (of Jiva and Brahman). (Really speaking) multiplicity does not exist in any manner.
+
+## 3.16
+There are three stages of life corresponding to three, — the lower, the middle and the high — powers of comprehension. The Scripture, out of compassion, has taught this devotion (or discipline) for the benefit of those (who are not yet enlightened).
+
+## 3.17
+The dualists obstinately cling to the conclusions arrived at by their own enquiries (as being the truth). So they contradict one another; whereas the Advaitin finds no conflict with them.
+
+## 3.18
+As non-duality is the ultimate Reality, therefore duality is said to be its effect (Karya or Bheda). The dualists perceive duality either way (i.e., both in the Absolute and in the phenomena). Therefore the non-dual position does not conflict with the dualist's position.
+
+## 3.19
+This unborn (changeless, non-dual Brahman) appears to undergo modification only on account of Maya (illusion) and not otherwise. For, if this modification were real, the Immortal (Brahman) would become mortal.
+
+## 3.20
+The disputants (i.e., the dualists) contend that the ever-unborn (changeless) entity (Atman) undergoes a change. How could an entity which is changeless and immortal partake of the nature of the mortal?
+
+## 3.21
+The immortal cannot become mortal, nor can the mortal ever become immortal. For, it is never possible for a thing to change its nature.
+
+## 3.22
+How can he, who believes that the naturally immortal entity becomes mortal, maintain that the Immortal, after passing through change, retains its changeless nature?
+
+## 3.23
+The passing into birth may be real or illusory. Both these views are equally mentioned in the Sruti. That which is supported by Sruti and corroborated by reason, is alone true and not the other.
+
+## 3.24
+From such Scriptural passages as, There is no multiplicity in Atman, Indra through Maya, we know that the Atman, though ever unborn, appears to have become many {only) through Maya.
+
+## 3.25
+Again, by the negation of creation (Sambhuti) the passing into birth is refuted. Causality (in respect of Atman) is denied by such a statement as, who can cause it to pass into birth?
+
+## 3.26
+As the Sruti passage, It is not this, not this," on account of the incomprehensibility of Atman, negates all (dualistic) ideas described; (as the means for the attainment of Atman), therefore the birthless (Atman alone) exists (and not any duality).
+
+## 3.27
+That which is ever-existent appears to pass into birth through illusion (Maya) and not from the standpoint of Reality. He who thinks that this passing into birth is real asserts, as a matter of fact, that what is born is born again (and so on without end).
+
+## 3.28
+The unreal cannot be born either really or through Maya. For the son of a barren woman is born neither in reality nor in illusion.
+
+## 3.29
+As in dream the mind acts through MSya presenting the appearance of duality, so also in the waking state the mind acts, through Maya, presenting the appearance of duality.
+
+## 3.30
+There is no doubt that the mind, which is, in fact, non-dual appears as dual in dream; in like manner undoubtedly that which is non-dual, appears as dual in the waking state also.
+
+## 3.31
+All these dual objects, comprising everything that is movable and immovable, perceived by the mind (are mind alone). For, duality is never experienced when the mind ceases to act.
+
+## 3.32
+When the mind does not imagine on account of the knowledge of the Truth which is Atman, then it ceases to be mind and becomes free from all idea of cognition, for want of objects to be cognised.
+
+## 3.33
+The knowledge (Jnanam) which is unborn and free from all imaginations is ever inseparable from the knowable. The immutable and birthless Brahman is the sole object of knowledge. The birthless is known by the birthless. Ill -33]
+
+## 3.34
+The behaviour of the mind that is under control, i.e., which is free from all imaginations and that is endowed with discrimination, should be known. The condition of the mind in deep sleep is of another sort and not like that.
+
+## 3.35
+As the mind is withdrawn at the time of deep sleep and not so in the case of the (VedSntic) discipline, (therefore there is a difference between the condition of the mind of a sleeper and that of a Jnani). That (mind of a Jnani) becomes identical with fearless Brahman whose all-round illumination is conciousness alone.
+
+## 3.36
+(This Brahman is) birthless, free from sleep and dream, without name and form, ever -effulgent and omniscient. Nothing has to be done in any way (with respect to Brahman). HI -36
+
+## 3.37
+(This Atman is) beyond all expression by words beyond all acts of mind; (It is) all peace, eternal effulgence free from activity and fear and attainable by concentrated understanding (of the Jiva).
+
+## 3.38
+In that Brahman which is free from all acts of mind there is neither any idea of acceptance nor any idea of giving up (of anything). Established in the Atman (Self), knowledge attains to ihe state of birthlessness and sameness, that is to say, changelessness.
+
+## 3.39
+This Yoga, which is not in touch with anything, is hard to be attained by all Yogis (in general). The Yogis are afraid of it, for they see fear in it where there is really fearlessness.
+
+## 3.40
+The Yogis (who do not follow the method of Jnana-Yoga as described in the Karika) depend on the control of their mind for fearlessness, destruction of misery, the knowledge of self and eternal peace.
+
+## 3.41
+The mind can be brought under control only by an unrelenting effort like that which is required to empty an ocean, drop by drop, with the help of a (blade of) Kusagrass.
+
+## 3.42
+The mind distracted by desires and enjoyments as also the mind enjoying pleasure in oblivion (trance-like condition) should be brought under discipline by the pursuit of proper means. For, the state of oblivion is as harmful as desires.
+
+## 3.43
+The mind should be turned back from the enjoyment of pleasures, remembering that all this is attended with misery. If it be remembered that everything is the unborn {Brahman), the born (duality) will not be seen.
+
+## 3.44
+If the mind becomes inactive in a state of oblivion awaken it again. If it is distracted, bring it back to the state of tranquillity. (In the intermediary state) know the mind containing within it desires in potential form. If the mind has attained to the state of equilibrium, then do not disturb it again.
+
+## 3.45
+(The mind) should not be allowed to enjoy the bliss that arises out of the condition?/ Samadhi. It should be freed from attachment to such happiness through the exercise of discrimination. If the mind, once attaining to the state Of steadiness seeks externality, then it should be unified with the Atman, again, with effort.
+
+## 3.46
+When the mind does not merge in the inactivity of oblivion, or become distracted by desires, that is to say, when the mind becomes quiescent and does not give rise to appearances, it becomes Brahman.
+
+## 3.47
+This highest bliss is based upon the realisation of Self, it is peace, identical with liberation, indescribable and unborn. It is further described as the omniscient Brahman, because it is one with the unborn Self which is the object sought by Knowledge.
+
+## 3.48
+No Jiva is ever born. There does not exist any cause which can produce it. This is the highest Truth that nothing is ever born.
+
+# Prakarana Four — Alatasanti (On the Quenching of the Firebrand)
+## 4.1
+I bow to that best among men who by means of knowledge, which is like Akasa and non-different from the object of knowledge (i.e., the Dharma), realised the nature of the Dharmas (i.e., the Jivas) which are, again, like the Akasa.
+
+## 4.2
+I salute this Yoga known as the AsparSa (i.e., free from all touch which implies duality), taught through the scripture, — the Yoga which promotes the happiness of all beings and conduces to the well-being of all and which is free from strife and contradictions.
+
+## 4.3
+Quarrelling among themselves, some disputants postulate that an existing entity undergoes evolution, whereas other disputants, proud of their understanding, maintain that evolution proceeds from a non-existing entity.
+
+## 4.4
+The existent cannot (again) pass into (birth) existence. Nor can the non-existent be born or come 232 MINDOKYOPANISHAD [IV -4 into being as existent. Thus disputing among themselves, they, as a matter of fact, tend to establish the Advaita view and support the Ajati or the absolute non-evolution (of what exists).
+
+## 4.5
+We approve the Ajati or non-creation declared by them. We do not quarrel with them. Now, hear from us (the Ultimate Reality) which is free from all disputations.
+
+## 4.6
+The disputants (i.e., the dualists) contend that the ever-unborn (changeless) entity (Atman) undergoes a change. How does an entity which is changeless and immortal partake of the nature of the mortal?
+
+## 4.7
+The immortal cannot become mortal, nor can the mortal ever become immortal. For, it is never possible for a thing to change its nature. fcrJTTfcrr iw: n c n
+
+## 4.8
+How can he, who believes that the naturally immortal entity becomes mortal, maintain that the IV -9] immortal, after passing through birth, retains its changeless nature?
+
+## 4.9
+By prakriti or the inherent nature of a thing is understood that which, when acquired, becomes completely part and parcel of the thing, that which is its very characteristic quality, that which is part of it from its very birth, that which does not depend upon anything extraneous for its origin and that which never ceases to be itself.
+
+## 4.10
+All the Jivas are, by their very nature, free from senility and death. They think, as it were, that they are subject to these and thus by this very thought they appear to deviate from their very nature.
+
+## 4.11
+The disputant, according to whom the cause itself is the effect, maintains that the cause itself is born as the effect. How is it possible for the cause to be unborn if it be said to be born (as the effect)? How, again, is it said to be eternal if it be subject to modification (i.e., birth)?
+
+## 4.12
+If, as you say, the cause is non-different from the effect, then the effect also must be unborn. Further, how can the cause be permanent if it be non-different from the effect which is born? IV13J
+
+## 4.13
+There is no illustration to support the view of him who says that the effect is born from the unborn cause. Again, if it be said that the effect is produced from a cause mAnd vkyopanishad 240 [IV -14 which is itself born then it leads to a regressus ad infinitum.
+
+## 4.14
+How can they, who assert that the effect is the cause of the cause and the cause is the cause of the effect maintain the beginninglessness of both the cause and the effect?
+
+## 4.15
+Those who maintain that the effect is the cause of the cause and the cause is the cause of the effect, describe, as a matter of fact, the evolution after the manner of the birth of the father from the son.
+
+## 4.16
+In case causality be still maintained, the order in which cause and effect succeed each other must be stated. If it be said that they appear simultaneously, then they being like the two horns of an animal, cannot be mutually related to each other.
+
+## 4.17
+Your cause cannot be established if it be produced from the effect. How can the cause, which is itself not established, give birth to the effect?
+
+## 4.18
+If the cause is produced from the effect and if the effect is, again, produced from the cause, which of the two is born first upon which depends the birth of the other?
+
+## 4.19
+The inability (to reply), the ignorance (about the matter) and the impossibility of (establishing) the order of succession (of the cause and the effect) clearly lead the wise to stick to their theory of absolute non-evolution (Ajati).
+
+## 4.20
+The illustration of the seed and the sprout is itself a matter which is yet to be proved. The middle term (that is, the illustration) which is itself yet to be proved {to be true) cannot be used for establishing a proposition to be proved.
+
+## 4.21
+The ignorance regarding the antecedence and the subsequence of the cause and the effect clearly proves the absence of evolution or creation. If the effect (Dharma, i.e., the Jiva) has really been produced from a cause, then why can you not point out the antecedent cause?
+
+## 4.22
+Nothing, whatsoever, is born either of itself or of another. Nothing is ever produced whether it be being or.non-being or both being and non-being.
+
+## 4.23
+The cause cannot be produced from an effect which is without beginning, nor is the effect born of itsown nature (itself). That which is Without beginning is necessarily free from birth.
+
+## 4.24
+Subjective knowledge must have an objective cause; otherwise both must be non-existent. For this reason as well as that of the experience of pain, the existence of external objects, accepted by other thinkers, should be admitted.
+
+## 4.25
+From the point of view of logical reason a cause for the subjective impression must be assigned. But from the standpoint of the highest Reality or the true nature of things, we find that the (so-called) cause (of the subjective impression) is, after all, no cause.
+
+## 4.26
+The mind is not related to the (external) object Nor are the ideas which appear as external objects, reflections upon the mind. It is so because the objects are nonexistent and the ideas (which appear as external objects) are not separate from the mind.
+
+## 4.27
+The mind does not enter into causal relation in any of the three periods of time. How can the mind be ever subject to delusion, as there is no cause for any such delusion?
+
+## 4.28
+Therefore neither the mind nor the objects perceived by the mind are ever born. Those who perceive such birth may as well discover the foot-prints (of the birds) in the sky.
+
+## 4.29
+(In the opinion of the disputants) that which isunborn is said to be born. For, its very nature is to be ever unborn. It is never possible for a thing to be other than what it is.
+
+## 4.30
+If the world be admitted to be beginningless (as some disputants assert), then it cannot be non-eternal. Moksha or liberation' cannot have a beginning and be, eternal.,,
+
+## 4.31
+That which is non-existent at the beginning and in the end, is necessarily so (non-existent) in the middle. The objects we see are illusions, still they are regarded as if real. ffcfl: j H t 1V-33J:
+
+## 4.32
+The serving of some purpose by them (i.e., the objects of waking experience) is contradicted in dream, Therefore they are doubtlessly recognised to be illusory (by the wise) on account of their having a beginning and an end.
+
+## 4.33
+All objects cognised in dream are unreal, because ahey are seen within the body. How is it possible for things, that are perceived to exist, to bereally in.Brahman which is indivisible and homogeneous. Shankaras, Commentary This and the following verses are meant to explain in detail one of the previous Karikas which states that the (so-called) cause (of the opponent) is, really speaking, no cause at all. (Ref. Verse 25, Chapt. IV.) The purpose of the Karika is to show that Brahman, birthless and non-dual, is. alone existent; for, the waking experiences, on account of their having a beginning and an end, are unreal like the dream ones. Therefore what is seen is Brahman alone. The dream objects are seen within the body; hence they are unreal as things like a mountain, etc., cannot exist within the body. Similarly, all our waking experiences are supposed to be within the body (of the Virat). Hence they are also illusory from the standpoint of Retflity. The Viral itself is in the Self (Arman) which cannot, in reality, contain multiplicity. Therefore waking experiences are illusory. The dream experiences are considered illusory as time and space corresponding to such experiences do not conform to the time and space of the dreamer. In like manner waking experiences are also illusory as they, really speaking, cannot exist in the Self (Atman) which is one, non-dual and homogeneous and which cannot contain any space for the existence of alien objects.
+
+## 4.34
+It is not possible for a dreamer to go out in order to experience the (dream) objects on account of the discrepancy of the time involved in such journey. Again, on being awake, the dreamer does not find himself in the place (where he dreamed himself to be). IV -35] T
+
+## 4.35
+The dreamer on being awake, realises as illusory all the conversation he had had with friends, etc., during the dream state. Further, he does not possess, in the waking state, anything which he had acquired in dream.
+
+## 4.36
+The body active in dream is unreal as the other (body, quite distinct from it, is perceived. Like the body, everything, cognised by the mind, is unreal.
+
+## 4.37
+As the experience (of objects) in dream is simitar to the experience (of objects) in the waking state, therefore iit is thought that the waking experiences are the cause of '.the dream-experiences. On account of this reason, the waking experiences (supposed to be the cause of the dream) appear as real to the dreamer alone (but not to others).
+
+## 4.38
+All these are known as unborn, as their creation or evolution cannot be established as a fact. It is ever impossible for the unreal to be born of the real.
+
+## 4.39
+Being deeply impressed with the (reality of the): unreal objects which a man sees in the waking state, he sees those very things in dream as well. Moreover the unreal objects cognised in the dream are not seen again in the waking state.
+
+## 4.40
+The unreal cannot have the unreal as its cause,, nor can the real be produced from the unreal. The real' cannot be the cause of the real. And it is much moreimpossible for the real to be the cause of the unreal. IV -41]
+
+## 4.41
+As one in the waking state, through false.knowledge, handles, as real, objects whose nature cannot 274 MAND 0KYOPA NIS HAD [IV42 be described; Similarly; in dream also, one perceives, through false knowledge, objects whose existence is possible - in that condition alone.
+
+## 4.42
+Wise men support causality only for the sake of those who, being afraid of absolute non-manifestation (oj things), stick to the (apparent) reality of (external) objects on account of their perception {of such objects) and their faith in religious observances.
+
+## 4.43
+Those who, being afraid of the truth of absolute non-manifestation, and also on account of their perception (of phenomenal objects), do not admit Ajati (absolute noncreation), are not much affected by the evil consequent on the belief in causality. The evil e ffect, if any, is rather insignificant.
+
+## 4.44
+As an elephant conjured up by the magician, on account of its being perceived and also on account of its answering to the behaviours {of a real animal), is said to exist, so also are objects said to exist, on account of their being perceived and also on account of their answering to our dealings with them. {In truth, the objects of sense perception are as unreal as the magician's elephant.)
+
+## 4.45
+Consciousness which appears to he horn or to move or to take the form of matter, is really ever unborn, immovable and free from the character of materiality; it is all peace and non-dual.
+
+## 4.46
+Thus the mind is never subject to birth or change. All beings are, thus, free from birth. Those who knows (the Truth) are never subject to false knowledge.
+
+## 4.47
+As a fire-brand, when set in motion, appears as straight, crooked, etc., so also Consciousness, when set in motion, appears as the perceiver, the perceived, and the like.
+
+## 4.48
+As the fire-brand, when not in motion, is free from all appearances and remains changeless, similarly, Consciousness, when not in motion (imaginary action), is free from all appearances and remains changeless.
+
+## 4.49
+When the fire-brand is in motion, the appearances, (that are seen in it) do not come from elsewhere. When the fire-brand is not moved, the appearances do not go elsewhere from the motionless fire-brand. Further, the appearances, when the fire-brand is not moved, do not enter into the fire-brand itself.
+
+## 4.50
+The appearances do not emerge from the firebrand because they are not of the nature of a substance This also applies to Consciousness on account of the similarity of appearances (in both cases).
+
+## 4.51
+When Consciousness is associated with the idea of activity (as in the dream and waking states), the appearances (that are seen in it) do not come from elsewhere. When Consciousness is inactive (as in deep sleep) appearances do not go elsewhere from the inactive Consciousness. Further, appearances do not enter into it. The appearances do not emerge from Consciousness because they are not of the nature of a substance. These are always beyond our comprehension on account of their not being subject to the relation of cause and effect.
+
+## 4.52
+When Consciousness is associated with the idea of activity (as in the dream and waking states), the appearances (that are seen in it) do not come from elsewhere. When Consciousness is inactive (as in deep sleep) appearances do not go elsewhere from the inactive Consciousness. Further, appearances do not enter into it. The appearances do not emerge from Consciousness because they are not of the nature of a substance. These are always beyond our comprehension on account of their not being subject to the relation of cause and effect.
+
+## 4.53
+Substance may be the cause of another substance. That which is not substance may be the cause of another which is not substance. But the Jivas (or beings) cannot be possibly anything like substance or other than substance.
+
+## 4.54
+Thus (external) appearances (objects) are not caused by the mind nor is the mind produced by them. Hence men of discrimination hold the principle of the absolute non-evolution or negation of causality.
+
+## 4.55
+As long as a man persists in the belief in causality he will find the working of cause and effect. But when attachment to causality vanishes, cause and effect become non-existent.
+
+## 4.56
+As long as there is faith in causality, the {endless} chain of birth and death will be there. When that faith is destroyed {by knowledge) birth and death become nonexistent.
+
+## 4.57
+All this is seen to be born on account of the illusion of experience (due to Avidya); therefore nothing is permanent. All, again, as one with the Ultimate Reality is unborn. And therefore there is nothing like destruction.
+
+## 4.58
+Those JIvas (entities) or beings are said to be born. But that birth is never possible from the standpoint of Reality. Their birth is like that of an illusory object. That illusion, again, is non-existent.
+
+## 4.59
+The illusory sprout comes forth from the illusory seed. This illusory sprout is neither permanent nor destructible. The same applies to JIvas.
+
+## 4.60
+The epithets of permanence or impermanence cannot be applied to unborn Jivas. That which is in~ describable by words cannot be discriminated (as real or unreal).
+
+## 4.61
+As in dream, the mind is seen to act through MayS manifesting the appearance of duality, so also in the waking state the mind is seen to act, through MSy5, producing the appearance of duality. There is no doubt that the mind which is, in fact, non-dual, appears as dual in dream; in like manner, undoubtedly, the waking state, which is non-dual, appears as dual.
+
+## 4.62
+As in dream, the mind is seen to act through MayS manifesting the appearance of duality, so also in the waking state the mind is seen to act, through MSy5, producing the appearance of duality. There is no doubt that the mind which is, in fact, non-dual, appears as dual in dream; in like manner, undoubtedly, the waking state, which is non-dual, appears as dual.
+
+## 4.63
+The whole variety of Jivas, born of eggs, moisture, etc., always seen by the dreamer when he goes about {in his dream) in all ten directions (have no existence apart from the mind of the dreamer). JV -64]
+
+## 4.64
+These (beings) which are objects of the mind of the dreamer have no existence apart from his mind. Similarly, this mind of the dreamer is admitted to be the object of perception of the dreamer only. (Therefore the mind of the dreamer is not separate from! the dreamer himself.)
+
+## 4.65
+The whole variety of Jivas, born of eggs r moisture, etc., always seen by the waking man when he goes about (in his waking conditiot.) in all ten directions is only the object of the mind of the waking man. These Jivas are in no way apart from the waking mind. Similarly, the mind of the waking man is admitted to be the object of perception of the waking person only. (Therefore the mind is not separate from the perceiver.)
+
+## 4.66
+The whole variety of Jivas, born of eggs r moisture, etc., always seen by the waking man when he goes about (in his waking conditiot.) in all ten directions is only the object of the mind of the waking man. These Jivas are in no way apart from the waking mind. Similarly, the mind of the waking man is admitted to be the object of perception of the waking person only. (Therefore the mind is not separate from the perceiver.)
+
+## 4.67
+Both (the mind and the Jiva) are objects of perception to each other. Which then can be said to exist independent of the other? (The reply of the wise is in the negative). Both are devoid of the marks by which they could be distinguished. For, either can be cognized only through the other.
+
+## 4.68
+As the dream-Jiwa conies into being and disappears, so also all Jivas (perceived in the waking condition) appear and disappear. As the magicians JIva cames into being and passes; away, so also all Jivas (perceived in the waking condition appear and disappear. IV -71] ST As the artificial Jiva (brought into existence by incantation, medicinal herb, etc.) comes into being and passes away, so also all the JIvas (perceived in the wakingcondition) appear ana disappear.
+
+## 4.69
+As the dream-Jiwa conies into being and disappears, so also all Jivas (perceived in the waking condition) appear and disappear. As the magicians JIva cames into being and passes; away, so also all Jivas (perceived in the waking condition appear and disappear. IV -71] ST As the artificial Jiva (brought into existence by incantation, medicinal herb, etc.) comes into being and passes away, so also all the JIvas (perceived in the wakingcondition) appear ana disappear.
+
+## 4.70
+As the dream-Jiwa conies into being and disappears, so also all Jivas (perceived in the waking condition) appear and disappear. As the magicians JIva cames into being and passes; away, so also all Jivas (perceived in the waking condition appear and disappear. IV -71] ST As the artificial Jiva (brought into existence by incantation, medicinal herb, etc.) comes into being and passes away, so also all the JIvas (perceived in the wakingcondition) appear ana disappear.
+
+## 4.71
+No kind of Jiva is ever born nor is there any cause for any such birth. The Ultimate Truth is that nothing whatsoever is born. 298 MANDOKYOPAMSHAD [IV -72
+
+## 4.72
+This perceived world of duality, characterised by the subject-object relationship, is an act of the mind. The mind, again, (from the standpoint of Reality) is without touch with any object (the nature of Atman). Hence it is declared to be eternal and unattached.
+
+## 4.73
+That which exists on the strength of the illusory experiences does not, really speaking, exist. That which, again, is said to exist on the strength of the views supported by the other schools of thought, does not, really speaking, exist.
+
+## 4.74
+Atman is called unborn (Aja) from the standpoint of the illusory empirical experiences. It is, truly speaking, not even unborn. That unborn Atman appears to be born from the standpoint of the belief of the other schools of thought.
+
+## 4.75
+Man has mere persistent belief in the reality of the unreal (which is duality). There is no duality (corresponding to such belief). One who has realised the absence of duality is never born again as there remains, no longer, any cause (for such birth).
+
+## 4.76
+When the mind does not find any cause superior r inferior or middling, it becomes free from birth. How can there be an effect without a cause?
+
+## 4.77
+The non evolution (i.e., the state of knowledge) of the mind, which is unborn and free from causal relation, is absolute and constant. Everything else is also equally unborn. (So what is true of the mind is true of everything else as well.) For, all duality is merely an objectification of the mind.
+
+## 4.78
+Having (thus) realised the absence of causality asthe Ultimate Truth, and also not finding any other cause (for birth), one attains to that (the state of liberation} which is free from grief desire and fear.
+
+## 4.79
+On account of attachment to the unreal objects, the mind runs after such objects. But it comes back (to its own pure state) when it becomes unattached (to objects).realisms their unreality.
+
+## 4.80
+The mind, thus freed from attachment (to all external objects) and undistracted (by fresh objects) attains to its state of Immutability. Being actually realised by the wise, it is undifferentiated, birthlcss and non-dual.
+
+## 4.81
+(Reality which is) free from birth, and (which is) free from sleep and dream, reveals itself by itself. For, this Dharma (i.e., Atman) is from its very nature everJuminous.
+
+## 4.82
+On account of the mind apprehending single objects, the Bliss (i.e., the real essence of the Self) always remains concealed and misery comes to the surface. Therefore the ever-effulgent Lord (is not realised though taught again and again by Scriptures and teachers). 308 MAND 0KYOPA NISH AD [IV '83
+
+## 4.83
+Childish persons cover It (fail to know It} by predicating of It such attributes as existence, nonexistence, existence and non-existence and absolute nonexistence, derived respectively from their notion of change immovability, combination of both and absolute negation. IV-83J -
+
+## 4.84
+These are the four alternative theories regarding {the nature of) Atman, on account of attachment to which It always remains covered {from one's view). He who thas known that Atman is ever-untouched by any of these- {predicates) indeed sees all.
+
+## 4.85
+What else remains for him to be desired when he has attained to the state of the Brahmana — a state of 312 MAND0KYOPAN1SHAD {IV '86, complete omniscience, non-duality and a state which is without beginning, end or middle?
+
+## 4.86
+This (i.e., the realisation of Brahman) is the humility natural to the Brahmartas. Their tranquillity IV -86] ' {of mind) is also declared to be spontaneous {by men of discrimination). They are said to have attained to the state of sense-control {not through any artificicd method as it comes quite natural to them. He who thus realises Brahman which is all-peace, himself becomes peaceful and tranquil.
+
+## 4.87
+(Vedanta) recognises the ordinary (empirical) state of waking in which duality, consisting of objects and ideas of coming in contact with them, is known. It further recognises another more subtle state (i.e., the dream common to all) in which is experienced duality, consisting of the idea of coming in contact with the objects, though such objects do not exist.
+
+## 4.88
+There is another state (admitted by the wise) which is free from, contact with (external) objects ana altogether free from the idea of coming in contact with objects. This state is beyond all entpirical experiences. The wise always describe the three, viz., Knowledge, Knowledge of objects and the knowable as the Supreme Reality (which is ultimately knowabte).
+
+## 4.89
+Knowledge and the three fold knowable being known, one after another, the 'knower possessed of the highest reason spontaneously attains to the state of knowledge everywhere and in all things in this very life.
+
+## 4.90
+The four things to be known first are: the thing tto be avoided, the objects to be realised, the things to be attained (by practice) and the thoughts to be rendered ineffective. Among these four, the three things, excepting mAnd Okyopanishad 32a [IV 99 what is to be realised, viz., the Supreme Reality, l£*i only. as imaginations.
+
+## 4.91
+All Dharmas (entities) are, by their very nature, beginningless and unattached like the Aki£a. There is not the slightest variety in them, in any way, at any time.
+
+## 4.92
+All Jivas are, by their very nature, illumined from the very beginning and they are ever immutable in their nature. He who, having known this rests without (sees the needlessness of) seeking further knowledge. is alone capable of realising the Highest Truth.
+
+## 4.93
+All Dharmas or Jivas are from the very beginning and by their very nature, all peace, Junborn and completely free. They are characterised by sameness and are nonseparate from one another. Therefore the Jivas are Atman unborn, always established in sameness and purity itself.
+
+## 4.94
+Those who always rely on (attach themselves to) separateness can never realise the innate purity of the Self. Therefore those who are drowned in the idea of separateness and who assert the separateness of (entities) are called narrow-minded.
+
+## 4.95
+They alone are said to be of the highest wisdom who are firm in their conviction of the Self, unborn and ever the same. This, ordinary men cannot understand.
+
+## 4.96
+Knowledge (consciousness), the essence of the JIvas (who are unborn), is admitted to be itself unborn and unrelated (to any external object). This knowledge rv -97] is proclaimed to be unconditioned as it is not related to any other object {which, really speaking, does not exist).
+
+## 4.97
+The slightest idea of variety {in Atman) entertained by the ignorant bars their approach to the unconditioned. The destruction of the veil {covering the real nature of Atman) is out of the question. 328 MAND OKYOPA NISH AD [IV -98
+
+## 4.98
+All Dharmas (i.e., Jivas) are ever free from bondage and pure by nature. They are ever illumined and liberated from the very beginning. Still the wise speak of the Jivas as capable of knowing {the Ultimate Truth').
+
+## 4.99
+The knowledge of the wise one, who is all-light, is ever untouched by objects. All the entities as well as knowledge (which are non-aifferent) are also ever-untouched by any object. This is not the view of the Buddha.
+
+## 4.100
+Having realised that condition (i.e., the knowledge of the Supreme Reality) which is extremely difficult to be grasped, profound, birthless, always the same, all-light, and free from multiplicity, we salute It as best as we can.
