@@ -8,7 +8,7 @@ originalLanguage: Middle High German
 composedDate: c. 1350–1400
 translator: Susanna Winkworth
 translatorDates: 1820–1884
-translationYear: "1854"
+translationYear: '1854'
 sourceUrl: https://ccel.org/ccel/anonymous/theologia/theologia
 sourcePlatform: Christian Classics Ethereal Library
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: Symbolic image of an open hand letting go of a small flame which fl
 image: /images/text-theologia-germanica.jpg
 order: 4
 description: An anonymous Rhineland tract, almost certainly written within the circle of Tauler and the Friends of God in the late fourteenth century. The text crystallises the apophatic mysticism of the Rhineland tradition into a compact handbook on the soul's emptying into the divine ground.
+downloadTxt: /downloads/theologia-germanica.txt
+downloadPdf: /downloads/theologia-germanica.pdf
+downloadEpub: /downloads/theologia-germanica.epub
+wordCount: 40643
+readingTimeMinutes: 185
 ---
 
 The *Theologia Germanica* survives in a few late fourteenth-century manuscripts attributed only to a *Friend of God* in Frankfurt. The text was largely unknown until 1516, when a young Augustinian friar named Martin Luther came across a partial copy and published it under the title *Eyn deutsch Theologia*. Three years later, with a complete manuscript in hand, he issued a fuller edition. It became the second book Luther personally edited and published, after his edition of the Penitential Psalms, and shaped his theology more than any other medieval source.
