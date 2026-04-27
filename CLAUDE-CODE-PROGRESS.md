@@ -72,66 +72,88 @@ the handoff's explicit instruction.
 awaiting a content judgement, or listed in "Need source data
 from Andrew" below.)
 
-## Need source data from Andrew
+## What I need from Andrew (URLs to download)
 
-Three categories of remaining work that I can't unblock myself:
+`yoga-vasistha` shipped using the `yvhf.txt` Andrew dropped in
+`~/Downloads/`. Same approach would unblock the rest. Direct URLs
+below — the live sacred-texts.com refuses my requests via Cloudflare
+but loads in a real browser, so download from the URL and drop the
+file in `~/Downloads/` as before.
 
-### A. Sacred-texts pages (live site is Cloudflare-gated)
+### A. Sacred-texts .txt.gz dumps (one-click each)
 
-The Wayback mirror works for the sacred-texts index pages but is
-unreliable for bulk chapter-page scraping. The cou.txt.gz dump
-Andrew provided was perfect — same shape would unblock these:
+- **brahma-sutras** Part 1 (Thibaut 1890):
+  https://sacred-texts.com/hin/sbe34.txt.gz
+- **brahma-sutras** Part 2 (Thibaut 1896):
+  https://sacred-texts.com/hin/sbe38.txt.gz
+- **atma-bodha** + **vivekachudamani** if you decide on Charles
+  Johnston for both — single file (the 1946 Johnston *Crest-Jewel
+  of Wisdom and other writings of Shankaracharya* contains
+  Atma-Bodha as "The Awakening to the Self" plus Vivekachudamani
+  as "The Crest Jewel" plus other Shankara prakaranas):
+  https://sacred-texts.com/hin/cjw.txt.gz
+- **yoga-sutras** if you decide on Charles Johnston 1912 (option (a)
+  in QUESTIONS):
+  https://sacred-texts.com/hin/ysp.txt.gz
+- **interior-castle** if you accept the 1921 Stanbrook Benedictines
+  edition as the PD substitute (see "Interior Castle correction"
+  below):
+  https://sacred-texts.com/chr/tic.txt.gz
 
-- **yoga-vasistha** — needs `https://sacred-texts.com/hin/yvhf.txt.gz`
-  (Rishi Singh Gherwal 1930, abridged Laghu Yoga Vashishta — your
-  resolved choice for this slug).
-- **brahma-sutras** — needs both
-  `https://sacred-texts.com/hin/sbe34.txt.gz` and
-  `https://sacred-texts.com/hin/sbe38.txt.gz` (Thibaut 1890 + 1896).
+### B. Archive.org direct downloads
 
-### B. Archive.org items where the OCR (djvu.txt) is unusable
+These I can fetch myself but the OCR quality is the question. Look
+at one yourself before deciding whether to ship the OCR'd version
+or hunt for a cleaner source:
 
-These items exist on archive.org as scanned PDFs, but the only
-plain-text version available is the auto-OCR (`*_djvu.txt`), which
-is substantially corrupted (Devanagari interleaved with the
-English, mojibake, etc.). To ship these I need a clean
-transcription source:
+- **atma-bodha** — Charles Johnston, Theosophical Quarterly 1925-01
+  (Vol 22 Iss 3): "THE AWAKENING TO THE SPIRIT: ATMA BODHA". Note:
+  the frontmatter date "1923" is wrong — the original publication
+  was 1925, not 1923. Either way, the cleanest path is the cjw.txt.gz
+  link above. If you'd rather have the original journal printing:
+  https://archive.org/download/theosophical-quarterly_1925-01_22_3/theosophical-quarterly_1925-01_22_3_djvu.txt
+- **aparokshanubhuti** — Vimuktananda 1938. The djvu OCR has
+  English verses interleaved with mangled Sanskrit/word-by-word
+  breakdowns; needs aggressive cleanup. URL:
+  https://archive.org/download/in.ernet.dli.2015.125445/2015.125445.Aparokshanubhuti-Or-Self-realization-Of-Sri-Sankaracharya_djvu.txt
+- **ashtavakra-gita** — Shastri 1949. The djvu OCR has Devanagari
+  garbage on most pages (the English text seems to have been
+  squashed by overlapping Sanskrit during OCR). URL:
+  https://archive.org/download/AshtavakraGitaHariPrasadShastri/Ashtavakra%20Gita%20-%20Hari%20Prasad%20Shastri%20%28en%29_djvu.txt
+- **eckhart-sermons** Vol 1 — Evans 1924, OCR is workable (some
+  spotty chars but mostly readable):
+  https://archive.org/download/in.ernet.dli.2015.31707/2015.31707.Meister-Eckhart--Vol-1_djvu.txt
+- **eckhart-sermons** Vol 2 — couldn't find a good archive.org
+  identifier; needs a hunt by someone who knows the editions.
 
-- **aparokshanubhuti** — Vimuktananda 1938 from Advaita Ashrama.
-  archive.org item `in.ernet.dli.2015.125445` exists with djvu.txt
-  but the English verses are interleaved with mangled OCR'd
-  Sanskrit and word-by-word breakdowns. A clean transcription (or
-  the EPUB extracted to plain text) would unblock.
-- **ashtavakra-gita** — Hari Prasad Shastri 1949. archive.org item
-  `AshtavakraGitaHariPrasadShastri` djvu.txt is mostly Devanagari
-  OCR garbage even on the English verses.
+### C. Texts where I haven't been able to identify a working source URL
 
-### C. Texts where the Cowork-supplied source URL is wrong and a clean PD source needs identifying
+- **sermons-on-song-of-songs** — Cowork's `cantica00bernuoft` is a
+  404. Eales' translation lives somewhere on archive.org bundled
+  into the *Life and Works of Saint Bernard* multi-volume series
+  (search for "LifeAndWorksOfSaintBernardV4" etc), but I haven't
+  pinned down which volume carries which sermons. Knowing your
+  preferred edition would help.
+- **tauler-sermons** — Cowork's `historyandlifere00tauluoft` is a
+  404. Winkworth's *History and Life of Tauler* (1857 first ed,
+  reprinted 1905, 1907) is on archive.org under multiple
+  identifiers. Best candidates:
+  https://archive.org/details/historyandlife00winkuoft (1905)
+  https://archive.org/details/historylifeofrev0000susa_c6n9 (1907)
 
-- **atma-bodha** — Andrew chose Charles Johnston 1923. Johnston's
-  Atma-Bodha appeared in The Theosophical Quarterly. archive.org
-  has the journal issues (`theosophical-quarterly_1923-*`) — once
-  we confirm which issue carries the Atma-Bodha translation we
-  can ingest from there. Or use the consolidated archive.org item
-  `thecrestjewelofwisdom` (Johnston 1946 reprint) which collects
-  Johnston's Shankara translations — confirm whether Atma-Bodha
-  is included.
-- **sermons-on-song-of-songs** — Eales 1895 from `cantica00bernuoft`
-  is a 404. Closest archive.org match `LifeAndWorksOfSaintBernardV4`
-  (1889) likely contains Eales' translation but needs verification.
-- **eckhart-sermons** — Evans 1924 from `meistereckhart01eckhuoft`
-  is a 404. archive.org has `in.ernet.dli.2015.31707` (Evans 1924
-  vol 1) but vol 2 needs identifying separately.
-- **tauler-sermons** — Winkworth 1857 from `historyandlifere00tauluoft`
-  is a 404. Closest matches: `historyandlife00winkuoft` (1905) or
-  `historylifeofrev0000susa_c6n9` (1907).
-- **interior-castle** — David Lewis 1888 from `interiorcastle00tere`
-  is a 404. Lewis's 1888 edition needs an archive.org search by
-  someone with patience to scroll past the many newer Peers items.
+### Interior Castle correction (separate from QUESTIONS item 3)
 
-For category C, if Andrew gives an OK on the suggested
-substitute identifiers, I can verify each and ingest in a single
-pass.
+Cowork's frontmatter says "David Lewis 1888" but **David Lewis did
+not translate the Interior Castle**. Lewis translated the Life of
+St. Teresa (1870) and the Way of Perfection. The Interior Castle
+in PD English is the **Benedictines of Stanbrook revision (1912,
+edited by Father Benedict Zimmerman)**, which is what sacred-texts
+hosts at `/chr/tic/` (cited as 1921 — the Watkins reprint).
+
+If you OK the Stanbrook substitute, the URL above
+(`https://sacred-texts.com/chr/tic.txt.gz`) gets it. (This is a
+*third* dark-night-style mismatch: Cowork named a translator who
+didn't actually do this work.)
 
 ## Notes
 - Pre-flight `scripts/sources.md` written 2026-04-27.
