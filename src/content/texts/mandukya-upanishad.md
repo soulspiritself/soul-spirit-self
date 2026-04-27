@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: c. mid-first millennium BCE
 translator: Manilal Nabhubhai Dvivedi
 translatorDates: 1858–1898
-translationYear: "1894"
+translationYear: '1894'
 sourceUrl: https://archive.org/details/mandukyopanisha00agoog
 sourcePlatform: Internet Archive
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: A single luminous concentric ring of warm gold suspended in deep co
 image: /images/text-mandukya-upanishad.jpg
 order: 0
 description: The shortest of the principal upanishads at twelve mantras, and the seed of the entire Advaita lineage. Through the analysis of waking, dream, deep sleep, and the fourth state, it points beyond every state to the witness in which all states arise.
+downloadTxt: /downloads/mandukya-upanishad.txt
+downloadPdf: /downloads/mandukya-upanishad.pdf
+downloadEpub: /downloads/mandukya-upanishad.epub
+wordCount: 628
+readingTimeMinutes: 3
 ---
 
 The Mandukya is the shortest of the principal upanishads. Twelve mantras. Yet Gaudapada built his commentary on it, Shankara built his system on Gaudapada's commentary, and the entire later Advaita lineage descends from those twelve sentences. The text moves through the four quarters of the Self, the analysis of consciousness as waking, dream, deep sleep, and the fourth, and identifies all four with the syllable *Aum*.
