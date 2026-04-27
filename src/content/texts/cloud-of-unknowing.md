@@ -7,7 +7,7 @@ originalLanguage: Middle English
 composedDate: c. 1370–1400
 translator: Evelyn Underhill
 translatorDates: 1875–1941
-translationYear: "1922"
+translationYear: '1922'
 sourceUrl: https://sacred-texts.com/chr/cou/index.htm
 sourcePlatform: Sacred Texts
 licence: public-domain
@@ -16,6 +16,11 @@ imagePrompt: Symbolic image of a single dark cloud illuminated from within by wa
 image: /images/text-cloud-of-unknowing.jpg
 order: 7
 description: An anonymous spiritual director writes to a young contemplative disciple, mapping a path of prayer that requires the deliberate setting aside of all thoughts, images, and concepts of God. The Cloud is the most concentrated apophatic manual in the Christian English tradition.
+downloadTxt: /downloads/cloud-of-unknowing.txt
+downloadPdf: /downloads/cloud-of-unknowing.pdf
+downloadEpub: /downloads/cloud-of-unknowing.epub
+wordCount: 44111
+readingTimeMinutes: 201
 ---
 
 We do not know who wrote *The Cloud of Unknowing*. The author was almost certainly an English priest with formal theological training, writing in the late fourteenth century, somewhere in the East Midlands. Internal evidence suggests a Carthusian or Cistercian context. The text is addressed to a particular disciple, a young man of twenty-four who has begun the contemplative life and needs guidance.
