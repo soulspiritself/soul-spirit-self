@@ -5,9 +5,9 @@ tradition: christian-mysticism
 teacher: brother-lawrence
 period: Early Modern · 17th century
 originalLanguage: French
-composedDate: "1692"
+composedDate: '1692'
 translator: Various early English (PD)
-translationYear: "1724"
+translationYear: '1724'
 sourceUrl: https://ccel.org/ccel/lawrence/practice/practice
 sourcePlatform: Christian Classics Ethereal Library
 licence: public-domain
@@ -16,6 +16,11 @@ imagePrompt: Symbolic image of an open hand holding a small flame against a dark
 image: /images/text-practice-of-the-presence.jpg
 order: 10
 description: A small book of recollected conversations and letters compiled after the death of Brother Lawrence in 1691. The Practice of the Presence of God reduces the contemplative life to one continuous practice, the moment-by-moment turning of the heart toward God in the midst of ordinary work.
+downloadTxt: /downloads/practice-of-the-presence.txt
+downloadPdf: /downloads/practice-of-the-presence.pdf
+downloadEpub: /downloads/practice-of-the-presence.epub
+wordCount: 11180
+readingTimeMinutes: 51
 ---
 
 Brother Lawrence wrote almost nothing during his life. The book that has carried his name in continuous print for more than three centuries was assembled by his prior, Joseph de Beaufort, in the months after his death in 1691. It contains four recorded conversations between de Beaufort and Brother Lawrence, sixteen letters of spiritual counsel that Lawrence had written to friends and to a Carmelite nun, and a couple of short maxims.
