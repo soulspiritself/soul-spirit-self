@@ -8,7 +8,7 @@ originalLanguage: Middle English
 composedDate: c. 1373–1393
 translator: Grace Warrack
 translatorDates: 1855–1932
-translationYear: "1901"
+translationYear: '1901'
 sourceUrl: https://www.gutenberg.org/ebooks/52958
 sourcePlatform: Project Gutenberg
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: Symbolic image of a small hazelnut resting in an open palm, glowing
 image: /images/text-revelations-of-divine-love.jpg
 order: 6
 description: Julian's record of the sixteen visions she received during a near-fatal illness at the age of thirty, with her sustained twenty-year meditation on what they meant. The first known book in the English language written by a woman, and one of the most beloved works of contemplative literature.
+downloadTxt: /downloads/revelations-of-divine-love.txt
+downloadPdf: /downloads/revelations-of-divine-love.pdf
+downloadEpub: /downloads/revelations-of-divine-love.epub
+wordCount: 62698
+readingTimeMinutes: 285
 ---
 
 Julian survived a serious illness in May 1373, during which over the course of a single day she received what she called *sixteen shewings* of the suffering Christ and the love of God. After recovering, she wrote a short account of the visions soon afterward. Then she spent the next twenty years in her anchorhold attached to the church of St Julian in Norwich, pondering what she had been shown. The result is the *Long Text*, an expanded version that interlaces the original visions with two decades of accumulated reflection.
