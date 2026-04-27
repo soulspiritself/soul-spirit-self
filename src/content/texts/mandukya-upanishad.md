@@ -12,31 +12,57 @@ translationYear: "1894"
 sourceUrl: https://archive.org/details/mandukyopanisha00agoog
 sourcePlatform: Internet Archive
 licence: public-domain
-licenceNote: Manilal Dvivedi's 1894 edition. The same volume that carries the Mandukya Karika; the twelve mantras of the upanishad open the work. Strict PD.
+licenceNote: Manilal Dvivedi's 1894 edition. The same volume that carries Gaudapada's Mandukya Karika; the twelve mantras of the upanishad open the work. Strict PD. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).
 imagePrompt: A single luminous concentric ring of warm gold suspended in deep cosmic blue space, with three faint outer rings receding into shadow representing waking, dream, and deep sleep, and a single radiant point of pure gold at the centre representing turiya, minimalist contemplative composition, no text
 image: /images/text-mandukya-upanishad.jpg
 order: 0
 description: The shortest of the principal upanishads at twelve mantras, and the seed of the entire Advaita lineage. Through the analysis of waking, dream, deep sleep, and the fourth state, it points beyond every state to the witness in which all states arise.
 ---
 
-## The twelve mantras
+The Mandukya is the shortest of the principal upanishads. Twelve mantras. Yet Gaudapada built his commentary on it, Shankara built his system on Gaudapada's commentary, and the entire later Advaita lineage descends from those twelve sentences. The text moves through the four quarters of the Self, the analysis of consciousness as waking, dream, deep sleep, and the fourth, and identifies all four with the syllable *Aum*.
+
+What follows is the complete text in Manilal Dvivedi's 1894 translation, with archaic verb forms and pronouns lightly updated. Substantive translation choices are unchanged. Sanskrit terms are kept; Aum, Brahman, Atman, Vaishvanara, Taijasa, Prajna, and Turiya are not anglicised.
+
+## The four quarters of the Self
 
 ### 1
-*Aum*. This syllable is all this. A clear explanation of it is this. All that is past, present, and future is verily Aum. And whatever else there is beyond the threefold time, that too is verily Aum.
+*Aum*. This syllable is all this. The further explanation of it is this: all that is past, present, and future is indeed *Aum*. And whatever else there is beyond the threefold time, that too is indeed *Aum*.
 
 ### 2
-All this is verily Brahman. This Self is Brahman. The Self has four quarters.
+All this is indeed Brahman. This Self is Brahman. The Self has four quarters.
 
 ### 3
-The first quarter is Vaishvanara, whose sphere is the waking state, who is conscious of the external, and who experiences the gross.
+The first quarter is Vaishvanara, whose sphere is the waking state, who is conscious of the external, who has seven limbs and nineteen mouths, and who experiences the gross.
 
 ### 4
-The second quarter is Taijasa, whose sphere is the dream state, who is conscious of the internal, and who experiences the subtle.
+The second quarter is Taijasa, whose sphere is the dream state, who is conscious of the internal, who has seven limbs and nineteen mouths, and who experiences the subtle.
 
 ### 5
-The third quarter is Prajna, where one in deep sleep neither desires anything nor sees any dream. In whom all becomes one, who is a mass of consciousness, who is full of bliss and experiences bliss, and who is the door to the knowledge of the dream and waking states.
+The third quarter is Prajna, in whom one in deep sleep neither desires anything nor sees any dream. In whom all this becomes one, who is a mass of consciousness, who is full of bliss and experiences bliss, and who is the door to the experiences of the dream and waking states.
+
+### 6
+This is the lord of all, this is the knower of all, this is the inner controller, this is the source of all, for it is the origin and end of all beings.
 
 ### 7
-The fourth, they think, is that which is not conscious of the internal, nor conscious of the external, nor conscious of both, nor a mass of consciousness, nor conscious nor unconscious. It is unseen, unrelated, ungraspable, undefinable, unthinkable, unnameable, the essence of the conviction of the one Self, the cessation of all phenomena, peace, bliss, the one without a second. This is the Self. This is to be known.
+The fourth, they consider, is that which is not conscious of the internal, nor conscious of the external, nor conscious of both, nor a mass of consciousness, neither conscious nor unconscious. It is unseen, unrelated, ungraspable, undefinable, unthinkable, unnameable; the essence of the certainty of the one Self, the cessation of all phenomena, peace, bliss, the one without a second. This is the Self. This is to be known.
 
-*[ The Mandukya Karika, Gaudapada's verse commentary, develops these twelve mantras into the foundational treatise of Advaita. See the [Mandukya Karika](/texts/mandukya-karika/) page for the full Gaudapada text. ]*
+## The syllable Aum
+
+### 8
+This Self, with reference to the syllables, is the syllable *Aum*; with reference to the elements, the elements are the quarters and the quarters are the elements: namely the letter A, the letter U, and the letter M.
+
+### 9
+The first element, A, is Vaishvanara, whose sphere is the waking state, named so because of its first place and because it is the first to be obtained. He who knows this attains all desires; he is the first.
+
+### 10
+The second element, U, is Taijasa, whose sphere is the dream state, named so because it is exalted and because it is intermediate between the others. He who knows this exalts the continuity of knowledge; he is regarded equally; in his family no one will be born ignorant of Brahman.
+
+### 11
+The third element, M, is Prajna, whose sphere is deep sleep, named so because it is a measure and because it is the place of merging. He who knows this measures all this and becomes the place of its merging.
+
+### 12
+The fourth, partless, is beyond all dealings; the dissolution of the manifest; peaceful, auspicious, and one without a second. *Aum* is thus indeed the Self. He who knows this enters, by the Self, into the Self, he who knows this.
+
+---
+
+The Mandukya stops here. Gaudapada's [Mandukya Karika](/texts/mandukya-karika/) takes these twelve mantras as its starting text and develops them across four prakaranas into the doctrine of *ajativada*, non-origination, the foundational teaching of Advaita.
