@@ -8,7 +8,7 @@ originalLanguage: Sanskrit
 composedDate: c. mid-first millennium BCE
 translator: Friedrich Max Müller
 translatorDates: 1823–1900
-translationYear: "1884"
+translationYear: '1884'
 sourceUrl: https://sacred-texts.com/hin/sbe15/sbe15016.htm
 sourcePlatform: Sacred Texts Archive
 licence: public-domain
@@ -17,6 +17,11 @@ imagePrompt: Two birds perched on the slender branch of a single dark tree silho
 image: /images/text-mundaka-upanishad.jpg
 order: 3
 description: A short upanishad in three chapters, named for the shaved head of the renunciate. It contains the teaching of the two knowledges (the higher and the lower) and the famous parable of the two birds on a single tree, one eating its sweet fruit, the other looking on without eating.
+downloadTxt: /downloads/mundaka-upanishad.txt
+downloadPdf: /downloads/mundaka-upanishad.pdf
+downloadEpub: /downloads/mundaka-upanishad.epub
+wordCount: 2598
+readingTimeMinutes: 12
 ---
 
 ## The two knowledges
