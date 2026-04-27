@@ -183,3 +183,14 @@ read code or run commands.
 Don't invent. Don't guess. When the source is unclear, flag.
 
 Let's go.
+
+## Known noise (do NOT pause on these)
+
+- **`npm run build` fails locally on Andrew's Mac** with `Rollup
+  failed to resolve import "sharp"`. This is pre-existing and
+  irrelevant to shipping. Andrew's Mac runs Node 25; sharp doesn't
+  yet have prebuilt binaries for it. Netlify is pinned to Node 22 in
+  `netlify.toml`, where sharp installs cleanly and the build succeeds.
+  Do not try to install sharp locally, do not block on the local
+  build, do not paste the error to Andrew. Commit, push, and verify
+  via `netlify api listSiteDeploys` instead.

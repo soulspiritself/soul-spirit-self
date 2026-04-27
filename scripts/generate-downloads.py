@@ -87,6 +87,7 @@ def write_txt(slug: str, fm: dict, body: str) -> Path:
     # Convert markdown headings to plain headings
     plain_body = re.sub(r"^#\s+(.+)$", lambda m: "\n" + m.group(1).upper() + "\n" + "-" * len(m.group(1)), body, flags=re.MULTILINE)
     plain_body = re.sub(r"^##\s+(.+)$", r"[\1]", plain_body, flags=re.MULTILINE)
+    plain_body = re.sub(r"^###\s+(.+)$", r"  \1", plain_body, flags=re.MULTILINE)
     # Strip markdown emphasis
     plain_body = re.sub(r"\*+([^*]+)\*+", r"\1", plain_body)
     plain_body = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", plain_body)
