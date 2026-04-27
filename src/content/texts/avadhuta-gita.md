@@ -34,4 +34,4 @@ The Self pervades all this universe. Pure, beyond happiness and misery, is the O
 ### 1.3
 The five elements compose the universe like the water of a mirage. To whom shall I bow? I am the One pure consciousness.
 
-*[ Continues for the remaining chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative selection. The avadhuta continues across eight short chapters, each more uncompromising than the last. The complete Shastri 1934 edition is at the source linked above. ]*

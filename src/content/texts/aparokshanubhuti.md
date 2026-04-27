@@ -30,4 +30,4 @@ The means by which liberation is accomplished are devotion to the supreme Self a
 
 Inquiry is the discrimination of the Real from the unreal, the eternal from the transient, the witness from the witnessed. It is the patient looking back into the awareness in which all experience appears, until the assumption that the witness is one of the things witnessed is finally seen through.
 
-*[ Full text to be added in Stage 2 content population. ]*
+*[ A representative selection. The full hundred-and-forty-four verses develop Shankara's account of self-inquiry as the means to direct knowledge of the Self. The complete edition is at the source linked above. ]*

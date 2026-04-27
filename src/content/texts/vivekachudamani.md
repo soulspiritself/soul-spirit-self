@@ -24,7 +24,7 @@ The Vivekachudamani is the great pedagogical work attributed to Shankara. Five h
 
 Where Shankara's commentaries are dense and technical, the Vivekachudamani is generous to the seeker. It moves from the qualifications required for the path, through the discrimination between the eternal and the transient, into the analysis of the five sheaths, and finally into the recognition of the Self as nondual awareness.
 
-*[ Full text to be added in Stage 2 content population. ]*
+*[ A representative selection. The full Vivekachudamani runs to five hundred and eighty-one verses, developing Shankara's account of the discriminating intellect as the path to self-knowledge. The complete Madhavananda translation is at the source linked above. ]*
 
 ## On the qualifications for the path
 

@@ -34,4 +34,4 @@ Great art Thou, O Lord, and greatly to be praised; great is Thy power, and Thy w
 ### 1.5
 Oh! that I might repose on Thee! Oh! that Thou wouldest enter into my heart, and inebriate it, that I may forget my ills, and embrace Thee, my sole good!
 
-*[ Continues across thirteen books. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. The Confessions unfold across thirteen books, the first nine autobiographical, the last four moving into theology and meditation on time, memory, and creation. The complete Pusey translation is at the source linked above. ]*

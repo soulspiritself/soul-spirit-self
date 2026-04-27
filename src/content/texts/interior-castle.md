@@ -34,4 +34,4 @@ I began to think of the soul as if it were a castle made of a single diamond or 
 ### Chapter two
 You must know that all the harm which comes to a soul does not come from outside it, from the world, but from itself. The soul that does not enter into itself, and recognise its own dignity, can never know God.
 
-*[ Continues across seven mansions. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. Teresa's castle has seven mansions, each describing a deeper interior dwelling, the soul moving from the outer rooms toward the central chamber where the marriage of the soul and God takes place. The complete Peers translation is at the source linked above. ]*

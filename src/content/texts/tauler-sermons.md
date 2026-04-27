@@ -33,4 +33,4 @@ Children, in this hour our Lord takes his abode in the ground of the soul. He th
 ### Continuation
 We must learn to be still, in the depths of the soul, where the Word is uttered. As long as the senses are scattered abroad, and the heart is divided among many things, the speaking cannot be heard. But when a man hath gathered himself wholly into his ground, and is silent there, then the Word is spoken, and he heareth it.
 
-*[ Continues across many further sermons. Full text to be added in Stage 2 content population. ]*
+*[ One of Tauler's surviving sermons. The collection includes many further texts, each a working-through of a single scriptural verse into the language of the soul's ground. The complete Susanna Winkworth nineteenth-century English edition is at the source linked above. ]*

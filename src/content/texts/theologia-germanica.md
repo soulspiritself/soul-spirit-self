@@ -33,4 +33,4 @@ Saint Paul saith: *When that which is perfect is come, then that which is in par
 ### 1.4
 For the creature, as creature, cannot of himself come to perfection. But to that which is perfect a creature may come, when he forsaketh himself. To forsake himself is the only way to perfection.
 
-*[ Continues for a further fifty-three brief chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. Fifty-three further short chapters continue the same teaching, each compressed to a single point. The complete Winkworth translation is at the source linked above. ]*

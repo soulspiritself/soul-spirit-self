@@ -34,4 +34,4 @@ Friend in God, look that thou know with humble and avised mind, that in what tim
 ### Chapter 3
 Lift up thine heart unto God with a meek stirring of love, and mean Himself, and none of His goods. And thereto, look thee loath to think on aught but Himself. So that nought work in thy wit nor in thy will, but only Himself.
 
-*[ Continues for a further seventy-three chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. Seventy-three further short chapters continue the same teaching of unknowing, the cloud of forgetting, and the naked intent of the will toward what is loved but cannot be conceived. The complete Underhill 1922 edition is at the source linked above. ]*

@@ -35,4 +35,4 @@ This is a Revelation of Love that Jesus Christ, our endless bliss, made in Sixte
 ### Chapter 5
 And in this He shewed me a little thing, the quantity of an hazel-nut, in the palm of my hand; and it was as round as a ball. I looked thereupon with the eye of my understanding, and thought: *What may this be?* And it was answered generally thus: *It is all that is made.* I marvelled how it might last, for methought it might suddenly have fallen to naught for littleness. And I was answered in my understanding: *It lasteth, and ever shall last for that God loveth it. And so All-thing hath the Being by the love of God.*
 
-*[ Continues for a further eighty chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. Julian's text unfolds across eighty-six brief chapters, returning again and again to the showings she received during her thirtieth year and to the same patient assurance that all shall be well. The complete Warrack edition is at the source linked above. ]*

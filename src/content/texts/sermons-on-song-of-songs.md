@@ -34,4 +34,4 @@ The instructions which I address to you, my brethren, will differ from those I s
 ### 1.5
 Come, then, in greeting and in song. Let none of us be backward in this. Sing the new song; sing it to the Lord. He gives the song. He himself is the singing.
 
-*[ Continues for eighty-five further sermons. Full text to be added in Stage 2 content population. ]*
+*[ The first of Bernard's sermons on the Song. Eighty-five further sermons continue the commentary, never reaching the third chapter of the biblical text. The complete Eales translation is at the source linked above. ]*

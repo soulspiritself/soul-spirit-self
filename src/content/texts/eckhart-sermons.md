@@ -34,4 +34,4 @@ The Evans translation gathers the major sermons in roughly the order accepted by
 ### Continuation
 The soul that wills to find God must let go of all things, even God-as-object. As long as one clings to anything as one's own, one has not yet entered the ground of one's soul. There the soul finds nothing but God, for God's ground and the soul's ground are the same.
 
-*[ Continues for many further sermons. Full text to be added in Stage 2 content population. ]*
+*[ One sermon among many. Eckhart's German sermons survive in roughly fifty texts, each a complete teaching organised around a single scriptural verse and dilated into a metaphysical disclosure. The complete Pfeiffer collection is at the source linked above. ]*

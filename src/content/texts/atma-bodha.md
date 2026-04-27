@@ -34,4 +34,4 @@ Just as fire is the direct cause of cooking, so without knowledge there can be n
 ### 3
 Action cannot destroy ignorance, for action is not in conflict with ignorance. Knowledge alone destroys ignorance, as light destroys deep darkness.
 
-*[ Continues for 65 more verses. Full text to be added in Stage 2 content population. ]*
+*[ A representative selection. The remaining sixty-three verses continue the same austere movement: what is the Self, what is not the Self, how is the seeker to recognise the difference. The complete edition is at the source linked above. ]*

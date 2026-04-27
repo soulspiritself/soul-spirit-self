@@ -23,7 +23,7 @@ The Yoga Vasistha is among the most ambitious works in the Indian nondual canon.
 
 What distinguishes the text is its method. Where the Upanishads compress and the Brahma Sutras systematise, the Yoga Vasistha unfolds. Long parables sit alongside dense philosophical analysis. Stories of kings, sages, and beings from other worlds are used to dismantle the assumption that any of the apparent world has solidity independent of the consciousness perceiving it.
 
-*[ Full text to be added in Stage 2 content population. The Mitra 1891 translation runs to roughly 1,400 pages across four volumes. ]*
+*[ A representative passage. Vasistha's instruction continues across thirty-two thousand verses in four volumes, weaving philosophy and parable into one of the longest spiritual texts in any tradition. The complete Mitra 1891 translation, roughly 1,400 pages, is at the source linked above. ]*
 
 ## From Book One
 

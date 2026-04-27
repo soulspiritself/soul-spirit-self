@@ -32,4 +32,4 @@ The first time I saw Brother Lawrence was upon the third of August, 1666. He tol
 ### Continuation
 He told me that he had been long troubled in mind from a certain belief that he should be damned; that all the men in the world could not have persuaded him to the contrary. But he had thus reasoned with himself about it: I engaged in a religious life only for the love of God, and I have endeavoured to act only for Him. Whatever becomes of me, whether I be lost or saved, I will always continue to act purely for the love of God. I shall have this good at least, that till death I shall have done all that is in me to love Him.
 
-*[ Continues with three further conversations and sixteen letters. Full text to be added in Stage 2 content population. ]*
+*[ This is the first conversation. Three further conversations and sixteen letters complete the small book, each a variation on the same simple practice of doing every ordinary thing as an act of presence to God. The complete edition is at the source linked above. ]*

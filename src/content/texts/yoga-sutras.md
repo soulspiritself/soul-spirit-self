@@ -37,4 +37,4 @@ Then the seer abides in its own form.
 ### 1.4
 At other times, identification with the modifications.
 
-*[ Continues for 192 more sutras across four books. Full text to be added in Stage 2 content population. ]*
+*[ The opening sutras. The remaining hundred-and-ninety-two continue across four books — Samadhi-pada on absorption, Sadhana-pada on practice, Vibhuti-pada on the powers, and Kaivalya-pada on liberation. The complete Woods translation is at the source linked above. ]*

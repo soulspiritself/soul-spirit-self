@@ -40,4 +40,4 @@ The third quarter is Prajna, where one in deep sleep neither desires anything no
 ### 1.6
 This is the lord of all, this is the knower of all, this is the inner controller, this is the source of all, for it is the origin and end of all beings.
 
-*[ Continues through the remaining three prakaranas. Full text to be added in Stage 2 content population. ]*
+*[ These verses open the first prakarana. The full Karika continues across four — Agama on tradition, Vaitathya on the unreality of the apparent, Advaita on non-duality, and Alatashanti on the firebrand — developing the doctrine of ajativada through 215 verses. The complete Dvivedi 1894 edition is at the source linked above. ]*

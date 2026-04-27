@@ -54,4 +54,4 @@ As I alone illuminate the body, so do I illuminate the world. Therefore the whol
 ### 2.3
 Now, having renounced the body and the universe, by some good fortune I have come to see the supreme Self.
 
-*[ Continues for the remaining 18 chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative selection from the opening chapter. The dialogue continues across twenty short chapters, each turning the same recognition over from a different angle. The complete Shastri 1949 edition is at the source linked above. ]*

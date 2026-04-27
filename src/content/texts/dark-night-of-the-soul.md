@@ -45,4 +45,4 @@ My house being now at rest.
 ### Chapter two
 The soul, before it can be united to God, must be wholly set free from all attachment, however slight, that it may be wholly His. The soul is not lacking in anything if it be wanting in detachment. The whole work consists in this.
 
-*[ Continues across two books and many chapters. Full text to be added in Stage 2 content population. ]*
+*[ A representative passage. The dark night unfolds across two books, the first treating the night of the senses, the second the night of the spirit. The complete Lewis edition is at the source linked above. ]*

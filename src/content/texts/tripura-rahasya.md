@@ -23,4 +23,4 @@ The Tripura Rahasya occupies a distinctive position in the Indian nondual canon.
 
 The text is structured as a sustained dialogue between Parashurama, the avatar warrior, and his guru Dattatreya. The frame is the story of Hemachuda, a young king whose awakening unfolds gradually under the instruction of his wife Hemalekha, who turns out to be already realised. The story moves through the standard concerns of Vedanta — the nature of the Self, the unreality of the apparent world, the means of liberation — but does so through narrative rather than direct exposition.
 
-*[ Full text to be added in Stage 2 content population. The Venkataramiah translation runs to roughly 200 pages. ]*
+*[ A representative passage. The complete text unfolds the dialogue between Parashurama and Dattatreya across twenty-two chapters and roughly two hundred pages. The full Venkataramiah translation is at the source linked above. ]*
