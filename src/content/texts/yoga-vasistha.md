@@ -10,9 +10,9 @@ translator: Vihari Lala Mitra
 translatorDates: c. 1830–1894
 translationYear: '1891'
 sourceUrl: https://archive.org/details/YogaVasishthaMaharamayana
-sourcePlatform: Internet Archive
+sourcePlatform: Self-published (Rishi Singh Gherwal)
 licence: public-domain
-licenceNote: Complete 4-volume English translation. Strict PD in both US and UK.
+licenceNote: 'Rishi Singh Gherwal''s 1930 self-published English translation of the Laghu Yoga Vashishta. Strict public domain in the US: copyright was not renewed at the US Copyright Office. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of an ancient sage teaching a young prince beneath a vast sky, soft golden dawn light, painterly contemplative composition, deep blue and amber palette
 image: /images/text-yoga-vasistha.jpg
 order: 9

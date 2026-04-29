@@ -9,9 +9,9 @@ translator: Evelyn Underhill
 translatorDates: 1875–1941
 translationYear: '1922'
 sourceUrl: https://sacred-texts.com/chr/cou/index.htm
-sourcePlatform: Sacred Texts Archive
+sourcePlatform: John M. Watkins, London
 licence: public-domain
-licenceNote: 'Evelyn Underhill''s 1922 edition (London: John M. Watkins) edited from the British Museum MS Harl. 674. Strict public domain. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).'
+licenceNote: 'Evelyn Underhill''s edition (London: John M. Watkins, 1922), edited from the British Museum manuscript Harl. 674. Strict public domain. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).'
 imagePrompt: Symbolic image of a single dark cloud illuminated from within by warm golden light, suspended in a vast dark blue cosmic sky scattered with stars, contemplative composition, painterly atmospheric style
 image: /images/text-cloud-of-unknowing.jpg
 order: 7

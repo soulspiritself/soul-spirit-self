@@ -10,9 +10,9 @@ translator: Friedrich Max Müller
 translatorDates: 1823–1900
 translationYear: '1884'
 sourceUrl: https://sacred-texts.com/hin/sbe15/
-sourcePlatform: Sacred Texts Archive
+sourcePlatform: Oxford University Press (Sacred Books of the East)
 licence: public-domain
-licenceNote: From The Upanishads, Part II, Sacred Books of the East volume 15, Oxford University Press 1884. Strict PD.
+licenceNote: 'From The Upanishads, Part II, translated by Friedrich Max Müller — Sacred Books of the East, volume 15. Oxford: Clarendon Press, 1884. Strict public domain. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).'
 imagePrompt: An empty stone chariot drawn by five luminous horses on an open plain at dusk, the chariot itself silent and unoccupied, the reins still, deep cosmic blue sky above with faint stars, soft amber dawn breaking on the horizon, contemplative painterly composition, no driver, no text
 image: /images/text-katha-upanishad.jpg
 order: 2

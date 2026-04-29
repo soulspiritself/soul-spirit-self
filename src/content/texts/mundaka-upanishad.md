@@ -10,9 +10,9 @@ translator: Friedrich Max Müller
 translatorDates: 1823–1900
 translationYear: '1884'
 sourceUrl: https://sacred-texts.com/hin/sbe15/sbe15016.htm
-sourcePlatform: Sacred Texts Archive
+sourcePlatform: Oxford University Press (Sacred Books of the East)
 licence: public-domain
-licenceNote: From The Upanishads, Part II, Sacred Books of the East volume 15, Oxford University Press 1884. Strict PD.
+licenceNote: 'From The Upanishads, Part II, translated by Friedrich Max Müller — Sacred Books of the East, volume 15. Oxford: Clarendon Press, 1884. Strict public domain. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Two birds perched on the slender branch of a single dark tree silhouetted against a vast cosmic blue night sky scattered with faint stars, one bird leaning forward to take a fruit, the other still and watching with quiet attention, soft warm light from a single point on the horizon, painterly contemplative composition, no text
 image: /images/text-mundaka-upanishad.jpg
 order: 3

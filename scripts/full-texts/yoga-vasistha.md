@@ -10,9 +10,9 @@ translator: Rishi Singh Gherwal
 translatorDates: 1899–1964
 translationYear: '1930'
 sourceUrl: https://sacred-texts.com/hin/yvhf/index.htm
-sourcePlatform: Sacred Texts Archive
+sourcePlatform: Self-published (Rishi Singh Gherwal)
 licence: public-domain
-licenceNote: 'Rishi Singh Gherwal''s 1930 translation of the Laghu ("shorter") Yoga Vasishta. Strict public domain in the US: copyright was not renewed at the US Copyright Office as required by law at the time. Lightly modernised by Soul Spirit Self.'
+licenceNote: 'Rishi Singh Gherwal''s 1930 self-published English translation of the Laghu Yoga Vashishta. Strict public domain in the US: copyright was not renewed at the US Copyright Office. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of an ancient sage teaching a young prince beneath a vast sky, soft golden dawn light, painterly contemplative composition, deep blue and amber palette
 image: /images/text-yoga-vasistha.jpg
 order: 9
