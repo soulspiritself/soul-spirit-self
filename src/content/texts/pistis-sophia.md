@@ -11,7 +11,7 @@ translationYear: '1921'
 sourceUrl: https://archive.org/details/pistissophia00mead
 sourcePlatform: John M. Watkins, London
 licence: public-domain
-licenceNote: G. R. S. Mead's complete English translation of the Askew Codex Pistis Sophia, second edition (London: John M. Watkins, 1921). Strict public domain. Text not ingested locally because of length (~600 pages of dense vision-narrative); page provides a long summary and a link to the PDF on archive.org.
+licenceNote: "G. R. S. Mead's complete English translation of the Askew Codex Pistis Sophia, second edition (London: John M. Watkins, 1921). Strict public domain. Text not ingested locally because of length (~600 pages of dense vision-narrative); page provides a long summary and a link to the PDF on archive.org."
 imagePrompt: A robed figure standing at the threshold of a vast blue-violet aeon, faint concentric rings of golden light radiating outward, twelve smaller figures gathered in prayer around the threshold, contemplative atmospheric style, painterly composition
 image: /images/text-pistis-sophia.jpg
 order: 3
