@@ -1,0 +1,1234 @@
+---
+title: The Dhammapada
+originalTitle: धम्मपद
+subtitle: The most-loved short Buddhist text — 423 verses on the path of the awakened
+tradition: buddhist-nonduality
+period: Pre-classical · c. 3rd century BCE
+originalLanguage: Pali
+composedDate: c. 3rd century BCE
+translator: Friedrich Max Müller
+translatorDates: 1823–1900
+translationYear: '1881'
+sourceUrl: https://sacred-texts.com/bud/sbe10/index.htm
+sourcePlatform: Oxford University Press (Sacred Books of the East)
+licence: public-domain
+licenceNote: 'From The Dhammapada and Sutta-Nipata, translated by Friedrich Max Müller and V. Fausböll — Sacred Books of the East, volume 10. Oxford: Clarendon Press, 1881. Strict public domain. Lightly modernised by Soul Spirit Self (archaic verb forms and pronouns updated; substantive translation choices preserved).'
+imagePrompt: A path of pale stones leading away into mist, soft golden dawn breaking on the horizon, deep cosmic blue sky scattered with faint stars, contemplative painterly composition
+image: /images/text-dhammapada.jpg
+order: 2
+description: Probably the most widely read book in the Pali canon — 423 short verses gathered into twenty-six chapters on the path of the awakened. The Dhammapada is the Buddhist tradition's most concentrated source of contemplative aphorism, much as the Tao Te Ching is for the Taoist tradition.
+---
+
+What follows is the complete text of the *Dhammapada* — the 423 most-loved short verses of the Pali canon, gathered into twenty-six chapters — in Friedrich Max Müller's 1881 translation, Sacred Books of the East volume 10 (Oxford: Clarendon Press). Archaic English verb forms and pronouns have been lightly modernised; substantive translation choices and Müller's chapter divisions are preserved.
+
+## THE DHAMMAPADA
+
+## A COLLECTION OF VERSES
+
+## BEING ONE OF THE CANONICAL BOOKS OF THE
+
+## BUDDHISTS
+
+## TRANSLATED FROM PALI
+
+BY
+
+## F. MAX MULLER
+
+Oxford, the Clarendon Press
+
+[1881]
+
+{partially scanned, (re)proofread, and formatted by Christopher M. Weimer, March 2002}
+
+Vol. X Part I of The Sacred Books of the East
+
+translated by various Oriental scholars and edited by F. Max Muller
+
+## CONTENTS
+
+## PAGE
+
+INTRODUCTION TO THE DHAMMAPADA ix-lv
+
+# Dhammapada
+
+CHAPTER 1. The Twin Verses 3 " 2. On Earnestness 9 " 3. Thought 12 " 4. Flowers 16 " 5. The Fool 20 " 6. The Wise Man (Pandita) 23 " 7. The Venerable (Arhat) 27 " 8. The Thousands 31 " 9. Evil 34 " 10. Punishment 36 " 11. Old Age 41 " 12. Self 45 " 13. The World 47 " 14. The Buddha (the Awakened) 49 " 15. Happiness 53 " 16. Pleasure 56 " 17. Anger 58 " 18. Impurity 60 " 19. The Just 64 " 20. The Way 67 " 21. Miscellaneous 70 " 22. The Downward Course 74 " 23. The Elephant 77 " 24. Thirst 80 " 25. The Bhikshu (Mendicant) 85 " 26. The Brahmana (Arhat) 89 Index 97
+
+p. ix
+
+## INTRODUCTION
+
+TO
+
+## THE DHAMMAPADA
+
+## THE DHAMMAPADA, A CANONICAL BOOK
+
+THE Dhammapada forms part of the Pali Buddhist canon, though its exact place varies according to different authorities, and we have not as yet a sufficient number of complete MSS. of the Tipitaka to help us to decide the question[1].
+
+Those who divide that canon into three Pitakas or baskets, the Vinaya-pitaka, Sutta-pitaka, and Abhidhamma-pitaka, assign the Dhammapada to the Sutta-pitaka. That Pitaka consists of five Nikayas: the Digha-nikaya, the Magghima-nikaya, the Samyutta-nikaya, the Anguttara-nikaya, and the Khuddaka-nikaya. The fifth, or Khuddaka-nikaya, comprehends the following works: 1. Khuddaka-patha; 2. DHAMMAPADA; 3. Udana; 4. Itivuttaka; 5. Sutta-nipata; 6. Vimanavatthu; 7. Petavatthu; 8. Theragatha; 9. Therigatha; 10. Gataka; 11. Niddesa; 12. Patisambhida; 13. Apadana; 14. Buddhavamsa; 15. Kariya-pitaka.
+
+According to another division[2], however, the whole Buddhist canon consists of five Nikayas: the Digha-nikaya, the Magghima-nikaya, the Samyutta-nikaya, the Anguttara-nikaya, and the fifth, the Khuddaka-nikaya, which Khuddaka-nikaya is then made to comprehend the whole of the Vinaya (discipline) and Abhidhamma (metaphysics), together with the fifteen books beginning with the Khuddaka-patha.
+
+The order of these fifteen books varies, and even, as it would seem, their number. The Dighabhanaka school
+
+[1. see Feer, Journal Asiatique, 1871, p. 263. There is now at least one complete MS. of the Tipitaka, the Phayre MS., at the India Office, and Professor Forchhammer has just published a most useful List of Pali MSS. collected in Burma, the largest collection hitherto known.
+
+2. See Childers, s. v. Nikaya, and extracts from Buddhaghosa's commentary on the Brahmagala-sutta.]
+
+p. x admits twelve books only, and assigns them all to the Abhidhamma, while the Magghimabhanakas admit fifteen books, and assign them to the Sutta-pitaka. The order of the fifteen books is: 1. Gataka [10]; 2. Mahaniddesa [11]; 3. Kullaniddesa [11]; 4. Patisambhidamagga [12]; 5. Sutta-nipata [5]; 6. DHAMMAPADA [2]; 7. Udana [3]; 8. Itivuttaka [4]; 9. Vimanavatthu [6]; 10. Petavatthu [7]; 11. Theragatha [8]; 12. Therigatha [9]; 13. Kariya-pitaka [15]; 14. Apadana [13]; 15. Buddhavamsa [14][1].
+
+The Khuddaka-patha is left out in the second list, and the number is brought to fifteen by dividing Niddesa into Maha-niddesa and Kulla-niddesa.
+
+There is a commentary on the Dhammapada in Pali, and supposed to be written by Buddhaghosa[2], in the first half of the fifth century A.D. In explaining the verses of the Dhammapada, the commentator gives for every or nearly every verse a parable to illustrate its meaning, which is likewise believed to have been uttered by Buddha in his intercourse with his disciples, or in preaching to the multitudes that came to hear him.
+
+## DATE OF THE DHAMMAPADA
+
+The only means of fixing the date of the Dhammapada is trying to ascertain the date of the Buddhist canon of which it forms a part, or the date of Buddhaghosa, who wrote a commentary on it. This, however, is by no means easy, and the evidence on which we have to rely is such that we must not be surprised if those who are accustomed to test historical and chronological evidence
+
+[1. The figures within brackets refer to the other list of books in the Khuddaka-nikiya. See also <page xxviii>.
+
+2. M. Leon Feer in the Journal Asiatique, 1871, p. 266, mentions another commentary of a more philosophical character, equally ascribed to Buddhaghosa. and having the title Vivara Bra Dhammapada, i.e. L'auguste Dhammapada devoile. Professor Forchhammer in his 'List of Manuscripts,' 1879-80, mentions the following works in connection with the Dhammapada: Dhammapada-Nissayo; Dh. P. Atthakatha by Buddhaghosa; Dh. P. Atthakatha Nissayo. 3 vols., containing a complete translation of the commentary; Dh. P. Vatthu. Of printed books he quotes: Kayanupassanakyam, a work based on the Garavaggo, Mandalay, 1876 (390 pages), and Dhammapada-desanakyam, printed in 'British Burma News.']
+
+p. xi in Greece and Rome, decline to be convinced by it. As a general rule, I quite agree that we cannot be too sceptical in assigning a date to ancient books, particularly if we intend to use them as documents for tracing the history of human thought. To the initiated, I mean to those who have themselves worked in the mines of ancient Oriental literature, such extreme scepticism may often seem unscientific and uncalled for. They are more or less aware of hundreds of arguments, each by itself, it may be, of small weight, but all combined proving irresistible. They are conscious, too, of having been constantly on the look out for danger, and, as all has gone on smoothly, they feel sure that, in the main, they are on the right road. Still it is always useful to be as incredulous as possible, particularly against oneself, and to have before our eyes critics who will not yield one inch beyond what they are forced to yield by the strongest pressure of facts.
+
+The age of our MSS. of the canonical books, either in Pali or Sanskrit, is of no help to us. All Indian MSS. are comparatively modern, and one who has probably handled more Indian MSS. than anybody else, Mr. A. Burnell, has lately expressed his conviction that 'no MS. written one thousand years ago is now existent in India, and that it is almost impossible to find one written five hundred years ago, for most MSS. which claim to be of that date are merely copies of old MSS. the dates of which are repeated by the copyists[1].'
+
+Nor is the language, whether Sanskrit or Pali, a safe guide for fixing dates. Both languages continue to be written to our own time, and though there are some characteristic marks to distinguish more modern from more ancient Buddhist Sanskrit and Pali, this branch of critical scholarship requires to be cultivated far more extensively and accurately before true scholars would venture to fix the date of a Sanskrit or Pali text on the strength of linguistic evidence alone[2].
+
+[1. Indian Antiquary, 1880, p. 233.
+
+2. See some important remarks on this subject in Fausboll's Introduction to Sutta-nipita, <page xi>.]
+
+p. xii
+
+The Buddhists themselves have no difficulty in assigning a date to their sacred canon. They are told in that canon itself that it was settled at the First Council, or immediately after the death of Buddha, and they believe that it was afterwards handed down by means of oral tradition, or actually written down in books by order of Kasyapa, the president of the First Council[1]. Buddhaghosa, a learned and in some respects a critical scholar, living in the beginning of the fifth century A.D., asserts that the canon which he had before him, was the same as that fixed by the First Council[2].
+
+Several European students have adopted the same opinion, and, so far as I know, no argument has yet been advanced showing the impossibility of the native view, that some collection of Buddha's doctrines was made immediately after his death at Ragagaha, and that it was finally settled at what is called the Second Council, or the Council of Vesali. But what is not impossible is not therefore true, nor can anything be gained by appealing to later witnesses, such as, for instance, Hiouen Thsang, who travelled through India in the seventh century, and wrote down anything that he could learn, little concerned whether one statement tallied with the other or not[3]. He says that the Tipitaka was written down on palm leaves by Kasyapa at the end of the First Council. But what can be the weight of such a witness, living more than a thousand years after the event, compared with that, for instance, of the Mahavamsa, which dates from the fifth century of our era, and
+
+[1. Bigandet, Life of Gaudama (Rangoon, 1866), p. 350; but also p. 120 note.
+
+2. See Childers, s.v. Tipitaka. There is a curious passage in Buddhaghosa's account of the First Council. 'Now one may ask,' he says, 'Is there or is there not in this first Paragika anything to be taken away or added?' I reply, There is nothing in the words of the Blessed Buddha that can be taken away, for the Buddhas speak not even a single syllable in vain, yet in the words of disciples and devatas there are things which may be omitted, and these the elders who made the recension, did omit. On the other hand, additions are everywhere necessary, and accordingly, whenever it was necessary to add anything, they added it. If it be asked, What are the additions referred to? I reply, Only sentences necessary to connect the text, as 'at that time,' 'again at that time,' 'and so forth.'
+
+3. Pelerins Bouddhistes, vol. i. p. 158.]
+
+p. xiii tells us in the account of Mahinda's missionary journey to Ceylon (241/318), that the son of Asoka had to spend three years in learning the Tipitaka by heart from the mouth of a teacher[1]? No mention is then made of any books or MSS., when it would have been most natural to do so[2]. At a later time, during the reign of King Vattagamani[3] (88-76 B.C.), the same chronicle, the Mahavamsa, tells us that 'the profoundly wise priests had theretofore orally (mukhapathena) perpetuated the Pali of the Pitakattaya and its Atthakatha (commentary), but that at this period the priests, foreseeing the perdition of the people assembled, and in order that the religion might endure for ages, recorded the same in books (potthakesu likhapayum)[4].'
+
+No one has yet questioned the dates of the Dipavamsa, about 400 A.D., or of the first part of the Mahavamsa, between 459-477 A.D., and though no doubt there is an interval of nearly 600 years between the composition of the Mahavamsa and the recorded writing down of the Buddhist canon under Vattagamani, yet we must remember that the Ceylonese chronicles were confessedly founded on an older Atthakatha preserved in the monasteries of the island, and representing an unbroken line of local tradition.
+
+My own argument therefore, so long as the question was only whether we could assign a pre-Christian date to the Pali Buddhist canon, has always been this. We have the commentaries on the Pali canon translated from Sinhalese into Pali, or actually composed, it may be, by Buddhaghosa. Buddhaghosa confessedly consulted various
+
+[1. Mahavamsa, p. 37; Dipavamsa VII, 28-31; Buddhaghosha's Parables, p. xviii.
+
+2. Bigandet, Life of Gaudama, p. 351.
+
+3. Dr. E. Muller (Indian Antiquary, Nov. 1880, p. 270) has discovered inscriptions in Ceylon, belonging to Devanapiya Maharaga Gamini Tissa, whom he identifes with Vattagamani.
+
+4. The same account is given in the Dipavamsa XX, 20, and in the Sarasangraha, as quoted by Spence Hardy, Legends, p. 192. As throwing light on the completeness of the Buddhist canon at the time of King Vattagamani, it should be mentioned that, according to the commentary on the Mahavamsa (Turnour, p. liii), the sect of the Dhammarukikas established itself at the Abhayavihara, which had been constructed by Vattagamani, and that one of the grounds of their secession was their refusing to acknowledge the Parivara (thus I read instead of Pariwana) as part of the Vinaya-pitaka. According to the Dipavamsa (VII, 42) Mahinda knew the Parivara.]
+
+p. xiv MSS., and gives various readings, just as any modern scholar might do. This was in the beginning of the fifth century A.D., and there is nothing improbable, though I would say no more, in supposing that some of the MSS., consulted by Buddhaghosa, dated from the first century B.C., when Vattagamani ordered the sacred canon to be reduced to writing.
+
+There is one other event with reference to the existence of the sacred canon in Ceylon, recorded in the Mahavamsa, between the time of Buddhaghosa and Vattagamani, viz. the translation of the Suttas from Pali into the language of Ceylon, during the reign of Buddhadasa, 339-368 A.D. If MSS. of that ancient translation still existed, they would, no doubt, be very useful for detrmining the exact state of the Pali originals at that time[1]. But even without them there seems no reason to doubt that Buddhaghosa had before him old MSS. of the Pali canon, and that these were in the main the same as those written down at the time of Vattagamani.
+
+## BUDDHAGHOSA'S AGE
+
+The whole of this argument, however, rested on the supposition that Buddhaghosa's date in the beginning of the fifth century A.D. was beyond the reach of reasonable doubt. 'His age,' I had ventured to say in the Preface to Buddhaghosha's Parables (1870), 'can be fixed with greater accuracy than most dates in the literary history of India.' But soon after, one of our most celebrated Pali scholars, the great Russian traveller, Professor Joh. Minayeff, expressed in the Melanges Asiatiques (13/25 April, 1871) the gravest doubts as to Buddhaghosa's age, and thus threw the whole Buddhist chronology, so far as it had then been accepted by all, or nearly all scholars, back into chaos. He gave as his chief reason that Buddhaghosa was not, as I supposed, the contemporary of Mahanama, the
+
+[1. A note is added, stating that several portions of the other two divisions also of the Pitakattaya were translated into the Sinhalese language, and that these alone are consulted by the priests, who are unacquainted with Pali. On the other hand, it is stated that the Sinhalese text of the Atthakatha exists no longer. See Spence Hardy, Legends, p. xxv, and p. 69.]
+
+p. xv author of the Mahavamsa, but of another Mahanama, the king of Ceylon.
+
+Professor Minayeff is undoubtedly right in this, but I am not aware that I, or anybody else, had ever questioned so palpable a fact. There are two Mahanamas; one, the king who reigned from 410-432 A.D.; the other, the supposed author of the Mahavamsa, the uncle and protector of King Dhatusena, 459-477. 'Dhatusena,' I had written, 'was the nephew of the historian Mahanama, and owed the throne to the protection of his uncle. Dhatusena was in fact the restorer of a national dynasty, and after having defeated the foreign usurpers (the Damilo dynasty) "he restored the religion which had been set aside by the foreigners"' (Mahav. p. 256). Among his many pious acts it is particularly mentioned that he gave a thousand, and ordered the Dipavamsa to be promulgated. As Mahanama was the uncle of Dhatusena, who reigned from 459-477, he may be considered as a trustworthy witness with regard to events that occurred between 410 and 432. Now the literary activity of Buddhaghosa in Ceylon falls in that period[1].'
+
+These facts being admitted, it is surely not too great a stretch of probability to suppose, as I did, that a man whose nephew was king in 459-477, might have been alive in 410-432, that is to say, might have been a contemporary of Buddhaghosa. I did not commit myself to any further theories. The question whether Mahanama, the uncle of Dhatusena, was really the author of the Mahavamsa, the question whether he wrote the second half of the 37th chapter of that work, or broke off his chronicle in the middle of that chapter, I did not discuss, having no new materials to bring forward beyond those on which Turnour and those who followed him had founded their conclusions, and which I had discussed in my History of Sanskrit Literature (1859), p. 267. All I said was, 'It is difficult to determine whether the 38th as well as the (whole of the) 37th chapter came from the pen of Mahanama, for
+
+[1. 'Ungefahr 50 Jahre alter als Mahanama ist Buddhaghosha,' see Westergaard, Uber Buddha's Todesjahr, p. 99.]
+
+p. xvi the Mahavamsa was afterwards continued by different writers, even to the middle of the last century. But, taking into account all the circumstances of the case, it is most probable that Mahanama carried on the history to his own time, to the death of Dhatusena, 477 A.D.'
+
+What I meant by 'all the circumstances of the case' might easily be understood by any one who had read Turnour's Preface to the Mahavamsa. Turnour himself thought at first that Mahanama's share in the Mahavamsa ended with the year 301 A.D., and that the rest of the work, called the Sulu Wanse, was composed by subsequent writers[1]. Dharmakirti is mentioned by name as having continued the work to the reign of Prakrama Bahu (A.D. 1266). But Turnour afterwards changed his mind[2]. Considering that the account of Mahasena's reign, the first of the Seven Kings, terminates in the middle of a chapter, at verse 48, while the whole chapter is called the Sattaragiko, 'the chapter of the Seven Kings,' he naturally supposed that the whole of that chapter, extending to the end of the reign of his nephew Dhatusena, might be the work of Mahanama, unless there were any strong proofs to the contrary. Such proofs, beyond the tradition of writers of the MSS., have not, as yet, been adduced[3].
+
+But even if it could be proved that Mahanama's own pen did not go beyond the 48th verse of the 37th chapter, the historical trustworthiness of the concluding portion of that chapter, containing the account of Buddhaghosa's literary activity, nay, even of the 38th chapter, would be little affected thereby. We know that both the Mahavamsa and the somewhat earlier Dipavamsa were founded on the Sinhalese Atthakathas, the commentaries and chronicles preserved in the Mahavihara at Anuradhapura. We also know that that Vihara was demolished by Mahasena, and deserted by nearly all its inmates for the space of nine years (p. 235), and again for the space of nine months
+
+[1. Introduction, p. ii. The Kulavamsa is mentioned with the Mahavamsa, both as the works of Mahanama, by Professor Forchhammer in his List of Pali MSS.
+
+2. Introduction, p. xci.
+
+3. See Rhys Davids, Journal of the Royal Asiatic Society, 1875, p. 196.]
+
+p. xvii (p. 237). We can well understand therefore why the older history, the Dipavamsa, should end with the death of Mahasena (died 302 A.D.), and why in the Mahavamsa too there should have been a break at that date. But we must not forget that, during Mahanama's life, the Mahavihara at Anuradhapura was restored, that some kind of chronicle, called the Dipavamsa, whether it be a general name of any 'chronicle of the island,' or of our Dipavamsa, or, it may be, even of our Mahavamsa, was ordered to be published or promulgated (dipetum) under Dhatusena, the nephew and protege of Mahanama. Therefore, even if we do not insist on the personal authorship of Mahanama, we may certainly maintain that historical entries had been made in the chronicles of Anuradhapura during Dhatusena's reign, and probably under the personal auspices of Mahanama, so that if we find afterwards, in the second half of the 37th chapter of his Mahavamsa, an account of events which had happened between the destruction of the Mahavihara and the reign of Dhatusena, and among them an account of so important an event as the arrival of Buddhaghosa from Magadha and his translation of the Sinhalese Atthakatha into the language of Magadha, we may well suppose that they rest on the authority of native chronicles, written not long after the events, and that therefore, 'under all the circumstances of the case,' the age of Buddhaghosa can be fixed with greater accuracy than most dates in the literary history of India.
+
+There is one difficulty still remaining with regard to the date of the historian Mahanama which might have perplexed Turnour's mind, and has certainly proved a stumbling-block to myself. Turnour thought that the author of the commentary on the Mahavamsa, the Vamsatthappakasini, was the same as the author of the Mahavamsa, viz. Mahanama. The date of that commentary, however, as we know now, must be fixed much later, for it speaks of a schism which took place in the year 601 A.D., during the reign of Agrabodhi (also called Dhatapatisso). Turnour[1] looked
+
+[1. Introduction, p. liii.]
+
+p. xviii upon that passage as a later interpolation, because he thought the evidence for the identity of the author and the commentator of the Mahavamsa too strong to be set aside. He trusted chiefly to a passage in the commentary, and if that passage had been correctly rendered, the conclusion which be drew from it could hardly be resisted. We read in the Mahavamsa (p. 254):
+
+'Certain members of the Moriyan dynasty, dreading the power of the (usurper) Subho, the balattho, had settled in various parts of the country, concealing themselves. Among them there was a certain landed proprietor Dhatusena, who had established himself at Nandivapi. His son named Dhata, who lived at the village Ambiliyago, had two sons, Dhatusena and Silatissabodhi, of unexceptional descent. Their mother's brother (Mahanama), devoted to the cause of religion, continued to reside (at Anuradhapura) in his sacerdotal character, at the edifice built by the minister Dighasandana. The youth Dhatusena became a priest in his fraternity, and on a certain day, while he was chaunting at the foot of a tree, a shower of rain fell, and a Naga, seeing him there, encircled him in his folds, and covered him and his book with his hood.... Causing an image of Maha Mahinda to be made, and conveying it to the edifice (Ambamalaka) in which the thera's body had been burnt, in order that be might celebrate a great festival there, and that he might also promulgate the contents of the Dipavamsa, distributing a thousand pieces, he caused it to be read aloud[1].'
+
+If we compare with this extract from the Mahavamsa a passage from the commentary as translated by Turnour, we can well understand how he arrived at the conclusion that it was written by the same person who wrote the Mahavamsa.
+
+Turnour translates (p. liv):
+
+'Upon these data by me, the thera, who had, with due
+
+[1. Mr. Turnour added a note in which he states that Dipavamsa is here meant for Mahavamsa, but whether brought down to this period, or only to the end of the reign of Mahasena, to which alone the Tika extends, there is no means of ascertaining (p. 257).]
+
+p. xix solemnity, been invested with the dignified title of Mahanama, resident at the parivena founded by the minister Dighasandana, endowed with the capacity requisite to record the narrative comprised in the Mahavamsa, in due order, rejecting only the dialect in which the Singhalese Atthakatha are written, but retaining their import and following their arrangement, the history, entitled the Palapadoruvamsa (Padyapadanuvamsa), is compiled. As even in times when the despotism of the ruler of the land, and the horrors arising from the inclemencies of the seasons, and when panics of epidemics and other visitations prevailed, this work escaped all injury; and moreover, as it serves to perpetuate the fame of the Buddhas, their disciples, and the Pache Buddhas of old, it is also worthy of bearing the title of Vamsatthappakasini.'
+
+As the evidence of these two passages in support of the identity of the author and the commentator of the Mahavamsa seemed to me very startling, I requested Mr. Rhys Davids to copy for me the passage of the commentary. The passage runs as follows:
+
+Ya ettavata mahavamsatthanusarakusalena Dighasanda-senapatina karapita-mahaparivenavasina Mahanamo ti garuhi gahitanamadheyyena therena pubba-Sihala-bhasitaya Sihalatthakathaya bhasantaram eva vaggiya atthasaram eva gahetva tantinayanurupena katassa imassa Padyapada-nuvamsassa atthavannana maya tam eva sannissitena araddha, padesissariya-dubbutthibhaya-rogabhayadi-vividha-antaraya-yuttakale pi anantarayena nitthanam upagata, sa buddha-buddhasavaka-pakkekabuddhadinam porananam kikkam pubbavamsatthappakasanato ayam Vamsatthappakasini nama ti dharetabba.... Padyapadanuvamsa-vannana Vamsatthappakasini nitthita.
+
+Mr. Rhys Davids translates this:
+
+'The commentary on this Padyapadanuvamsa, which (latter work) was made (in the same order and arrangement, and retaining the sense, but rejecting the dialect, of the Sinhalese commentary formerly expressed in the Sinhalese tongue) by the elder who bore the name of Mahanama, which he had p. xx received from the venerable, who resided at the Mahaparivena built by the minister Dighasanda, and who was well able to conform to the sense of the Mahavamsa--(this commentary) which was undertaken by me out of devotion to that (history), and which (though thus undertaken) at a time full of danger of various kinds--such as the danger from disease, and the danger from drought, and the danger from the government of the province--has been safely brought to a conclusion--this (commentary), since it makes known the meaning of the history of old, the mission of the ancients, of the Buddhas, of their disciples, and of the Pakkeka Buddhas, should bear the name Vamsatthappakasini....
+
+'End of the Vamsatthappakasini, the commentary on the Padyapadanuvamsa.'
+
+This shows clearly that Turnour made a mistake in translating this exceedingly involved, yet perfectly intelligible, passage, and that so far from proving that the author of the commentary was the same person as the author of the text[1], it proves the very contrary. Nay, I feel bound to add, that we might now argue that as the commentator must have lived later than 601 A.D., the fact that he too breaks off at verse 48 of chapter 37, seems to show that at his time also the Mahavamsa did not extend as yet beyond that verse. But even then, the fact that with the restoration of the Mahavihara of Anuradhapura an interest in historical studies revived in Ceylon, would clearly show that we may trust the date of Buddhaghosa, as fixed by the second part of the 37th chapter of the Mahavamsa, at all events till stronger evidence is brought forward against such a date.
+
+Now I am not aware of any such evidence[2]. On the contrary, making allowance for a difference of some ten or twenty years, all the evidence which we can gain from other quarters tends to confirm, the date of
+
+[1. Dr. Oldenberg informs me that the commentator quotes various readings in the text of the Mahavamsa.
+
+2. The passage, quoted by Professor Minayeff from the Sasanavamsa, would assign to Buddhaghosa the date of 930-543 = 387 A.D., which can easily be reconciled with his accepted date. If he is called the contemporary of Siripala, we ought to know who that Siripala is.]
+
+p. xxi Buddhaghosa[1]. I therefore feel no hesitation in here reprinting that story, as we find it in the Mahavamsa, not free from legendary ingredients, it is true, yet resting, I believe, on a sound foundation of historical fact.
+
+'A Brahman youth, born in the neighbourhood of the terrace of the great Bo-tree (in Magadha), accomplished in the "vigga" (knowledge) and "sippa" (art), who had achieved the knowledge of the three Vedas, and possessed great aptitude in attaining acquirements; indefatigable as a schismatic disputant, and himself a schismatic wanderer over Gambudipa, established himself, in the character of a disputant, in a certain vihara[2], and was in the habit of rehearsing, by night and by day with clasped hands, a discourse which he had learned, perfect in all its component parts, and sustained throughout in the same lofty strain. A certain Mahathera, Revata, becoming acquainted with him there, and (saying to himself), "This individual is a person of profound knowledge, it will be worthy (of me) to convert him;" enquired, "Who is this who is braying like an ass?" The Brahman replied to him, "You canst define, then, the meaning conveyed in the bray of asses." On the Thera rejoining, "I can define it;" he (the Brahman) exhibited the extent of the knowledge he possessed. The Thera criticised each of his propositions, and pointed out in what respect they were fallacious. He who had been thus refuted, said, "Well, then, descend to your own creed;" and he propounded to him a passage from the Abhidhamma (of the Pitakattaya). He (the Brahman) could not divine the signification of that passage, and enquired, "Whose manta is this?"--"It is Buddha's manta." On his exclaiming, "Impart it to me;" the Thera replied, "Enter the sacerdotal order." He who was desirous of acquiring the knowledge of the Pitakattaya, subsequently coming to this conviction, "This is the sole road" (to salvation), became a convert to that faith. As he was as profound in his eloquence (ghosa) as Buddha himself, they conferred on him the appellation of Buddhaghosa (the
+
+[1. See Bigandet, Life of Gaudama. pp. 351, 381.
+
+2. On this vihara, its foundation and character, see Oldenberg, Vinaya, vol. i. p. liii; Hiouen-thsang, III, p. 487 seq.]
+
+p. xxii voice of Buddha); and throughout the world he became as renowned as Buddha. Having there (in Gambudipa) composed an original work called Nanodaya (Rise of Knowledge), he, at the same time, wrote the chapter called Atthasalini, on the Dhammasangani (one of the commentaries on the Abhidhamma).
+
+'Revata Thera then observing that he was desirous of undertaking the compilation of a general commentary on the Pitakattaya, thus addressed him: "The text alone of the Pitakattaya has been preserved in this land, the Atthakatha are not extant here, nor is there any version to be found of the schisms (vada) complete. The Sinhalese Atthakatha are genuine. They were composed in the Sinhalese language by the inspired and profoundly wise Mahinda, who had previously consulted the discourses (kathamagga) of Buddha, authenticated at the three convocations, and the dissertations and arguments of Sariputta and others, and they are extant among the Sinhalese. Preparing for this, and studying the same, translate them according to the rules of the grammar of the Magadhas. It will be an act conducive to the welfare of the whole world."
+
+'Having been thus advised, this eminently wise personage rejoicing therein, departed from thence, and visited this island in the reign of this monarch (i.e. Mahanama, 410-432). On reaching the Mahavihara (at Anuradhapura), he entered the Mahapadhana hall, the most splendid of the apartments in the vihara, and listened to the Sinhalese Atthakatha, and the Theravada, from the beginning to the end, propounded by the Thera Sanghapala; and became thoroughly convinced that they conveyed the true meaning of the doctrines of the Lord of Dhamma. Thereupon paying reverential respect to the priesthood, he thus petitioned: "I am desirous of translating the Atthakatha; give me access to all your books." The priesthood, for the purpose of testing his qualifications, gave only two gathas, saying, "Hence prove your qualification; having satisfied ourselves on this point, we will then let you have all our books." From these (taking these gatha for his text), and p. xxiii consulting the Pitakattaya, together with the Atthakatha, and condensing them into an abridged form, he composed the work called the Visuddhimagga. Thereupon, having assembled the priesthood, who had acquired a thorough knowledge of the doctrines of Buddha, at the Bo-tree, he commenced to read out the work he had composed. The devatas, in order that they might make his (Buddhaghosa's) gifts of wisdom celebrated among men, rendered that book invisible. He, however, for a second and third time recomposed it. When he was in the act of producing his book for the third time, for the purpose of propounding it, the devatas restored the other two copies also. The assembled priests then read out the three books simultaneously. In those three versions there was no variation whatever from the orthodox Theravadas in passages, in words, or in syllables. Thereupon, the priesthood rejoicing, again and again ferventIy shouted forth, saying, "Most assuredly this is Metteya (Buddha) himself," and made over to him the books in which the Pitakattaya were recorded, together with the Atthakatha. Taking up his residence in the secluded Ganthakara-vihara (at Anuradhapura), he translated, according to the grammatical rules of the Magadhas, which is the root of all languages, the whole of the Sinhalese Atthakatha (into Pali). This proved an achievement of the utmost consequence to all beings, whatever their language.
+
+'All the Theras and Akariyas held this compilation in the same estimation as the text (of the Pitakattaya). Thereafter, the objects of his mission having been fulfilled, he returned to Gambudipa, to worship at the Bo-tree (at Uruvelaya, or Uruvilva, in Magadha).'
+
+Here[1] we have a simple account of Buddhaghosa[2] and
+
+[1. Mahavamsa, p. 250, translated by Turnour.
+
+2. The Burmese entertain the highest respect for Buddhaghosa. Bishop Bigandet, in his Life or Legend of Gaudama (Rangoon, 1866), writes: 'It is perhaps as well to mention here an epoch which has been, at all times, famous in the history of Budhism in Burma. I allude to the voyage which a Religious of Thaton, named Budhagosa, made to Ceylon, in the year of religion 943 = 400 A.D. The object of this voyage was to procure a copy of the scriptures. He succeeded in his undertaking. He made use of the Burmese, or rather Talaing characters, in transcribing the manuscripts, which were written with the characters of Magatha. The Burmans lay much stress upon that voyage, and always carefully note down the year it took place. In fact, it is to Budhagosa that the people living on the shores of the Gulf of Martaban owe the possession of the Budhist scriptures. From Thaton, the collection made by Budhagosa was transferred to Pagan, six hundred and fifty years after it had been imported from Ceylon.' See ibid. p. 392.]
+
+p. xxiv his literary labours written by a man, himself a priest, and who may well have known Buddhaghosa during his stay in Ceylon. It is true that the statement of his writing the same book three times over without a single various reading, partakes a little of the miraculous; but we find similar legends mixed up with accounts of translations of other sacred books, and we cannot contend that writers who believed in such legends are therefore altogether unworthy to be believed as historical witnesses.
+
+But although the date which we can assign to Buddhaghosa's translation of the commentaries on the Pali Tipitaka proves the existence of that canon, not only for the beginning or the fifth century of our era, but likewise, though it may be, with less stringency, for the first century before our era, the time of Vattagamani, the question whether Buddhaghosa was merely a compiler and translator of old commentaries, and more particularly of the commentaries brought to Ceylon by Mahinda (241 B.C.), or whether he added anything of his own[1], requires to be more carefully examined. The Buddhists themselves have no difficulty on that point. They consider the Atthakathas or commentaries as old as the canon itself. To us, such a supposition seems improbable, yet it has never been proved to be impossible. The Mahavamsa tells us that Mahinda, the son of Asoka, who had become a priest, learnt the whole of the Buddhist canon, as it then was, in three years (p. 37)[2]; and that at the end of the Third Council he was despatched to Ceylon, in order to establish there the religion of Buddha (p. 71). The king of Ceylon, Devanampiya Tissa, was converted, and Buddhism soon became the dominant
+
+[1. He had written the Nanodaya, and the Atthasalini, a commentary on the Dhamma-sangani, before he went to Ceylon. Cf. Mahavamsa, p. 251.
+
+2. He learnt the five Nikayas, and the seven sections (of the Abhidhamma); the two Vibhangas of the Vinaya, the Parivara and the Khandhaka. See Dipavamsa VII, 42.]
+
+p. xxv religion of the island, The Tipitaka and the Atthakatha, such as they had been collected or settled at the Third Council in 242 B.C., were brought to Ceylon by Mahinda, who promulgated them orally, the Tipitaka in Pali, the Atthakatha in Sinhalese, together with an additional Atthakatha of his own. It does not follow that Mahinda knew the whole of that enormous literature by heart, for, as he was supported by a number of priests, they may well have divided the different sections among them, following the example of Ananda and Upali at the First Council. The same applies to their disciples also. But the fact of their transmitting the sacred literature by oral tradition[1] was evidently quite familiar to the author of the Mahavamsa. For when he comes to describe the reign of Vattagamani (88-76 B.C.) he simply says: 'The profoundly wise priests had heretofore orally perpetuated the Pali Pitakattaya and its Atthakatha (commentaries). At this period these priests, foreseeing the perdition of the people (from the perversions of the true doctrines), assembled; and in order that the religion might endure for ages, wrote the same in books.' No valid objection has yet been advanced to our accepting Buddhaghosa's Atthakathas as a translation and new redaction of the Atthakathas which were reduced to writing under Vattagamani[2], and these again as a translation of the old Atthakathas brought to Ceylon by Mahinda[3]. There is prima facie evidence in favour of the truth of historical events vouched for by such works as the Dipavamsa and the Mahavamsa so far back at least as Mahinda, because we know that historical events were recorded in the monasteries of Ceylon long before Mahanama's time. Beyond Mahinda we move in legendary history, and must be ready to surrender every name and every date as soon as rebutting evidence has been produced, but not till then.
+
+I cannot, therefore, see any reason why we should not treat the verses of the Dhammapada, if not as the utterances of Buddha, at least as what were believed by the
+
+[1. On the importance of oral tradition in the history of Sanskrit literature see the writer's Ancient Sanskrit Literature, 1859, pp. 497-524.
+
+2. Mahavamsa, p. 207; Dipavamsa XX, 20.
+
+3. Mahavamsa, p. 251.]
+
+p. xxvi members of the Council under Asoka, in 242 B.C., to have been the utterances of the founder of their religion; nor can I see that Professor Minayeff has shaken the date of Buddhaghosa and the general credibility of the Ceylonese tradition, that he was the translator and editor of commentaries which had existed in the island for many centuries; whether from the time of Vattagamani or from the time of Mahinda.
+
+## DATE OF THE BUDDHIST CANON
+
+We now return to the question of the date of the Buddhist canon, which, as yet, we have only traced back to the first century before Christ, when it was reduced to writing in Ceylon under King Vattagamani. The question is, how far beyond that date we may trace its existence in a collected form, or in the form of the three Pitakas or baskets. There may be, and we shall see that there is, some doubt as to the age of certain works, now incorporated in the Tipitaka. We are told, for instance, that some doubt attached to the canonicity of the Kariya-pitaka; the Apadana, and the Buddhavamsa[1], and there is another book of the Abhidhamma-pitaka, the Kathavatthu, which was reported to be the work of Tissa Moggaliputta, the president of the Third Council. Childers, s.v., stated that it was composed by the apostle Moggaliputtatissa, and delivered by him at the Third Mahasangiti. The same scholar, however, withdrew this opinion on p. 507 of his valuable Dictionary, where he says: 'It is a source of great regret to me that in my article on Kathavatthuppakaranam I inadvertently followed James D'Alwis in the stupendous blunder of his assertion that the Kathavatthu was added by Moggaliputtatissa at the Third Convocation. The Kathavatthu is one of the Abhidhamma books, mentioned by Buddhaghosa as having been rehearsed at the First Convocation, immediately after Gotama's death; and the passage in Mahavamsa upon which D'Alwis rests his assertion is as follows, Kathavatthuppakararanam paravadappamaddanam abhasi Tissatthero ka tasmim sangitimandale, which simply means 'in that Convocation-assembly
+
+[1. See Childers, s.v. Nikaya.]
+
+p. xxvii the Thera Tissa also recited (Buddha's) heresy-crushing Kathavatthuppakarana.'
+
+This mistake, for I quite agree with Childers that it was a mistake, becomes however less stupendous than at first sight it would appear, when we read the account given in the Dipavamsa. Here the impression is easily conveyed that Moggaliputta was the author of the Kathavatthu, and that he recited it for the first time at the Third Council. 'Wise Moggaliputta,' we read[1], 'the destroyer of the schismatic doctrines, firmly established the Theravada, and held the Third Council. Having destroyed the different (heretical) doctrines, and subdued many shameless people, and restored splendour to the (true) faith, he proclaimed (pakasayi) (the treatise called) Kathavatthu.' And again: 'They all were sectarians[2], opposed to the Theravada; and in order to annihilate them and to make his own doctrine resplendent, the Thera set forth (desesi) the treatise belonging to the Abhidhamma, which is called Kathavatthu[3].'
+
+At present, however, we are not concerned with these smaller questions. We treat the canon as a whole, divided into three parts, and containing the books which still exist in MSS., and we want to find out at what time such a collection was made. The following is a short abstract of the Tipitaka, chiefly taken from Childers' Pali Dictionary:
+
+I. Vinaya-pitaka.
+
+Vibhanga[4]. Vol. I, beginning with Paragika, or sins involving expulsion. Vol. II, beginning with Pakittiya, or sins involving penance.
+
+Khandhaka. Vol. I, Mahavagga, the large section. Vol. II, Kullavagga, the small section.
+
+Parivarapatha, an appendix and later resume (25 chapters). See p. xiii, n. 4; p. xxiv, n. 2.
+
+[1. Dipavamsa VII, 40.
+
+2. Dipavamsa VII, 55.
+
+3. Dr. Oldenberg, in his Introduction to the Vinaya-pitaka, p. xxxii.
+
+4. Oldenberg, Vinaya-pitaka I, p. xvi, treats it as an extended reading of Patimokkha.]
+
+p. xxviii
+
+II. Sutta-pitaka.
+
+Digha-nikaya, collection of long suttas (34 suttas)[1]. Magghima-nikaya, collection of middle suttas (152 suttas). Samyutta-nikaya, collection of joined suttas. Anguttara-nikaya[2], miscellaneous suttas, in divisions the length of which increases by one. Khuddaka-nikaya[3], the collection of short suttas, consisting of-- Khuddakapatha, the small texts[4]. Dhammapada, law verses (423)[5]. Udana, praise (82 suttas). Itivuttaka, stories referring to sayings of Buddha. Suttanipata 70 suttas[6]. Vimanavatthu, stories of Vimanas, celestial palaces. Petavatthu, stories of Pretas, departed spirits. Theragatha, stanzas of monks. Therigatha, stanzas of nuns. Gataka, former births (550 tales)[7]. Niddesa, explanations of certain suttas by Sariputta.
+
+[1. The Mahaparinibbana-sutta, ed. by Childers, Journal of the Royal Asiatic Society, translated with other Suttas by Rhys Dayids (). Sept Suttas Palis, par Grimblot, Paris, l876.
+
+2. The first four are sometimes called the Four Nikayas, the five together the five Nikayas. They represent the Dharma, as settled at the First and Second Councils, described in the Kullavagga (Oldenberg, I, p. xi).
+
+3. Sometimes Khuddaka-nikaya stands for the whole Vinaya and Abhidhamma- pitaka, with the fifteen divisions here given of Khuddaka-nikaya. In the commentary on the Brahmagala-sutta it is said that the Dighanikaya professors rehearsed the text of the Gataka, Maha and Kulla Niddesa, Patisambhidamagga, Suttanipata, Dhammapada, Udana, Itivuttaka, Vimana, and Petavatthu, Thera and Theri Gatha, and called it Khuddakagantha, and made it a canonical text, forming part of the Abhidhamma; while the Magghimanikaya professors assert that, with the addition of the Kariyapitaka, Apadana, and Buddhavamsa, the whole of this Khuddakagantha was included in the Suttapitaka. See Childers, s.v. Nikaya;. See also <page x>.
+
+4. Published by Childers, Journal of the Royal Asiatic Society, 1869.
+
+5. Published by Fausboll, 1855.
+
+6. Thirty translated by Sir Coomara Swamy; the whole by Fausboll, in Sacred Books of the East, vol. x.
+
+7. Published by Fausboll, translated by Rhys Davids.]
+
+p. xxix
+
+Patisambhidamagga, the road of discrimination, and intuitive insight. Apadana[1], legends. Buddhavamsa[1], story of twenty-four preceding Buddhas and of Gotama. Kariyapitaka[1], basket of conduct, Buddha's meritorious actions[2].III. Abhidhamma-pitaka.
+
+Dhammasangani, numeration of conditions of life[3]. Vibhanga, disquisitions (18). Kathavatthupakarana, book of subjects for discussion (1000 suttas). Puggalapannatti or pannatti, declaration on puggala, or personality. Dhatukatha, account of dhatus or elements. Yamaka, pairs (ten divisions). Patthanapakarana, book of causes. Taking this collection as a whole we may lay it down as self-evident that the canon, in its collected form, cannot be older than any of the events related therein.
+
+There are two important facts for determining the age of the Pali canon, which, as Dr. Oldenberg[4] has been the first to show, should take precedence of all other arguments, viz.
+
+1. That in the Tipitaka, as we now have it, no mention is made of the so-called Third Council, which took place at Pataliputta, under King Asoka, about 242 B.C.
+
+2. That in the Tipitaka, as we now have it, the First Council of Ragagaha (477 B.C.) and the Second Council of Vesali (377 B.C.) are both mentioned.
+
+From these two facts it may safely be concluded that the Buddhist canon, as handed down to us, was finally closed
+
+[1. Buddhaghosa does not say whether these were recited at the First Council.
+
+2. Partly translated by Gogerly, Journal of the Asiatic Society of Ceylon, 1852.
+
+3. Cf. Gogerly, Journal of the Asiatic Society of Ceylon. 1848, p. 7.
+
+4. See Oldenberg's Vinaya-pitaka, Introduction. p. xxv. The kings Agatasatru (485-453 B.C.), Udayin (453-437 B.C.), and Munda (437-429 B.C.) are all mentioned in the Tipitaka. See Oldenberg, Zeitschrift der D. M. G., XXXIV. pp. 752, 753.]
+
+p. xxx after the Second and before, or possibly at, the Third Council. Nay, the fact that the description of the two Councils stands at the very end of the Kullavagga may be taken, as Dr. Oldenberg remarks, as an indication that it was one of the latest literary contributions which obtained canonical authority, while the great bulk of the canon may probably claim a date anterior to the Second Council.
+
+This fact, namely, that the collection of the canon, as a whole, must have preceded the Second Council rests on an argument which does great credit to the ingenuity of Dr. Oldenberg. The Second Council was convoked to consider the ten deviations[1] from the strict discipline of the earliest times. That discipline had been laid down first in the Patimokkha rules, then in the commentary now included in the Vibhanga, lastly in the Mahavagga and Kullavagga. The rules as to what was allowed or forbidden to a Bhikkhu were most minute[2], and they were so firmly established that no one could have ventured either to take away or to add anything to them as they stood in the sacred code. In that code itself a distinction is made between the offences which were from the first visited with punishment (paragika and pakittiya) and those misdemeanours and crimes which were put down as punishable at a later time (dukkata and thullakkaya). With these classes the code was considered as closed, and if any doubt arose as to the criminality of certain acts, it could be settled at once by an appeal to the Vinaya-pitaka. Now it so happens that, with one exception, the ten deviations that had to be considered at the Second Council, are not provided for in the Vinaya-pitaka; and I quite agree with Dr. Oldenberg's argument that, if they had been mentioned in the Vinaya-pitaka, the Second Council would have been objectless. A mere appeal to chapter and verse in the existing Pitaka would then have silenced all dissent. On the other side, if it had been possible to add anything to the canon, as it then existed, the ten, or nine, deviations might have been condemned
+
+[1. Oldenberg, Introduction, p. xxix.
+
+2. Oldenberg, loc. cit. p. xx.]
+
+p. xxxi by a few additional paragraphs of the canon, without convoking a new Council.
+
+I think we may be nearly certain, therefore, that we possess the principal portion of the Vinaya-pitaka as it existed before the Council of Vesali.
+
+So far I quite agree with Dr. Oldenberg. But if he proceeds to argue[1] that certain portions of the canon must have been finally settled before even the First Council took place, or was believed to have taken place, I do not think his arguments conclusive. He contends that in the Parinibbana-sutta, which tells of the last days of Buddha's life, of his death, the cremation of his body, and the distribution of his relics, and of Subhadda's revolt, it would have been impossible to leave out all mention of the First Council, if that Council had then been known. It is true, no doubt, that Subhadda's disloyalty was the chief cause of the First Council, but there was no necessity to mention that Council. On the contrary, it seems to me that the unity of the Parinibbana-sutta would have been broken if, besides telling of the last days of Buddha, it had also given a full description of the Council. The very title, the Sutta of the Great Decease, would have become inappropriate, if so important a subject as the first Sangiti had been mixed up with it. However, how little we may trust to such general arguments, is best shown by the fact that in some very early Chinese renderings of the Hinayana text of the Mahaparinibbana-sutta the story is actually carried on to the First Council, two (Nos. 552 and 119) mentioning the rehearsal under Kasyapa, while the third (No. 118) simply states that the Tiptaka was then collected[2].
+
+[1. Loc. cit. pp. xxvi-xxviii.
+
+2. There are several Chinese translations of Sutras on the subject of the Mahaparinirvana. Three belong to the Mahayana school: 1. Mahaparinirvana-sutra, translated by Dharmaraksha, about 414-423 A.D.; afterwards revised, 424-453 (Nos. 113, 114). 2. Translation by Fa-hian and Buddhabhadra, about 415 A.D.; less complete (No. 120). 3. Translation (vaipulya) by Dharmaraksha I, i.e. Ku Fa-hu, about 261-308 A.D. (No. 116). Three belong to the Hinayana school: 1. Mahiparinirvana-sutra. translated by Po-fa-tsu, about 290-306 A.D. (No. 552). 2. Translation under the Eastern Tsin dynasty, 317-42O A.D. (No. 119). 3. Translation by Fa-hian, about 415 A.D. (No. 118).]
+
+p. xxxii
+
+We must be satisfied therefore, so far as I can see at present, with fixing the date, and the latest date, of a Buddhist canon at the time of the Second Council, 377 B.C. That some works were added later, we know; that many of the treatises included in the canon existed before that Council, can hardly be doubted. The second chapter of the Dhammapada, for instance, is called the Appamada-vagga, and if the Mahavamsa (p. 25) tells us that at the time when Asoka was converted by Nigrodha, that Buddhist priest explained to him the Appamada-vagga, we can hardly doubt that there existed then a collection (vagga) of verses on Appamada, such as we now possess in the Dhammapada and in the Samyutta-nikaya[1].
+
+With regard to the Vinaya, I should even feel inclined to admit, with Dr. Oldenberg, that it must have existed in a more or less settled form before that time. What I doubt is whether such terms as Pitaka, basket, or Tipitaka, the three baskets, i.e. the canon, existed at that early time. They have not been met with, as yet, in any of the canonical books; and if the Dipavamsa (IV, 32) uses the word 'Tipitaka,' when describing the First Council, this is due to its transferring new terms to older times. If Dr. Oldenberg speaks of a Dvi-pitaka[2] as the name of the canon before the third basket, that of the Abhidhamma, was admitted, this seems to me an impossible name, because at the time when the Abhidhamma was not yet recognised as a third part of the canon, the word pitaka had probably no existence as a technical term[3].
+
+We must always, I think, distinguish between the three portions of the canon, called the basket of the Suttas, the
+
+[1. Feer, Revue Critique, 1870, No. 24, p. 377.
+
+2. Introduction. pp. x, xii.
+
+3. Dr. Oldenberg informs me that pitaka occurs in the Kankisuttanta in the Magghima Nikaya (Turnour's MS., fol. the), but applied to the Veda. He also refers to the tipitakakaryas mentioned in the Western Cave inscriptions as compared with the Pankanekayaka in the square Asoka character inscriptions (Cunningham, Bharhut, pl. lvi, No. 52). In the Sutrakrid-anga of the Gainas, too, the term pidagam occurs (MS. Berol. fol. 77 a). He admils, however, that pitaka or tipitaka, as the technical name of the Buddhist canon, has not yet been met with in that canon itself, and defends Dvipitaka only as a convenient term.]
+
+p. xxxiii basket of Vinaya, and the basket of Abhidhamma, and the three subjects of Dhamma (sutta), Vinaya, and Abhidhamma, treated in these baskets. The subjects existed and were taught long before the three baskets were definitely arranged. Dhamma had originally a much wider meaning than Sutta-pitaka. It often means the whole teaching of Buddha; and even when it refers more particularly to the Sutta-pitaka, we know that the Dhamma there taught deals largely with Vinaya and Abhidhamma doctrines. Even the fact that at the First Council, according to the description given in the Kullavagga, the Vinaya and Dhamma only were rehearsed, though proving the absence at that time of the Abhidhamma, as a separate Pitaka, by no means excludes the subject of the Abhidhamma having been taught under the head of Dhamma. In the Mahakarunapundarika-sutra the doctrine of Buddha is divided into Dharma and Vinaya; the Abhidharma is not mentioned. But the same text knows of all the twelve Dharmapravakanani[1], the 1. Sutra; 2. Geya; 3. Vyakarana; 4. Gatha; 5. Udana; 6. Nidana; 7. Avadana; 8. Itivrittaka; 9. Gataka; 10. Vaipulya; 11. Adbhutadharma; 12. Upadesa; some of these being decidedly metaphysical.
+
+To my mind nothing shows so well the historical character both of the Kullavagga and of Buddhaghosa in the Introduction to his commentary on the Digha-nikaya, as that the former, in its account of the First Council, should know only of the Vinaya, as rehearsed by Upali, and the Dhamma, as rehearsed by Ananda, while the much later Buddhaghosa, in his account of the First Council[2], divides the Dhamma into two parts, and states that the second part, the Abhidhamma, was rehearsed after the first part, the Dhamma. Between the time of the Kullavagga and the time of Buddhaghosa the Abhidhamma must have assumed its recognised position by the side of Vinaya and Sutta. It must be left to further researches to determine, if possible,
+
+[1. See Academy, August 28, 1880, Division of Buddhist Scriptures.
+
+2. Oldenberg, Introduction, p. xii; Turnour, Journal of the Asiatic Society of Bengal, vi, p. 510 seq.]
+
+p. xxxiv the time when the name of pitaka was first used, and when Tipitaka was accepted as the title of the whole canon.
+
+Whenever we see such traces of growth, we feel that we are on historical ground, and in that sense Dr. Oldenberg's researches into the growth of the Vinaya, previous to the Second Council, deserve the highest credit. He shows, in opposition to other scholars, that the earliest elements of Vinaya must be looked for in the short Patimokkha rules, which were afterwards supplemented by explanations, by glosses and commentaries, and in that form answered for some time every practical purpose. Then followed a new generation who, not being satisfied, as it would seem, with these brief rules and comments, wished to know the occasion on which these rules had been originally promulgated. What we now call the Vibhanga, i.e. the first and second divisions of the Vinaya-pitaka, is a collection of the stories, illustrating the origin of each rule, of the rules themselves (the Patimokkha), and of the glosses and comments on these rules.
+
+The third and fourth books, the Mahavagga and Kullavagga, are looked upon as possibly of a slightly later date. They treat, in a similar manner as the Vibhanga, on the rules not included in that collection, and give a general picture of the outward life of the monks. While the Vibhanga deals chiefly with the original so-called paragika, sanghadisesa, and pakittiya offences, the Khandhaka, i.e. the Mahavagga and Kullavagga, treats of the so-called dukkata and thullakkaya crimes. The arrangement is the same, story, rule, and comment succeeding each other in regular sequence. If we follow the guidance of the Vinaya-pitaka, we should be able to distinguish the following steps in the growth of Buddhism before the Second Council of Vesali:
+
+Teaching of Buddha and his disciples (543/477 A.D. Buddha's death). Collection of Patimokkha rules (first code). Comment and glosses on these rules. Stories in illustration of these rules (vibhanga). Mahavagga and Kullavagga (Khandhaka).p. xxxv
+
+Council of Vesali for the repression of ten abuses (443/377 A.D.) Description of First and Second Councils in Kullavagga. The Kulavagga ascribes the settlement of the canon to the First Council, and does not even claim a revision of that canon for the Second Council. The Dipavamsa claims a revision of the canon by the 700 Arhats for the Second Council.
+
+## CHRONOLOGY
+
+In order to bring the Council of Vesali in connection with the chronology of the world, we must follow the Buddhist historians for another century. One hundred and eighteen years after the Council of Vesali they place the anointment of King Asoka, during whose reign a Third Council, under the presidency of Tissa Moggaliputta, took place at Pataliputta, the new capital adopted by that king, instead of Ragagaha and Vesali. This Council is chiefly known to us through the writings of the southern Buddhists (Dipavamsa, Mahavamsa, and Buddhaghosa), who belong to the school of Moggaliputta (Theravada or Vibhaggavada), which ruled supreme at Pataliputta, while Upagupta, the chief authority of the northern Buddhists, is altogether ignored in the Pali chronicles.
+
+Now it is well known that Asoka was the grandson of Kandagutta, and Kandagutta the contemporary of Alexander the Great. Here we see land, and I may refer to my History of Sanskrit Literature, published in 1859, for the process by which the storm-tossed ship of Indian chronology has been landed in the harbour of real historical chronology. We are told by the monks of the Mahavihara in Ceylon that Asoka was crowned, according to their computation, 146 + 18 years before the accession of Dutthagamani, 161 B.C., i.e. 325 B.C.; that between his coronation and his father's death four years had elapsed (329 B.C.); that his father Bindusara had reigned twenty-eight years[1] (357-329 B.C.), and Bindusara's father, Kandagutta,
+
+[1. Mahavamsa, p. 21.]
+
+p. xxxvi twenty-four years (381-357). As we know that Kandagutta, whom the Ceylonese place 381-357 B.C., was king of India after Alexander's conquest, it follows that Ceylonese chronology is wrong by more than half a century. For reasons stated in my History of Sanskrit Literature, I fix the exact fault in Ceylonese chronology as sixty-six years, assigning to Kandagutta the dates 315-291, instead of 381-357. This gives us 291-263 for Bindusara, 259 for Asoka's abhisheka; 259 + 118 = 377 for the Council of Vesali, and 377 + 100 = 477 for Buddha's death, instead of 543 B.C.[1]
+
+These dates are, of course, approximate only, and they depend on one or two points on which people may differ. But, with that reservation, I see no ground whatever for modifying the chronological system which I put forward more than twenty years ago. Professor Westergaard and Professor Kern, who have since suggested different dates for the death of Buddha, do not really differ from me in principle, but only in their choice of one or the other alternative, which I readily admit as possible, but not as more certain than my own. Professor Westergaard[2], for instance, fixes Buddha's death at 368 (370), instead of 477. This seems a wide difference, but it is so in appearance only.
+
+Following Justinus, who says that Sandrokyptos[3] had conquered the empire of India at the time when Seleucus laid the foundations of his own greatness, I had accepted 315[4], half-way between the murder of Porus and the taking of Babylon by Seleucus, as the probable beginning
+
+[1. According to Bigandet, Life of Gaudama, p. 361, the era of Buddha's death was introduced by Agatasatru, at the conclusion of the First Council, and began in the year 46 of the older Eetzana era (p. 12). See, however, Rhys Davids, Num. Orient. vi, p. 38. In the Karanda-vyuha, p. 96, a date is given as 300 after the Nirvana, 'tritiye varshasate gate mama parinirvritasya.' In the Asoka-avadana we read, mama nirvritim arabhya satavarshagata Upagupto nama bhikshur utpatsyati.
+
+2. Uber Buddha's Todesjahr (1860), 1862.
+
+3. The Greek name Sandrokyptus shows that the Pali corruption Kandagutta was not yet the recognised name of the king.
+
+4. Mr. Rhys Davids accepts 315 B.C. as the date when, after the murder of king Nanda, Kandragupta stept into the vacant throne, though he had begun to count his reign seven or eight years before. Buddhism, p. 22O.]
+
+p. xxxvii of Kandragupta's reign. Westergaard prefers 320 as a more likely date for Kandragupta, and therefore places the death of the last Nanda and the beginning of Asoka's royal pretensions 268. Here there is a difference between him and me of five years, which depends chiefly on the view we take as to the time when Seleucus really laid what Justinus calls the foundation of his future greatness. Secondly, Westergaard actually adopts the idea, at which I only hinted as possible, that the southern Buddhists made two Asokas out of one, and two Councils out of one. Trusting in the tradition that 118 years elapsed between Buddha's death and the Council under Asoka (at Pataliputra), and that the Council took place in the king's tenth year (as was the case with the imaginary Kalasoka's Council), he gets 268 - 10 = 258 as the date of the Council, and 368 or 370 as the date of Buddha's death[1].
+
+The two points on which Westergaard differs from me, seem to me questions which should be kept before our mind in dealing with early Buddhist history, but which, for the present at least, admit of no definite solution.
+
+The same remark seems to me to apply to the calculations of another eminent Sanskrit scholar, Professor Kern[2]. He lays great stress on the general untrustworthiness of Indian chronology, and I am the last to differ from him on that point. He then places the beginning of Kandragupta's reign in 322 B.C. Allowing twenty-four years to him and twenty-eight to his son Bindusara, he places the beginning of Asoka's reign in 270. Asoka's inscriptions would fall about 258. As Asoka reigned thirty-six or thirty-seven years, his death would fall in 234 or 233 B.C. Like Westergaard, Professor Kern too eliminates Kalasoka, as a kind of chronological Asoka, and the Council of Vaisali, and therefore places Buddha's death, according to the northern tradition, 100 or 110 years before Dharmasoka, i.e. 270 + 100 or + 110 = 370 or 380[3]; while, according to the southern
+
+[1. Westergaard. loc. cit. p. 128.
+
+2. Jaartelling der Zuidelijke Buddhisten, 1873.
+
+3. See Professor Kern's remark in Indian Antiquary, 1874, p. 79.]
+
+p. xxxviii tradition, that 118 years elapsed between Asoka's accession and Buddha's death, the Ceylonese monks would seem originally to have retained 270 + 118[1] = 388 B.C. as Buddha's Nirvana, a date which, as Professor Kern holds, happens to coincide with the date assigned to the death of Mahavira, the founder of the Gaina religion.
+
+Here we see again that the moot point is the beginning of Kandragupta's reign in accordance with the information supplied by Greek historians. Professor Kern places it in 322, Westergaard in 320, I myself in 315. That difference once granted, Dr. Kern's reasoning is the same as my own. According to the traditions which we follow, Buddha's death took place 100, 110, 118, or 228 years before Asoka. Hence Professor Westergaard arrives at 368 or 370 B.C., Professor Kern at 370 (380) or 388 B.C., I myself at 477 B.C. Every one of these dates is liable to certain objections, and if I prefer my own date, 477 B. C., it is simply because it seems to me liable to neither more nor less reservations than those of Professor Westergaard and Professor Kern, and because, so long as we always remember the grounds of our differences, namely, the beginning of Kandragupta's reign, and the additional century, every one of these dates furnishes a good hypothesis to work on, until we can arrive at greater certainty in the ancient chronology of India. To my mind all dates beyond Kandragupta are as yet purely tentative, resting far more on a chronological theory than on actual tradition; and though I do not doubt the historical chatacter of the Council of Vaisali, I look upon the date assigned to it, on the authority of the Dipavamsa and Mahavamsa, as, for the present, hypothetical only.
+
+[1. When Professor Kern states that the Mahavamsa (p. 22) places the Third Council 218 years after Buddha's death, this is not so. Asoka's abhisheka takes place in that year. The prophecy that a calamity would befall their religion, 118 years after the Second Council (Mahavamsa, p. 28), does not refer to the Council, but to Kandasoka's accession, 477 - 218 = 259 B.C.]
+
+p. xxxix
+
+## B.C
+
+557. Buddha born. 552. Bimbisara born. 537-485. Bimbisara, 5 years younger than Buddha, was 15 when crowned, 30 or 31 when he met Buddha in 522. 485-453. Agatasatru (4 &times; 8 years). 477. Buddha's death (485 - 8 = 477). 477. COUNCIL AT RAGAGRIHA under Kasyapa, Ananda, and Upali. 453-437. Udayibhadra (2 &times; 8 years). 437-429. { Anuruddhaka (8 years). Munda (at Pataliputra). 429-405. Nagadasaka (3 &times; 8 years). 405-387. Sisunaga (at Vaisali). 387-359. Kalasoka. 377. COUNCIL AT VAISALI, under Yasas and Revata, a disciple of Ananda (259 + 118 = 377). 359-337. Ten sons of Kalasoka (22 years). 337-315. Nine Nandas (22 years); the last, Dhanananda, killed by Kanakya. 315-291. Kandragupta (477 - 162 = 315; 3 &times; 8 years)[1]. 291-263. Bindusara. 263-259. Asoka, sub-king at Uggayini, as pretender--his brothers killed. 259. Asoka anointed at Pataliputra (477 - 218 = 259). 256. Asoka converted by Nigrodha (D. V. VI, 18). 256-253. Building of Viharas, Sthupas, &c. 255. Conversion of Tishya (M. V. p. 34). 253. Ordination of Mahendra (born 477 - 204 = 273). 251. Tishya and Sumitra die (D. V. VII, 32). 242. COUNCIL AT PATALIPUTRA (259 - 17 = 242; 477 - 236 = 271), under Tishya Maudgaliputra (477 - 236 = 241; D.V. VII, 37). 241. Mahendra to Ceylon. 222. Asoka died (259 - 37 = 222). 193. Mahendra died (D. V. XVII, 93). 161. Dutthagamani. 88-76. Vattagamani, canon reduced to writing.
+
+## A.D
+
+400. Dipavamsa. 420. Buddhaghosha, Pali commentaries. 459-477. Mahavamsa.
+
+[1. Westergaard, 320-296; Kern, 322-298.]
+
+p. xl
+
+Though the preceding table, embodying in the main the results at which I arrived in my History of Ancient Sanskrit Literature, still represents what I hold to be true or most probable with respect to Indian chronology, previous to the beginning of our era, yet I suppose I may be expected to say here a few words on the two latest attempts to fix the date of Buddha's death; the one by Mr. Rhys Davids in the Numismata Orientalia, Part VI, 1877, the other by Dr. Buhler in the Indian Antiquary, 1877 and 1878[1]. Mr. Rhys Davids, to whom we owe so much for the elucidation of the history of Buddha's religion, accepts Westergaard's date for the beginning of Kandragupta's reign, 320 B.C., instead of 322 (Kern), 315 (myself); and as he assigns (p. 41) to Bindusara 25 years instead of 28 (Mahavamsa, p. 21), he arrives at 268 as the year of Asoka's coronation[2]. He admits that the argument derived from the mention of the five foreign kings in one of Asoka's inscriptions, dated the twelfth year of his reign, is too precarious to enable us to fix the date of Asoka's reign more definitely, and though, in a general way, that inscription confirms the date assigned by nearly all scholars to Asoka in the middle of the third century B.C., yet there is nothing in it that Asoka might not have written in 247 quite as well as in 258-261. What chiefly distinguishes Mr. Rhys Davids' chronology from that of his predecessors is the shortness of the period between Asoka's coronation and Buddha's death. On the strength of an examination of the list of kings and the list of the so-called patriarchs, he reduces the traditional 218 years to 140 or 150, and thus arrives at 412 B.C. as the probable beginning of the Buddhist era.
+
+In this, however, I cannot follow him, but have to follow Dr. Buhler. As soon as I saw Dr. Buhler's first essay on the Three New Edicts of Asoka, I naturally felt delighted at the unexpected confirmation which he furnished of the date which I had assigned to Buddha's death, 477 B.C. And though I am quite aware of the
+
+[1. Three New Edicts of Asoka, Bombay, 1877; Second Notice, Bombay, 1878.
+
+2. Mr. Rhys Davids on p. 50 assigns the 35 years of Bindusara rightly to the Puranas, the 38 years to the Ceylon Chronicles.]
+
+p. xli danger of unexpected confirmations of one's own views, yet, after carefully weighing the objections raised by Mr. Rhys Davids and Professor Pischel against Dr. Buhler's arguments, I cannot think that they have shaken Dr. Buhler's position. I fully admit the difficulties in the phraseology of these inscriptions: but I ask, Who could have written these inscriptions, if not Asoka? And how, if written by Asoka, can the date which they contain mean anything but 256 years after Buddha's Nirvana? These points, however, have been argued in so masterly a manner by Dr. Buhler in his 'Second Notice,' that I should be afraid of weakening his case by adding anything of my own, and must refer my readers to his 'Second Notice.' Allowing that latitude which, owing to the doubtful readings of MSS., and the constant neglect of odd months, we must allow in the interpretation of Buddhist chronology, Asoka is the only king we know of who could have spoken of a thirty-fourth year since the beginning of his reign and since his conversion to Buddhism. And if he calls that year, say the very last of his reign (212 B.C.), 256 after the departure of the Master, we have a right to say that as early as Asoka's time, Buddha was believed to have died about 477 B.C. Whether the inscriptions have been accurately copied and rightly read is, however, a more serious question, and the doubts raised by Dr. Oldenberg (Mahavagga, p. xxxviii) make a new collation of the originals absolutely indispensable, before we can definitely accept Dr. Buhler's interpretation.
+
+I cannot share Dr. Buhler's opinion[1] as to the entire worthlessness of the Gaina chronology in confirming the date of Buddha's death. If the Svetambara Gainas place the death of Mahavira 470 before Vikramaditya, i.e. 56 B.C. + 470 = 526 B.C.,and the Digambaras 605, i.e. 78 A.D. deducted from 605 = 527 B.C., this so far confirms Dr. Buhler's and Dr. Jacobi's brilliant discovery that Mahavira was the same as Nigantha Nataputta, who died at Pava during Buddha's lifetime[2]. Most likely 527 is too early a date, while another
+
+[1. Three Edicts. p. 21; Second Notice. pp. 9, 10.
+
+2. See Jacobi, Kalpa-sutra of Bhadrabahu, and Oldenberg, Zeitschrift der D.M.G., XXXIV, p. 749.]
+
+p. xlii tradition fixing Mahavira's death 155 years before Kandragupta[1], 470 B.C., is too late. Yet they both show that the distance between Asoka (259-222 B.C.), the grandson of Kandragupta (315-291 B.C.), and the contemporaries of Buddha was by the Gainas also believed to be one of two rather than one century.
+
+When I saw that the date of Buddha's death, 477 B.C., which in my History of Ancient Sanskrit Literature (1859) I had myself tried to support by such arguments as were then accessible, had received so powerful a support by the discovery of the inscriptions of Sahasram, Rupnath, and Bairat, due to General Cunningham, who had himself always been an advocate of the date 477 B.C., and through their careful decipherment by Dr. Buhler, I lost no time in testing that date once more by the Dipavamsa, that Ceylonese chronicle having lately become accessible through Dr. Oldenberg's edition and translation[2]. And here I am able to say that, before having read Dr. Buhler's Second Notice, I arrived, though by a somewhat different way, at nearly the same conclusions as those so well worked out by Dr. Buhler in his restoration of the Episcopal Succession (theravali) of the Buddhists, and therefore feel convinced that, making all such allowances as the case requires, we know now as much of early Buddhist chronology as could be known at the time of Asoka's Council, 242 B.C.
+
+Taking the date of Buddha's death 477 B.C. for granted, I found that Upali, who rehearsed the Vinaya at the First Council, 477 B.C., had been in orders sixty years in the twenty-fourth year of Agatasatru, i.e. 461 B.C., which was the sixteenth year A.B. He must therefore[3] have been born in 541 B.C., and he died 447 B.C., i.e. thirty years A.D., at the age of 94. This is said to have been the sixth year of Udayi, and so it is, 453 - 6 = 447 B.C.
+
+In the year 461 B.C. Dasaka received orders from Upali, who was then 80 years of age; and when Dasaka had been
+
+[1. Oldenberg, loc. cit. p. 750.
+
+2. The Dipavamsa, an ancient Buddhist historical record. London, 1879.
+
+3. Assuming twenty to be the minimum age at which a man could be ordained.]
+
+p. xliii in orders forty-five years (Dipavamsa IV, 41), he ordained Saunaka. This would give us 461 - 45 = 416 B.C., while the tenth year of Nagadasa, 429 - 10, would give us 419 A.D. Later on the Dipavamsa (V, 78) allows an interval of forty years between the ordinations of Dasaka and Saunaka, which would bring the date of Saunaka's ordination to 421 B.C., instead of 419 or 416 B.C. Here there is a fault which must be noted. Dasaka died 461 - 64 = 397 A.D., which is called the eighth year of Sisunaga, and so it is 405 - 8 = 397 A.D.
+
+When Saunaka had been in orders forty years, i.e. 416 - 40 = 376, Kalasoka is said to have reigned a little over ten years, i.e. 387 - 11 = 376 A.D., and in that year Saunaka ordained Siggava. He died 416 - 66 = 350 A.D., which is called the sixth year of the Ten, while in reality it is the ninth, 359 - 6 = 353 A.D. If, however, we take 419 as the year of Saunaka's ordination, his death would fall 419 - 66 = 353 B.C.
+
+Siggava, when he had been in orders sixty-four years, ordained Tishya Maudgaliputra. This date 376 - 64 = 312 B.C. is called more than two years after Kandragupta's accession, and so it very nearly is, 315 - 2 = 313.
+
+Siggava died when he had been in orders seventy-six years, i.e. 376 - 76 = 300 A.D. This year is called the fourteenth year of Kandragupta, which it very nearly is, 315 - 14 = 301.
+
+When Tishya had been in orders sixty[1] years, he ordained Mahendra, 312 - 60 = 252 B.C. This is called six years after Asoka's coronation, 259 - 6 = 253, and so it very nearly is. He died 312 - 80 = 232 B.C., which is called the twenty-sixth year of Asoka, and so it very nearly is.
+
+[1. I take 60 (80), as given in Dipavamsa V, 95, 107, instead of 66 (86), given in Dipavamsa V. 94.]
+
+p. xliv
+
+## BUDDHIST PATRIARCHS
+
+{not all of the formatting could be reproduced in this table; all cells with three number are joined with a brace on the right in the original}
+
+Birth. Ordination. Ordination of successor. Death. Age. Patriarchate. Upali (Generally 20 years before ordination.) 527 461 447 94 30 (60) Dasaka 461 416 419 421 397 84 50 45 42 40 Saunaka " 416 419 421 376 379 381 350 353 86 44 (47) (40) Siggava " 376&frac12; 312&frac12; 300&frac12; 96 50 (52) (64) Tishya " 312&frac12; 253 233 100 68 (60) Mahendra 273 253 " 193 80 40 282 (284)
+
+If we test the dates of this table by the length of time assigned to each patriarchate, we find that Upali ruled thirty years, from Buddha's death, 477 to 447; Dasaka fifty years. To Saunaka forty-four years are assigned, instead of forty-seven, owing to a fault pointed out before; and to Siggava fifty-two years, or fifty-five[1] instead of fifty. Tishya's patriarchate is said to have lasted sixty-eight years, which agrees with previous statements.
+
+Lastly, the years of the death of the six patriarchs, as fixed according to the reigns of the kings of Magadha, agree extremely well.
+
+Upali died in the sixth year of Udayi, i.e. 453 - 6 = 447 B.C.
+
+Dasaka died in the eighth year of Sisunaga, i.e. 405 - 8 = 397 B.C.
+
+Saunaka died in the sixth year of the Ten, i.e. 359 - 6 = 353 B.C., showing again the difference of three years.
+
+[1. The combined patriarchates of Saunaka and Siggava are given as 99 by the Dipavamsa.]
+
+p. xlv
+
+Siggava died in the fourteenth year of Kandragupta, i.e. 315 - 14 = 301 B.C.
+
+Tishya died in the twenty-sixth or twenty-seventh year of Asoka, i.e. 259 - 27 = 233 B.C.
+
+This general and more than general agreement between dates taken from the history of the kings and the history of the patriarchs leaves on my mind a decided impression of a tradition which, though not strictly historical, in our sense of the word, represents at all events the result of such enquiries as could be made into the past ages of Buddhism at the time of Asoka. There are difficulties in that tradition which would certainly have been avoided, if the whole chronology had been simply made up: but there is no doubt a certain method too perceptible throughout, which warns us that we must not mistake a smooth chronology for solid history.
+
+## THE TITLE OF DHAMMAPADA
+
+The title of Dhammapada has been interpreted in various ways. It is an ambiguous word, and has been accepted as such by the Buddhists themselves. Dhamma has many meanings. Under one aspect it means religion, particularly the religion taught by Buddha, the law which every Buddhist should accept and observe. Under another aspect dhamma is virtue, or the realisation of the law.
+
+Pada also has many meanings. In the Abhidhanapadipika it is explained by place, protection, Nirvana, cause, word, thing, portion, foot, footstep.
+
+Hence dhammapada may mean 'footstep of religion,' and thus the title was first rendered by Gogerly, only that he used the plural instead of the singular, and called it 'The Footsteps of Religion,' while Spence Hardy still more freely called it 'The Paths of Religion.' It may be quite true, as pointed out by Childers, that pada by itself never means path. But it means footstep, and the footstep towards a thing is much the same as what we call the path to a thing. Thus we read, verse 21, 'appamado amatapadam,' earnestness is the step, i.e. the path that leads to immortality. p. xlvi Again, 'pamado makkuno padam' can hardly mean anything but that thoughtlessness is the path of death, is the path that leads to death. The commentator, too, rightly explains it here by amatasya adhigamupaya, the means of obtaining immortality, i.e. Nirvana, or simply by upayo, and even by maggo, the way. If we compare verses 92 and 93 of our text, and verses 254 and 255, we see that pada is used synonymously with gati, going. In the same manner dhammapada would mean the footstep or the footpath of virtue, i.e. the path that leads to virtue, and supply a very appropriate title for a collection of moral precepts. In verses 44 and 45 'path of virtue' seems to be the most appropriate meaning for dhammapada[1], and it is hardly possible to assign any other meaning to it in the following verse (Kundasutta, v. 6):
+
+Yo dhammapade sudesite Magge givati sannato satima, Anavagga-padani sevamano Tatiyam bhikkhum ahu maggagivim,
+
+'He who lives restrained and attentive in the way that has been well pointed out, in the path of the law, cultivating blameless words, such a Bhikkhu they call a Maggagivi (living in the way).'
+
+I therefore think that 'Path of Virtue,' or 'Footstep of the Law,' was the idea most prominent in the mind of those who originally framed the title of this collection of verses. It seems to me that Buddhaghosa also took the same view, for the verse which D'Alwis[2] quotes from the introduction of Buddhaghosa's commentary,--
+
+Sampatta-saddhammapado sattha dhammapadam subham Desesi,and which he translates, 'The Teacher who had reached the very depths (lit. bottom) of Saddhamma, preached this holy Dhammapada,'--lends itself far better to another translation, viz. 'The Teacher who had gained a firm
+
+[1. Cf. Dhammapada, v. 285, nibbanam sugatena desitam.
+
+2. Buddhist Nirvana, p. 62.]
+
+p. xlvii footing in the Good Law, showed (preached) the holy Path of the Law.'
+
+Gogerly, again, who may generally be taken as a faithful representative of the tradition of the Buddhists still preserved in Ceylon, translates the title by the 'Footsteps of Religion,' so that there can be little doubt that the priests of that island accept Dhammapada in the sense of 'Vestiges of Religion,' or, from a different point of view, 'The Path of Virtue.'
+
+M. L. Feer[1] takes a slightly different view, and assigning to pada the meaning of foot or base, he translates Dhammapada by Loi fondamentale, or Base de la Religion.
+
+But it cannot be denied that the title of Dhammapada was very soon understood in a different sense also, namely, as 'Sentences of Religion.' Pada means certainly a foot of a verse, a verse, or a line, and dhammapadam actually occurs in the sense of a 'religious sentence.' Thus we read in verse 102, 'Though a man recite a hundred Gathas made up of senseless words, one dhammapadam, i.e. one single word or line of the law, is better, which if a man hears, he becomes quiet.' But here we see at once the difficulty of translating the title of 'dhammapadam' by 'religious sentences.' Dhammapadam means one law verse, or wise saw, not many. Professor Fausboll, who in his excellent edition of the Dhammapada translated that title by 'a collection of verses on religion,' appeals to such passages as verses 44 and 102 in support of his interpretation. But in verse 42 dhammapadam sudesitam, even if it does not mean the path of the law, could never mean 'versus legis bene enarratos,' but only versum legis bene enarratum, as Dr. Fausboll himself renders ekam dhammapadam, in verse 102, by unus legis versus. Buddhaghosa, too, when he speaks of many law verses uses the plural, for instance[2], 'Be it known that the Gatha consists of the Dhammapadani, Theragatha, Therigatha, and those unmixed (detached) Gatha not comprehended in any of the above-named Suttanta.'
+
+[1. Revue Critique, 1870, p. 378.
+
+2. D'Alwis, Pali Grammar, p. 61.]
+
+p. xlviii
+
+The only way in which Dhammapada could be defended in the sense of 'Collection of Verses of the Law,' would be if we took it for an aggregate compound. But such aggregate compounds, in Sanskrit at least, are possible with numerals only; for instance, tribhuvanam, the three worlds; katuryugam, the four ages[1]. It might therefore be possible in Pali, too, to form such compounds as dasapadam, a collection of ten padas, a work consisting of ten padas, a decamerone, but it would in no wise follow that we could in that language attempt such a compound as Dhammapadam, in order to express a collection of law verses[2]. Mr. Beal[3] informs us that the Chinese seem to have taken Dhammapada in the sense of 'stanzas of law,' 'law texts,' or 'scripture texts.'
+
+It should be remembered, also, that the idea of representing life, and particularly the life of the faithful, as a path of duty or virtue leading to deliverance, (in Sanskrit dharmapatha,) is very familiar to Buddhists. The four great truths of their religion[4] consist in the recognition of the following principles: 1. that there is suffering; 2. that there is a cause of that suffering; 3. that such cause can be removed; 4. that there is a way of deliverance, viz. the doctrine of Buddha. This way is the ashtanga-marga, the eightfold way[5], taught by Buddha, and leading to Nirvana[6]. The faithful advances on that road, padat padam,
+
+[1. See M. M.'s Sanskrit Grammar, &sect; 519.
+
+2. Mr. D'Alwis' arguments (Buddhist Nirvana, pp. 63-67) in support of this view, viz. the dhammapada may be a collective term, do not seem to me to strengthen my own conjecture.
+
+3. Dhammapada from Chinese, p. 4.
+
+4. Spence Hardy, Manual, p. 496.
+
+5. Burnouf, Lotus, p. 520, 'Ajoutons, pour terminer ce que nous trouvons a dire sur le mot magga, quelque commentaire qu'on en donne d'ailleurs, que suivant une definition rapportee par Turnour, le magga renferme une sous-division que l'on nomme patipada, en sanscrit pratipad. Le magga, dit Tumour, est la voie qui conduit au Nibbana, la patipada, litteralement "la marche pas a pas, ou le degre," est la vie de rectitude qu'on doit suivre, quand on marche dans la voie du magga.'
+
+6. See Spence Hardy, Manual, p. 496. Should not katurvidha-dharmapada, mentioned on p. 497, be translated by 'the fourfold path of the Law?' It can hardly be the fourfold word of the Law.]
+
+p. xlix step by step, and it is therefore called patipada, lit. the step by step.
+
+If we make allowance for these ambiguities, inherent in the name of Dhammapada, we may well understand how the Buddhists themselves play with the word pada (see v. 45). Thus we read in Mr. Beal's translation of a Chinese version of the Pratimoksha[1]:
+
+'Let all those who desire such birth, Who now are living in the world, Guard and preselve these Precepts, as feet.'
+
+## TRANSLATION
+
+In translating the verses of the Dhammapada, I have followed the edition of the Pali text, published in 1855 by Dr. Fausboll, and I have derived great advantage from his Latin translation, his notes, and his copious extracts from Buddhaghosa's commentary. I have also consulted translations, either of the whole of the Dhammapada, or of portions of it, by Burnouf, Gogerly[2], Upham, Weber, and others. Though it will be seen that in many places my translation differs from those of my predecessors, I can only claim for myself the name of a very humble gleaner in this field of Pali literature. The greatest credit is due to Dr. Fausboll, whose editio princeps of the Dhammapada will mark for ever an important epoch in the history of Pali scholarship; and though later critics have been able to point out some mistakes, both in his text and in his translation, the value of their labours is not to be compared with that of the work accomplished single-handed by that eminent Danish scholar.
+
+In revising my translation, first published in 1870[3], for
+
+[1. Catena, p. 207.
+
+2. Several of the chapters have been translated by Mr. Gogerly, and have appeared in The Friend, vol. iv, 1840. (Spence Hardy, Eastern Monachism, p. 169.)
+
+3. Buddhaghosha's Parables, translated from Burmese by Captain T. Rogers, R. E. With an Introduction, containing Buddha's Dhammapada, translated from Pali by F. Max Muller. London, 1870.]
+
+p. l the Sacred Books of the East, I have been able to avail myself of 'Notes on Dhammapada,' published by Childers in the Journal of the Royal Asiatic Society (May, 1871), and of valuable hints as to the meaning of certain words and verses scattered about in the Pali Dictionary of that much regretted scholar, 1875. I have carefully weighed the remarks of Mr. James D'Alwis in his 'Buddhist Nirvana, a review of Max Muller's Dhammapada' (Colombo, 1871), and accepted some of his suggestions. Some very successful renderings of a number of verses by Mr. Rhys Davids in his ('Buddhism,' and a French translation, too, of the Dhammapada, published by Fernand Hu[1], have been consulted with advantage.
+
+It was hoped for a time that much assistance for a more accurate understanding of this work might be derived from a Chinese translation of the Dhammapada[2], of which Mr. S. Beal published an English translation in 1878. But this hope has not been entirely fulfilled. It was, no doubt, a discovery of great interest, when Mr. Beal announced that the text of the Dhammapada was not restricted to the southern Buddhists only, but that similar collections existed in the north, and had been translated into Chinese. It was equally important when Schiefner proved the existence of the same work in the sacred canon of the Tibetans. But as yet neither a Chinese nor a Tibetan translation of the Pali Dhammapada has been rendered accessible to us by translations of these translations into English or German, and what we have received instead, cannot make up for what we had hoped for.
+
+The state of the case is this. There are, as Mr. Beal informs us, four principal copies of what may be called Dhammapada in Chinese, the first dating from the Wu dynasty, about the beginning of the third century A.D. This translation, called Fa-kheu-king, is the work of a
+
+[1. Le Dhammapada avec introduction et notes par Fernand Hu, suivi du Sutra en 42 articles, traduit du Tibetain, par Leon Feer. Paris, 1878.
+
+2. Texts from the Buddhist Canon, commonly known as Dhammapada, translated from the Chinese by Samuel Beal. London, 1878.]
+
+p. li Shaman Wei-ki-lan and others. Its title means 'the Sutra of Law verses,' kheu being explained by gatha, a verse, a word which we shall meet with again in the Tibetan title, Gathasangraha. In the preface the Chinese translator states that the Shamans in after ages copied from the canonical scriptures various gathas, some of four lines and some of six, and attached to each set of verses a title, according to the subject therein explained. This work of extracting and collecting is ascribed to Tsun-ke-Fa-kieou, i.e. Arya-Dharmatrata, the author of the Samyuktabhidharma-sastra and other works, and the uncle of Vasumitra. If this Vasumitra was the patriarch who took a prominent part in the Council under Kanishka, Dharmatrata's collection would belong to the first century B.C.; but this is, as yet, very doubtful.
+
+In the preface to the Fa-kheu-king we are told that the original, which consisted of 500 verses, was brought from India by Wai-ki-lan in 223 A.D., and that it was translated into Chinese with the help of another Indian called Tsiang-sin. After the translation was finished, thirteen sections were added, making up the whole to 752 verses, 14,580 words, and 39 chapters[1].
+
+If the Chinese translation is compared with the Pali text, it appears that the two agree from the 9th to the 35th chapter (with the exception of the 33rd), so far as their subjects are concerned, though the Chinese has in these chapters 79 verses more than the Pali. But the Chinese translation has eight additional chapters in the beginning (viz. On Intemperance, Inciting to Wisdom; The Sravaka, Simple Faith, Observance of Duty, Reflection, Loving-kindness, Conversation), and four at the end (viz. Nirvana, Birth and Death, Profit of Religion, and Good Fortune), and one between the 24th and 25th chapter of the Pali text (viz. Advantageous Seivice), all of which are absent in our Pali texts. This, the most ancient
+
+[1. Beal, Dhammapada, p. 30. The real number of verses, however, is 760. In the Pali text, too, there are five verses more than stated in the Index; see M.M., Buddhaghosha's Parables, p. ix, note; Beal, loc. cit. p. 11. note.]
+
+p. lii Chinese translation of Dharmatrata's work, has not been rendered into English by Mr. Beal, but he assures us that it is a faithful reproduction of the original. The book which he has chosen for translation is the Fa-kheu-pi-u, i.e. parables connected with the Dhammapada, and translated into Chinese by two Shamans of the western Tsin dynasty (A.D. 265-313). These parables are meant to illustrate the teaching of the verses, like the parables of Buddhaghosa, but they are not the same parables, nor do they illustrate all the verses.
+
+A third Chinese version is called Kuh-yan-king, i.e. the Sutra of the Dawn (avadana?), consisting of seven volumes. Its author was Dharmatrata, its translator Ku-fo-nien (Buddhasmriti), about 410 A.D. The MS. of the work is said to have been broght from India by a Shaman Sanghabhadanga of Kipin (Cabul), about 345 A.D. It is a much more extensive work in 33 chapters, the last being, as in the Pali text, on the Brahmana.
+
+A fourth translation dates from the Sung dynasty (800 or 900 A.D.), and in it, too, the authorship of the text is ascribed to Arya-Dharmatrata.
+
+A Tibetan translation of a Dhammapada was discovered by Schiefner in the 28th volume of the Sutras, in the collection called Udanavarga. It contains 33 chapters, and more than 1000 verses, of which about one-fourth only can be traced in the Pali text. The same collection is found also in the Tangur, vol. 71 of the Sutras, foll. 1-53, followed by a commentary, the Udanavarga-vivarana by the Akarya Pragnavarman. Unfortunately Schiefner's intention of publishing a translation of it (Melanges Asiatiques, tom. viii. p. 560) has been frustrated by his death. All that he gives us in his last paper is the Tibetan text with translation of another shorter collection, the Gathasangraha by Vasubandhu, equally published in the 72nd volume of the Sutras in the Tangur, and accompanied by a commentary.
+
+p. liii
+
+## SPELLING OF BUDDHIST TERMS
+
+I had on a former occasion[1] pleaded so strongly in favour of retaining, as much as possible, the original Sanskrit forms of Pali Buddhist terms, that I feel bound to confess openly that I hold this opinion no longer, or, at all events, that I see it is hopeless to expect that Pali scholars will accept my proposal. My arguments were these: 'Most of the technical terms employed by Buddhist writers come from Sanskrit; and in the eyes of the philologist the various forms which they have assumed in Pali, in Burmese, in Tibetan, in Chinese, in Mongolian, are only so many corruptions of the same original forms. Everything, therefore, would seem to be in favour of retaining the Sanskrit forms throughout, and of writing, for instance, Nirvana instead of the Pali Nibbana, the Burmese Niban or Nepbhan, the Siamese Niruphan, the Chinese Nipan. The only hope, in fact, that writers on Buddhism will ever arrive at a uniform and generally intelligible phraseology seems to lie in their agreeing to use throughout the Sanskrit terms in their original form, instead of the various local disguises and disfigurements which they present in Ceylon, Burmah, Siam, Tibet, China, and Mongolia.'
+
+I fully admitted that many Buddhist words have assumed such a strongly marked local or national character in the different countries and in the different languages in which the religion of Buddha has found a new home, that to translate them back into Sanskrit might seem as affected, nay, prove in certain cases as misleading, as if, in speaking of priests and kings, we were to speak of presbyters and cynings. The rule by which I meant mainly to be guided was to use the Sanskrit forms as much as possible; in fact, everywhere except where it seemed affected to do so. I therefore wrote Buddhaghosha instead of the Pali Buddhaghosa, because the name of that famous theologian, 'the Voice of Buddha,' seemed to lose its significance if turned
+
+[1. Introduction to Buddhaghosha's Parables, 1870. p. l.]
+
+p. liv into Buddhaghosa. But I was well aware what may be said on the other side. The name of Buddhaghosa, 'Voice of Buddha,' was given him after he had been converted from Brahmanism to Buddhism, and it was given to him by people to whom the Pali word ghosa conveyed the same meaning as ghosha does to us. On the other hand, I retained the Pali Dhammapada instead of Dharmapada, simply because, as the title of a Pali book, it has become so familiar that to speak of it as Dharmapada seemed like speaking of another work. We are accustomed to speak of Samanas instead of Sramanas, for even in the days of Alexander's conquest, the Sanskrit word Sramana had assumed the prakritized or vulgar form which we find in Pali, and which alone could have been rendered by the later Greek writers (first by Alexander Polyhistor, 80-60 B.C.) by {Greek: samanaioi}[1]. As a Buddhist term, the Pali form Samana has so entirely supplanted that of Sramana that, even in the Dhammapada (v. 388), we find an etymology of Samana as derived from sam, 'to be quiet,' and not from sram, 'to toil.' But if we speak of Samanas, we ought also to speak of Bahmanas instead of Brahmanas, for this word had been replaced by bahmana at so early a time, that in the Dhammapada it is derived from a root vah, 'to remove, to separate, to cleanse[2].'
+
+I still believe that it would be best if writers on Buddhist literature and religion were to adopt Sanskrit throughout as the lingua franca. For an accurate understanding of the original meaning of most of the technical terms of Buddhism a knowledge of their Sanskrit form is indispensable; and nothing is lost, while much would be gained, if, even in the treating of southern Buddhism, we were to
+
+[1. See Lassen, Indische Alterthumskunde, vol. ii. p. 700, note. That Lassen is right in taking the {Greek: Sarmanai}, mentioned by Megasthenes, for Brahmanic, not for Buddhist ascetics, might be proved also by their dress. Dresses made of the bark of trees are not strictly Buddhistic.
+
+2. See Dhammapada, v. 388; Bastian. Volker des ostlichen Asien, vol iii. p. 412: 'Ein buddhistischer Monch erklarte mir, dass die Brahmanen ihren Namen fuhrten, als Leute, die ihre Sunden abgespult hatten.' See also Lalita-Vistara, p. 551, line 1; p. 553, line 7.]
+
+p. lv speak of the town of Sravasti instead of Savatthi in Pali, Sevet in Sinhalese; of Tripitaka, 'the three baskets,' instead of Tipitaka in Pali, Tunpitaka in Sinhalese; of Arthakatha, 'commentary,' instead of Atthakatha in Pali, Atuwava in Sinhalese; and therefore also of Dharmapada, 'the path of virtue,' instead of Dhammapada.
+
+But inclinations are stronger than arguments. Pali scholars prefer their Pali terms, and I cannot blame them for it. Mr. D'Alwis (Buddhist Nirvana, p. 68) says: 'It will be seen how very difficult it is to follow the rule rigidly. We are, therefore, inclined to believe that in translating Pali works, at least, much inconvenience may not be felt by the retention of the forms of the language in which the Buddhist doctrines were originally delivered.' For the sake of uniformity, therefore, I have given up my former plan. I use the Pali forms when I quote from Pali, but I still prefer the Sanskrit forms, not only when I quote from Sanskrit Buddhist books, but also when I have to speak of Buddhism in general. I speak of Nirvana, dharma, and bhikshu, rather than of Nibbana, dhamma, and bhikkhu, when discussing the meaning of these words without special reference to southern Buddhism; but when treating of the literature and religion of the Theravada school I must so far yield to the arguments of Pali scholars as to admit that it is but fair to use their language when speaking of their opinions.
+
+p. 3
+
+# Dhammapada
+
+## CHAPTER I
+
+## THE TWIN-VERSES
+
+1. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.
+
+[1. Dharma, though clear in its meaning, is difficult to translate. It has different meanings in different systems of philosophy, and its peculiar application in the phraseology of Buddhism has been fully elucidated by Burnouf, Introduction a l'Histoire du Buddhisme, p. 41 seq. He writes: 'Je traduis ordinairement ce terme par condition, d'autres fois par lois, mais aucune de ces traductions n'est parfaitement complete; il faut entendre par dharma ce qui fait qu'une chose est ce qu'elle est, ce qui constitue sa nature propre, comme l'a bien montre Lassen, a l'occasion de la celebre formule, "You dharma hetuprabhava."' Etymologically the Latin for-ma expresses the same general idea which was expressed by dhar-ma. See also Burnouf, Lotus de la bonne Loi, p. 524. Fausboll translates: 'Naturae a mente principium ducunt,' which shows that he rightly understood dharma in the Buddhist sense. Gogerly (see Spence Hardy, Eastern Monachism, p. 28) translates: 'Mind precedes action,' which, if not wrong, is at all events wrongly expressed; while Professor Weber's rendering, 'Die Pflichten aus dem Herz folgern,' is quite inadmissible. D'Alwis (Buddhist Nirwana, p. 70 seq.), following the commentary, proposes to give a more technical interpretation of this verse, viz. 'Mind is the leader or all its faculties. Mind is the chief (of all its faculties). The very mind is made up of those (faculties). If one speaks or acts with a polluted mind, then affliction follows him as the wheel follows the feet of the bearer (the bullock).' To me this technical acceptation seems not applicable here, where we have to deal with the simplest moral precepts, and not with psychological niceties of Buddhist philosophy. It should be stated, however, that Childers, who first (s.v. dhamma) approved of my translation, seems afterwards to have changed his opinion. On p. 120 of his excellent Pali Dictionary he said: 'Three of the five khandhas, viz. vedana, sanna, and sankhara, are collectively termed dhamma (plur.), "mental faculties," and in the first verse of Dhammapada the commentator takes the word dhamma to mean those three faculties. But this interpretation appears forced and unnatural, and I look upon Dr. Max Muller's translation, "All that we are is the result of what we have thought," as the best possible rendering of the spirit of the phrase mano pubbangama dhamma.' But on p. 577 the same scholar writes: 'Of the four mental khandhas the superiority of vinnana is strongly asserted in the first verse of Dhammapada, "The mental faculties (vedana, sanna, and sankhara) are dominated by Mind," they are governed by Mind, they are made up of Mind." That this is the true meaning of the passage I am now convinced; see D'Alwis, Nirwana, pp. 70-75.' I do not deny that this may have been the traditional interpretation, at all events since the days of Buddhaghosa, but the very legend quoted by Buddhaghosa in illustration of this verse shows that its simpler and purely moral interpretation was likewise supported by tradition, and I therefore adhere to my original translation.]
+
+p. 4
+
+2. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.
+
+3. 'He abused me, he beat me, he defeated me, he robbed me,'--in those who harbour such thoughts hatred will never cease.
+
+4. 'He abused me, he beat me, he defeated me, he robbed me,'--in those who do not harbour such thoughts hatred will cease.
+
+[2. See Beal, Dhammapada, p. 169.
+
+3. On akkokkhi, see Kakkayana VI, 4, 17. D'Alwis, Pali Grammar, p. 38 note, 'When akkokkhi means "he abused," it is derived from krus, not from krudh.' See Senart, Kakkayana, I. c.]
+
+p. 5
+
+5. For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.
+
+6. The world does not know that we must all come to an end here;--but those who know it, their quarrels cease at once.
+
+7. He who lives looking for pleasures only, his senses uncontrolled, immoderate in his food, idle, and weak, Mara (the tempter) will certainly overthrow him, as the wind throws down a weak tree.
+
+8. He who lives without looking for pleasures, his senses well controlled, moderate in his food, faithful and strong, him Mara will certainly not overthrow, any more than the wind throws down a rocky mountain.
+
+9. He who wishes to put on the yellow dress without having cleansed himself from sin, who disregards temperance and truth, is unworthy of the yellow dress.
+
+[6. Pare is explained by 'fools,' but it has that meaning by implication only. It is {Greek: oi polloi}, cf. Vinaya, ed. Oldenberg, vol. i., p. 5, l. 4. Yamamase, a 1 pers. plur. imp. Atm., but really a Let in Pali. See Fausboll, Five Gatakas, p. 38.
+
+7. Mara must be taken in the Buddhist sense of 'tempter,' or 'evil spirit.' See Burnouf, Introduction, p. 76: 'Mara est le demon de l'amour, du peche et de la mort; c'est le tentateur et l'ennemi de Buddha.' As to the definite meaning of virya, see Burnouf, Lotus, p. 548.
+
+In the Buddhistical Sanskrit, kusida, 'idle,' is the exact counterpart of the Pali kusita; see Burnouf, Lotus, p. 548. On the change of Sanskrit d into Pali t, see Kuhn, Beitrage zur Pali Grammatik, p. 40; Weber, Ind. Studien, XIII, p. 135.
+
+9. The dark yellow dress, the Kasava or Kashaya, is the distinctive garment of the Buddhist priests. See Vishnu-sutra LXIII, 36. The play on the words anikkasavo kasavam, or in Sanskrit anishkashayah kashayam, cannot be rendered in English. Kashaya means 'impurity,' nish-kashaya, 'free from impurity,' anish-kashaya, 'not free from impurity,' while kashaya is the name of the yellowish Buddhist garment. The pun is evidently a favourite one, for, as Fausboll shows, it occurs also in the Mahabharata, XII, 568: Anishkashaye kashayam ihartham iti viddhi tam, Dharmadhvaganam mundanam vrittyartham iti me matih. 'Know that this yellow-coloured garment on a man who is not free from impurity, serves only for the purpose or cupidity; my opinion is, that it is meant to supply the means of living to those shavelings, who carry their virtue or the dharma like a flag.'
+
+(I read vrittyartham, according to the Bombay edition, instead of kritartham, the reading of the Calcutta edition.)
+
+On the exact colour of the dress, see Bishop Bigandet, The Life or Legend or Gaudama, the Budha of the Burmese, Rangoon, 1866, p. 504. Cf. Gataka, vol. ii. p. 198.]
+
+p. 6
+
+10. But he who has cleansed himself from sin, is well grounded in all virtues, and regards also temperance and truth, he is indeed worthy of the yellow dress.
+
+11. They who imagine truth in untruth, and see untruth in truth, never arrive at truth, but follow vain desires.
+
+12. They who know truth in truth, and untruth in untruth, arrive at truth, and follow true desires.
+
+13. As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.
+
+14. As rain does not break through a well-thatched house, passion will not break through a well-reflecting mind.
+
+15. The evil-doer mourns in this world, and he
+
+[10. With regard to sila, 'virtue,' see Burnouf, Lotus, p. 547.
+
+11, 12. Sara, which I have translated by 'truth,' has many meanings in Sanskrit. It means the sap of a thing, then essence or reality; in a metaphysical sense, the highest reality; in a moral sense, truth. It is impossible in a translation to do more than indicate the meaning of such words, and in order to understand them fully, we must know not only their definition, but their history. See Beal, Dhammapada, p. 64.
+
+13. See Beal, Dhammapada, p. 65.
+
+15. Kilittha is klishta, a participle of klis. It means literally, what is spoilt. The abstract noun klesa, 'evil or sin,' is contantly employed in Budddist works; see Burnouf, Lotus, p. 443.]
+
+p. 7
+
+mourns in the next; he mourns in both. He mourns and suffers when he sees the evil of his own work.
+
+16. The virtuous man delights in this world, and he delights in the next; he delights in both. He delights and rejoices, when he sees the purity of his own work.
+
+17. The evil-doer suffers in this world, and he suffers in the next; he suffers in both. He suffers when he thinks of the evil he has done; he suffers more when going on the evil path.
+
+18. The virtuous man is happy in this world, and he is happy in the next; he is happy in both. He is happy when he thinks of the good he has done; he is still more happy when going on the good path.
+
+19. The thoughtless man, even if he can recite a large portion (of the law), but is not a doer of it, has no share in the priesthood, but is like a cowherd counting the cows of others.
+
+[16. Like klishta in the preceding verse, visuddhi in the present has a technical meaning. One of Buddhaghosa's most famous works is called Visuddhi-magga. See Burnouf, Lotus, p. 844; Beal, Dhammapada, p. 67.
+
+17, 18. 'The evil path and the good path' are technical expressions for the descending and ascending scale of worlds through which all beings have to travel upward or downward, according to their deeds; see Bigandet; Life of Gaudama, p. 5, note 4, and p. 449; Burnouf, Introduction, p. 599; Lotus, p. 865, l. 7; l. 11. Fausboll translates 'heaven and hell,' which comes to the same; cf. vv.,.
+
+19. In taking sahitam in the sense of samhitam or samhita, I follow the commentator who says, Tepitakassa Buddhavakanass' etam namam, but I cannot find another passage where the Tipitaka, or any portion of it, is called Sahita. Samhita in has a different meaning. The fact that some followers of Buddha were allowed to learn short portions only of the sacred writings by heart, and to repeat them, while others had to learn a larger collection, is shown by the story of Kakkhupala, p. 3. of Mahakala, p. 26, &c. See Childers, s.v. sahita.]
+
+p. 8
+
+20. The follower of the law, even if he can recite only a small portion (of the law), but, having forsaken passion and hatred and foolishness, possesses true knowledge and serenity of mind, he, caring for nothing in this world or that to come, has indeed a share in the priesthood.
+
+[20. Samanna, which I have rendered by 'priesthood,' expresses all that belongs to, or constitutes a real Samana or Sramana, this being the Buddhist name corresponding to the Brahmana, or priest, of the orthodox Hindus. Buddha himself is frequently called the Good Samana. Fausboll takes the abstract word samanna as corresponding to the Sanskrit samanya, 'community,' but Weber has well shown that it ought to be taken as representing sramanya. He might have quoted the Samanna-phala-sutta, of which Burnouf has given such interesting details in his Lotus, p. 449 seq. Fausboll also, in his notes on v. 332, rightly explains samannata by sramanyata. See Childers, s.v. samanna.
+
+Anupadiyano, which I have translated by 'caring for nothing,' has a technical meaning. It is the negative of the fourth Nidana, the so-called Upadana, which Koppen has well explained by Anhanglichkeit, 'taking to the world, loving the world.' Koppen, Die Religion des Buddha, p. 610. Cf..]
+
+p. 9
+
+## CHAPTER II
+
+ON EARNESTNESS[1].
+
+21. Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death. Those who are in earnest do not die, those who are thoughtless are as if dead already.
+
+22. Those who are advanced in earnestness, having understood this clearly, delight in earnestness, and rejoice in the knowledge of the Ariyas (the elect).
+
+23. These wise people, meditative, steady, always possessed of strong powers, attain to Nirvana, the highest happiness.
+
+[1. There is nothing in the tenth section of the Dhammapada, as translated by Beal, corresponding to the verses of this chapter.
+
+21. Apramada, which Fausboll translates by 'vigilantia,' Gogerly by 'religion,' Childers by 'diligence,' expresses literally the absence of that giddiness or thoughtlessness which characterizes the state of mind of worldly people. It is the first entering into oneself, and hence all virtues are said to have their root in apramada. (You keki kusala dhamma sabbe te appamadamulaka.) I have translated it by 'earnestness,' sometimes by 'reflection.' 'Immortality,' amrita, is explained by Buddhaghosa as Nirvana. Amrita is used, no doubt, as a synonym of Nirvana, but this very fact shows how many different conceptions entered from the very first into the Nirvana of the Buddhists. See Childers, s.v. nibbana, p. 269.
+
+This verse, as recited to Asoka; occurs in the Dipavamsa VI, 53, and in the Mahavamsa, p. 25. See also Sanatsugatiya, translated by Telang, Sacred Books of the East, vol. viii. p. 138.
+
+22. The Ariyas, the noble or elect, are those who have entered on the path that leads to Nirvana; see Koppen, p. 396. Their knowledge and general status is minutely described; see Koppen, p. 436.
+
+23. Childers, s.v. nibbana, thinks that nibbana here and in many other places means Arhatship.]
+
+p. 10
+
+24. If an earnest person has roused himself, if he is not forgetful, if his deeds are pure, if he acts with consideration, if he restrains himself, and lives according to law,--then his glory will increase.
+
+25. By rousing himself, by earnestness, by restraint and control, the wise man may make for himself an island which no flood can overwhelm.
+
+26. Fools follow after vanity, men of evil wisdom. The wise man keeps earnestness as his best jewel.
+
+27. Follow not after vanity, nor after the enjoyment of love and lust! He who is earnest and meditative, obtains ample joy.
+
+28. When the learned man drives away vanity by earnestness, he, the wise, climbing the terraced heights of wisdom, looks down upon the fools, serene he looks upon the toiling crowd, as one that stands on a mountain looks down upon them that stand upon the plain.
+
+29. Earnest among the thoughtless, awake among the sleepers, the wise man advances like a racer, leaving behind the hack.
+
+30. By earnestness did Maghavan (Indra) rise to the lordship of the gods. People praise earnestness; thoughtlessness is always blamed.
+
+31. A Bhikshu (mendicant) who delights in earnestness, who looks with fear on thoughtlessness,
+
+[25. Childers explains this island again as the state of an Arhat (arahatta-phalam).
+
+28. Cf. Childers, Dictionary, Preface, p. xiv. See Vinaya, ed. Oldenberg, vol. i. p. 5, s.f.
+
+31. Instead of saham, which Dr. Fausboll translates by 'vincens,' Dr. Weber by 'conquering,' I think we ought to read dahan, 'burning,' which was evidently the reading adopted by Buddhaghosa. Mr. R. C. Childers, whom I requested to see whether the MS. at the India Office gives saham or daham, writes that the reading daham is as clear as possible in that MS. The fetters are meant for the senses. See.]
+
+p. 11
+
+moves about like fire, burning all his fetters, small or large.
+
+32. A Bhikshu (mendicant) who delights in reflection, who looks with fear on thoughtlessness, cannot fall away (from his perfect state)--he is close upon Nirvana.
+
+[1. See Childers, Notes, p. 5.]
+
+p. 12
+
+## CHAPTER III
+
+## THOUGHT
+
+33. As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought, which is difficult to guard, difficult to hold back.
+
+34. As a fish taken from his watery home and thrown on dry ground, our thought trembles all over in order to escape the dominion of Mara (the tempter).
+
+35. It is good to tame the mind, which is difficult to hold in and flighty, rushing wherever it lists; a tamed mind brings happiness.
+
+36. Let the wise man guard his thoughts, for they are difficult to perceive, very artful, and they rush wherever they list: thoughts well guarded bring happiness.
+
+37. Those who bridle their mind which travels far, moves about alone, is without a body, and hides in the chamber (of the heart), will be free from the bonds of Mara (the tempter).
+
+38. If a man's thoughts are unsteady, if he does not know the true law, if his peace of mind is troubled, his knowledge will never be perfect.
+
+39. If a man's thoughts are not dissipated, if
+
+[33. Cf. Gataka, vol. i. p. 400.
+
+34. On Mara, see.
+
+35-39. Cf. Gataka, vol. i. pp. 312, 400.
+
+39. Fausboll traces anavassuta, 'dissipated,' back to the Sanskrit root syai, 'to become rigid;' but the participle of that root would be sita, not syuta. Professor Weber suggests that anavassuta stands for the Sanskrit anavasruta, which he translates unbefleckt, 'unspotted.' If avasruta were the right word; it might be taken in the sense of 'not fallen off, not fallen away,' but it could not mean 'unspotted;' cf. dhairyam no 'susruvat, 'our firmness ran away.' I have little doubt, however, that avassuta represents the Sanskrit avasruta, and is derived from the root sru, here used in its technical sense, peculiar to the Buddhist literature, and so well explained by Burnouf in his Appendix XIV (Lotus, p. 820). He shows that, according to Hemakandra and the Gina-alankara, asravakshaya, Pali asavasamkhaya is counted as the sixth abhigna, wherever six of these intellectual powers are mentioned, instead of five. The Chinese translate the term in their Own Chinese fashion by 'stillationis finis,' but Burnouf claims for it the definite sense of destruction of faults or vices. He quotes from the Lalita-vistara (Adhyaya XXII, ed. Rajendra Lal Mittra, p. 448) the words uttered by Buddha when he arrived at his complete Buddhahood:-- Sushka asrava na punah sravanti, 'The vices are dried up, they will not flow again;' and he shows that the Pali Dictionary, the Abhidhanappadipika, explains asava simply by kama, 'love, pleasure of the senses.' In the Mahaparinibbana-sutta, three classes of asava are distinguished, the kamasava, the bhavasava, and the aviggasava. See also Burnouf, Lotus, p. 665; Childers, s.v. asavo.
+
+That sru means 'to run,' and is in fact a merely dialectic variety of sru, has been proved by Burnouf, while Boehtlingk thinks the substitution of s for s is a mistake. Asrava therefore, or asrava, meant originally 'the running out towards objects of the senses' (cf. sanga, alara, &c.), and had nothing to do with asrava, 'a running, a sore,' Atharva-veda I, 2, 4. This conception of the original purport of a + sru or ava-sru is confirmed by a statement of Colebrooke's, who, when treating of the Gainas, writes (Miscellaneous Essays, I, 382); 'Asrava is that which directs the embodied spirit (asravayati purusham) towards external objects. It is the occupation and employment (vritti or pravritti) of the senses or organs on sensible objects. Through the means of the senses it, affects the embodied spirit with the sentiment of taction, colour, smell, and taste. Or it is the association or connection of body with right and wrong deeds. It comprises all the karmas, for they (asravayanti) pervade, influence, and attend the doer, following him or attaching to him. It is a misdirection (mithya-pravritti) of the organs, for it is vain, a cause of disappointment, rendering the organs of sense and sensible objects subservient to fruition. Samvara is that which stops (samvrinoti) the course of the foregoing, or closes up the door or passage to it, and consists in self-command or restraint of organs internal and external, embracing all means of self-control and subjection of the senses, calming and subduing them.'
+
+For a full account of the asravas, see Lalita-vistara, ed. Calc. pp. 445 and 552, where Kshinasrava is given as a name of Buddha. Asrava occurs in Apastamba's Dharma-sutras II, 5, 9, where the commentator explains it by objects of the senses, by which the soul is made to run out. It is better, however, to take asrava here, too, as the act of running out, the affections, appetites, passions.]
+
+p. 13
+
+his mind is not perplexed, if he has ceased to think of good or evil, then there is no fear for him while he is watchful.
+
+p. 14
+
+40. Knowing that this body is (fragile) like a jar, and making this thought firm like a fortress, one should attack Mara (the tempter) with the weapon of knowledge, one should watch him when conquered, and should never rest.
+
+41. Before long, alas! this body will lie on the earth, despised, without understanding, like a useless log.
+
+42. Whatever a hater may do to a hater, or
+
+[40. Anivesana has no doubt a technical meaning, and may signify, one who has left his house, his family and friends, to become a monk. A monk shall not return to his home, but travel about; he shall be anivesana, 'homeless,' anagara, 'houseless.' But I doubt whether this can be the meaning of anivesana here, as the sentence, let him be an anchorite, would come in too abruptly. I translate it therefore in a more general sense, let him not return or turn away from the battle, let him watch Mara, even after he is vanquished, let him keep up a constant fight against the adversary, without being attached to anything or anybody.]
+
+p. 15
+
+an enemy to an enemy, a wrongly-directed mind will do us greater mischief.
+
+43. Not a mother, not a father will do so much, nor any other relative; a well-directed mind will do us greater service.
+
+[43. See Beal, Dhammapada, p. 73.]
+
+p. 16
+
+## CHAPTER IV
+
+FLOWERS[1].
+
+44. Who shall overcome this earth, and the world of Yama (the lord of the departed), and the world of the gods? Who shall find out the plainly shown path of virtue, as a clever man finds out the (right) flower?
+
+45. The disciple will overcome the earth, and the world of Yama, and the world of the gods. The disciple will find out the plainly shown path of virtue, as a clever man finds out the (right) flower.
+
+[1. See Beal, Dhammapada, p. 75.
+
+44, 45. If I differ from the translation of Fausboll and Weber, it is because the commentary takes the two verbs, vigessati and pakessati, to mean in the end the same thing, i.e. sakkhi-karissati, 'he will perceive.' I have not ventured to take vigessate for viganissati, though it should be remembered that the overcoming of the earth and of the worlds below and above, as here alluded to, is meant to be achieved by means of knowledge. Pakessati, 'he will gather' (cf. vi-ki, Indische Spruche, 4560), means also, like 'to gather' in English, 'he will perceive or understand,' and the dhammapada, or 'path of virtue,' is distinctly explained by Buddhaghosa as consisting of the thirty-seven states or stations which lead to Bodhi. (See Burnouf, Lotus, p. 430; Hardy, Manual, p. 497.) Dhammapada might, no doubt, mean also 'a law-verse,' and sudesita, 'well taught,' and this double meaning may be intentional here as elsewhere. Buddha himself is called Marga-darsaka and Marga-desika (cf. Lal. Vist. p. 551). There is a curions similarity between these verses and verses 6540-41, and 9939 of the Santi-parva: Pushpaniva vikinvantam anyatragatamanasam, Anavapteshu kameshu mrityur abhyeti manavam. 'Death approaches man like one who is gathering flowers, and whose mind is turned elsewhere, before his desires have been fulfilled.' Suptam vyaghram mahaugho va mrityur adaya gakkhati, Sankinvanakam evainam kamanam avitriptikam. 'As a stream (carries off) a sleeping tiger, death carries off this man who is gathering flowers, and who is not satiated in his pleasures.'
+
+This last verse, particularly, seems to me clearly a translation from Pali, and the kam of sankinvanakam looks as if put in metri causa.]
+
+p. 17
+
+46. He who knows that this body is like froth, and has learnt that it is as unsubstantial as a mirage, will break the flower-pointed arrow of Mara, and never see the king of death.
+
+47. Death carries off a man who is gathering flowers and whose mind is distracted, as a flood carries off a sleeping village.
+
+48. Death subdues a man who is gathering flowers, and whose mind is distracted, before he is satiated in his pleasures.
+
+49. As the bee collects nectar and departs without injuring the flower, or its colour or scent, so let a sage dwell in his village.
+
+50. Not the perversities of others, not their sins
+
+[46. The flower-arrows of Mara, the tempter, are borrowed from Kama, the Hindu god of love. For a similar expression see Lalita-vistara, ed. Calc. p. 40, l. 20, mayamarikisadrisa vidyutphenopamas kapalah. It is on account of this parallel passage that I prefer to translate mariki by 'mirage,' and not by 'sunbeam,' as Fausboll, or by 'solar atom,' as Weber proposes. The expression, 'he will never see the king of death,' is supposed to mean Arhatship by Childers, s.v. nibbana, p. 270.
+
+47. See Thiessen, Die Legende von Kisagotami, p. 9.
+
+48. Antaka, 'death,' is given as an explanation of Mara in the Amarakosha and Abhidhanappadipika (cf. Fausboll, p. 210).
+
+49. See Beal, Catena, p. 159, where vv. 49 and 50 are ascribed to Wessabhu, i.e. Visvabhu. See also Der Weise und der Thor, p. 134.]
+
+p. 18
+
+of commission or omission, but his own misdeeds and negligences should a sage take notice of.
+
+51. Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.
+
+52. But, like a beautiful flower, full of colour and full of scent, are the fine and fruitful words of him who acts accordingly.
+
+53. As many kinds of wreaths can be made from a heap of flowers, so many good things may be achieved by a mortal when once he is born.
+
+54. The scent of flowers does not travel against the wind, nor (that of) sandal-wood, or of Tagara and Mallika flowers; but the odour of good people travels even against the wind; a good man pervades every place.
+
+55. Sandal-wood or Tagara, a lotus-flower, or a Vassiki, among these sorts of perfumes, the perfume of virtue is unsurpassed.
+
+56. Mean is the scent that comes from Tagara and sandal-wood;--the perfume of those who possess virtue rises up to the gods as the highest.
+
+57. Of the people who possess these virtues, who live without thoughtlessness, and who are emancipated
+
+[51., 'For they say, and do not.'
+
+54. Tagara, a plant from which a scented powder is made. Mallaka or mallika, according to Benfey, is an oil vessel. Hence tagaramallika was supposed to mean a bottle holding aromatic powder, or oil made of the Tagara. Mallika, however, is given by Dr. Eitel (Handbook of Chinese Buddhism) as the name of a flower now called Casturi (musk) on account of its rich odour, and Dr. Morris informs me that he has found mallika in Pali as a name of jasmine. See also Childers, s.v.; Notes, p. 6; and Beal, Dhammapada, p. 76.]
+
+p. 19
+
+through true knowledge, Mara, the tempter, never finds the way.
+
+58., 59. As on a heap of rubbish cast upon the highway the lily will grow full of sweet perfume and delight, thus the disciple of the truly enlightened Buddha shines forth by his knowledge among those who are like rubbish, among the people that walk in darkness.
+
+[58, 59. Cf. Beal, Dhammapada, p. 76.]
+
+p. 20
+
+## CHAPTER V
+
+## THE FOOL
+
+60. Long is the night to him who is awake; long is a mile to him who is tired; long is life to the foolish who do not know the true law.
+
+61. If a traveller does not meet with one who is his better, or his equal, let him firmly keep to his solitary journey; there is no companionship with a fool.
+
+62. 'These sons belong to me, and this wealth belongs to me,' with such thoughts a fool is tormented. He himself does not belong to himself; how much less sons and wealth?
+
+63. The fool who knows his foolishness, is wise at least so far. But a fool who thinks himself wise, he is called a fool indeed.
+
+64. If a fool be associated with a wise man even all his life, he will perceive the truth as little as a spoon perceives the taste of soup.
+
+65. If an intelligent man be associated for one minute only with a wise man, he will soon perceive the truth, as the tongue perceives the taste of soup.
+
+66. Fools of little understanding have themselves
+
+[60. 'Life,' samsara, is the constant revolution of birth and death which goes on for ever until the knowledge of the true law or the true doctrine of Buddha enables a man to free himself from samsara, and to enter into Nirvana. See Buddhaghosha's Parables, Parable XIX, p. 134.
+
+61. Cf..
+
+63. Cf. Beal, Dhammapada, p. 77.
+
+65. Cf. Beal, Dhammapada, p. 78.]
+
+p. 21
+
+for their greatest enemies, for they do evil deeds which must bear bitter fruits.
+
+67. That deed is not well done of which a man must repent, and the reward of which he receives crying and with a tearful face.
+
+68. No, that deed is well done of which a man does not repent, and the reward of which he receives gladly and cheerfully.
+
+69. As long as the evil deed done does not bear fruit, the fool thinks it is like honey; but when it ripens, then the fool suffers grief.
+
+70. Let a fool month after month eat his food (like an ascetic) with the tip of a blade of Kusa grass, yet he is not worth the sixteenth particle of those who have well weighed the law.
+
+71. An evil deed, like newly-drawn milk, does not turn (suddenly); smouldering, like fire covered by ashes, it follows the fool.
+
+[67. See Beal, l.c. p. 78.
+
+69. Taken from the Samyutta-nikaya, where, however, we read thananhi instead of madhuva; see Feer, Comptes Rendus, 1871, p. 64.
+
+70. The commentator clearly takes sankhata in the sense of sankhyata, 'reckoned,' for he explains it by natadhamma, tulitadhamma. The eating with the tip of Kusa grass has reference to the fastings performed by the Brahmans, but disapproved of, except as a moderate discipline, by the followers of Buddha. This verse seems to interrupt the continuity of the other verses which treat of the reward of evil deeds, or of the slow but sure ripening of every sinful act. See Childers, s.v. sankhato.
+
+71. I am not at all certain of the simile, unless mukkati, as applied to milk, can be used in the sense of changing or turning sour. In Manu IV, 172, where a similar sentence occurs, the commentators are equally doubtful: Nadharmas karito loke sadyah phalati gaur iva, 'for an evil act committed in the world does not bear fruit at once, like a cow;' or 'like the earth (in due season);' or 'like milk.' See Childers, Notes, p. 6.]
+
+p. 22
+
+72. And when the evil deed, after it has become known, brings sorrow to the fool, then it destroys his bright lot, nay, it cleaves his head.
+
+73. Let the fool wish for a false reputation, for precedence among the Bhikshus, for lordship in the convents, for worship among other people!
+
+74. 'May both the layman and he who has left the world think that this is done by me; may they be subject to me in everything which is to be done or is not to be done,' thus is the mind of the fool, and his desire and pride increase.
+
+75. 'One is the road that leads to wealth, another the road that leads to Nirvana;' if the Bhikshu, the disciple of Buddha, has learnt this, he will not yearn for honour, he will strive after separation from the world.
+
+[72. I take nattam for gnapitam, the causative of gnatam, for which in Sanskrit, too, we have the form without i, gnaptam. This gnaptam, 'made known, revealed,' stands in opppsition to the khanna, 'covered, hid,' of the preceding verse. Sukkamsa, which Fausboll explains by suklamsa, has probably a more technical and special meaning. Childers traces nattam to the Vedic gnatram, 'knowledge.' Fausboll refers to Gataka, vol. i. p. 445, v. 118.
+
+75. Viveka, which in Sanskrit means chiefly understanding, has with the Buddhists the more technical meaning of separation, whether separation from the world and retirement to the solitude of the forest (kaya-viveka), or separalion from idle thoughts (kitta-viveka), or the highest separation and freedom (Nirvana).]
+
+p. 23
+
+## CHAPTER VI
+
+THE WISE MAN (PANDITA).
+
+76. If you see an intelligent man who tells you where true treasures are to be found, who shows what is to be avoided, and administers reproofs, follow that wise man; it will be better, not worse, for those who follow him.
+
+77. Let him admonish, let him teach, let him forbid what is improper!--he will be beloved of the good, by the bad he will be hated.
+
+78. Do not have evil-doers for friends, do not have low people for friends: have virtuous people for friends, have for friends the best of men.
+
+79. He who drinks in the law lives happily with a serene mind: the sage rejoices always in the law, as preached by the elect (Ariyas).
+
+80. Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.
+
+[78. It is hardly possible to take mitte kalyane in the technical sense of kalyana-mitra, 'ein geistlicher Rath,' a spiritual guide. Burnouf (Introd. p. 284) shows that in the technical sense kalyana-mitra was widely spread in the Buddhist world.
+
+79. Ariya, 'elect, venerable,' is explained by the commentator as referring to Buddha and other teachers.
+
+80. See verses and, the latter being a mere repetition of our verse. The nettikas, to judge from the commentary and from the general purport of the verse, are not simply water-carriers, but builders of canals and aqueducts, who force the water to go where it would not go by itself. The Chinese translator says, 'the pilot manages his ship.' See Beal, l.c. p. 79.]
+
+p. 24
+
+81. As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.
+
+82. Wise people, after they have listened to the laws, become serene, like a deep, smooth, and still lake.
+
+83. Good people walk on whatever befall, the good do not prattle, longing for pleasure; whether touched by happiness or sorrow wise people never appear elated or depressed.
+
+84. If, whether for his own sake, or for the sake of others, a man wishes neither for a son, nor for wealth, nor for lordship, and if he does not wish for his own success by unfair means, then he is good, wise, and virtuous.
+
+85. Few are there among men who arrive at the other shore (become Arhats); the other people here run up and down the shore.
+
+[83. The first line is very doubtful. I have adopted, in my translation, a suggestion of Mr. Childers, who writes, 'I think it will be necessary to take sabbattha in the sense of "everywhere," or "under every condition;" pankakhandadibhedesu, sabbadhammesu, says Buddhaghosha. I do not think we need assume that B. means the word vigahanti to be a synonym of vaganti. I would rather take the whole sentence together as a gloss upon the word vaganti:--vagantiti arahattananena apakaddhanta khandaragam vigahanti; vaganti means that, ridding themselves of lust by the wisdom which Arhatship confers, they cast it away.' I am inclined to think the line means 'the righteous walk on (unmoved) in all the conditions of life.' Ninda, pasamsa, sukha, dukkha are four of the eight lokadhammas, or earthly conditions; the remaining lokadhammas are labba, alabha, yasa, ayasa.
+
+In, passata, 'by a man who sees,' means 'by a man who sees clearly or truly.' ln the same manner vrag may mean, not simply 'to walk,' but 'to walk properly,' or may be used synonymously with pravrag.
+
+85. 'The other shore' is meant for Nirvana, 'this shore' for common life. On reaching Nirvana, the dominion of death is overcome. The commentator supplies taritva, 'having crossed,' in order to explain the accusative makkudheyyam. Possibly param essanti should here be taken as one word, in the sense of overcoming.]
+
+p. 25
+
+86. But those who, when the law has been well preached to them, follow the law, will pass across the dominion of death, however difficult to overcome.
+
+87., 88. A wise man should leave the dark state (of ordinary life), and follow the bright state (of the Bhikshu). After going from his home to a homeless state, he should in his retirement look for enjoyment where there seemed to be no enjoyment. Leaving all pleasures behind, and calling nothing his own, the wise man should purge himself from all the troubles of the mind.
+
+89. Those whose mind is well grounded in the (seven) elements of knowledge, who without clinging
+
+[87, 88. Dark and bright are meant for bad and good; cf., and. Leaving one's home is the same as becoming a mendicant, without a home or family, an anagara, or anchorite. A man in that state of viveka, or retirement (see, note), sees, that where before there seemed to be no pleasure there real pleasure is to be found, or vice versa. A similar idea is expressed in. See Burnouf, Lotus, p. 474, where he speaks of 'Le plaisir de la satisfaction, ne de la distinction.'
+
+The five troubles or evils of the mind are passion, anger, ignorance, arrogance, pride; see Burnouf, Lotus, pp. 360, 443. As to pariyodapeyya, see, and Lotus, pp. 523, 528; as to akinkano, see Mahabh. XII, 6568, 1240.
+
+89. The elements of knowledge are the seven Sambodhvangas, on which see Burnouf, Lotus, p. 796. D'Alwis explains them as the thirty-seven Bodhipakkhiya-dhamma. Khinasava, which I have translated by 'they whose frailties have been conquered,' may also be taken in a more metaphysical sense, as explained in the note to. The same applies to the other terms occurring in this verse, such as adana, anupadaya, &c. Dr. Fausboll seems inclined to take asava in this passage, and in the other passages where it occurs, as the Pali representative of asraya. But asraya, in Buddhist phraseology, means rather the five organs of sense with manas, 'the soul,' and these are kept distinct from the asavas, 'the inclinations, the appetites, passions, or vices.' The commentary on the Abhidharma, when speaking of the Yogakaras, says, 'En reunissant ensemble les receptacles (asr ya), les choses recues (asrita) et les supports (alambana), qui sont chacun composes de six termes, on a dix-huit termes qu'on appelle "Dhatus" ou contenants. La collection des six receptacles, ce sont les organes de la vue, de l'ouie, de l'odorat, du gout, du toucher, et le "manas" (ou l'organe du coeur), qui est le dernier. La collection des six choses recues, c'est la connaissance produite par la vue et par les autres sens jusqu'au "manas" inclusivement. La collection des six supports, ce sont la forme et les autres attributs sensibles jusqu'au "Dharma" (la loi ou l'etre) inclusivement.' See Burnouf, Introduction, p. 449.
+
+Parinibbuta is again a technical term, the Sanskrit parinivrita meaning 'freed from all worldly fetters,' like vimukta. See Burnouf, Introduction, p. 590. See Childers, s.v. nibbana, p. 270, and Notes on Dhammapada, p. 3; and D'Alwis, Buddhist Nirvana, p. 75.]
+
+p. 26
+
+to anything, rejoice in freedom from attachment, whose appetites have been conquered, and who are full of light, are free (even) in this world.
+
+p. 27
+
+## CHAPTER VII
+
+THE VENERABLE (ARHAT).
+
+90. There is no suffering for him who has finished his journey, and abandoned grief, who has freed himself on all sides, and thrown off all fetters.
+
+91. They depart with their thoughts well-collected, they are not happy in their abode; like swans who have left their lake, they leave their house and home.
+
+92. Men who have no riches, who live on recognised food, who have perceived void and unconditioned freedom (Nirvana), their path is difficult to understand, like that of birds in the air.
+
+[91. Satimanto, Sanskrit smrimantah, 'possessed of memory,' but here used in the technical sense of sati, the first of the Bodhyangas. See Burnouf, Introduction, p. 797. Clough translates it by 'intense thought,' and this is the original meaning of smar, even in Sanskrit. See Lectures on the Science of Language, vol, ii. p. 332.
+
+Uyyunganti, which Buddhaghosa explains by 'they exert themselves,' seems to me to signify in this place 'they depart,' i.e. they leave their family, and embrace an ascetic life. See note to. See also Rhys Davids, Mahaparinibbana-sutta, Sacred Books of the East, vol. xi..
+
+92. Sunnato and animitto are adjectives belonging to vimokho, one of the many names of Nirvana, or, according to Childers, s.v. nibbana, p, 270, Arhatship; see Burnouf, Introduction, pp. 442, 462, on sunya. The Sanskrit expression sunyatanimittapranihitam occurs in L'enfant egare, 5 a, l. 4. Nimitta is cause in the most general sense, i.e, what causes existence. The commentator explains it chiefly in a moral sense: Ragadinimittabhavena animittam, tehi ka vimuttan ti animitto vimokho, i.e. owing to the absence of passion and other causes, without causation; because freed from these causes, therefore it is called freedom without causation. See Childers, Pali Dictionary, p. 270, col. 2, line 1.
+
+The simile is intended to compare the ways of those who have obtained spiritual freedom to the flight of birds, it being difficult to understand how the birds move on without putting their feet on anything. This, at least, is the explanation of the commentator; The same metaphor occurs Mahabh. XII, 6763. Childers translates, 'leaving no more trace of existence than a bird in the air.']
+
+p. 28
+
+93. He whose appetites are stilled, who is not absorbed in enjoyment, who has perceived void and unconditioned freedom (Nirvana), his path is difficult to understand, like that of birds in the air.
+
+94. The gods even envy him whose senses, like horses well broken in by the driver, have been subdued, who is free from pride, and free from appetites.
+
+95. Such a one who does his duty is tolerant like the earth, like Indra's bolt; he is like a lake without mud; no new births are in store for him.
+
+96. His thought is quiet, quiet are his word and deed, when he has obtained freedom by true knowledge, when he has thus become a quiet man.
+
+[95. Without the hints given by the commentator, we should probably take the three similes of this verse in their natural sense, as illustrating the imperturbable state of an Arahanta, or venerable person. The earth is always represented as an emblem of patience; the bolt of Indra, if taken in its technical sense, as the bolt of a gate, might likewise suggest the idea of firmness; while the lake is a constant representative of serenity and purity. The commentator, however, suggests that what is meant is, that the earth, though flowers are cast on it, does not feel pleasure, nor the bolt of Indra displeasure, although less savoury things are thrown upon it; and that in like manner a wise person is indifferent to honour and dishonour.
+
+96. That this very natural threefold division, thought, word, and deed, the trividha-dvara or the three doors of the Buddhists (Hardy, Manual, p. 494), was not peculiar to the Buddhists or unknown to the Brahmans, has been proved against Dr. Weber by Professor Koppen in his 'Religion des Buddha,' I, p. 445. He particularly called attention to Manu XII, 4-8; and he might have added Mahabh. XII, 4059, 6512, 6549, 6554; XIII, 5677, &c. Dr. Weber has himself afterwards brought forward a passage from the Atharva-veda, VI, 96, 3 (yak kakshusha manasa yak ka vaka uparima), which, however, has a different meaning. A better one was quoted by him from the Taitt. Ar. X, 1, 12 (yan me manasa, vaka, karmana va dushkritam kritam). Similar expressions have been shown to exist in the Zend-avesta, and among the Manichaeans (Lassen, Indische Alterthumskunde, III, p. 414; see also Boehtlingk's Dictionary, s.v. kaya, and Childers, s.v. kayo). There was no ground, therefore, for supposing that this formula had found its way into the Christian liturgy from Persia, for, as Professor Cowell remarks (Journal of Philology, vol. vii, p. 215), Greek writers, such as Plato, employ very similar expressions, e.g. Protag. p. 348, 30, {Greek: pros apan ergon kai logon kai dianohma}. In fact, the opposition between words and deeds occurs in almost every writer, from Homer downwards; and the further distinction between thoughts and words is clearly implied even in such expressions as, 'they say in their heart.' That the idea of sin committed by thought was not a new idea, even to the Jews, may be seen from, 'the thought of foolishness is sin.' In the Apastamba-sutras, lately edited by Professor Buhler, we find the expression, atho yatkinka manasa vaka kakshusha va sankalpayan dhyayaty ahabhivipasyati va tathaiva tad bhavatityupadisanti, 'they say that whatever a Brahman intending with his mind, voice, or eye, thinks, says, or looks, that will be.' This is clearly a very different division, and it is the same which is intended in the passage from the Atharva-veda, quoted above. In the mischief done by the eye, we have, perhaps, the first indication of the evil eye. (Mahabh. XII, 3417. See Dhammapada,.)
+
+On the technical meaning of tadi, see Childers, s.v. D'Alwis (p. 78) has evidently received the right interpretation, but has not understood it. Madrisa also is used very much like tadrisa, and from it mariso, a venerable person, in Sanskrit marsha.]
+
+p. 29
+
+97. The man who is free from credulity, but knows the uncreated, who has cut all ties, removed all temptations, renounced all desires, he is the greatest of men.
+
+p. 30
+
+98. In a hamlet or in a forest, in the deep water or on the dry land, wherever venerable persons (Arhanta) dwell, that place is delightful.
+
+99. Forests are delightful; where the world finds no delight, there the passionless will find delight, for they look not for pleasures.
+
+p. 31
+
+## CHAPTER VIII
+
+## THE THOUSANDS
+
+100. Even though a speech be a thousand (of words), but made up of senseless words, one word of sense is better, which if a man hears, he becomes quiet.
+
+101. Even though a Gatha (poem) be a thousand (of words), but made up of senseless words, one word of a Gatha is better, which if a man hears, he becomes quiet.
+
+102. Though a man recite a hundred Gathas made up of senseless words, one word of the law is better, which if a man hears, he becomes quiet.
+
+103. If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.
+
+104., 105. One's own self conquered is better than all other people; not even a god, a Gandharva, not Mara with Brahman could change into defeat the
+
+[100. This Sahasravarga, or Chapter of the Thousands, is quoted by that name in the Mahavastu (Minayeff, Melanges Asiatiques, VI, p. 583): Tesham Bhagavan gatilanam Dharmapadeshu sahasravargam bhashati: 'Sahasram api vakanam anarthapadasamhitanam, ekarthavati sreya yam srutva upasamyati. Sahasram api gathanam anarthapadasamhitanam, ekarthavati sreya yam srutva upasamyati.' (MS. R. A. S. Lond.) Here the Pali text seems decidedly more original and perfect.
+
+104. Gitam, according to the commentator, stands for gito (lingavipallaso, i.e. viparyasa); see also Senart in Journal Asiatique, 1880, p. 500.
+
+The Devas (gods), Gandharvas (fairies), and other fanciful beings of the Brahmanic religion, such as the Nagas, Sarpas, Garudas, &c., were allowed to continue in the traditional language of the people who had embraced Buddhism. See the pertinent remarks of Burnouf, Introduction, pp. 134 seq., 184. On Mara, the tempter, see v. 7. Sastram Aiyar, On the Gaina Religion, p. xx, says: 'Moreover as it is declared in the Gaina Vedas that all the gods worshipped by the various Hindu sects, viz. Siva, Brahma, Vishnu, Ganapati, Subramaniyan, and others, were devoted adherents of the above-mentioned Tirthankaras, the Gainas therefore do not consider them as unworthy of their worship; but as they are servants of Arugan, they consider them to be deities of their system, and accordingly perform certain pugas in honour of them, and worship them also.' The case is more doubtful with orthodox Buddhists. 'Orthodox Buddhists,' as Mr. D'Alwis writes (Attanagalu-vansa, p. 55), 'do not consider the worship of the Devas as being sanctioned by him who disclaimed for himself and all the Devas any power over man's soul. Yet the Buddhists are everywhere idol-worshippers. Buddhism, however, acknowledges the existence of some of the Hindu deities, and from the various friendly offices which those Devas are said to have rendered to Gotama, Buddhists evince a respect for their idols.' See also Buddhaghosha's Parables, p. 162.]
+
+p. 32
+
+victory of a man who has vanquished himself, and always lives under restraint.
+
+106. If a man for a hundred years sacrifice month after month with a thousand, and if he but for one moment pay homage to a man whose soul is grounded (in true knowledge), better is that homage than sacrifice for a hundred years.
+
+107. If a man for a hundred years worship Agni (fire) in the forest, and if he but for one moment pay homage to a man whose soul is grounded (in true knowledge), better is that homage than sacrifice for a hundred years.
+
+108. Whatever a man sacrifice in this world as an offering or as an oblation for a whole year in order to gain merit, the whole of it is not worth a quarter (a farthing); reverence shown to the righteous is better.
+
+p. 33
+
+109. He who always greets and constantly reveres the aged, four things will increase to him, viz. life, beauty, happiness, power.
+
+110. But he who lives a hundred years, vicious and unrestrained, a life of one day is better if a man is virtuous and reflecting.
+
+111. And he who lives a hundred years, ignorant and unrestrained, a life of one day is better if a man is wise and reflecting.
+
+112. And he who lives a hundred years, idle and weak, a life of one day is better if a man has attained firm strength.
+
+113. And he who lives a hundred years, not seeing beginning and end, a life of one day is better if a man sees beginning and end.
+
+114. And he who lives a hundred years, not seeing the immortal place, a life of one day is better if a man sees the immortal place.
+
+115. And he who lives a hundred years, not seeing the highest law, a life of one day is better if a man sees the highest law.
+
+[109. Dr. Fausboll, in a most important note, called attention to the fact that the same verse, with slight variations, occurs in Manu. We there read, II, 121: Abhivadanasilasya nityam vriddhopasevinah, Katvari sampravardhante ayur vidya yaso balam. Here the four things are, life, knowledge, glory, power.
+
+In the Apastamba-sutras, I, 2, 5, 15, the reward promised for the same virtue is svargam ayus ka, 'heaven and long life.' It seems, therefore, as if the original idea of this verse came from the Brahmans, and was afterwards adopted by the Buddhists. How largely it spread is shown by Dr. Fausboll from the Asiatic Researches, XX, p. 259, where the same verse of the Dhammapada is mentioned as being in use among the Buddhists of Siam.
+
+112. On kusito, see note to.]
+
+p. 34
+
+Chapter IX.
+
+Evil.
+
+116. If a man would hasten towards the good, he should keep his thought away from evil; if a man does what is good slothfully, his mind delights in evil.
+
+117. If a man commits a sin, let him not do it again; let him not delight in sin: pain is the outcome of evil.
+
+118. If a man does what is good, let him do it again; let him delight in it: happiness is the outcome of good.
+
+119. Even an evil-doer sees happiness as long as his evil deed has not ripened; but when his evil deed has ripened, then does the evil-doer see evil.
+
+120. Even a good man sees evil days, as long as his good deed has not ripened; but when his good deed has ripened, then does the good man see happy days.
+
+121. Let no man think lightly of evil, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the fool becomes full of evil, even if he gather it little by little.
+
+122. Let no man think lightly of good, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the wise man becomes full of good, even if he gather it little by little.
+
+123. Let a man avoid evil deeds, as a merchant, if he has few companions and carries much wealth,
+
+p. 35
+
+avoids a dangerous road; as a man who loves life avoids poison.
+
+124. He who has no wound on his hand, may touch poison with his hand; poison does not affect one who has no wound; nor is there evil for one who does not commit evil.
+
+125. If a man offend a harmless, pure, and innocent person, the evil falls back upon that fool, like light dust thrown up against the wind.
+
+126. Some people are born again; evil-doers go to hell; righteous people go to heaven; those who are free from all worldly desires attain Nirvana.
+
+127. Not in the sky, not in the midst of the sea, not if we enter into the clefts of the mountains, is there known a spot in the whole world where death could not overcome (the mortal).
+
+128. Not in the sky, not in the midst of the sea, not if we enter into the clefts of the mountains, is there known a spot in the whole world where death could not overcome (the mortal).
+
+[125. Cf.; Indische Spruche, 1582; Kathasaritsagara, 49, 222.
+
+126. For a description of hell and its long, yet not endless sufferings, see Buddhaghosha's Parables, p. 132. The pleasures of heaven, too, are frequently described in these Parables and elsewhere. Buddha himself enjoyed these pleasures of heaven, before he was born for the last time. It is probably when good and evil deeds are equally balanced, that men are born again as human beings; this, at least, is the opinion of the Gainas. Cf. Chintamani, ed. H. Bower, Introd. p. xv.
+
+127. Cf., 'For there is nothing covered that shall not be revealed;' and.]
+
+p. 36
+
+## CHAPTER X
+
+## PUNISHMENT
+
+129. All men tremble at punishment, all men fear death; remember that you are like unto them, and do not kill, nor cause slaughter.
+
+130. All men tremble at punishment, all men love life; remember that you art like unto them, and do not kill, nor cause slaughter.
+
+131. He who seeking his own happiness punishes or kills beings who also long for happiness, will not find happiness after death.
+
+[129. One feels tempted, no doubt, to take upama in the sense of 'the nearest (der Nachste), the neighbour,' and to translate, 'having made oneself one's neighbour,' i.e. loving one's neighbour as oneself. But as upamam, with a short a, is the correct accusative of upama, we must translate, 'having made oneself the likeness, the image of others, having placed oneself in the place of others.' This is an expression which occurs frequently in Sanskrit; cf. Hitopadesa I, 11: Prana yathatmano 'bhishta bhutanam api te tatha, Atmaupamyena bhuteshu dayam kurvanti sadhavah. 'As life is dear to oneself, it is dear also to other living beings: by comparing oneself with others, good people bestow pity on all beings.'
+
+See also Hit. I, 12; Ram. V, 23, 5, atmanam upamam kritva sveshu dareshu ramyatam, 'making oneself a likeness, i.e. putting oneself in the position of other people, it is right to love none but one's own wife.' Dr. Fausboll has called attention to similar passages in the Mahabharata, XIII, 5569 seq.
+
+130. Cf..
+
+131. Dr. Fausboll points out the striking similarity between this verse and two verses occurring in Manu and the Mahabharata:-- Manu V, 45: Yo 'himsakani bhutani hinasty atmasukhekkhaya, Sa givams ka mritas kaiva na kvakit sukham edhate. Mahabharata XIII, 5568: Ahimsakani bhutani dandena vinihanti yah, Atmanah sukham ikkhan sa pretya naiva sukhi bhavet. If it were not for ahimsakani, in which Manu and the Mahabharata agree, I should say that the verses in both were Sanskrit modifications of the Pali original. The verse in the Mahabharata presupposes the verse of the Dhammapada.]
+
+p. 37
+
+132. He who seeking his own happiness does not punish or kill beings who also long for happiness, will find happiness after death.
+
+133. Do not speak harshly to anybody; those who are spoken to will answer you in the same way. Angry speech is painful, blows for blows will touch you.
+
+134. If, like a shattered metal plate (gong), you utter not, then you have reached Nirvana; contention is not known to you.
+
+135. As a cowherd with his staff drives his cows into the stable, so do Age and Death drive the life of men.
+
+136. A fool does not know when he commits his evil deeds: but the wicked man burns by his own deeds, as if burnt by fire.
+
+137. He who inflicts pain on innocent and harmless persons, will soon come to one of these ten states:
+
+[133. See Mahabharata XII, 4056.
+
+134. See Childers, s.v. nibbana, p. 270, and s.v. kamso; D'Alwis, Buddhist Nirvana, p. 35.
+
+136. The metaphor of 'burning' for 'suffering' is very common in Buddhist literature. Everything burns, i.e. everything suffers, was one of the first experiences of Buddha himself. See.]
+
+p. 38
+
+138. He will have cruel suffering, loss, injury of the body, heavy affliction, or loss of mind,
+
+139. Or a misfortune coming from the king, or a fearful accusation, or loss of relations, or destruction of treasures,
+
+140. Or lightning-fire will burn his houses; and when his body is destroyed, the fool will go to hell.
+
+141. Not nakedness, not platted hair, not dirt, not fasting, or lying on the earth, not rubbing with dust,
+
+[138. 'Cruel suffering' is explained by sisaroga, 'headache,' &c. 'Loss' is taken for loss of money. 'Injury of the body' is held to be the cutting off of the arm, and other limbs. 'Heavy afflictions' are, again, various kinds of diseases.
+
+139. Upasarga means 'accident, misfortune.' Dr. Fausboll translates ragato va upassaggam by 'fulgentis (lunae) defectionem;' Dr. Weber by 'Bestrafung vom Konig;' Beal by 'some governmental difficulty.' Abbhakkhanam, Sanskrit abhyakhyanam, is a heavy accusation for high treason, or similar offences. Beal translates, 'some false accusation.' The 'destruction of pleasures or treasures' is explained by gold being changed to coals (see Buddhaghosha's Parables, p. 98; Thiessen, Kisagotami, p. 6), pearls to cotton seed, corn to potsherds, and by men and cattle becoming blind, lame, &c.
+
+141. Cf. Hibbert Lectures, p. 355. Dr. Fausboll has pointed out that the same or avery similar verse occurs in a legend taken from the Divyavadana, and translated by Burnouf (Introduction, p. 313 seq.) Burnouf translates the verse: 'Ce n'est ni la coutume de marcher nu, ni les cheveux nattes, ni l'usage d'argile, ni le choix des diverses especes d'aliments, ni l'habitude de coucher sur la terre nue, ni la poussiere, ni la malproprete, ni l'attention a fuir l'abri d'un toit, qui sont capables de dissiper le trouble dans lequel nous jettent les desirs non-satisfaits; mais qu'un homme, maitre de ses sens, calme, recueilli, chaste, evitant de faire du mal a aucune creature, accomplisse la Loi, et il sera, quoique pare d'ornements, un Brahmane, un Cramana, un Religieux.' See also.
+
+Walking naked and the other things mentioned in our verse are outward signs of a saintly life, and these Buddha rejects because they do not calm the passions. Nakedness he seems to have rejected on other grounds too, if we may judge from the Sumagadha-avadana: 'A number of naked friars were assembled in the house of the daughter of Anatha-pindika. She called ber daughter-in-law, Sumagadha, and said, "Go and see those highly respectable persons." Sumagadha, expecting to see some of the saints, like Sariputra, Maudgalyayana, and others, ran out full of joy. But when she saw these friars with their hair like pigeon wings, covered by nothing but dirt, offensive, and looking like demons, she became sad. "Why are you sad?" said her mother-in-law. Sumagadha replied, "O mother, if these are saints, what must sinners be like?"
+
+Burnouf (Introduction, p. 312) supposed that the Gainas only, and not the Buddhists, allowed nakedness. But the Gainas, too, do not allow it universally. They are divided into two parties, the Svetambaras and Digambaras. The Svetambaras, clad in white, are the followers of Parsvanatha, and wear clothes. The Digambaras, i.e. sky-clad, disrobed, are followers of Mahavira, resident chiefly in Southern India. At present they, too, wear clothing, but not when eating. See Sastram Aiyar, p. xxi.
+
+The gata, or the hair platted and gathered up in a knot, was a sign of a Saiva ascetic. The sitting motionless is one of the postures assumed by ascetics. Clough explains ukkutika as 'the act of sitting on the heels;' Wilson gives for utkatukasana, 'sitting on the hams.' See Fausboll, note on verse 140.]
+
+p. 39
+
+not sitting motionless, can purify a mortal who has not overcome desires.
+
+142. He who, though dressed in fine apparel, exercises tranquillity, is quiet, subdued, restrained, chaste, and has ceased to find fault with all other beings, he indeed is a Brahmana, an ascetic (sramana), a friar (bhikshu).
+
+143. Is there in this world any man so restrained by humility that he does not mind reproof, as a well-trained horse the whip?
+
+144. Like a well-trained horse when touched by
+
+[142. As to dandanidhana, see Mahabh. XII, 6559, and.
+
+143, 144. I am very doubtful as to the real meaning of these verses. If their object is to show how reproof or punishment should be borne, my translation would be right, though alpabodhati in the sense of parvi facere is strange.]
+
+p. 40
+
+the whip, be you active and lively, and by faith, by virtue, by energy, by meditation, by discernment of the law you will overcome this great pain (of reproof), perfect in knowledge and in behaviour, and never forgetful.
+
+145. Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; good people fashion themselves.
+
+[145. The same as. According to Fausboll and Subhuti we ought to render the verses by, 'What man is there found on earth so restrained by shame that he never provokes reproof, as a good horse the whip?' See Childers, s.v. appabodhati.]
+
+p. 41
+
+## CHAPTER XI
+
+## OLD AGE
+
+146. How is there laughter, how is there joy, as this world is always burning? Why do you not seek a light, you who are surrounded by darkness?
+
+147. Look at this dressed-up lump, covered with wounds, joined together, sickly, full of many thoughts, which has no strength, no hold!
+
+148. This body is wasted, full of sickness, and frail; this heap of corruption breaks to pieces, life indeed ends in death.
+
+[148. Dr. Fausboll informs me that Childers proposed the emendation maranantam hi givitam. The following extract from a letter, addressed by Childers to Dr. Fausboll, will be read with interest:--'As regards Dhp. v. 148, I have no doubt whatever. I quite agree with you that the idea (mors est vita ejus) is a profound and noble one, but the question is, Is the idea there? I think not. Maranam tamhi givitam is not Pali, I mean not a Pali construction, and years ago even it grated on my ear as a harsh phrase. The reading of your MSS. of the texts is nothing; your MSS. of Dhammapada are very bad ones, and it is merely the vicious Sinhalese spelling of bad MSS., like kammamtam for kammantam. But the comment sets the question at rest at once, for it explains maranantam by maranapariyosanam, which is exactly the same. I see there is one serious difficulty left, that all your MSS. seem to have tamhi, and not tam hi; but are you sure it is so? There was a Dhammapada in the India Office Library, and I had a great hunt for it a few days ago, but to my deep disappointment it is missing. I do not agree with you that the sentence "All Life is bounded by Death," is trivial: it is a truism, but half the noblest passages in poetry are truisms, and unless I greatly mistake, this very passage will be found in many other literatures.'
+
+Dr. Fausboll adds:--
