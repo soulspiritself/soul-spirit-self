@@ -6,13 +6,13 @@ tradition: advaita-vedanta
 period: Classical · c. 200 BCE – 400 CE
 originalLanguage: Sanskrit
 composedDate: c. 200 BCE – 400 CE
-translator: James Haughton Woods
-translatorDates: 1864–1935
-translationYear: "1914"
-sourceUrl: https://www.gutenberg.org/ebooks/46082
-sourcePlatform: Project Gutenberg
+translator: Charles Johnston
+translatorDates: 1867–1931
+translationYear: '1912'
+sourceUrl: https://sacred-texts.com/hin/ysp/index.htm
+sourcePlatform: Charles Johnston, New York
 licence: public-domain
-licenceNote: Harvard Oriental Series. Strict PD.
+licenceNote: 'Charles Johnston''s 1912 translation, originally self-published in New York under the title The Yoga Sutras of Patanjali: The Book of the Spiritual Man. Strict public domain. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of a single steady flame in a clay lamp under a vast night sky, contemplative atmosphere, deep blue and warm gold
 image: /images/text-yoga-sutras.jpg
 order: 13

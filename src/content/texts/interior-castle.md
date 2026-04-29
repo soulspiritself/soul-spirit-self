@@ -6,14 +6,14 @@ tradition: christian-mysticism
 teacher: teresa-of-avila
 period: Early Modern · 16th century
 originalLanguage: Spanish
-composedDate: "1577"
-translator: David Lewis
-translatorDates: 1814–1895
-translationYear: "1888"
-sourceUrl: https://archive.org/details/interiorcastle00tere
-sourcePlatform: Internet Archive
+composedDate: '1577'
+translator: Benedictines of Stanbrook (rev. Father Benedict Zimmerman)
+translatorDates: Zimmerman 1859–1937
+translationYear: '1912'
+sourceUrl: https://sacred-texts.com/chr/tic/index.htm
+sourcePlatform: Thomas Baker, London
 licence: public-domain
-licenceNote: Lewis's translation, with introduction by Cardinal Wiseman. Strict PD.
+licenceNote: 'The Benedictines of Stanbrook revision of the Interior Castle, edited and revised by Father Benedict Zimmerman (London: Thomas Baker, 1912). Strict public domain. David Lewis (whom Cowork''s earlier frontmatter named) did not translate the Interior Castle; the strict-PD English text is this Stanbrook edition. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of a faceted crystal castle suspended in a vast cosmic blue space, faint warm golden light glowing from its innermost chamber outward through translucent walls, contemplative composition, painterly atmospheric style
 image: /images/text-interior-castle.jpg
 order: 9

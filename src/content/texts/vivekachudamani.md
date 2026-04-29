@@ -7,13 +7,13 @@ teacher: shankara
 period: Shankara · c. 800 CE
 originalLanguage: Sanskrit
 composedDate: c. 800 CE
-translator: Mohini M. Chatterji
-translatorDates: 1858–1936
-translationYear: "1932"
-sourceUrl: https://archive.org/details/crestjewelofwisd00sank
-sourcePlatform: Internet Archive
+translator: Charles Johnston
+translatorDates: 1867–1931
+translationYear: '1925'
+sourceUrl: https://sacred-texts.com/hin/cjw/index.htm
+sourcePlatform: Quarterly Book Department, New York
 licence: public-domain
-licenceNote: Theosophical Publishing House edition.
+licenceNote: 'Charles Johnston''s translation, first serialised in The Theosophical Quarterly (1925) and collected as the title work of The Crest-Jewel of Wisdom and other writings of Sankaracharya (New York: Quarterly Book Department, 1946; copyright not renewed at the US Copyright Office). Strict public domain. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of a many-faceted crystalline jewel suspended in deep cosmic space, refracting golden light into the surrounding darkness, painterly contemplative composition
 image: /images/text-vivekachudamani.jpg
 order: 6

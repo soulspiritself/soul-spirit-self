@@ -43,29 +43,53 @@ matrix and `QUESTIONS-FOR-ANDREW.md` for blockers.
   Ramanasramam free-distribution). Full text (74,981 words / ~341
   min) ingested from archive.org djvu OCR, modernised, downloads
   built.
+- **aparokshanubhuti** — S. Venkataramanan, 1921 (G. A. Natesan &
+  Co., Madras). Ingested from `wos.txt` Andrew provided; the text
+  appears in *Select Works of Sri Sankaracharya* as "Direct
+  Realisation". Replaces the OCR-broken Vimuktananda 1938
+  archive.org item Cowork's frontmatter had named. 4,300 words,
+  ~20 min reading.
+
+## Done — texts NEW to the site (added 2026-04-29)
+
+These weren't in the original 21-text rollout — Andrew dropped
+their sacred-texts dumps into `~/Downloads/` and asked me to
+include them. New page MDs in `src/content/texts/` plus full-text
+MDs and downloads. The page bodies are placeholders ("Cowork to
+curate the on-page preview verses…") per the handoff template;
+images are referenced but not yet generated (the imagePrompt
+fields are filled in for `scripts/generate-images.py`).
+
+- **imitation-of-christ** — Thomas à Kempis (c. 1418–1427),
+  William Benham 1886. 61,786 words / ~281 min.
+- **dhammapada** — Pali canon (c. 3rd c. BCE), Friedrich Max
+  Müller 1881 (SBE 10). 27,772 words / ~126 min. New tradition:
+  buddhist-nonduality.
+- **gateless-gate** — Mu-mon Ekai (1228), Nyogen Senzaki & Paul
+  Reps 1934. 8,256 words / ~38 min. Buddhist nonduality.
+- **spiritual-exercises** — Ignatius of Loyola (1522–1548), Fr.
+  Elder Mullan, S.J. 1914. 28,652 words / ~130 min.
+
+## Skipped
+
+- **lost-books-of-the-bible** — Andrew dropped `lbob.txt` into
+  `~/Downloads/` but the content is biblical apocrypha (gospels of
+  Nicodemus, Egyptians, Hebrews, etc.), more historical-studies
+  than contemplative. Sits oddly next to the rest of the library.
+  Awaiting confirmation from Andrew on whether it belongs (see
+  QUESTIONS-FOR-ANDREW.md).
 
 ## Flagged
 
-Three decisions still need Andrew's call before I can ship the
-corresponding texts. Full context in `QUESTIONS-FOR-ANDREW.md`:
-
-- **vivekachudamani** — Cowork's translator attribution (Mohini
-  Chatterji 1932) and `sourceUrl` are both wrong. Two PD candidates
-  to choose between (Charles Johnston 1925/1946 vs Swami
-  Madhavananda 1921/1932).
-- **yoga-sutras** — Cowork's `sourceUrl` (Gutenberg #46082) is an
-  Italian Dante book, not Woods. Woods 1914 isn't on Gutenberg at
-  all. Choose between Charles Johnston 1912 (clean PG #2526) or
-  Woods 1914 (long, archive.org scan).
-- **dark-night-of-the-soul** — CCEL URL points at Peers 1934–35 (US
-  copyright until 2030) but frontmatter claims Lewis 1864. Choose:
-  use Lewis (legal-clean, source from archive.org) or Peers
-  (cleaner English, accept CCEL's PD assertion).
-
-Plus one design question (low-priority): whether `modernise.py`
-should preserve Thou/Thee/Thy in addresses to God for Christian
-devotional texts. Currently shipping with full modernisation per
-the handoff's explicit instruction.
+(none open — all flagged questions resolved 2026-04-29 per Andrew's
+"take your idea as primary" directive. See QUESTIONS-FOR-ANDREW.md
+"Resolved" section for the decisions and reasoning. Frontmatter on
+the four affected texts (vivekachudamani, yoga-sutras,
+dark-night-of-the-soul, interior-castle) updated to reflect the
+chosen translator/source — awaiting Andrew to drop the sacred-texts
+dumps `cjw.txt.gz`, `ysp.txt.gz`, `tic.txt.gz` into `~/Downloads/`
+to ingest the first three; dark-night-of-the-soul will pull from
+archive.org's Lewis 1864 djvu OCR.)
 
 ## Skipped
 (none — texts that are unfinished are either flagged above

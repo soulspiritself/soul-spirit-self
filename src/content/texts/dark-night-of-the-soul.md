@@ -9,11 +9,11 @@ originalLanguage: Spanish
 composedDate: c. 1578–1585
 translator: David Lewis
 translatorDates: 1814–1895
-translationYear: "1864"
-sourceUrl: https://ccel.org/ccel/john_cross/dark_night/dark_night
-sourcePlatform: Christian Classics Ethereal Library
+translationYear: '1864'
+sourceUrl: https://archive.org/details/darknightofsouls00sain
+sourcePlatform: Thomas Baker, London
 licence: public-domain
-licenceNote: Lewis's complete English translation, the standard PD edition. Strict PD.
+licenceNote: 'David Lewis''s complete English translation, first published as The Dark Night of the Soul, A Spiritual Canticle, and the Living Flame of Love of Saint John of the Cross (London: Thomas Baker, 1864). Strict public domain. Lightly modernised by Soul Spirit Self.'
 imagePrompt: Symbolic image of a single small figure walking down a dark stone staircase that descends into a vast deep cosmic blue void scattered with stars, faint warm light visible far below, contemplative dramatic atmosphere, painterly style
 image: /images/text-dark-night-of-the-soul.jpg
 order: 8
