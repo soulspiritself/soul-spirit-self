@@ -9,7 +9,7 @@ originalLanguage: Sanskrit
 composedDate: c. 800 CE
 translator: Swami Vimuktananda
 translatorDates: 1900s
-translationYear: "1938"
+translationYear: '1938'
 sourceUrl: https://archive.org/details/aparokshanubhuti
 sourcePlatform: Internet Archive
 licence: free-distribution
@@ -18,6 +18,11 @@ imagePrompt: Symbolic image of an open eye opening at the centre of a mandala of
 image: /images/text-aparokshanubhuti.jpg
 order: 8
 description: A short Shankara work focused on direct rather than mediated knowledge. Where other Vedantic texts approach realisation through inference and analysis, Aparokshanubhuti points to the immediate perception of the Self that is the actual condition for any knowing whatsoever.
+downloadTxt: /downloads/aparokshanubhuti.txt
+downloadPdf: /downloads/aparokshanubhuti.pdf
+downloadEpub: /downloads/aparokshanubhuti.epub
+wordCount: 4300
+readingTimeMinutes: 20
 ---
 
 The Aparokshanubhuti is one of Shankara's most pointed shorter works. The title translates as direct or unmediated realisation, and the text holds the seeker to that standard. The Self is not to be reached by inference, by argument, or by gradual approach. It is the immediate fact of awareness in which all knowing already takes place.
