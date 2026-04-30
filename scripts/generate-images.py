@@ -602,6 +602,77 @@ IMAGES = [
         ),
     },
     # ────────────────────────────────────────────────────────────────────
+    # MODERN NONDUALITY teacher portraits (AI placeholders for teachers
+    # without an authentic photographic source on Wikimedia; Andrew to
+    # replace with real photographs as they become available)
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "teacher-john-butler.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photorealistic portrait of John Butler the English Christian contemplative, "
+            "an elderly Englishman in his late eighties, soft kind face, full white "
+            "beard, gentle blue eyes, wearing a simple plain white shirt and a "
+            "dark wool sweater, soft warm afternoon light through a farmhouse window, "
+            "contemplative atmosphere reminiscent of Lincolnshire farmland in winter, "
+            "square composition tightly centred on his face and shoulders, no text, "
+            "no watermarks, no signature"
+        ),
+    },
+    {
+        "filename": "teacher-sailor-bob-adamson.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photorealistic portrait of Sailor Bob Adamson the Australian nondual "
+            "teacher, an elderly weathered man in his nineties, lean tanned face, "
+            "short white hair, faint smile, wearing a simple plain blue or white "
+            "open-collared shirt, soft warm afternoon light, contemplative atmosphere "
+            "reminiscent of late-afternoon photographs taken in his Melbourne living "
+            "room, square composition tightly centred on his face and shoulders, no "
+            "text, no watermarks, no signature"
+        ),
+    },
+    {
+        "filename": "teacher-greg-goode.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photorealistic portrait of Greg Goode the American philosopher and "
+            "Direct Path teacher, a man in his sixties with a calm thoughtful face, "
+            "neatly trimmed grey hair and a short grey beard, wearing rimless or "
+            "thin-frame glasses, dressed in a simple dark shirt or dark jacket, "
+            "soft warm window light, contemplative atmosphere reminiscent of New "
+            "York apartment portraits, square composition tightly centred on his "
+            "face and shoulders, no text, no watermarks, no signature"
+        ),
+    },
+    {
+        "filename": "teacher-wayne-liquorman.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photorealistic portrait of an American man in his early seventies "
+            "with a full grey-white beard and short balding hair on top, warm "
+            "intelligent eyes, faintly amused contemplative expression, wearing "
+            "a simple dark crew-neck shirt, soft warm afternoon window light from "
+            "the side, contemplative atmosphere, square composition tightly "
+            "centred on his face and shoulders, no text, no watermarks, no signature"
+        ),
+    },
+    # ────────────────────────────────────────────────────────────────────
+    # MODERN NONDUALITY tradition hero
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "tradition-modern-nonduality.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A simple wooden chair sitting empty on a polished hardwood floor in a "
+            "sparse, sunlit modern room, a single tall window on the right overlooking "
+            "soft green trees in afternoon haze, warm golden light pooling on the chair "
+            "and the floor in front of it, deep cosmic blue shadow in the corners and "
+            "back of the room, no people, no text, contemplative atmosphere, wide "
+            "cinematic composition, evocative and quiet"
+        ),
+    },
+    # ────────────────────────────────────────────────────────────────────
     # BUDDHIST NONDUALITY
     # ────────────────────────────────────────────────────────────────────
     {
