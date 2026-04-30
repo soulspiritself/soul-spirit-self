@@ -585,6 +585,37 @@ IMAGES = [
             "shoulders, no text, no watermarks, no signature"
         ),
     },
+    # ────────────────────────────────────────────────────────────────────
+    # GNOSTIC CHRISTIANITY
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "tradition-gnostic-christianity.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single small clay oil lamp burning with a steady warm gold flame, resting "
+            "on a weathered stone ledge inside a deep cave or hewn stone chamber, faint "
+            "hints of an ancient papyrus scroll partially unrolled beside the lamp, the "
+            "rest of the scene receding into deep cosmic blue shadow, soft warm pool of "
+            "golden light around the lamp giving way to vast darkness beyond, no people, "
+            "no text, contemplative atmosphere, wide cinematic composition, evocative "
+            "and quiet"
+        ),
+    },
+    # ────────────────────────────────────────────────────────────────────
+    # BUDDHIST NONDUALITY
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "tradition-buddhist-nonduality.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A simple empty stone meditation cushion on a polished wooden floor in a "
+            "sparse Zen hall, a single shaft of warm golden light falling from a high "
+            "paper-screen window onto the cushion, the rest of the hall in deep cosmic "
+            "blue twilight shadow, the receding wooden floorboards drawing the eye into "
+            "stillness, no people, no calligraphy, no text, contemplative atmosphere, "
+            "wide cinematic composition, evocative and serene"
+        ),
+    },
 ]
 
 # ── Generate ──
