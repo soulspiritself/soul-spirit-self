@@ -1,6 +1,7 @@
 ---
 name: Meister Eckhart
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1260
 died: c. 1328
 summary: The Rhineland Dominican whose sermons pushed Christian apophatic theology into territory most readily described as nondual. Eckhart's God beyond God and his teaching on the birth of the Word in the ground of the soul remain the most radical formulations in Western mysticism.

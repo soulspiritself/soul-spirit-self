@@ -1,6 +1,7 @@
 ---
 name: Gangaji
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1942"
 summary: An American teacher in the Ramana lineage, transmitted to her by Papaji in Lucknow in 1990. Gangaji has held public meetings and retreats in the West since the early 1990s, in plain American English, with an unusually warm and direct delivery that has made the Ramana pointing accessible to a much wider audience.
 imagePrompt: Photorealistic portrait of Gangaji, an American woman in her seventies, soft kind face, long greying hair, warm intelligent eyes, wearing a simple flowing top, soft warm window light, contemplative atmosphere, square composition tightly centred on her face and shoulders, no text, no watermarks

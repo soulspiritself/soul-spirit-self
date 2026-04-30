@@ -1,6 +1,7 @@
 ---
 name: Bernard of Clairvaux
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1090"
 died: "1153"
 summary: The Cistercian abbot whose sermons on the Song of Songs turned biblical love poetry into a map of the soul's journey toward union. Bernard reshaped medieval contemplation around the language of bridal mysticism.

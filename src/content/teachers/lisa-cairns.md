@@ -1,6 +1,7 @@
 ---
 name: Lisa Cairns
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 summary: A British teacher in the radical-nonduality stream of Tony Parsons, holding meetings and residential retreats around Europe and the United States in plain conversational English. Her pointing is uncompromising and present-tense, refusing the idea that anything other than what is already happening could be the awakening one is seeking.
 imagePrompt: Photorealistic portrait of a British woman in her late thirties or early forties, warm friendly face, long light blonde hair, soft hazel-green eyes, gentle smile, wearing a simple bright top, soft warm window light, contemplative atmosphere, square composition tightly centred on her face and shoulders, no text, no watermarks
 image: /images/teacher-lisa-cairns.jpg

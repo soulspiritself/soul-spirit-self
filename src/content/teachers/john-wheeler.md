@@ -1,6 +1,7 @@
 ---
 name: John Wheeler
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 summary: An American teacher in the Nisargadatta lineage transmitted via Bob Adamson, with whom he sat in Melbourne over many years. Writes and teaches in plain spoken English, drawing the recognition back again and again to the simple immediacy of one's own being.
 imagePrompt: Photorealistic portrait of an American man in his sixties, calm thoughtful face, neatly trimmed grey hair and beard, soft warm intelligent eyes, wearing a simple plain shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks, no signature
 image: /images/teacher-john-wheeler.jpg

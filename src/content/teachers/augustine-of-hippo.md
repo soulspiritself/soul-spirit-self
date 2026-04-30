@@ -1,6 +1,7 @@
 ---
 name: Augustine of Hippo
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "354"
 died: "430"
 summary: The North African bishop whose Confessions opened the contemplative interior to Western thought. Augustine's account of the restless heart finding rest only in the divine became the foundational psychology of Christian mysticism.

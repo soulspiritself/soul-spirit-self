@@ -1,6 +1,7 @@
 ---
 name: Mechthild of Magdeburg
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1207
 died: c. 1282
 summary: The thirteenth-century Beguine whose Flowing Light of the Godhead is the earliest substantial work of mysticism written in German. Mechthild's bridal mysticism and her bold dialogues with God shaped the Rhineland tradition that came after her.

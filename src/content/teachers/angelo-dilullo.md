@@ -1,6 +1,7 @@
 ---
 name: Angelo Dilullo
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 summary: An American physician and contemplative teacher whose 2021 book Awake — It's Your Turn and the long-form videos on his Simply Always Awake channel have made him one of the more practically-minded nondual voices of the past decade. Writes for the reader who suspects awakening is possible and wants a concrete description of what it actually involves.
 imagePrompt: Photorealistic portrait of an American man in his late forties, calm thoughtful face, dark hair flecked with grey, neatly trimmed dark beard, warm intelligent eyes, wearing a simple dark crew-neck shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-angelo-dilullo.jpg

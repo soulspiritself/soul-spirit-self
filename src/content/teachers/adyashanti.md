@@ -1,6 +1,7 @@
 ---
 name: Adyashanti
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1962"
 summary: An American teacher whose nondual teaching grew out of fourteen years of Zen training under Arvis Joen Justi, a dharma successor of Taizan Maezumi Roshi. Adyashanti began teaching in 1996 and has become, through his books and online courses, one of the most widely-heard contemporary nondual voices in English.
 imagePrompt: Photorealistic portrait of Adyashanti, an American man in his sixties, shaved head, kind contemplative face, warm gentle eyes, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks

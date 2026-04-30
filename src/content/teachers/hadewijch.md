@@ -1,6 +1,7 @@
 ---
 name: Hadewijch
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1200
 died: c. 1260
 summary: The thirteenth-century Brabantine Beguine whose visions, letters, and poems represent the highest literary expression of Beguine mysticism. Hadewijch wrote in courtly Middle Dutch about the soul's love affair with God in language of striking precision.

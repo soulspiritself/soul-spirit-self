@@ -1,6 +1,7 @@
 ---
 name: Ramesh Balsekar
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1917"
 died: "2009"
 summary: A retired president of the Bank of India who became Nisargadatta Maharaj's chief English translator in the late 1970s and, after Nisargadatta's death in 1981, took up the teaching seat in Bombay. The Western nondual world of the 1990s and 2000s came to him in numbers, and he transmitted the Navnath teaching forward in unusually clear philosophical English.

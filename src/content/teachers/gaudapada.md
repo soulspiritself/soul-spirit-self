@@ -1,6 +1,7 @@
 ---
 name: Gaudapada
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "c. 6th century"
 died: ""
 summary: The parama-guru of Shankara, author of the Mandukya Karika. The bridge figure between the Upanishads and Shankara's later systematic Advaita.

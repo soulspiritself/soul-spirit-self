@@ -91,7 +91,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
                 {t.data.image && <img src={t.data.image} alt={t.data.name} />}
               </div>
               <div class="teacher-name">{t.data.name}</div>
-              <div class="teacher-tradition">{traditionMap.get(t.data.tradition.slug) || ''}</div>
+              <div class="teacher-tradition">{traditionMap.get(t.data.traditions[0].slug) || ''}</div>
             </a>
           ))}
         </div>

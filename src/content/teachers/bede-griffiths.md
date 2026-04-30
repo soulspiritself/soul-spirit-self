@@ -1,6 +1,7 @@
 ---
 name: Bede Griffiths
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1906"
 died: "1993"
 summary: The English Benedictine monk who spent the last forty years of his life at a Christian ashram in Tamil Nadu, integrating the contemplative inheritance of his own tradition with the nondual recognition of Advaita Vedanta. One of the central figures of the twentieth-century Christian-Hindu dialogue.

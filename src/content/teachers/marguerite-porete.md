@@ -1,6 +1,7 @@
 ---
 name: Marguerite Porete
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1250
 died: "1310"
 summary: The Beguine whose Mirror of Simple Souls pushed the apophatic mysticism of love into territory the Inquisition could not allow. Marguerite was burned at the stake in Paris in 1310 for refusing to retract her book, which then survived anonymously to become a quiet influence on Eckhart and on the entire Rhineland tradition.

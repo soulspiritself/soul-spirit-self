@@ -13,20 +13,33 @@ export async function getStaticPaths() {
 
 const { teacher } = Astro.props;
 const { Content } = await teacher.render();
-const tradition = await getEntry(teacher.data.tradition);
 
-// Other teachers in the same tradition (for "More from this tradition" footer)
+// Resolve the teacher's traditions (array; first entry is the primary).
+const allTraditions = await getCollection('traditions');
+const traditions = teacher.data.traditions
+  .map(ref => allTraditions.find(t => t.slug === ref.slug))
+  .filter(Boolean);
+const primaryTradition = traditions[0];
+const teacherTraditionSlugs = new Set(traditions.map(t => t.slug));
+
+// Other teachers in any of the same traditions (siblings).
 const allTeachers = await getCollection('teachers');
 const siblings = allTeachers
-  .filter(t => t.data.tradition.slug === tradition.slug && t.slug !== teacher.slug)
+  .filter(t =>
+    t.slug !== teacher.slug &&
+    t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.slug))
+  )
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .slice(0, 4);
 
-// Cross-tradition related teachers (manually-curated `related` field)
+// Cross-tradition related teachers (manually-curated `related` field).
+// Filter to those whose primary tradition is NOT one of this teacher's traditions.
 const crossRelated = teacher.data.related
   ? (await Promise.all(
       teacher.data.related.map(ref => allTeachers.find(t => t.slug === ref.slug))
-    )).filter(Boolean).filter(t => t.data.tradition.slug !== tradition.slug)
+    ))
+      .filter(Boolean)
+      .filter(t => !t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.slug)))
   : [];
 
 // Texts attributed to this teacher (best-effort: text frontmatter has an
@@ -53,7 +66,7 @@ const teacherThemes = (teacher.data.themes || [])
     <div class="wrapper">
       <a href="/teachers/">Teachers</a>
       <span>/</span>
-      <a href={`/traditions/${tradition.slug}/`}>{tradition.data.title}</a>
+      <a href={`/traditions/${primaryTradition.slug}/`}>{primaryTradition.data.title}</a>
       <span>/</span>
       {teacher.data.name}
     </div>
@@ -69,7 +82,12 @@ const teacherThemes = (teacher.data.themes || [])
         </div>
         <div class="teacher-hero-meta">
           <div class="teacher-hero-tradition">
-            <a href={`/traditions/${tradition.slug}/`}>{tradition.data.title}</a>
+            {traditions.map((t, i) => (
+              <>
+                {i > 0 && <span class="tradition-sep"> · </span>}
+                <a href={`/traditions/${t.slug}/`}>{t.data.title}</a>
+              </>
+            ))}
           </div>
           <h1>{teacher.data.name}</h1>
           {(teacher.data.born || teacher.data.died) && (
@@ -203,7 +221,7 @@ const teacherThemes = (teacher.data.themes || [])
       <div class="wrapper">
         <div class="section-header">
           <span class="eyebrow">From the same lineage</span>
-          <h2>Other teachers in {tradition.data.title}</h2>
+          <h2>Other teachers in {primaryTradition.data.title}</h2>
         </div>
         <div class="siblings-grid">
           {siblings.map(s => (

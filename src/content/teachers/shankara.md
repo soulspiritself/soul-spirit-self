@@ -1,6 +1,7 @@
 ---
 name: Shankara
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "788"
 died: "820"
 summary: The systematic founder of classical Advaita Vedanta. Wrote commentaries on the principal Upanishads, the Bhagavad Gita, and the Brahma Sutras that defined the tradition for the next twelve centuries.

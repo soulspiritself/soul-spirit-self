@@ -1,6 +1,7 @@
 ---
 name: Hildegard of Bingen
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1098"
 died: "1179"
 summary: The twelfth-century Benedictine abbess, mystic, composer, and natural philosopher whose visions of the living light shaped medieval German spirituality. The earliest of the great Rhineland women mystics.

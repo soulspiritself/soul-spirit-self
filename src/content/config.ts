@@ -25,7 +25,9 @@ const teachers = defineCollection({
   type: 'content',
   schema: z.object({
     name: z.string(),
-    tradition: reference('traditions'),
+    // A teacher may belong to one or more traditions. The first entry is treated
+    // as the "primary" tradition (used for breadcrumbs, hero eyebrow, etc).
+    traditions: z.array(reference('traditions')).min(1),
     born: z.string().optional(),
     died: z.string().optional(),
     summary: z.string(),

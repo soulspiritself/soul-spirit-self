@@ -5,19 +5,25 @@ import { getCollection } from 'astro:content';
 const allTeachers = await getCollection('teachers');
 const allTraditions = await getCollection('traditions');
 const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
+const traditionOrder = new Map(allTraditions.map(t => [t.slug, t.data.order]));
 
-// Group teachers by tradition
+// Group teachers by EACH of their traditions (so a teacher cross-listed in
+// Buddhist Nonduality and Modern Nonduality appears in both groups).
 const grouped = new Map<string, typeof allTeachers>();
 for (const teacher of allTeachers) {
-  const slug = teacher.data.tradition.slug;
-  if (!grouped.has(slug)) grouped.set(slug, []);
-  grouped.get(slug)!.push(teacher);
+  for (const ref of teacher.data.traditions) {
+    if (!grouped.has(ref.slug)) grouped.set(ref.slug, []);
+    grouped.get(ref.slug)!.push(teacher);
+  }
 }
-const groups = [...grouped.entries()].map(([slug, teachers]) => ({
-  slug,
-  title: traditionMap.get(slug) || slug,
-  teachers: teachers.sort((a, b) => a.data.name.localeCompare(b.data.name)),
-}));
+const groups = [...grouped.entries()]
+  .map(([slug, teachers]) => ({
+    slug,
+    title: traditionMap.get(slug) || slug,
+    order: traditionOrder.get(slug) ?? 99,
+    teachers: teachers.sort((a, b) => a.data.name.localeCompare(b.data.name)),
+  }))
+  .sort((a, b) => a.order - b.order);
 ---
 <BaseLayout
   title="Teachers"

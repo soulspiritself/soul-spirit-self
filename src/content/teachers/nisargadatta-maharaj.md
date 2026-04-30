@@ -1,6 +1,7 @@
 ---
 name: Nisargadatta Maharaj
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "1897"
 died: "1981"
 summary: The bidi-cigarette merchant of Mumbai who became one of the most direct nondual teachers of the twentieth century. Recorded in I Am That, his teachings centre on prior-to-consciousness recognition.

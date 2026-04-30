@@ -1,6 +1,7 @@
 ---
 name: Ranjit Maharaj
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "1913"
 died: "2000"
 summary: Fellow student of Nisargadatta under Siddharameshwar Maharaj. Taught quietly in Mumbai for sixty-five years before being persuaded to receive Western students in his eighties. His teaching method centres on the simple recognition That you are.

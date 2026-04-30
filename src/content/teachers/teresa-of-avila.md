@@ -1,6 +1,7 @@
 ---
 name: Teresa of Avila
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1515"
 died: "1582"
 summary: The Spanish Carmelite who founded the Discalced reform with John of the Cross and whose Interior Castle remains one of the great topographies of the contemplative path. Teresa wrote with practical clarity about prayer, mystical experience, and the dynamics of union.

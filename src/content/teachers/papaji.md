@@ -1,6 +1,7 @@
 ---
 name: Papaji
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1910"
 died: "1997"
 summary: Hariwansh Lal Poonja, known to his students as Papaji, was a direct disciple of Ramana Maharshi who lived a long quiet working life in northern India before drawing a generation of Western seekers to his Lucknow home in the 1990s. The line of teachers who awakened in his presence (Gangaji, Mooji, Eli Jaxon-Bear, Andrew Cohen) carry the Ramana transmission forward in plain English.

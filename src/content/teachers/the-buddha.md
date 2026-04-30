@@ -1,6 +1,7 @@
 ---
 name: The Buddha
-tradition: buddhist-nonduality
+traditions:
+  - buddhist-nonduality
 born: c. 563 BCE
 died: c. 483 BCE
 summary: The historical Siddhartha Gautama, the prince of the Shakya clan in northern India who, after six years of ascetic practice and a long sitting under the Bodhi tree, awoke to the dependent and selfless nature of all phenomena and taught the path of liberation for the next forty-five years.

@@ -1,6 +1,7 @@
 ---
 name: Longchenpa
-tradition: buddhist-nonduality
+traditions:
+  - buddhist-nonduality
 born: "1308"
 died: "1364"
 summary: The fourteenth-century Tibetan master who is the central synthesiser of Dzogchen, the Great Perfection. Longchen Rabjam gathered the scattered Nyingma and Bön transmissions into the Seven Treasuries and the Trilogy of Natural Ease, a body of writing that remains the touchstone of the Tibetan nondual tradition.

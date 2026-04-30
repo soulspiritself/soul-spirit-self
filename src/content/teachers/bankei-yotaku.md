@@ -1,6 +1,7 @@
 ---
 name: Bankei Yotaku
-tradition: buddhist-nonduality
+traditions:
+  - buddhist-nonduality
 born: "1622"
 died: "1693"
 summary: A seventeenth-century Japanese Rinzai Zen master who taught a teaching of unusual directness and accessibility. Bankei dispensed with koan study and formal practice and pointed his students again and again to what he called the Unborn Buddha-Mind, the awareness that is already and obviously the case before any thought of practice or attainment arises.

@@ -1,6 +1,7 @@
 ---
 name: Siddharameshwar Maharaj
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "1888"
 died: "1936"
 summary: The teacher of Nisargadatta and Ranjit Maharaj. Second master of the Inchagiri Sampradaya, the Marathi devotional Advaita lineage descending from Bhausaheb Maharaj. Distinguished for his systematic four-bodies method.

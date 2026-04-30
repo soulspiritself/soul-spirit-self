@@ -1,6 +1,7 @@
 ---
 name: Brother Lawrence
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1614
 died: "1691"
 summary: The Carmelite lay brother whose conversations and letters, collected after his death as The Practice of the Presence of God, distilled the contemplative life to the simple continuous turning of the heart toward God in the midst of ordinary work.

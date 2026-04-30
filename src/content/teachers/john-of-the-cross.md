@@ -1,6 +1,7 @@
 ---
 name: John of the Cross
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1542"
 died: "1591"
 summary: The Spanish Carmelite reformer whose Dark Night of the Soul is the most precise account in any tradition of the dismantling of every spiritual support before pure recognition. With Teresa of Avila, the founder of the Discalced Carmelites.

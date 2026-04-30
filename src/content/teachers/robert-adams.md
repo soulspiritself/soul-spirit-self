@@ -1,6 +1,7 @@
 ---
 name: Robert Adams
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1928"
 died: "1997"
 summary: An American mystic in the Ramana lineage who taught small intimate groups in southern California in the late 1980s and 1990s, suffering through Parkinson's disease, leaving behind a body of recorded talks of unusual stillness and warmth that have grown in influence since his death.

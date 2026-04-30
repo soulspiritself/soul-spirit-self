@@ -1,6 +1,8 @@
 ---
 name: D. T. Suzuki
-tradition: buddhist-nonduality
+traditions:
+  - buddhist-nonduality
+  - modern-nonduality
 born: "1870"
 died: "1966"
 summary: Daisetz Teitarō Suzuki, the Japanese scholar and Zen practitioner whose long career of writing, translation, and teaching first brought the contemplative core of Mahayana Buddhism into the English-speaking world. Through more than thirty books in English across nearly seventy years, he opened the way for the post-war Western reception of Zen, Pure Land, and the Mahayana sutras.

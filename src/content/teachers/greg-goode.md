@@ -1,6 +1,7 @@
 ---
 name: Greg Goode
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 summary: A philosopher and contemplative teacher in the Direct Path lineage of Atmananda Krishna Menon, transmitted through Jean Klein and Francis Lucille. Greg Goode pairs the careful inquiry of Advaita with the emptiness teachings of Madhyamaka Buddhism, writing for readers who want the precision as well as the recognition.
 imagePrompt: Photorealistic portrait of Greg Goode, an American man in his sixties, calm thoughtful face, neatly trimmed grey hair and beard, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-greg-goode.jpg

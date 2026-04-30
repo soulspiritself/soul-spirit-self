@@ -1,6 +1,7 @@
 ---
 name: Julian of Norwich
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1342
 died: c. 1416
 summary: The English anchoress whose Revelations of Divine Love is the first book in the English language known to be written by a woman. Julian's vision of a love that wills and works all things, and her insistence that all shall be well, anchors the English contemplative tradition.

@@ -21,7 +21,9 @@ const texts = allTexts
   .sort((a, b) => a.data.order - b.data.order);
 
 const allTeachers = await getCollection('teachers');
-const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slug);
+const teachers = allTeachers.filter(t =>
+  t.data.traditions.some(ref => ref.slug === tradition.slug)
+);
 ---
 <BaseLayout title={tradition.data.title} description={tradition.data.description} image={tradition.data.image}>
 

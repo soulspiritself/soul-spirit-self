@@ -1,6 +1,7 @@
 ---
 name: Sailor Bob Adamson
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1928"
 summary: An Australian who met Nisargadatta Maharaj in Bombay in 1976 and was sent home with the instruction simply to share what had been understood. Has taught from his living room in Melbourne for forty years, in plain English, without apparatus, in the direct lineage of the Navnath Sampradaya.
 imagePrompt: Photorealistic portrait of Sailor Bob Adamson, an elderly Australian man in his nineties, lean weathered face, short white hair, wearing a simple plain shirt, soft warm afternoon light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks

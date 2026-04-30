@@ -1,6 +1,7 @@
 ---
 name: Johannes Tauler
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: c. 1300
 died: "1361"
 summary: The Strasbourg Dominican who carried Eckhart's Rhineland mysticism into pastoral form. Tauler's sermons survived the condemnation that buried Eckhart and shaped the German contemplative tradition through Luther and beyond.

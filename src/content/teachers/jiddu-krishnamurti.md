@@ -1,6 +1,7 @@
 ---
 name: Jiddu Krishnamurti
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1895"
 died: "1986"
 summary: An Indian-born teacher who, after spending his early years as the prophesied "World Teacher" of the Theosophical Society, dissolved the organisation built around him in 1929 with a famous declaration that truth is a pathless land. He taught for the next fifty-seven years in plain English, all over the world, refusing every guru posture and pointing again and again to the radical observation of one's own conditioning.

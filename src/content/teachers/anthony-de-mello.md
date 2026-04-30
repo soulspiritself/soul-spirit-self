@@ -1,6 +1,7 @@
 ---
 name: Anthony de Mello
-tradition: christian-mysticism
+traditions:
+  - christian-mysticism
 born: "1931"
 died: "1987"
 summary: The Indian Jesuit whose teaching stories and retreats took the contemplative essence of the Christian tradition and stripped it down to a startlingly direct invitation to wake up. Drew openly on the Eastern traditions while remaining a Catholic priest until the end.

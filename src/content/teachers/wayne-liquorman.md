@@ -1,6 +1,7 @@
 ---
 name: Wayne Liquorman
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1951"
 summary: A Los Angeles teacher in the Nisargadatta lineage transmitted through Ramesh Balsekar. Wayne Liquorman holds open meetings in California in plain American English and has compiled and edited many of Balsekar's books. Sometimes writes contemplative poetry under the pen name Ram Tzu.
 imagePrompt: Photorealistic portrait of Wayne Liquorman, an American man in his seventies, full white beard, warm intelligent eyes, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks

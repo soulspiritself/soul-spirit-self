@@ -1,6 +1,7 @@
 ---
 name: Atmananda Krishna Menon
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "1883"
 died: "1959"
 summary: Kerala-born police official who became one of the most original twentieth-century Advaita teachers. Developed the higher reason method, an investigation that uses the mind to look back through itself to its source.

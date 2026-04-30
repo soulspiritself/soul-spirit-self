@@ -1,6 +1,7 @@
 ---
 name: Ramana Maharshi
-tradition: advaita-vedanta
+traditions:
+  - advaita-vedanta
 born: "1879"
 died: "1950"
 summary: The sage of Arunachala. Spent fifty-four years living at the foot of the sacred mountain in Tiruvannamalai, teaching primarily through silence and through the question Who am I?

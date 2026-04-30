@@ -1,6 +1,7 @@
 ---
 name: John Butler
-tradition: modern-nonduality
+traditions:
+  - modern-nonduality
 born: "1934"
 summary: An English Christian contemplative whose decades of solitary prayer, lived out across years of farming in Lincolnshire and seasons in Russia, surface in his books and recorded conversations as the same wordless recognition the Cloud of Unknowing pointed to six hundred years before.
 imagePrompt: Photorealistic portrait of John Butler, an elderly English man with a soft kind face, full white beard, gentle blue eyes, wearing a simple plain shirt and sweater, soft warm afternoon light through a window, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
