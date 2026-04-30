@@ -658,6 +658,18 @@ IMAGES = [
         ),
     },
     {
+        "filename": "text-at-the-feet-of-the-master.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A small worn leather-bound pocket book resting on a stone step at "
+            "dawn, the cover plain and unadorned, soft warm low golden light "
+            "falling on the cover from one side, deep cosmic blue shadow filling "
+            "the rest of the frame, faint hint of dawn mist, contemplative "
+            "atmospheric still life, painterly minimal composition, no text or "
+            "title visible on the book"
+        ),
+    },
+    {
         "filename": "teacher-john-wheeler.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (

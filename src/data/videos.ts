@@ -66,6 +66,24 @@ export const videos: Video[] = [
     caption: 'See through it. John Wheeler',
     featured: true,
   },
+  {
+    id: 'hsUk2CWW0dM',
+    title: 'The Secret Book of John',
+    caption: 'A reading from the Apocryphon of John',
+    featured: true,
+  },
+  {
+    id: 'FiWVq1T6Tuk',
+    title: 'Siddharameshwar Maharaj',
+    caption: 'A short reflection on the Sadguru of the Inchagiri Sampradaya',
+    featured: true,
+  },
+  {
+    id: 'CVZgpSCLKNI',
+    title: 'At the Feet of the Master',
+    caption: 'Jiddu Krishnamurti — a reading of the 1910 book',
+    featured: true,
+  },
 ];
 
 export const featuredVideos = videos.filter(v => v.featured);
