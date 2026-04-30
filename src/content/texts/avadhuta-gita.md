@@ -22,6 +22,9 @@ downloadPdf: /downloads/avadhuta-gita.pdf
 downloadEpub: /downloads/avadhuta-gita.epub
 wordCount: 7730
 readingTimeMinutes: 35
+themes:
+  - the-witness
+  - self-inquiry
 ---
 
 The Avadhuta Gita is among the most direct of all nondual texts. Where most teaching texts build a method, the Avadhuta Gita simply declares. There is no graduated path here, no scaffolding, no accommodation for the seeker. The text speaks as the awakened do: from what is, not toward it.

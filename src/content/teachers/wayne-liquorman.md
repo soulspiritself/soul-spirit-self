@@ -6,6 +6,14 @@ summary: A Los Angeles teacher in the Nisargadatta lineage transmitted through R
 imagePrompt: Photorealistic portrait of Wayne Liquorman, an American man in his seventies, full white beard, warm intelligent eyes, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-wayne-liquorman.jpg
 sourceUrl: https://www.advaita.org/
+leadQuote:
+  text: 'There is no doer. Whatever happens is the will of Source.'
+  attribution: 'Wayne Liquorman'
+themes:
+  - self-inquiry
+related:
+  - ramesh-balsekar
+  - nisargadatta-maharaj
 ---
 
 Wayne Liquorman came to nondual teaching in the late 1980s through Ramesh Balsekar, the retired Bombay banker who had been Nisargadatta Maharaj's chief translator and one of his close students. After his own recognition, he was authorised by Balsekar to teach. He has held open weekly meetings in California ever since and travels for retreats.

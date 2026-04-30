@@ -37,6 +37,20 @@ const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slu
     </div>
   </section>
 
+  {tradition.data.leadQuote && (
+    <section class="lead-quote-section">
+      <div class="wrapper">
+        <blockquote class="lead-quote">
+          <p>{tradition.data.leadQuote.text}</p>
+          <footer>
+            <span class="attrib">{tradition.data.leadQuote.attribution}</span>
+            {tradition.data.leadQuote.source && <span class="src">, {tradition.data.leadQuote.source}</span>}
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+  )}
+
   <section class="section">
     <div class="trad-overview">
       <Content />
@@ -119,6 +133,12 @@ const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slu
   .trad-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
 
   .texts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 40px 32px; }
+
+  .lead-quote-section { padding: 64px 0 0; }
+  .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); border: none; }
+  .lead-quote p { font-family: var(--serif); font-size: 28px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 20px; }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--accent); }
+  .lead-quote .src { color: var(--text-faint); }
 
   .trad-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; max-width: 980px; }
   .trad-videos-grid.single { grid-template-columns: minmax(0, 780px); }

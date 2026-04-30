@@ -7,6 +7,10 @@ summary: The Spanish Carmelite reformer whose Dark Night of the Soul is the most
 imagePrompt: Symbolic painterly portrait of John of the Cross as a sixteenth-century Spanish Carmelite friar in his forties, brown habit, lean ascetic features, deep contemplative gaze, soft warm Spanish light, simple monastic interior
 image: /images/teacher-john-of-the-cross.jpg
 sourceUrl: https://ccel.org/ccel/john_cross
+themes:
+  - silence
+  - love
+  - death-and-the-deathless
 ---
 
 John of the Cross was a small man of immense interior intensity. Born in Castile to a poor family, he became a Carmelite friar in his teens, met Teresa of Avila in his twenties, and joined her in the project of reforming the Carmelite order along strictly contemplative lines. The reform brought conflict. In 1577 his Carmelite opponents kidnapped him and held him for nine months in a tiny cell in Toledo, where he was beaten weekly and given barely enough to live on. It was in this cell that he wrote the verses of the *Spiritual Canticle*.

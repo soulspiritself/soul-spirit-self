@@ -6,6 +6,16 @@ summary: An Australian who met Nisargadatta Maharaj in Bombay in 1976 and was se
 imagePrompt: Photorealistic portrait of Sailor Bob Adamson, an elderly Australian man in his nineties, lean weathered face, short white hair, wearing a simple plain shirt, soft warm afternoon light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-sailor-bob-adamson.jpg
 sourceUrl: https://sailorbobadamson.com/
+leadQuote:
+  text: "What's wrong with right now, unless you think about it?"
+  attribution: 'Sailor Bob Adamson'
+themes:
+  - self-inquiry
+  - presence
+related:
+  - nisargadatta-maharaj
+  - wayne-liquorman
+  - john-wheeler
 ---
 
 Sailor Bob Adamson, born in Melbourne in 1928, came to Nisargadatta Maharaj in Bombay in 1976 after years of seeking through other Indian teachers. He was with Nisargadatta for several months across two visits and left with the instruction to go home and share what had been understood. He has done that, in a quiet way, ever since. His Melbourne living room has been a destination for an international circle of seekers for over forty years.

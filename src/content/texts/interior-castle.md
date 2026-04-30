@@ -23,6 +23,9 @@ downloadPdf: /downloads/interior-castle.pdf
 downloadEpub: /downloads/interior-castle.epub
 wordCount: 83035
 readingTimeMinutes: 377
+themes:
+  - love
+  - silence
 ---
 
 Cowork to curate the on-page preview verses for this text in a next session.

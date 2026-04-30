@@ -22,6 +22,9 @@ downloadPdf: /downloads/theologia-germanica.pdf
 downloadEpub: /downloads/theologia-germanica.epub
 wordCount: 40643
 readingTimeMinutes: 185
+themes:
+  - silence
+  - love
 ---
 
 The *Theologia Germanica* survives in a few late fourteenth-century manuscripts attributed only to a *Friend of God* in Frankfurt. The text was largely unknown until 1516, when a young Augustinian friar named Martin Luther came across a partial copy and published it under the title *Eyn deutsch Theologia*. Three years later, with a complete manuscript in hand, he issued a fuller edition. It became the second book Luther personally edited and published, after his edition of the Penitential Psalms, and shaped his theology more than any other medieval source.

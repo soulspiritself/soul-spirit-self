@@ -7,6 +7,12 @@ summary: The English anchoress whose Revelations of Divine Love is the first boo
 imagePrompt: Symbolic painterly portrait of Julian of Norwich as a fourteenth-century English anchoress in her fifties, simple grey woollen habit and white wimple, kind weathered face, soft warm light from a small stone window, contemplative atmosphere
 image: /images/teacher-julian-of-norwich.jpg
 sourceUrl: https://www.gutenberg.org/ebooks/52958
+leadQuote:
+  text: 'Love was His meaning. Who shewed it thee? Love.'
+  attribution: 'Julian of Norwich'
+  source: 'Revelations of Divine Love'
+themes:
+  - love
 ---
 
 Julian of Norwich is the first woman known to have written a book in English. Almost nothing is recorded of her outer life beyond the few facts she gives in her own text. She was born around 1342, lived through the Black Death, the Peasants' Revolt, and the long instability of fourteenth-century England, and at the age of thirty fell into a serious illness during which she experienced sixteen visions of the suffering Christ and the love of God.

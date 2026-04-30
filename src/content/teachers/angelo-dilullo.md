@@ -5,6 +5,11 @@ summary: An American physician and contemplative teacher whose 2021 book Awake â
 imagePrompt: Photorealistic portrait of an American man in his late forties, calm thoughtful face, dark hair flecked with grey, neatly trimmed dark beard, warm intelligent eyes, wearing a simple dark crew-neck shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-angelo-dilullo.jpg
 sourceUrl: https://simplyalwaysawake.com/
+themes:
+  - self-inquiry
+  - presence
+related:
+  - adyashanti
 ---
 
 Angelo Dilullo is an American medical doctor, an anaesthesiologist by profession, who began teaching nondual recognition in earnest in the late 2010s after his own awakening. His teaching grew out of years of personal practice across Zen, Advaita, and the Western contemplative current associated with Adyashanti, and his framing carries a clinician's bias toward what is concretely true and verifiable in one's own immediate experience.

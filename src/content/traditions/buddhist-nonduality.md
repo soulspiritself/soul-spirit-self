@@ -7,6 +7,12 @@ featured: false
 imagePrompt: A simple stone Buddha figure under a bare tree at dusk, deep cosmic blue sky scattered with faint stars, soft warm light, contemplative photographic style
 image: /images/tradition-buddhist-nonduality.jpg
 description: The Buddhist contemplative lineage at its nondual edge. From the Pali canon's verses on selflessness to the Zen koans that point past concept, the tradition asks the practitioner to investigate the nature of mind directly rather than to inherit a doctrine about it.
+leadQuote:
+  text: 'Form is emptiness, and the very emptiness is form. Emptiness does not differ from form, form does not differ from emptiness.'
+  attribution: 'The Heart Sutra'
+themes:
+  - silence
+  - self-inquiry
 ---
 
 The Buddhist contemplative lineage at its nondual edge: the verses, sutras, and koan collections that ask the practitioner to investigate the nature of mind directly rather than to inherit a doctrine about it.

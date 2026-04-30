@@ -5,6 +5,11 @@ summary: A philosopher and contemplative teacher in the Direct Path lineage of A
 imagePrompt: Photorealistic portrait of Greg Goode, an American man in his sixties, calm thoughtful face, neatly trimmed grey hair and beard, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-greg-goode.jpg
 sourceUrl: https://www.heartofnow.com/
+themes:
+  - self-inquiry
+  - the-witness
+related:
+  - atmananda-krishna-menon
 ---
 
 Greg Goode came to nondual teaching through the Direct Path lineage that descends from Atmananda Krishna Menon, transmitted to him via Jean Klein and Francis Lucille. He holds a PhD in philosophy and works as a philosophical counsellor, which gives his teaching a precision and a willingness to engage the difficult cognitive questions that the more poetic Advaita teachers sometimes skirt.

@@ -7,6 +7,13 @@ featured: false
 imagePrompt: A simple wooden chair sitting empty in a sunlit modern room with a single window overlooking trees, soft warm afternoon light, deep cosmic blue shadow in the corners, contemplative atmospheric style, painterly composition, no people
 image: /images/tradition-modern-nonduality.jpg
 description: A loose lineage of late twentieth and early twenty-first century teachers, drawing variously on Advaita Vedanta, Zen, the Direct Path, and Christian mysticism, who have brought the recognition of nondual awareness into ordinary contemporary English.
+leadQuote:
+  text: 'I maintain that truth is a pathless land, and you cannot approach it by any path whatsoever, by any religion, by any sect.'
+  attribution: 'Jiddu Krishnamurti'
+  source: '1929 Order of the Star dissolution speech'
+themes:
+  - self-inquiry
+  - presence
 ---
 
 Modern Nonduality is less a tradition than a confluence. Over the second half of the twentieth century, three older streams emptied into the same delta. The Advaita lineage flowed west through Ramana Maharshi's direct disciples and through Nisargadatta Maharaj and Ramesh Balsekar in Bombay. Zen flowed west through Suzuki, the San Francisco sangha, and the post-1960s American teachers. The Christian contemplative current, dormant outside the monasteries for centuries, surfaced again in the writings of Bede Griffiths, Anthony de Mello, and a small number of lay mystics. By the 1990s these streams were no longer separate. The vocabulary that emerged, awareness, presence, recognition, the absence of a separate self, is recognisably the old teaching in plain English.

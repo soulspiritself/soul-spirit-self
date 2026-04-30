@@ -21,6 +21,9 @@ downloadPdf: /downloads/corpus-hermeticum.pdf
 downloadEpub: /downloads/corpus-hermeticum.epub
 wordCount: 52599
 readingTimeMinutes: 239
+themes:
+  - silence
+  - self-inquiry
 ---
 
 Cowork to curate the on-page preview verses for this text in a next session.

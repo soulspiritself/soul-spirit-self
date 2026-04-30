@@ -7,6 +7,12 @@ summary: An Indian-born teacher who, after spending his early years as the proph
 imagePrompt: Photorealistic portrait of Jiddu Krishnamurti as a young man in his thirties, Indian features, dark wavy hair neatly combed back, calm direct gaze, wearing a formal jacket and tie, soft warm photographic light, contemplative atmosphere reminiscent of 1920s portrait photography, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-jiddu-krishnamurti.jpg
 sourceUrl: https://www.jkrishnamurti.org/
+leadQuote:
+  text: 'The observer is the observed.'
+  attribution: 'Jiddu Krishnamurti'
+themes:
+  - the-witness
+  - presence
 ---
 
 Jiddu Krishnamurti was born in 1895 in Madanapalle, in what is now Andhra Pradesh. At the age of fourteen he was discovered by Charles Webster Leadbeater on a beach near Adyar and adopted into the Theosophical Society as the prophesied vehicle for a coming "World Teacher". The society built an order around him, the Order of the Star in the East, with thousands of members across Europe and North America. Annie Besant and Leadbeater raised him for the role through his teens and twenties.

@@ -22,6 +22,11 @@ downloadPdf: /downloads/revelations-of-divine-love.pdf
 downloadEpub: /downloads/revelations-of-divine-love.epub
 wordCount: 62698
 readingTimeMinutes: 285
+leadQuote:
+  text: 'All shall be well, and all shall be well, and all manner of thing shall be well.'
+  attribution: 'Julian of Norwich'
+themes:
+  - love
 ---
 
 Julian survived a serious illness in May 1373, during which over the course of a single day she received what she called *sixteen shewings* of the suffering Christ and the love of God. After recovering, she wrote a short account of the visions soon afterward. Then she spent the next twenty years in her anchorhold attached to the church of St Julian in Norwich, pondering what she had been shown. The result is the *Long Text*, an expanded version that interlaces the original visions with two decades of accumulated reflection.

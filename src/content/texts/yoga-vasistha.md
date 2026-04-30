@@ -22,6 +22,9 @@ downloadPdf: /downloads/yoga-vasistha.pdf
 downloadEpub: /downloads/yoga-vasistha.epub
 wordCount: 33994
 readingTimeMinutes: 155
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 The Yoga Vasistha is among the most ambitious works in the Indian nondual canon. Across thirty-two thousand verses Vasistha instructs the young Rama on the nature of consciousness, the dreamlike quality of the apparent world, and the recognition of one's true nature as awareness itself.

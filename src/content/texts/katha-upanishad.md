@@ -22,6 +22,13 @@ downloadPdf: /downloads/katha-upanishad.pdf
 downloadEpub: /downloads/katha-upanishad.epub
 wordCount: 4341
 readingTimeMinutes: 20
+leadQuote:
+  text: 'When all desires that dwell in the heart cease, then the mortal becomes immortal.'
+  attribution: 'Katha Upanishad'
+  source: 'II.15'
+themes:
+  - death-and-the-deathless
+  - the-witness
 ---
 
 ## Nachiketa's third question

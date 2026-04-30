@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const themes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout
+  title="Themes"
+  description="Cross-cutting threads through the library. Self-inquiry, presence, silence, love, the witness, death and the deathless. Each thread connects teachers, texts, and talks across the traditions."
+>
+  <section class="page-hero">
+    <span class="eyebrow">Threads through the library</span>
+    <h1>Themes</h1>
+    <p class="lede">
+      The same recognition is named in many vocabularies. Six contemplative threads that run through every tradition in the library, gathered here as cross-cutting entry points.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="themes-grid-section">
+    <div class="wrapper">
+      <div class="themes-grid">
+        {themes.map(theme => (
+          <a href={`/themes/${theme.slug}/`} class="theme-card">
+            <div class="theme-image" style={theme.data.image ? `background-image: url(${theme.data.image});` : ''}></div>
+            <div class="theme-card-body">
+              <h2>{theme.data.title}</h2>
+              <p>{theme.data.subtitle}</p>
+              <span class="theme-link">Enter →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero { text-align: center; padding: 96px var(--gutter) 48px; max-width: 760px; margin: 0 auto; }
+  .page-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .page-hero h1 { font-family: var(--serif); font-size: 84px; font-weight: 400; letter-spacing: 0.04em; margin: 12px 0 24px; }
+  .page-hero .lede { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-muted); line-height: 1.65; }
+
+  .themes-grid-section { padding: 48px 0 96px; }
+  .themes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; }
+  .theme-card { display: flex; flex-direction: column; border: 1px solid var(--line); color: inherit; transition: border-color 0.3s, transform 0.3s; }
+  .theme-card:hover { border-color: var(--accent-deep); transform: translateY(-2px); color: inherit; }
+  .theme-image { aspect-ratio: 16/9; background: var(--bg-soft); background-size: cover; background-position: center; }
+  .theme-card-body { padding: 28px 28px 32px; flex: 1; display: flex; flex-direction: column; gap: 16px; }
+  .theme-card h2 { font-family: var(--serif); font-size: 28px; font-weight: 500; color: var(--text); margin: 0; }
+  .theme-card p { font-family: var(--serif); font-size: 15px; line-height: 1.55; color: var(--text-muted); font-weight: 300; }
+  .theme-link { font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; color: var(--accent); margin-top: auto; }
+</style>

@@ -16,6 +16,13 @@ imagePrompt: An open clay jar tipped on its side on a stone surface at sunrise, 
 image: /images/text-gospel-of-thomas.jpg
 order: 1
 description: A first or second-century collection of 114 sayings of Jesus, presented as the secret words spoken to Didymos Judas Thomas. Recovered intact from the desert at Nag Hammadi in 1945, the gospel preserves a stream of Jesus tradition that runs alongside the canonical synoptics and pushes much closer to the wisdom-saying form than the narrative form that dominates the New Testament.
+leadQuote:
+  text: 'The kingdom is inside of you, and it is outside of you. When you come to know yourselves, then you will become known.'
+  attribution: 'Gospel of Thomas'
+  source: 'saying 3'
+themes:
+  - self-inquiry
+  - presence
 ---
 
 The Gospel of Thomas is a collection of 114 sayings of Jesus, presented in the prologue as "the secret words which the living Jesus spoke and Didymos Judas Thomas wrote down." Where the canonical gospels weave Jesus' sayings into a biographical narrative, Thomas presents them naked, one after another, with no story and no resurrection. It is the most contemplative of the recovered Christian gospels: the kingdom is not promised for a future age, it is "spread upon the earth, and men do not see it" (saying 113).

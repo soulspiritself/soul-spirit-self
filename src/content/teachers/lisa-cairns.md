@@ -5,6 +5,11 @@ summary: A British teacher in the radical-nonduality stream of Tony Parsons, hol
 imagePrompt: Photorealistic portrait of a British woman in her late thirties or early forties, warm friendly face, long light blonde hair, soft hazel-green eyes, gentle smile, wearing a simple bright top, soft warm window light, contemplative atmosphere, square composition tightly centred on her face and shoulders, no text, no watermarks
 image: /images/teacher-lisa-cairns.jpg
 sourceUrl: https://lisacairns.com/
+leadQuote:
+  text: 'This is it. There is nothing missing. Nothing is happening to anyone.'
+  attribution: 'Lisa Cairns'
+themes:
+  - presence
 ---
 
 Lisa Cairns came to nondual teaching out of the radical-nonduality stream associated with Tony Parsons and *The Open Secret*. After her own recognition she began holding meetings and retreats, first in the United Kingdom and then increasingly across Europe and the United States. Her teaching style is unusually direct and unusually warm at the same time. She speaks in plain conversational English, sits on the floor with the people in front of her, and refuses, with great patience, every move the seeking mind makes to keep itself in business.

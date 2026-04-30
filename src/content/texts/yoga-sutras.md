@@ -17,6 +17,9 @@ imagePrompt: Symbolic image of a single steady flame in a clay lamp under a vast
 image: /images/text-yoga-sutras.jpg
 order: 13
 description: The classical text on yoga as the systematic stilling of the modifications of mind. Patanjali's compact aphorisms map the entire territory between ordinary distracted awareness and the recognition of the witness. Bridges the territory between Samkhya, Yoga, and Vedanta.
+themes:
+  - self-inquiry
+  - silence
 ---
 
 The Yoga Sutras stand at a particular junction in the Indian contemplative tradition. They are not Vedanta proper, but they are the most systematic account of how the mind moves from distraction to absorption, and as such they have been read alongside the Advaita texts for nearly two millennia.

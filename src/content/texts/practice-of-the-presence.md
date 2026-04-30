@@ -21,6 +21,12 @@ downloadPdf: /downloads/practice-of-the-presence.pdf
 downloadEpub: /downloads/practice-of-the-presence.epub
 wordCount: 11180
 readingTimeMinutes: 51
+leadQuote:
+  text: 'It is not needful to find God in heaven or far away, but in our own heart.'
+  attribution: 'Brother Lawrence'
+themes:
+  - presence
+  - love
 ---
 
 Brother Lawrence wrote almost nothing during his life. The book that has carried his name in continuous print for more than three centuries was assembled by his prior, Joseph de Beaufort, in the months after his death in 1691. It contains four recorded conversations between de Beaufort and Brother Lawrence, sixteen letters of spiritual counsel that Lawrence had written to friends and to a Carmelite nun, and a couple of short maxims.

@@ -23,6 +23,9 @@ downloadPdf: /downloads/at-the-feet-of-the-master.pdf
 downloadEpub: /downloads/at-the-feet-of-the-master.epub
 wordCount: 6660
 readingTimeMinutes: 30
+themes:
+  - love
+  - presence
 ---
 
 What follows is the complete text of *At the Feet of the Master*, originally published in 1910 at Adyar, India under the pen-name Alcyone, with an introduction by Annie Besant. The fourteen-year-old Jiddu Krishnamurti wrote down, from memory, teachings he had received from his Master in preparation for spiritual Initiation. The book is structured around four qualifications: Discrimination, Desirelessness, Good Conduct, and Love.

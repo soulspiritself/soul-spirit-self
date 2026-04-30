@@ -19,6 +19,12 @@ order: 10
 description: The Ashtavakra Gita is among the most uncompromising texts in the Advaita tradition. King Janaka asks how liberation is attained, and the sage Ashtavakra answers with verses that leave no foothold for the seeker to stand on.
 videos:
   - ssAcmv3Co9I
+leadQuote:
+  text: 'You are the witness only. You have nothing to do with the doer.'
+  attribution: 'Ashtavakra Gita'
+themes:
+  - the-witness
+  - self-inquiry
 ---
 
 ## Chapter one — Instruction on Self-Realisation

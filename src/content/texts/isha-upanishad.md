@@ -22,6 +22,9 @@ downloadPdf: /downloads/isha-upanishad.pdf
 downloadEpub: /downloads/isha-upanishad.epub
 wordCount: 655
 readingTimeMinutes: 3
+themes:
+  - presence
+  - the-witness
 ---
 
 The Isha is among the shortest of the principal upanishads, eighteen verses, and among the most quoted. The opening line in particular, *isha vasyam idam sarvam*, has shaped the contemplative imagination across centuries: all this, whatever moves on the earth, is enveloped by the Lord.

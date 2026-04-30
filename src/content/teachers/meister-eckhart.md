@@ -7,6 +7,12 @@ summary: The Rhineland Dominican whose sermons pushed Christian apophatic theolo
 imagePrompt: Symbolic painterly portrait of Meister Eckhart as a thirteenth-century Dominican friar in his sixties, black and white habit, lean intelligent face, deep contemplative gaze, soft golden light, painterly Gothic style
 image: /images/teacher-meister-eckhart.jpg
 sourceUrl: https://archive.org/details/meistereckhart01eckhuoft
+leadQuote:
+  text: 'The eye through which I see God is the same eye through which God sees me.'
+  attribution: 'Meister Eckhart'
+themes:
+  - silence
+  - self-inquiry
 ---
 
 Eckhart was the leading German theologian of his generation, twice holding the Dominican chair at Paris that Aquinas had held before him. He was also the most radical Christian mystic the West has produced. His German vernacular sermons, preached to lay audiences and to the Beguine and Dominican women's communities of the Rhineland, push apophatic theology into formulations that read like Advaita translated into thirteenth-century German.

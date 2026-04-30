@@ -9,6 +9,13 @@ image: /images/tradition-gnostic-christianity.jpg
 description: The contemplative current of early Christianity. From the Gospel of Thomas through the Pistis Sophia and the Hermetic dialogues, Gnostic Christianity taught the inward awakening to the divine spark and the recognition that the kingdom is "spread upon the earth, but men do not see it."
 videos:
   - hsUk2CWW0dM
+leadQuote:
+  text: 'The kingdom is inside of you, and it is outside of you. When you come to know yourselves, then you will become known.'
+  attribution: 'Gospel of Thomas'
+  source: 'saying 3'
+themes:
+  - self-inquiry
+  - love
 ---
 
 Gnostic Christianity is the contemplative current that ran alongside the canonical New Testament in the first three centuries of the Christian era, declared heretical by the fourth-century church but preserved in the Nag Hammadi codices buried in the Egyptian desert in the late fourth century, in the Askew Codex of the Pistis Sophia acquired by the British Museum in 1785, and in the Hermetic dialogues that the Renaissance read as the most ancient pre-Christian wisdom.

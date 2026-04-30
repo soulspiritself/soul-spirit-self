@@ -6,6 +6,16 @@ summary: An English Christian contemplative whose decades of solitary prayer, li
 imagePrompt: Photorealistic portrait of John Butler, an elderly English man with a soft kind face, full white beard, gentle blue eyes, wearing a simple plain shirt and sweater, soft warm afternoon light through a window, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-john-butler.jpg
 sourceUrl: https://www.johnbutler.org.uk/
+leadQuote:
+  text: 'Stillness, in the end, is the only place I want to be.'
+  attribution: 'John Butler'
+themes:
+  - presence
+  - silence
+  - love
+related:
+  - brother-lawrence
+  - bede-griffiths
 ---
 
 John Butler is an English farmer who has practised contemplative prayer most of his adult life. He was raised a Quaker, was drawn to the Russian Orthodox tradition in his middle years, and has farmed in Lincolnshire and in Russia. He came to a wider audience in his eighties through his own books and through long-form recorded conversations with Iain McNay on Conscious TV.

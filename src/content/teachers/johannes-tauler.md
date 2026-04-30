@@ -7,6 +7,9 @@ summary: The Strasbourg Dominican who carried Eckhart's Rhineland mysticism into
 imagePrompt: Symbolic painterly portrait of Johannes Tauler as a fourteenth-century Dominican friar in his fifties, black and white habit, kindly weathered face, soft contemplative expression, warm golden light, simple Gothic interior
 image: /images/teacher-johannes-tauler.jpg
 sourceUrl: https://archive.org/details/historyandlifere00tauluoft
+themes:
+  - silence
+  - love
 ---
 
 Tauler was Eckhart's spiritual heir. A Dominican friar based primarily in Strasbourg, he heard Eckhart preach in his youth, absorbed the teaching of the soul's ground, and spent the next forty years translating it into pastoral German vernacular sermons that could be heard, lived, and practised by ordinary lay Christians.

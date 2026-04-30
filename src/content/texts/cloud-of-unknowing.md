@@ -21,6 +21,12 @@ downloadPdf: /downloads/cloud-of-unknowing.pdf
 downloadEpub: /downloads/cloud-of-unknowing.epub
 wordCount: 44111
 readingTimeMinutes: 201
+leadQuote:
+  text: 'Thought cannot comprehend God. And so, I prefer to abandon all I can know, choosing rather to love Him whom I cannot know.'
+  attribution: 'The Cloud of Unknowing'
+themes:
+  - silence
+  - love
 ---
 
 We do not know who wrote *The Cloud of Unknowing*. The author was almost certainly an English priest with formal theological training, writing in the late fourteenth century, somewhere in the East Midlands. Internal evidence suggests a Carthusian or Cistercian context. The text is addressed to a particular disciple, a young man of twenty-four who has begun the contemplative life and needs guidance.

@@ -7,6 +7,9 @@ summary: The Beguine whose Mirror of Simple Souls pushed the apophatic mysticism
 imagePrompt: Symbolic painterly portrait of Marguerite Porete as a thirteenth-century French Beguine in her fifties, simple grey robe and white veil, intelligent serious face, contemplative direct gaze, soft warm light from a small Gothic window, painterly French medieval style
 image: /images/teacher-marguerite-porete.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Marguerite_Porete
+themes:
+  - love
+  - silence
 ---
 
 Marguerite Porete was a Beguine from Hainault in northern France, writing in Old French at the end of the thirteenth century. Her single surviving book, *The Mirror of Simple Souls Annihilated and Who Only Remain in Will and Desire of Love*, is a sustained allegorical dialogue between Soul, Reason, Love, and several other personifications, mapping the soul's progressive freedom from every constraint until it reaches what she calls the seventh state of *annihilation*.

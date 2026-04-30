@@ -16,6 +16,8 @@ imagePrompt: A robed figure standing at the threshold of a vast blue-violet aeon
 image: /images/text-pistis-sophia.jpg
 order: 3
 description: The longest surviving Gnostic Christian scripture. A third-century vision-narrative in which Christ, returning to the disciples eleven years after the Resurrection, expounds the fall and restoration of Sophia (Wisdom) and the structure of the heavenly aeons through which the soul ascends.
+themes:
+  - love
 ---
 
 *Pistis Sophia* is the longest surviving Gnostic Christian scripture. It survives in a single fourth-century Coptic manuscript, the Askew Codex, acquired by the British Museum in 1785 and translated into English by G. R. S. Mead in two editions, 1896 and (substantially revised) 1921.

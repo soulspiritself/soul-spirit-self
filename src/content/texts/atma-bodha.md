@@ -23,6 +23,9 @@ downloadPdf: /downloads/atma-bodha.pdf
 downloadEpub: /downloads/atma-bodha.epub
 wordCount: 28537
 readingTimeMinutes: 130
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 Cowork to curate the on-page preview verses for this text in a next session.

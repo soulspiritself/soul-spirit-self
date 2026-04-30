@@ -7,6 +7,8 @@ summary: The thirteenth-century Beguine whose Flowing Light of the Godhead is th
 imagePrompt: Symbolic painterly portrait of Mechthild of Magdeburg as a thirteenth-century Beguine in her fifties, simple grey woollen robe and white veil, contemplative gentle face, soft warm light, painterly medieval Northern European style
 image: /images/teacher-mechthild-of-magdeburg.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Mechthild_of_Magdeburg
+themes:
+  - love
 ---
 
 Mechthild was a Beguine, a member of the lay women's spiritual movement that spread across the Low Countries and Germany in the thirteenth century. The Beguines lived in voluntary community, took no permanent vows, supported themselves by manual work, and pursued contemplation outside the formal structures of the established religious orders. Their movement was eventually suppressed.

@@ -6,6 +6,16 @@ summary: An American teacher whose nondual teaching grew out of fourteen years o
 imagePrompt: Photorealistic portrait of Adyashanti, an American man in his sixties, shaved head, kind contemplative face, warm gentle eyes, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-adyashanti.jpg
 sourceUrl: https://www.adyashanti.org/
+leadQuote:
+  text: 'Enlightenment is a destructive process. It has nothing to do with becoming better or being happier. Enlightenment is the crumbling away of untruth.'
+  attribution: 'Adyashanti'
+themes:
+  - self-inquiry
+  - presence
+  - silence
+related:
+  - gangaji
+  - papaji
 ---
 
 Adyashanti was born Steven Gray in San Jose, California in 1962. He began Zen training in his mid-twenties under Arvis Joen Justi, a lay dharma successor in the Taizan Maezumi lineage, and practised intensively for fourteen years. His own awakening, as he describes it, was a slow series of openings rather than a single moment, culminating in the late 1990s in a stable recognition. He began teaching at his teacher's encouragement in 1996, taking the Sanskrit name Adyashanti, *primordial peace*.

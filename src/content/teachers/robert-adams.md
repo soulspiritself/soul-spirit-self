@@ -9,6 +9,17 @@ image: /images/teacher-robert-adams.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Robert_Adams_(spiritual_teacher)
 videos:
   - VHuo15MkU9Y
+leadQuote:
+  text: 'All you have to do is to keep quiet. Be silent. Then the truth will dawn upon you.'
+  attribution: 'Robert Adams'
+themes:
+  - self-inquiry
+  - silence
+  - death-and-the-deathless
+related:
+  - ramana-maharshi
+  - papaji
+  - gangaji
 ---
 
 Robert Adams was born in New York in 1928. His early life, as he later told it in his talks, was unusual from the start. As a child he had spontaneous visions of a dark-skinned Indian man whom he later recognised, when he saw the photograph in a book at sixteen, as Ramana Maharshi. In 1947 he travelled to India and spent time at Sri Ramanasramam in Tiruvannamalai. He always pointed to that meeting as the central event of his life. He travelled in the years afterward, knew Nisargadatta and various other Indian teachers, and lived for many years in obscurity.

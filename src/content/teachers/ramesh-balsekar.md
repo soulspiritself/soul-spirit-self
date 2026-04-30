@@ -7,6 +7,14 @@ summary: A retired president of the Bank of India who became Nisargadatta Mahara
 imagePrompt: Photorealistic portrait of Ramesh Balsekar, an elderly Indian man in his eighties, broad warm smiling face, short white hair, wearing a simple white kurta, soft warm afternoon light, contemplative atmosphere reminiscent of late-1990s photographs from his Bombay teaching room, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-ramesh-balsekar.jpg
 sourceUrl: https://www.advaita.org/
+leadQuote:
+  text: 'Whatever happens is the will of Source.'
+  attribution: 'Ramesh Balsekar'
+themes:
+  - self-inquiry
+related:
+  - nisargadatta-maharaj
+  - wayne-liquorman
 ---
 
 Ramesh Sadashiv Balsekar was born in Bombay in 1917, took a degree from the London School of Economics, and spent the next forty years in banking, finishing his career as president of the Bank of India. He retired in 1977 and the next year met Nisargadatta Maharaj, who was holding daily satsangs near the same Bombay neighbourhood. He soon became Nisargadatta's chief English translator, the voice through which most of the seekers who came to *I Am That* satsangs in the late 1970s and early 1980s heard the teacher.

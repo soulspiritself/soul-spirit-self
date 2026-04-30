@@ -7,6 +7,8 @@ summary: The twelfth-century Benedictine abbess, mystic, composer, and natural p
 imagePrompt: Symbolic painterly portrait of Hildegard of Bingen as a twelfth-century Benedictine abbess in her seventies, black habit and white veil, intelligent serene face, holding a small book, soft warm light streaming through Gothic window, painterly medieval style
 image: /images/teacher-hildegard-of-bingen.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Hildegard_of_Bingen
+themes:
+  - love
 ---
 
 Hildegard of Bingen is one of the most extraordinary minds the medieval West produced. A Benedictine nun who founded her own monastery on the Rupertsberg above the Rhine, she experienced visions from early childhood, finally accepting in her forties the call to write them down. The result, her *Scivias*, is a record of twenty-six visionary experiences accompanied by extended theological and cosmological commentary.

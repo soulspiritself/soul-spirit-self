@@ -9,6 +9,16 @@ image: /images/teacher-bede-griffiths.jpg
 sourceUrl: https://bedegriffithssangha.org.uk
 videos:
   - hQJ3kcZMHIQ
+leadQuote:
+  text: 'What you face at death is unconditional love. That is the judgment.'
+  attribution: 'Bede Griffiths'
+themes:
+  - love
+  - death-and-the-deathless
+  - presence
+related:
+  - ramana-maharshi
+  - anthony-de-mello
 ---
 
 Alan Richard Griffiths grew up in England, read literature at Oxford under C.S. Lewis, became a Roman Catholic and then a Benedictine monk, taking the name Bede. By his forties he had begun to feel that the European Christian tradition he had inherited was, as he put it, working only with the conscious mind. Something else, something his own tradition had partly lost, was alive in the East.

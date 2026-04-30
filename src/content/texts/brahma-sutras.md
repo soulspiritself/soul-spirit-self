@@ -23,6 +23,9 @@ downloadPdf: /downloads/brahma-sutras.pdf
 downloadEpub: /downloads/brahma-sutras.epub
 wordCount: 131651
 readingTimeMinutes: 598
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 Cowork to curate the on-page preview verses for this text in a next session.

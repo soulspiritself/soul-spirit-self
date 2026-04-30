@@ -1,37 +1,160 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import VideoCard from '../components/VideoCard.astro';
 import { videos, channelUrl } from '../data/videos';
+import { getCollection } from 'astro:content';
+
+const allTeachers = await getCollection('teachers');
+const allTraditions = await getCollection('traditions');
+const allThemes = await getCollection('themes');
+
+// Build slug -> display-name maps so the filter chips can show the full names
+const teacherNames: Record<string, string> = Object.fromEntries(allTeachers.map(t => [t.slug, t.data.name]));
+const traditionTitles: Record<string, string> = Object.fromEntries(allTraditions.map(t => [t.slug, t.data.title]));
+const themeTitles: Record<string, string> = Object.fromEntries(allThemes.map(t => [t.slug, t.data.title]));
+
+// Compute distinct sets used by the filters, sorted by display name and limited to
+// values that actually appear on at least one video so the filters stay useful
+function unique<T>(xs: T[]): T[] { return [...new Set(xs)]; }
+const teacherSlugs = unique(videos.flatMap(v => v.teacher ? [v.teacher] : [])).sort((a, b) => (teacherNames[a] ?? a).localeCompare(teacherNames[b] ?? b));
+const traditionSlugs = unique(videos.flatMap(v => v.tradition ? [v.tradition] : [])).sort((a, b) => (traditionTitles[a] ?? a).localeCompare(traditionTitles[b] ?? b));
+const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (themeTitles[a] ?? a).localeCompare(themeTitles[b] ?? b));
 ---
 <BaseLayout
   title="Watch"
-  description="Curated video teachings from the Soul Spirit Self YouTube library. Teachers, satsangs, and contemplative talks from across the nondual traditions."
+  description="The complete library of curated video teachings from the Soul Spirit Self YouTube channel. Filter by teacher, tradition, or theme."
 >
 
   <section class="watch-hero">
-    <span class="eyebrow">The library</span>
+    <span class="eyebrow">The video library</span>
     <h1>Watch</h1>
     <p class="lede">
-      A growing library of curated teachings from across the nondual traditions. Click any thumbnail to open the full video on the Soul Spirit Self YouTube channel.
+      The complete collection of teachings from the Soul Spirit Self YouTube channel, gathered here by teacher, tradition, and theme. Click any thumbnail to play.
     </p>
     <div class="rule-gold-h"></div>
   </section>
 
-  <section class="watch-grid-section">
-    <div class="videos-grid">
-      {videos.map(v => (
-        <VideoCard youtubeId={v.id} title={v.title} caption={v.caption} />
-      ))}
+  <section class="watch-filters">
+    <div class="wrapper">
+      <div class="filter-row">
+        <span class="filter-label">Teacher</span>
+        <div class="filter-chips">
+          <button class="chip current" data-filter-type="teacher" data-filter-value="">All</button>
+          {teacherSlugs.map(slug => (
+            <button class="chip" data-filter-type="teacher" data-filter-value={slug}>{teacherNames[slug] ?? slug}</button>
+          ))}
+        </div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Tradition</span>
+        <div class="filter-chips">
+          <button class="chip current" data-filter-type="tradition" data-filter-value="">All</button>
+          {traditionSlugs.map(slug => (
+            <button class="chip" data-filter-type="tradition" data-filter-value={slug}>{traditionTitles[slug] ?? slug}</button>
+          ))}
+        </div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Theme</span>
+        <div class="filter-chips">
+          <button class="chip current" data-filter-type="theme" data-filter-value="">All</button>
+          {themeSlugs.map(slug => (
+            <button class="chip" data-filter-type="theme" data-filter-value={slug}>{themeTitles[slug] ?? slug}</button>
+          ))}
+        </div>
+      </div>
     </div>
-    <div class="channel-link">
-      <a href={channelUrl} target="_blank" rel="noopener" class="btn primary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
-        Visit the YouTube channel
-      </a>
+  </section>
+
+  <section class="watch-grid-section">
+    <div class="wrapper">
+      <p class="result-count" id="result-count">{videos.length} videos</p>
+      <div class="videos-grid" id="videos-grid">
+        {videos.map(v => (
+          <a
+            href={`https://youtu.be/${v.id}`}
+            target="_blank"
+            rel="noopener"
+            class="video-card"
+            data-teacher={v.teacher ?? ''}
+            data-tradition={v.tradition ?? ''}
+            data-themes={(v.themes ?? []).join(',')}
+          >
+            <div class="thumb-wrap">
+              <img
+                src={`https://img.youtube.com/vi/${v.id}/mqdefault.jpg`}
+                alt={v.title}
+                loading="lazy"
+              />
+              <span class="play-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" width="48" height="48">
+                  <circle cx="16" cy="16" r="15" fill="rgba(201, 169, 110, 0.92)" />
+                  <path d="M13 11 L22 16 L13 21 Z" fill="#1a4a65" />
+                </svg>
+              </span>
+            </div>
+            <div class="video-meta">
+              <p class="video-title">{v.title}</p>
+              {v.caption && <p class="video-caption">{v.caption}</p>}
+            </div>
+          </a>
+        ))}
+      </div>
+      <p class="empty-state" id="empty-state" hidden>
+        No videos match these filters yet.
+      </p>
+      <div class="channel-link">
+        <a href={channelUrl} target="_blank" rel="noopener" class="btn primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+          Visit the YouTube channel
+        </a>
+      </div>
     </div>
   </section>
 
 </BaseLayout>
+
+<script>
+  // Client-side filtering. All videos are rendered up-front; the script just
+  // shows or hides cards based on the chip selections.
+  const state = { teacher: '', tradition: '', theme: '' };
+  const cards = document.querySelectorAll<HTMLElement>('#videos-grid .video-card');
+  const countEl = document.getElementById('result-count');
+  const emptyEl = document.getElementById('empty-state');
+  const gridEl = document.getElementById('videos-grid');
+
+  function applyFilters() {
+    let visible = 0;
+    cards.forEach(card => {
+      const t = card.dataset.teacher || '';
+      const tr = card.dataset.tradition || '';
+      const themes = (card.dataset.themes || '').split(',').filter(Boolean);
+      const matches =
+        (!state.teacher || t === state.teacher) &&
+        (!state.tradition || tr === state.tradition) &&
+        (!state.theme || themes.includes(state.theme));
+      card.style.display = matches ? '' : 'none';
+      if (matches) visible++;
+    });
+    if (countEl) countEl.textContent = visible === 1 ? '1 video' : `${visible} videos`;
+    if (emptyEl) emptyEl.hidden = visible !== 0;
+    if (gridEl) gridEl.style.display = visible === 0 ? 'none' : '';
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.filterType as 'teacher' | 'tradition' | 'theme';
+      const value = btn.dataset.filterValue || '';
+      state[type] = value;
+      // Update active chip styling within the same row
+      const row = btn.closest('.filter-row');
+      if (row) {
+        row.querySelectorAll('.chip').forEach(c => c.classList.remove('current'));
+        btn.classList.add('current');
+      }
+      applyFilters();
+    });
+  });
+</script>
 
 <style>
   .watch-hero {
@@ -40,33 +163,113 @@ import { videos, channelUrl } from '../data/videos';
     max-width: 760px;
     margin: 0 auto;
   }
-  .watch-hero h1 {
-    font-family: var(--serif);
-    font-size: 84px;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-    margin: 12px 0 24px;
-  }
-  .watch-hero .lede {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 19px;
-    color: var(--text-muted);
-    line-height: 1.65;
-  }
+  .watch-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .watch-hero h1 { font-family: var(--serif); font-size: 84px; font-weight: 400; letter-spacing: 0.04em; margin: 12px 0 24px; }
+  .watch-hero .lede { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-muted); line-height: 1.65; }
 
-  .watch-grid-section {
-    padding: 32px var(--gutter) 96px;
-    max-width: var(--max-width);
-    margin: 0 auto;
+  .watch-filters {
+    padding: 0 0 24px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 32px;
+  }
+  .filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+  }
+  .filter-row:first-child { border-top: none; }
+  .filter-label {
+    flex: 0 0 100px;
+    padding-top: 6px;
+    font-family: var(--sans);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .filter-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    padding: 6px 14px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--text-muted);
+    font-family: var(--sans);
+    font-size: 13px;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+  }
+  .chip:hover { border-color: var(--accent-deep); color: var(--text); }
+  .chip.current { border-color: var(--accent); color: var(--text); background: rgba(201,169,97,0.12); }
+
+  .watch-grid-section { padding: 0 0 96px; }
+  .result-count {
+    font-family: var(--sans);
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 24px;
   }
   .videos-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 36px 28px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px 24px;
   }
-  .channel-link { text-align: center; margin-top: 80px; }
 
-  @media (max-width: 900px) { .videos-grid { grid-template-columns: repeat(2, 1fr); } .watch-hero h1 { font-size: 56px; } }
-  @media (max-width: 600px) { .videos-grid { grid-template-columns: 1fr; } }
+  .video-card { color: inherit; display: block; transition: transform 0.3s ease; }
+  .video-card:hover { color: inherit; transform: translateY(-3px); }
+  .thumb-wrap {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid var(--line);
+    background: var(--bg-soft);
+  }
+  .thumb-wrap img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform 0.5s ease;
+  }
+  .video-card:hover .thumb-wrap img { transform: scale(1.04); }
+  .play-icon {
+    position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; pointer-events: none;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
+  }
+  .video-meta { margin-top: 12px; }
+  .video-title {
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.45;
+    font-weight: 500;
+  }
+  .video-caption {
+    font-size: 12px;
+    color: var(--text-faint);
+    margin-top: 4px;
+    letter-spacing: 0.04em;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 64px 0;
+    font-family: var(--serif);
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text-muted);
+  }
+
+  .channel-link { text-align: center; margin-top: 64px; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border: 1px solid var(--line); color: var(--text); font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; }
+  .btn.primary { background: var(--accent); color: #1a2030; border-color: var(--accent); }
+  .btn:hover { color: var(--text); border-color: var(--accent); }
+  .btn.primary:hover { color: #1a2030; }
+
+  @media (max-width: 700px) {
+    .filter-row { flex-direction: column; gap: 8px; }
+    .filter-label { padding-top: 0; }
+  }
 </style>

@@ -22,6 +22,9 @@ downloadPdf: /downloads/tripura-rahasya.pdf
 downloadEpub: /downloads/tripura-rahasya.epub
 wordCount: 74981
 readingTimeMinutes: 341
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 The Tripura Rahasya occupies a distinctive position in the Indian nondual canon. Where the classical Advaita texts insist on a strictly impersonal Self, the Tripura Rahasya allows the recognition of nonduality to be approached through the goddess Tripura, the threefold reality that is both the world and what underlies it.

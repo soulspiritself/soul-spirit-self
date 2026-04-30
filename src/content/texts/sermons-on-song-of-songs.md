@@ -18,6 +18,8 @@ imagePrompt: Symbolic image of a single rose in deep amber light blooming agains
 image: /images/text-sermons-on-song-of-songs.jpg
 order: 2
 description: Bernard's eighty-six sermons on the biblical Song of Songs are the most influential treatment of bridal mysticism in the Christian tradition. Written and revised across the last two decades of his life, they trace the soul's stages of love from the kiss of the feet through the kiss of the hands to the kiss of the mouth.
+themes:
+  - love
 ---
 
 Bernard began the *Sermons on the Song of Songs* in 1135 and was still working on them when he died eighteen years later. The completed cycle covers only the first two chapters of the biblical Song. The pace is unhurried because the project was never to comment on the text in the modern academic sense. It was to use the text as an occasion for the soul's interior progress, sermon by sermon, year by year, with the monastic community of Clairvaux as the primary audience.

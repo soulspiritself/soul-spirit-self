@@ -22,6 +22,11 @@ downloadPdf: /downloads/mundaka-upanishad.pdf
 downloadEpub: /downloads/mundaka-upanishad.epub
 wordCount: 2598
 readingTimeMinutes: 12
+leadQuote:
+  text: 'Two birds, inseparable companions, perch on the same tree. The one eats of the sweet fruit; the other looks on without eating.'
+  attribution: 'Mundaka Upanishad'
+themes:
+  - the-witness
 ---
 
 ## The two knowledges

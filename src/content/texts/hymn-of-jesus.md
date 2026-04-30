@@ -21,6 +21,9 @@ downloadPdf: /downloads/hymn-of-jesus.pdf
 downloadEpub: /downloads/hymn-of-jesus.epub
 wordCount: 10514
 readingTimeMinutes: 48
+themes:
+  - silence
+  - love
 ---
 
 Cowork to curate the on-page preview verses for this text in a next session.

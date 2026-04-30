@@ -23,6 +23,13 @@ downloadPdf: /downloads/confessions.pdf
 downloadEpub: /downloads/confessions.epub
 wordCount: 112554
 readingTimeMinutes: 512
+leadQuote:
+  text: 'You have made us for Yourself, O Lord, and our heart is restless until it rests in You.'
+  attribution: 'Augustine'
+  source: 'I.1'
+themes:
+  - love
+  - self-inquiry
 ---
 
 The *Confessions* is the founding text of Christian contemplative interiority. Written by Augustine in his early forties, around 397, while he was bishop of the small North African town of Hippo, the book is structured as a continuous prayer addressed in the second person to God. The reader overhears, but the form is direct address.

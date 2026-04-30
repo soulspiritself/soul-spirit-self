@@ -18,6 +18,10 @@ imagePrompt: Symbolic image of a single small figure walking down a dark stone s
 image: /images/text-dark-night-of-the-soul.jpg
 order: 8
 description: John of the Cross's prose commentary on his own short poem describing the soul's nighttime journey toward union with God. The Dark Night is the most precise account in any tradition of the systematic dismantling of every spiritual support that the soul might still cling to.
+themes:
+  - silence
+  - love
+  - death-and-the-deathless
 ---
 
 The poem at the heart of this book is eight stanzas long and was written by John of the Cross during or shortly after his nine months of imprisonment in Toledo. The prose commentary, which is the text known as *The Dark Night of the Soul*, was written several years later in response to requests from Carmelite nuns who had asked him to explain what the poem meant.

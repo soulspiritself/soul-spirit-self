@@ -7,6 +7,15 @@ summary: The Carmelite lay brother whose conversations and letters, collected af
 imagePrompt: Symbolic painterly portrait of Brother Lawrence as a seventeenth-century French Carmelite lay brother in his sixties, simple brown habit, kind weathered face, gentle smile, hands resting on a wooden kitchen table, soft warm candlelight, intimate humble interior
 image: /images/teacher-brother-lawrence.jpg
 sourceUrl: https://ccel.org/ccel/lawrence/practice/practice
+leadQuote:
+  text: 'It is not needful to find God in heaven or far away, but in our own heart.'
+  attribution: 'Brother Lawrence'
+  source: 'The Practice of the Presence of God'
+themes:
+  - presence
+  - love
+related:
+  - john-butler
 ---
 
 Nicholas Herman, who took the religious name Brother Lawrence of the Resurrection, lived an outwardly small life. He was a French peasant, served briefly as a soldier in the Thirty Years' War, was wounded and discharged, worked for a time as a footman, and at around forty entered the Discalced Carmelite priory in Paris as a lay brother. He spent the rest of his life there, mostly in the kitchen and later as a sandal maker, doing the unglamorous manual work of the community.

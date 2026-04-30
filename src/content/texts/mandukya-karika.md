@@ -23,6 +23,9 @@ downloadPdf: /downloads/mandukya-karika.pdf
 downloadEpub: /downloads/mandukya-karika.epub
 wordCount: 11047
 readingTimeMinutes: 50
+themes:
+  - the-witness
+  - silence
 ---
 
 The Mandukya Karika is the foundation stone of the Advaita lineage. Gaudapada writes in the sixth century, two hundred years before Shankara, taking the twelve short mantras of the [Mandukya Upanishad](/texts/mandukya-upanishad/) as his point of departure and developing them across four prakaranas: Agama on tradition, Vaitathya on the unreality of the apparent, Advaita on non-duality, and Alatasanti on the quenching of the firebrand. Across two hundred and fifteen verses he works out the doctrine of *ajativada*, non-origination — the claim that nothing has ever truly come into being, that birth and death are appearances within an unborn awareness, and that the apparent world is to consciousness what dream is to the dreamer. Shankara's Advaita, and through it the entire later tradition, descends from this text.

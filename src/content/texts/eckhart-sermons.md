@@ -18,6 +18,9 @@ imagePrompt: Symbolic image of an empty vault of dark cosmic blue space with a s
 image: /images/text-eckhart-sermons.jpg
 order: 3
 description: The German sermons of Meister Eckhart push Christian apophatic theology into formulations of strikingly nondual recognition. Preached to lay audiences and Beguine communities of the Rhineland in the early fourteenth century, they remain the most radical sustained body of mystical writing in Western Christianity.
+themes:
+  - silence
+  - self-inquiry
 ---
 
 Eckhart's surviving works fall into two main bodies. The Latin works, written for the academy, are systematic theology in the scholastic mode and were never controversial. The German works, the *Predigten* and *Traktate*, were preached and circulated in vernacular Middle High German to lay audiences, especially the Beguine and Dominican women's communities of the upper Rhine. They were the basis of the heresy proceedings against him.

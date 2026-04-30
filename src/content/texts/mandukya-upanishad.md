@@ -22,6 +22,9 @@ downloadPdf: /downloads/mandukya-upanishad.pdf
 downloadEpub: /downloads/mandukya-upanishad.epub
 wordCount: 628
 readingTimeMinutes: 3
+themes:
+  - silence
+  - the-witness
 ---
 
 The Mandukya is the shortest of the principal upanishads. Twelve mantras. Yet Gaudapada built his commentary on it, Shankara built his system on Gaudapada's commentary, and the entire later Advaita lineage descends from those twelve sentences. The text moves through the four quarters of the Self, the analysis of consciousness as waking, dream, deep sleep, and the fourth, and identifies all four with the syllable *Aum*.

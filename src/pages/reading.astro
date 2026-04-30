@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allBooks = (await getCollection('books')).sort((a, b) => a.data.order - b.data.order);
+const allTeachers = await getCollection('teachers');
+const allTraditions = await getCollection('traditions');
+
+const teacherNames: Record<string, string> = Object.fromEntries(allTeachers.map(t => [t.slug, t.data.name]));
+const traditionTitles: Record<string, string> = Object.fromEntries(allTraditions.map(t => [t.slug, t.data.title]));
+
+// Group by tradition for the body display
+type BookEntry = (typeof allBooks)[number];
+const grouped = new Map<string, BookEntry[]>();
+for (const book of allBooks) {
+  const slug = book.data.tradition?.slug || 'other';
+  if (!grouped.has(slug)) grouped.set(slug, []);
+  grouped.get(slug)!.push(book);
+}
+// Sort tradition groups by tradition.order
+const traditionOrder = Object.fromEntries(allTraditions.map(t => [t.slug, t.data.order]));
+const groups = [...grouped.entries()]
+  .map(([slug, books]) => ({ slug, title: traditionTitles[slug] || 'Other', order: traditionOrder[slug] ?? 99, books: books.sort((a, b) => a.data.order - b.data.order) }))
+  .sort((a, b) => a.order - b.order);
+---
+<BaseLayout
+  title="Reading"
+  description="A curated reading list for the contemplative library. Books we recommend for the journey through the traditions, with brief descriptions and links to the publisher or author."
+>
+  <section class="page-hero">
+    <span class="eyebrow">A reading list</span>
+    <h1>Reading</h1>
+    <p class="lede">
+      Books that supplement the texts we host. Most of these are still in copyright and can't live on the site, but each is a reliable companion for the journey through one tradition or another.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="reading-section">
+    <div class="wrapper">
+      {groups.map(group => (
+        <div class="trad-group">
+          <h2><a href={`/traditions/${group.slug}/`}>{group.title}</a></h2>
+          <div class="books-grid">
+            {group.books.map(book => (
+              <a
+                href={book.data.externalUrl || '#'}
+                target={book.data.externalUrl?.startsWith('http') ? '_blank' : '_self'}
+                rel={book.data.externalUrl?.startsWith('http') ? 'noopener' : null}
+                class="book-card"
+              >
+                <div class="book-meta">
+                  <h3>{book.data.title}</h3>
+                  <p class="book-author">
+                    {book.data.author}
+                    {book.data.year && <span class="book-year"> · {book.data.year}</span>}
+                  </p>
+                </div>
+                <p class="book-blurb">{book.data.blurb}</p>
+                {book.data.teacher && teacherNames[book.data.teacher.slug] && (
+                  <p class="book-teacher">
+                    More from <a href={`/teachers/${book.data.teacher.slug}/`}>{teacherNames[book.data.teacher.slug]}</a>
+                  </p>
+                )}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero { text-align: center; padding: 96px var(--gutter) 48px; max-width: 760px; margin: 0 auto; }
+  .page-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .page-hero h1 { font-family: var(--serif); font-size: 84px; font-weight: 400; letter-spacing: 0.04em; margin: 12px 0 24px; }
+  .page-hero .lede { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-muted); line-height: 1.65; }
+
+  .reading-section { padding: 48px 0 96px; }
+
+  .trad-group { margin-bottom: 80px; }
+  .trad-group h2 {
+    font-family: var(--serif);
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text);
+    margin: 0 0 32px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 16px;
+  }
+  .trad-group h2 a { color: inherit; border: none; }
+  .trad-group h2 a:hover { color: var(--accent); }
+
+  .books-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 28px; }
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 28px;
+    border: 1px solid var(--line);
+    color: inherit;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+  .book-card:hover { border-color: var(--accent); color: inherit; transform: translateY(-2px); }
+  .book-meta h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    margin: 0 0 6px;
+  }
+  .book-author {
+    font-family: var(--sans);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .book-year { color: var(--text-faint); }
+  .book-blurb {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
+  .book-teacher {
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--text-faint);
+    margin-top: auto;
+    padding-top: 4px;
+  }
+  .book-teacher a { color: var(--text-muted); border-bottom: 1px solid rgba(201,169,97,0.3); padding-bottom: 1px; }
+  .book-teacher a:hover { color: var(--text); }
+</style>

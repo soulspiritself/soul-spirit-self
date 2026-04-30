@@ -18,6 +18,9 @@ imagePrompt: Symbolic image of a many-faceted crystalline jewel suspended in dee
 image: /images/text-vivekachudamani.jpg
 order: 6
 description: Shankara's most famous prakarana grantha. A systematic teaching on viveka — the discrimination between the real and the apparent — set as a dialogue between teacher and student. Among the most widely-studied introductions to Advaita.
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 The Vivekachudamani is the great pedagogical work attributed to Shankara. Five hundred and eighty verses long, it sets out the entire path of jnana yoga as a dialogue between a teacher and a sincere student who has come asking for liberation.

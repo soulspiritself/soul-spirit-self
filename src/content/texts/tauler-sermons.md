@@ -17,6 +17,9 @@ imagePrompt: Symbolic image of a small candle flame burning steadily on a wooden
 image: /images/text-tauler-sermons.jpg
 order: 5
 description: Tauler's vernacular German sermons carry Eckhart's nondual mysticism into pastoral form, accessible to lay Christians and shaped by the experience of preaching to communities living through the Black Death of 1348-50.
+themes:
+  - silence
+  - love
 ---
 
 Tauler's surviving body of work is almost entirely sermons, around eighty of them, preached over the last twenty years of his life primarily in Strasbourg, Cologne, and Basel. They were transcribed by listeners, mostly nuns and Beguines, and circulated widely in fourteenth-century manuscripts. The Winkworth translation gathers a substantial selection in idiomatic Victorian English.

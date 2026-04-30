@@ -7,6 +7,8 @@ summary: The thirteenth-century Brabantine Beguine whose visions, letters, and p
 imagePrompt: Symbolic painterly portrait of Hadewijch as a thirteenth-century Brabantine Beguine in her thirties, simple light grey robe and white veil, intelligent contemplative face, holding a small book, soft warm Northern European light, painterly medieval style
 image: /images/teacher-hadewijch.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Hadewijch
+themes:
+  - love
 ---
 
 Almost nothing is known of Hadewijch's outer life. She was a Beguine, probably from Brabant in what is now Belgium, writing in Middle Dutch in the middle of the thirteenth century. She seems to have led a Beguine community for a time, was eventually forced out by ecclesiastical pressure, and may have spent her later life as a wanderer.

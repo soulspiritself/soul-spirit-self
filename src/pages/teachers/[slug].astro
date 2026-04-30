@@ -22,6 +22,13 @@ const siblings = allTeachers
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .slice(0, 4);
 
+// Cross-tradition related teachers (manually-curated `related` field)
+const crossRelated = teacher.data.related
+  ? (await Promise.all(
+      teacher.data.related.map(ref => allTeachers.find(t => t.slug === ref.slug))
+    )).filter(Boolean).filter(t => t.data.tradition.slug !== tradition.slug)
+  : [];
+
 // Texts attributed to this teacher (best-effort: text frontmatter has an
 // optional teacher reference)
 const allTexts = await getCollection('texts');
@@ -30,6 +37,15 @@ const teacherTexts = allTexts
   .sort((a, b) => a.data.order - b.data.order);
 
 const videoIds = teacher.data.videos || [];
+// "Begin here" featured video: use teacher.data.beginHere if set, else videos[0]
+const beginHereId = teacher.data.beginHere || videoIds[0];
+const otherVideoIds = videoIds.filter(id => id !== beginHereId);
+
+// Themes this teacher is tagged with (for cross-axis links at the bottom)
+const allThemes = await getCollection('themes');
+const teacherThemes = (teacher.data.themes || [])
+  .map(ref => allThemes.find(t => t.slug === ref.slug))
+  .filter(Boolean);
 ---
 <BaseLayout title={teacher.data.name} description={teacher.data.summary} image={teacher.data.image}>
 
@@ -72,6 +88,34 @@ const videoIds = teacher.data.videos || [];
     </div>
   </section>
 
+  {teacher.data.leadQuote && (
+    <section class="lead-quote-section">
+      <div class="wrapper">
+        <blockquote class="lead-quote">
+          <p>{teacher.data.leadQuote.text}</p>
+          <footer>
+            <span class="attrib">{teacher.data.leadQuote.attribution}</span>
+            {teacher.data.leadQuote.source && <span class="src">, {teacher.data.leadQuote.source}</span>}
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+  )}
+
+  {beginHereId && (
+    <section class="begin-here-section">
+      <div class="wrapper">
+        <div class="begin-here-header">
+          <span class="eyebrow">Begin here</span>
+          <h2>A first encounter with their voice</h2>
+        </div>
+        <div class="begin-here-video">
+          <VideoEmbed youtubeId={beginHereId} />
+        </div>
+      </div>
+    </section>
+  )}
+
   <section class="teacher-body-section">
     <div class="wrapper">
       <article class="teacher-body prose">
@@ -80,15 +124,15 @@ const videoIds = teacher.data.videos || [];
     </div>
   </section>
 
-  {videoIds.length > 0 && (
+  {otherVideoIds.length > 0 && (
     <section class="teacher-videos">
       <div class="wrapper">
         <div class="section-header">
           <span class="eyebrow">In their voice</span>
-          <h2>{videoIds.length === 1 ? 'A talk to begin with' : 'Talks to begin with'}</h2>
+          <h2>{otherVideoIds.length === 1 ? 'Another talk' : 'More talks'}</h2>
         </div>
-        <div class={`videos-grid ${videoIds.length === 1 ? 'single' : ''}`}>
-          {videoIds.map(id => <VideoEmbed youtubeId={id} />)}
+        <div class={`videos-grid ${otherVideoIds.length === 1 ? 'single' : ''}`}>
+          {otherVideoIds.map(id => <VideoEmbed youtubeId={id} />)}
         </div>
       </div>
     </section>
@@ -106,6 +150,47 @@ const videoIds = teacher.data.videos || [];
             <a href={`/texts/${t.slug}/`} class="text-link-card">
               <div class="text-link-title">{t.data.title}</div>
               <div class="text-link-blurb">{t.data.description.split('.')[0]}.</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {teacherThemes.length > 0 && (
+    <section class="teacher-themes-section">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">Threads through their teaching</span>
+          <h2>Related themes</h2>
+        </div>
+        <div class="theme-pills">
+          {teacherThemes.map(t => (
+            <a href={`/themes/${t.slug}/`} class="theme-pill">
+              <span class="theme-pill-title">{t.data.title}</span>
+              <span class="theme-pill-sub">{t.data.subtitle.split('.')[0]}.</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {crossRelated.length > 0 && (
+    <section class="teacher-siblings">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">Across traditions</span>
+          <h2>Other voices in conversation with theirs</h2>
+        </div>
+        <div class="siblings-grid">
+          {crossRelated.map(s => (
+            <a href={`/teachers/${s.slug}/`} class="sibling-card">
+              <div class="sibling-portrait">
+                {s.data.image && <img src={s.data.image} alt={s.data.name} />}
+              </div>
+              <div class="sibling-name">{s.data.name}</div>
+              <div class="sibling-dates">{s.data.born && s.data.died ? `${s.data.born} — ${s.data.died}` : (s.data.born || s.data.died || '')}</div>
             </a>
           ))}
         </div>
@@ -160,6 +245,25 @@ const videoIds = teacher.data.videos || [];
   .source-link { margin-top: 28px; font-family: var(--sans); font-size: 14px; }
   .source-link a { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
   .source-link a:hover { color: var(--text); border-bottom-color: var(--accent); }
+
+  .lead-quote-section { padding: 64px 0 0; }
+  .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); border: none; }
+  .lead-quote p { font-family: var(--serif); font-size: 26px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 20px; }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--accent); }
+  .lead-quote .src { color: var(--text-faint); }
+
+  .begin-here-section { padding: 80px 0 0; }
+  .begin-here-header { margin-bottom: 32px; }
+  .begin-here-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .begin-here-header h2 { font-family: var(--serif); font-size: 32px; font-weight: 400; color: var(--text); margin-top: 12px; }
+  .begin-here-video { max-width: 980px; }
+
+  .teacher-themes-section { padding: 96px 0 0; }
+  .theme-pills { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .theme-pill { display: flex; flex-direction: column; gap: 6px; padding: 20px 24px; border: 1px solid var(--line); color: inherit; transition: border-color 0.3s; }
+  .theme-pill:hover { border-color: var(--accent); color: inherit; }
+  .theme-pill-title { font-family: var(--serif); font-size: 20px; font-weight: 500; color: var(--text); }
+  .theme-pill-sub { font-size: 13px; color: var(--text-muted); line-height: 1.5; font-weight: 300; }
 
   .teacher-body-section { padding: 80px 0 0; }
   .teacher-body { max-width: 780px; margin: 0 auto; font-family: var(--serif); font-size: 21px; line-height: 1.7; color: var(--text); font-weight: 300; }

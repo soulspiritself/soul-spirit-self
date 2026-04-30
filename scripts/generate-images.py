@@ -657,6 +657,72 @@ IMAGES = [
             "centred on his face and shoulders, no text, no watermarks, no signature"
         ),
     },
+    # ────────────────────────────────────────────────────────────────────
+    # THEMES (cross-tradition contemplative threads)
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "theme-self-inquiry.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single shaft of warm gold light falling from a high stone window "
+            "into a dark vaulted interior, the light pooling on a bare flagstone "
+            "floor with no figure to receive it, deep cosmic blue shadow filling "
+            "the rest of the room, contemplative atmospheric still life, painterly "
+            "minimal composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "theme-presence.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A simple wooden table by an open window in late afternoon light, an "
+            "empty pottery cup on the table catching the warm gold sun, soft "
+            "garden visible through the window, deep cosmic blue shadow filling "
+            "the rest of the room, contemplative atmospheric still life, painterly "
+            "minimal composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "theme-silence.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A still candle burning with a steady warm flame in a vast dark "
+            "stone hall, the rest of the hall receding into deep cosmic blue "
+            "shadow, no other light, no people, contemplative atmospheric "
+            "composition, painterly minimal style, no text"
+        ),
+    },
+    {
+        "filename": "theme-love.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single deep crimson rose lying on a worn stone ledge in afternoon "
+            "light, the rose catching warm golden light from one side, deep "
+            "cosmic blue shadow surrounding, contemplative still life, painterly "
+            "minimal composition, no text"
+        ),
+    },
+    {
+        "filename": "theme-the-witness.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A vast still lake at dawn reflecting a single distant mountain "
+            "silhouette, no figure, no boat, no movement on the water, soft warm "
+            "gold light catching the eastern edge of the lake, deep cosmic blue "
+            "water filling the foreground, contemplative atmospheric landscape, "
+            "painterly minimal composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "theme-death-and-the-deathless.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An empty wooden boat moored to a stone landing at dusk, no occupant, "
+            "the rope slack, a single warm gold lantern still burning at the "
+            "prow, deep cosmic blue water and twilight sky, contemplative "
+            "atmospheric landscape, painterly minimal composition, no people, no text"
+        ),
+    },
     {
         "filename": "text-at-the-feet-of-the-master.jpg",
         "aspect": "1:1",

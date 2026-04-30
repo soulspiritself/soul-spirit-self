@@ -7,6 +7,13 @@ featured: true
 imagePrompt: Arunachala mountain at golden hour, deep cosmic blue sky with subtle stars, contemplative photographic style
 image: /images/tradition-advaita-vedanta.jpg
 description: Advaita Vedanta is the radical heart of the Upanishadic teaching. The word advaita means not-two, no separation between the self that seeks and the awareness sought.
+leadQuote:
+  text: 'All that is required to realize the Self is to be still.'
+  attribution: 'Ramana Maharshi'
+themes:
+  - self-inquiry
+  - the-witness
+  - silence
 ---
 
 Advaita Vedanta is the radical heart of the Upanishadic teaching. The word *advaita* means not-two: there is no separation between the self that seeks and the awareness that is sought. The seeker is what is already found.

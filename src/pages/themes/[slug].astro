@@ -1,0 +1,219 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const themes = await getCollection('themes');
+  return themes.map(theme => ({
+    params: { slug: theme.slug },
+    props: { theme },
+  }));
+}
+
+const { theme } = Astro.props;
+const { Content } = await theme.render();
+
+// Find content tagged with this theme
+const allTeachers = await getCollection('teachers');
+const taggedTeachers = allTeachers
+  .filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+
+const allTexts = await getCollection('texts');
+const taggedTexts = allTexts
+  .filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const allTraditions = await getCollection('traditions');
+const taggedTraditions = allTraditions.filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug));
+
+// Aggregate videos from tagged teachers + tagged texts
+const videoIds = new Set<string>();
+for (const t of taggedTeachers) (t.data.videos || []).forEach(v => videoIds.add(v));
+for (const t of taggedTexts) (t.data.videos || []).forEach(v => videoIds.add(v));
+const videoList = [...videoIds];
+
+const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
+---
+<BaseLayout title={theme.data.title} description={theme.data.description} image={theme.data.image}>
+
+  <div class="breadcrumb">
+    <div class="wrapper">
+      <a href="/themes/">Themes</a>
+      <span>/</span>
+      {theme.data.title}
+    </div>
+  </div>
+
+  <section class="theme-hero">
+    <div class="theme-hero-bg" style={theme.data.image ? `background-image: url(${theme.data.image});` : ''}></div>
+    <div class="theme-hero-content">
+      <span class="eyebrow">{theme.data.eyebrow}</span>
+      <h1>{theme.data.title}</h1>
+      <p class="subtitle">{theme.data.subtitle}</p>
+    </div>
+  </section>
+
+  {theme.data.leadQuote && (
+    <section class="lead-quote-section">
+      <div class="wrapper">
+        <blockquote class="lead-quote">
+          <p>{theme.data.leadQuote.text}</p>
+          <footer>
+            <span class="attrib">{theme.data.leadQuote.attribution}</span>
+            {theme.data.leadQuote.source && <span class="src">, {theme.data.leadQuote.source}</span>}
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+  )}
+
+  <section class="theme-overview-section">
+    <div class="wrapper">
+      <article class="theme-overview prose">
+        <Content />
+      </article>
+    </div>
+  </section>
+
+  {taggedTeachers.length > 0 && (
+    <section class="theme-section">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">Teachers in this thread</span>
+          <h2>The voices</h2>
+        </div>
+        <div class="teachers-grid">
+          {taggedTeachers.map(t => (
+            <a href={`/teachers/${t.slug}/`} class="teacher-card">
+              <div class="teacher-portrait">
+                {t.data.image && <img src={t.data.image} alt={t.data.name} />}
+              </div>
+              <div class="teacher-name">{t.data.name}</div>
+              <div class="teacher-tradition">{traditionMap.get(t.data.tradition.slug) || ''}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {taggedTexts.length > 0 && (
+    <section class="theme-section">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">Texts that work this thread</span>
+          <h2>The library</h2>
+        </div>
+        <div class="texts-list">
+          {taggedTexts.map(t => (
+            <a href={`/texts/${t.slug}/`} class="text-card">
+              {t.data.image && <div class="text-card-image" style={`background-image: url(${t.data.image});`}></div>}
+              <div class="text-card-body">
+                <div class="text-card-tradition">{traditionMap.get(t.data.tradition.slug) || ''}</div>
+                <h3>{t.data.title}</h3>
+                <p>{t.data.description.split('.').slice(0, 2).join('.')}.</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {videoList.length > 0 && (
+    <section class="theme-section">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">In their voice</span>
+          <h2>Talks on this thread</h2>
+        </div>
+        <div class="videos-grid">
+          {videoList.map(id => <VideoEmbed youtubeId={id} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {taggedTraditions.length > 0 && (
+    <section class="theme-section">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">Traditions where this thread runs strong</span>
+          <h2>Across lineages</h2>
+        </div>
+        <div class="trads-list">
+          {taggedTraditions.map(t => (
+            <a href={`/traditions/${t.slug}/`} class="trad-link">
+              <h3>{t.data.title}</h3>
+              <p>{t.data.subtitle}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+</BaseLayout>
+
+<style>
+  .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb span { margin: 0 12px; color: var(--text-faint); }
+
+  .theme-hero { position: relative; min-height: 360px; display: flex; align-items: flex-end; padding: 0; overflow: hidden; border-bottom: 1px solid var(--line); margin-top: 32px; }
+  .theme-hero-bg { position: absolute; inset: 0; background-color: var(--bg-soft); background-size: cover; background-position: center; }
+  .theme-hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,14,26,0.4) 0%, rgba(10,14,26,0.85) 100%); }
+  .theme-hero-content { position: relative; z-index: 1; max-width: var(--max-width); width: 100%; margin: 0 auto; padding: 64px var(--gutter) 48px; }
+  .theme-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .theme-hero h1 { font-family: var(--serif); font-size: 64px; font-weight: 400; line-height: 1; margin: 16px 0 16px; letter-spacing: -0.01em; }
+  .theme-hero .subtitle { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--text-muted); max-width: 720px; line-height: 1.4; font-weight: 300; }
+
+  .lead-quote-section { padding: 64px 0 0; }
+  .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); }
+  .lead-quote p { font-family: var(--serif); font-size: 28px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 24px; }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; color: var(--accent); }
+  .lead-quote .src { color: var(--text-faint); }
+
+  .theme-overview-section { padding: 64px 0 0; }
+  .theme-overview { max-width: 780px; margin: 0 auto; font-family: var(--serif); font-size: 21px; line-height: 1.7; color: var(--text-muted); font-weight: 300; }
+  .theme-overview :global(p + p) { margin-top: 22px; }
+  .theme-overview :global(em) { color: var(--text); }
+  .theme-overview :global(a) { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
+  .theme-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
+
+  .theme-section { padding: 96px 0 0; }
+  .section-header { margin-bottom: 40px; }
+  .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .section-header h2 { font-family: var(--serif); font-size: 36px; font-weight: 400; color: var(--text); margin-top: 12px; }
+
+  .teachers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 32px; }
+  .teacher-card { text-align: center; color: inherit; display: block; }
+  .teacher-portrait { width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin: 0 auto 14px; background: var(--bg-soft); border: 1px solid var(--line); transition: border-color 0.3s; }
+  .teacher-portrait img { width: 100%; height: 100%; object-fit: cover; }
+  .teacher-card:hover .teacher-portrait { border-color: var(--accent-deep); }
+  .teacher-name { font-family: var(--serif); font-size: 18px; font-weight: 500; color: var(--text); }
+  .teacher-tradition { font-family: var(--sans); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); margin-top: 4px; }
+
+  .texts-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 32px; }
+  .text-card { display: flex; flex-direction: column; border: 1px solid var(--line); color: inherit; transition: border-color 0.3s; }
+  .text-card:hover { border-color: var(--accent-deep); color: inherit; }
+  .text-card-image { aspect-ratio: 16/9; background: var(--bg-soft); background-size: cover; background-position: center; }
+  .text-card-body { padding: 24px; }
+  .text-card-tradition { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  .text-card h3 { font-family: var(--serif); font-size: 22px; font-weight: 500; color: var(--text); margin: 0 0 10px; }
+  .text-card p { font-size: 14px; color: var(--text-muted); line-height: 1.55; }
+
+  .videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; max-width: 1120px; }
+
+  .trads-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+  .trad-link { display: block; padding: 28px; border: 1px solid var(--line); color: inherit; transition: border-color 0.3s; }
+  .trad-link:hover { border-color: var(--accent-deep); color: inherit; }
+  .trad-link h3 { font-family: var(--serif); font-size: 24px; color: var(--text); margin: 0 0 10px; font-weight: 500; }
+  .trad-link p { font-size: 14px; color: var(--text-muted); line-height: 1.55; }
+
+  /* Bottom padding so the footer doesn't hug the last section */
+  body main > section:last-of-type { padding-bottom: 96px; }
+</style>

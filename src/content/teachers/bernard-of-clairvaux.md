@@ -7,6 +7,8 @@ summary: The Cistercian abbot whose sermons on the Song of Songs turned biblical
 imagePrompt: Symbolic painterly portrait of Bernard of Clairvaux as a twelfth-century Cistercian monk in his fifties, white woollen habit with cowl, lean ascetic features, contemplative serious gaze, soft warm light, simple monastic interior
 image: /images/teacher-bernard-of-clairvaux.jpg
 sourceUrl: https://ccel.org/ccel/bernard
+themes:
+  - love
 ---
 
 Bernard was the most influential Christian voice of the twelfth century. As abbot of Clairvaux he reshaped the Cistercian order, preached the disastrous Second Crusade, served as advisor to popes and kings, and across all of it kept up a steady output of contemplative writing that made him the central spiritual teacher of his age.

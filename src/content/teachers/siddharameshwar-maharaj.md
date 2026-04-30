@@ -9,6 +9,9 @@ image: /images/teacher-siddharameshwar-maharaj.jpg
 sourceUrl: https://www.siddharameshwar.org/
 videos:
   - FiWVq1T6Tuk
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 Siddharameshwar Maharaj is the bridge figure between the founder of the Inchagiri Sampradaya, Bhausaheb Maharaj, and his famous students Nisargadatta and Ranjit Maharaj. Born in 1888 in Pathri, near Sholapur in Maharashtra, he met Bhausaheb in 1906 and was given the I-am-Brahman mantra to investigate. Nine years of investigation followed before his recognition stabilised.

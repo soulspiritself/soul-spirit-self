@@ -12,6 +12,12 @@ const traditions = defineCollection({
     featured: z.boolean().default(false),
     description: z.string(),
     videos: z.array(z.string()).optional(),
+    themes: z.array(reference('themes')).optional(),
+    leadQuote: z.object({
+      text: z.string(),
+      attribution: z.string(),
+      source: z.string().optional(),
+    }).optional(),
   })
 });
 
@@ -28,6 +34,14 @@ const teachers = defineCollection({
     related: z.array(reference('teachers')).optional(),
     sourceUrl: z.string().url().optional(),
     videos: z.array(z.string()).optional(),
+    themes: z.array(reference('themes')).optional(),
+    leadQuote: z.object({
+      text: z.string(),
+      attribution: z.string(),
+      source: z.string().optional(),
+    }).optional(),
+    // Featured video shown as "Begin here" on the teacher page; falls back to videos[0]
+    beginHere: z.string().optional(),
   })
 });
 
@@ -60,7 +74,47 @@ const texts = defineCollection({
     related: z.array(reference('texts')).optional(),
     order: z.number().default(99),
     videos: z.array(z.string()).optional(),
+    themes: z.array(reference('themes')).optional(),
+    leadQuote: z.object({
+      text: z.string(),
+      attribution: z.string(),
+      source: z.string().optional(),
+    }).optional(),
   })
 });
 
-export const collections = { traditions, teachers, texts };
+const themes = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string(),
+    description: z.string(),
+    eyebrow: z.string().default('A theme through the library'),
+    image: z.string().optional(),
+    imagePrompt: z.string().optional(),
+    order: z.number().default(99),
+    leadQuote: z.object({
+      text: z.string(),
+      attribution: z.string(),
+      source: z.string().optional(),
+    }).optional(),
+  })
+});
+
+const books = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    year: z.string().optional(),
+    teacher: reference('teachers').optional(),
+    tradition: reference('traditions').optional(),
+    blurb: z.string(),
+    externalUrl: z.string().url().optional(),
+    cover: z.string().optional(),
+    publisher: z.string().optional(),
+    order: z.number().default(99),
+  })
+});
+
+export const collections = { traditions, teachers, texts, themes, books };

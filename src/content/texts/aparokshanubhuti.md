@@ -23,6 +23,9 @@ downloadPdf: /downloads/aparokshanubhuti.pdf
 downloadEpub: /downloads/aparokshanubhuti.epub
 wordCount: 4300
 readingTimeMinutes: 20
+themes:
+  - self-inquiry
+  - the-witness
 ---
 
 The Aparokshanubhuti is one of Shankara's most pointed shorter works. The title translates as direct or unmediated realisation, and the text holds the seeker to that standard. The Self is not to be reached by inference, by argument, or by gradual approach. It is the immediate fact of awareness in which all knowing already takes place.

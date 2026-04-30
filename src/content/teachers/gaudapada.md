@@ -6,6 +6,8 @@ died: ""
 summary: The parama-guru of Shankara, author of the Mandukya Karika. The bridge figure between the Upanishads and Shankara's later systematic Advaita.
 imagePrompt: Symbolic painting of Gaudapada, ancient Indian sage seated in meditation under a banyan tree, dawn light, contemplative atmosphere
 image: /images/teacher-gaudapada.jpg
+themes:
+  - the-witness
 ---
 
 Gaudapada is the bridge figure of Advaita. Tradition makes him the teacher of Govinda, who was the teacher of Shankara, so the lineage runs Gaudapada → Govinda → Shankara without intermediary.

@@ -7,6 +7,15 @@ image: /images/teacher-john-wheeler.jpg
 sourceUrl: https://thenaturalstate.org/
 videos:
   - sTVbOjmwvmw
+leadQuote:
+  text: 'All problems belong to the I. See through the I, and the problems lose their owner.'
+  attribution: 'John Wheeler'
+themes:
+  - self-inquiry
+  - presence
+related:
+  - sailor-bob-adamson
+  - nisargadatta-maharaj
 ---
 
 John Wheeler came to nondual teaching through his many years of conversation and correspondence with Bob Adamson in Melbourne, the Australian student of Nisargadatta Maharaj. He carries forward that lineage in plain American English, with an unusual emphasis on the immediate and present nature of one's own being and the absolute uselessness of waiting for a future event called enlightenment.

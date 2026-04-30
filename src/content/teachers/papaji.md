@@ -7,6 +7,17 @@ summary: Hariwansh Lal Poonja, known to his students as Papaji, was a direct dis
 imagePrompt: Photorealistic portrait of Papaji (H.W.L. Poonja), an elderly Indian man in his eighties, broad warm smiling face, short white hair, full white beard, wearing a simple light cotton shirt, soft warm afternoon light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-papaji.jpg
 sourceUrl: https://en.wikipedia.org/wiki/H._W._L._Poonja
+leadQuote:
+  text: 'Find out who you are. And be quiet.'
+  attribution: 'Papaji'
+themes:
+  - self-inquiry
+  - silence
+related:
+  - ramana-maharshi
+  - gangaji
+  - adyashanti
+  - robert-adams
 ---
 
 Hariwansh Lal Poonja was born in 1910 in what is now Pakistan. He served in the British Indian army in his twenties, married, raised a family, and worked for thirty years in mining and engineering in eastern India. Through all of it he carried a deep devotional pull and an early experience of God-presence that he could not satisfy through worship alone. In 1944, on the recommendation of a wandering sadhu, he visited Ramana Maharshi at Tiruvannamalai. Ramana looked at him in silence, and the looking ended his seeking. He returned many times in the years that followed.

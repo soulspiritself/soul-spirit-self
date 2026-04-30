@@ -9,6 +9,17 @@ image: /images/teacher-nisargadatta-maharaj.jpg
 sourceUrl: https://www.acornpress.net/
 videos:
   - p7H-k6qYRAw
+leadQuote:
+  text: 'The mind creates the abyss, the heart crosses it.'
+  attribution: 'Nisargadatta Maharaj'
+themes:
+  - self-inquiry
+  - the-witness
+related:
+  - siddharameshwar-maharaj
+  - sailor-bob-adamson
+  - wayne-liquorman
+  - ramesh-balsekar
 ---
 
 Nisargadatta Maharaj lived an unremarkable life as a small businessman in the Khetwadi neighbourhood of Mumbai before encountering his teacher Siddharameshwar Maharaj in 1933. Within three years he was awakened. He continued running his bidi-cigarette shop until late in life, receiving visitors in the small upper room of his apartment where the conversations later collected as I Am That were recorded.

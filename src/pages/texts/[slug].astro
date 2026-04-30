@@ -71,6 +71,20 @@ const related = (text.data.related || [])
     </div>
   </section>
 
+  {text.data.leadQuote && (
+    <section class="text-lead-quote">
+      <div class="wrapper">
+        <blockquote class="lead-quote">
+          <p>{text.data.leadQuote.text}</p>
+          <footer>
+            <span class="attrib">{text.data.leadQuote.attribution}</span>
+            {text.data.leadQuote.source && <span class="src">, {text.data.leadQuote.source}</span>}
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+  )}
+
   {text.data.videos && text.data.videos.length > 0 && (
     <section class="text-videos">
       <div class="wrapper">
@@ -212,6 +226,12 @@ const related = (text.data.related || [])
   .meta-row { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; font-size: 14px; }
   .meta-row .label { color: var(--text-faint); }
   .meta-row .value { color: var(--text); font-weight: 400; }
+
+  .text-lead-quote { padding: 64px 0 0; }
+  .text-lead-quote .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); border: none; }
+  .text-lead-quote .lead-quote p { font-family: var(--serif); font-size: 26px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 20px; }
+  .text-lead-quote .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--accent); }
+  .text-lead-quote .lead-quote .src { color: var(--text-faint); }
 
   .text-videos { padding: 80px 0 0; }
   .text-videos .section-header { margin-bottom: 32px; }
