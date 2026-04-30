@@ -657,6 +657,19 @@ IMAGES = [
             "centred on his face and shoulders, no text, no watermarks, no signature"
         ),
     },
+    {
+        "filename": "teacher-john-wheeler.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photorealistic portrait of an American man in his sixties with a "
+            "calm thoughtful face, neatly trimmed grey hair and short grey beard, "
+            "soft warm intelligent eyes, wearing a simple plain blue button-down "
+            "shirt, soft warm afternoon window light, contemplative atmosphere "
+            "reminiscent of Northern California living-room portraits, square "
+            "composition tightly centred on his face and shoulders, no text, no "
+            "watermarks, no signature"
+        ),
+    },
     # ────────────────────────────────────────────────────────────────────
     # MODERN NONDUALITY tradition hero
     # ────────────────────────────────────────────────────────────────────

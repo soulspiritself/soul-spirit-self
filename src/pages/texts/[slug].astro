@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AttributionBlock from '../../components/AttributionBlock.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -69,6 +70,20 @@ const related = (text.data.related || [])
       </div>
     </div>
   </section>
+
+  {text.data.videos && text.data.videos.length > 0 && (
+    <section class="text-videos">
+      <div class="wrapper">
+        <div class="section-header">
+          <span class="eyebrow">In their voice</span>
+          <h2>{text.data.videos.length === 1 ? 'A talk on this text' : 'Talks on this text'}</h2>
+        </div>
+        <div class={`text-videos-grid ${text.data.videos.length === 1 ? 'single' : ''}`}>
+          {text.data.videos.map(id => <VideoEmbed youtubeId={id} />)}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="intro-section">
     <div class="wrapper">
@@ -197,6 +212,13 @@ const related = (text.data.related || [])
   .meta-row { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; font-size: 14px; }
   .meta-row .label { color: var(--text-faint); }
   .meta-row .value { color: var(--text); font-weight: 400; }
+
+  .text-videos { padding: 80px 0 0; }
+  .text-videos .section-header { margin-bottom: 32px; }
+  .text-videos .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .text-videos .section-header h2 { font-family: var(--serif); font-size: 32px; font-weight: 400; color: var(--text); margin-top: 12px; }
+  .text-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; max-width: 980px; }
+  .text-videos-grid.single { grid-template-columns: minmax(0, 780px); }
 
   .text-section { padding: 80px 0 0; scroll-margin-top: 80px; }
   .text-section-bar { display: flex; align-items: baseline; justify-content: space-between; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 64px; gap: 24px; flex-wrap: wrap; }

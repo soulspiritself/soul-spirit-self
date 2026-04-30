@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TextCard from '../../components/TextCard.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -41,6 +42,18 @@ const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slu
       <Content />
     </div>
   </section>
+
+  {tradition.data.videos && tradition.data.videos.length > 0 && (
+    <section class="section trad-videos" style="padding-top: 0;">
+      <div class="section-header">
+        <span class="eyebrow">In their voice</span>
+        <h2>{tradition.data.videos.length === 1 ? 'A talk from the lineage' : 'Talks from the lineage'}</h2>
+      </div>
+      <div class={`trad-videos-grid ${tradition.data.videos.length === 1 ? 'single' : ''}`}>
+        {tradition.data.videos.map(id => <VideoEmbed youtubeId={id} />)}
+      </div>
+    </section>
+  )}
 
   {texts.length > 0 && (
     <section class="section" style="padding-top: 0;">
@@ -106,6 +119,9 @@ const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slu
   .trad-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
 
   .texts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 40px 32px; }
+
+  .trad-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; max-width: 980px; }
+  .trad-videos-grid.single { grid-template-columns: minmax(0, 780px); }
 
   .teachers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 32px; }
   .teacher-card { text-align: center; color: inherit; display: block; }

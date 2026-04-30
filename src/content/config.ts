@@ -11,6 +11,7 @@ const traditions = defineCollection({
     order: z.number().default(99),
     featured: z.boolean().default(false),
     description: z.string(),
+    videos: z.array(z.string()).optional(),
   })
 });
 
@@ -26,6 +27,7 @@ const teachers = defineCollection({
     imagePrompt: z.string().optional(),
     related: z.array(reference('teachers')).optional(),
     sourceUrl: z.string().url().optional(),
+    videos: z.array(z.string()).optional(),
   })
 });
 
@@ -57,6 +59,7 @@ const texts = defineCollection({
     description: z.string(),
     related: z.array(reference('texts')).optional(),
     order: z.number().default(99),
+    videos: z.array(z.string()).optional(),
   })
 });
 

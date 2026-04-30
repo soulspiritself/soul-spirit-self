@@ -7,6 +7,8 @@ summary: The bidi-cigarette merchant of Mumbai who became one of the most direct
 imagePrompt: Portrait of Nisargadatta Maharaj, elderly Indian man with grey hair and intense gaze, simple dhoti, soft photographic light from above, contemplative expression
 image: /images/teacher-nisargadatta-maharaj.jpg
 sourceUrl: https://www.acornpress.net/
+videos:
+  - p7H-k6qYRAw
 ---
 
 Nisargadatta Maharaj lived an unremarkable life as a small businessman in the Khetwadi neighbourhood of Mumbai before encountering his teacher Siddharameshwar Maharaj in 1933. Within three years he was awakened. He continued running his bidi-cigarette shop until late in life, receiving visitors in the small upper room of his apartment where the conversations later collected as I Am That were recorded.

@@ -7,6 +7,8 @@ featured: true
 imagePrompt: A vast Romanesque cathedral interior at dawn, single shaft of golden light falling through a high window onto an empty stone nave, deep cosmic blue shadow, contemplative atmosphere, no people
 image: /images/tradition-christian-mysticism.jpg
 description: Christian Mysticism is the strand of the Christian tradition that has always pointed past concept and image to direct encounter. From the desert fathers through the Rhineland masters and the Spanish Carmelites to the modern voices, a continuous lineage of contemplatives.
+videos:
+  - JZdeMt4GljQ
 ---
 
 Christian Mysticism is the contemplative spine of the Christian tradition. It is not a separate religion or sect. It is the strand within Christianity that has always pointed past doctrine, past liturgy, past image, to the direct encounter with what the tradition variously calls God, the ground of the soul, the Cloud of Unknowing, the divine darkness, the inner light.

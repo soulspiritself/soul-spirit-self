@@ -7,6 +7,8 @@ summary: An American mystic in the Ramana lineage who taught small intimate grou
 imagePrompt: Photorealistic portrait of Robert Adams, an American man in his sixties, soft kind face, balding with thin grey hair, gentle eyes, wearing a simple dark shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks
 image: /images/teacher-robert-adams.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Robert_Adams_(spiritual_teacher)
+videos:
+  - VHuo15MkU9Y
 ---
 
 Robert Adams was born in New York in 1928. His early life, as he later told it in his talks, was unusual from the start. As a child he had spontaneous visions of a dark-skinned Indian man whom he later recognised, when he saw the photograph in a book at sixteen, as Ramana Maharshi. In 1947 he travelled to India and spent time at Sri Ramanasramam in Tiruvannamalai. He always pointed to that meeting as the central event of his life. He travelled in the years afterward, knew Nisargadatta and various other Indian teachers, and lived for many years in obscurity.

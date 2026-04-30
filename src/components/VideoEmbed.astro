@@ -1,0 +1,117 @@
+---
+// In-page YouTube embed: shows the thumbnail at first; clicking the thumbnail
+// loads the iframe and starts playback. Avoids loading the full YouTube
+// iframe (and its tracking) on initial page load.
+//
+// Looks up title/caption from src/data/videos.ts when available; both can be
+// overridden via props for one-off uses.
+import { videos } from '../data/videos';
+
+interface Props {
+  youtubeId: string;
+  title?: string;
+  caption?: string;
+}
+
+const { youtubeId, title: titleProp, caption: captionProp } = Astro.props;
+const fromLibrary = videos.find(v => v.id === youtubeId);
+const title = titleProp ?? fromLibrary?.title ?? 'Soul Spirit Self video';
+const caption = captionProp ?? fromLibrary?.caption ?? '';
+const thumb = `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`;
+const fallbackThumb = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
+---
+<figure class={`video-embed`} data-youtube-id={youtubeId}>
+  <button class="video-embed-thumb" type="button" aria-label={`Play: ${title}`}>
+    <img src={thumb} onerror={`this.onerror=null;this.src='${fallbackThumb}';`} alt={title} loading="lazy" />
+    <span class="play-icon" aria-hidden="true">
+      <svg viewBox="0 0 64 64" width="84" height="84">
+        <circle cx="32" cy="32" r="30" fill="rgba(201, 169, 110, 0.95)" />
+        <path d="M26 22 L46 32 L26 42 Z" fill="#1a4a65" />
+      </svg>
+    </span>
+  </button>
+  {(title || caption) && (
+    <figcaption>
+      {title && <span class="video-title">{title}</span>}
+      {caption && <span class="video-caption">{caption}</span>}
+    </figcaption>
+  )}
+</figure>
+
+<script>
+  // Lazy-loads the YouTube iframe only after the thumbnail is clicked.
+  document.querySelectorAll<HTMLElement>('.video-embed').forEach(node => {
+    const button = node.querySelector<HTMLButtonElement>('.video-embed-thumb');
+    if (!button) return;
+    button.addEventListener('click', () => {
+      const id = node.dataset.youtubeId;
+      if (!id) return;
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+      iframe.title = button.getAttribute('aria-label') || 'YouTube video';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.loading = 'lazy';
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
+      const wrap = button.parentElement!;
+      const replacer = document.createElement('div');
+      replacer.className = 'video-embed-thumb';
+      replacer.style.position = 'relative';
+      replacer.appendChild(iframe);
+      wrap.replaceChild(replacer, button);
+    }, { once: true });
+  });
+</script>
+
+<style>
+  .video-embed { margin: 0; }
+  .video-embed-thumb {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--bg-soft);
+    cursor: pointer;
+    padding: 0;
+  }
+  .video-embed-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .video-embed-thumb:hover img { transform: scale(1.03); }
+  .play-icon {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.45));
+    transition: transform 0.25s ease;
+  }
+  .video-embed-thumb:hover .play-icon { transform: scale(1.06); }
+  figcaption {
+    margin-top: 14px;
+    font-family: var(--sans);
+  }
+  .video-title {
+    display: block;
+    font-size: 16px;
+    color: var(--text);
+    line-height: 1.4;
+    font-weight: 500;
+  }
+  .video-caption {
+    display: block;
+    font-size: 13px;
+    color: var(--text-faint);
+    margin-top: 4px;
+    letter-spacing: 0.04em;
+  }
+</style>
