@@ -277,6 +277,23 @@ const teacherThemes = (teacher.data.themes || [])
   .teacher-body :global(ul li) { padding: 10px 0; border-bottom: 1px solid var(--line); margin-bottom: 0; }
   .teacher-body :global(ul li:last-child) { border-bottom: none; }
   .teacher-body :global(em) { color: var(--text-muted); }
+  .teacher-body :global(blockquote) {
+    margin: 28px 0;
+    padding: 8px 0 8px 28px;
+    border-left: 2px solid var(--accent);
+    font-family: var(--serif);
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--text);
+    font-weight: 300;
+    font-style: italic;
+  }
+  .teacher-body :global(blockquote p) {
+    margin-bottom: 12px;
+  }
+  .teacher-body :global(blockquote p:last-child) {
+    margin-bottom: 0;
+  }
 
   .teacher-videos { padding: 96px 0 0; }
   .teacher-videos .wrapper { max-width: 980px; }
