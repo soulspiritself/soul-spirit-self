@@ -110,7 +110,7 @@ const books = defineCollection({
     teacher: reference('teachers').optional(),
     tradition: reference('traditions').optional(),
     blurb: z.string(),
-    externalUrl: z.string().url().optional(),
+    externalUrl: z.string().optional(),  // accepts external URLs and internal paths
     cover: z.string().optional(),
     publisher: z.string().optional(),
     order: z.number().default(99),

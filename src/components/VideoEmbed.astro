@@ -17,12 +17,14 @@ const { youtubeId, title: titleProp, caption: captionProp } = Astro.props;
 const fromLibrary = videos.find(v => v.id === youtubeId);
 const title = titleProp ?? fromLibrary?.title ?? 'Soul Spirit Self video';
 const caption = captionProp ?? fromLibrary?.caption ?? '';
-const thumb = `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`;
-const fallbackThumb = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
+// hqdefault.jpg is the most reliable thumbnail across all YouTube videos.
+// maxresdefault.jpg often doesn't exist for older or non-HD uploads and YouTube
+// returns a grey placeholder image (with a 200 status, so onerror won't fire).
+const thumb = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
 ---
 <figure class={`video-embed`} data-youtube-id={youtubeId}>
   <button class="video-embed-thumb" type="button" aria-label={`Play: ${title}`}>
-    <img src={thumb} onerror={`this.onerror=null;this.src='${fallbackThumb}';`} alt={title} loading="lazy" />
+    <img src={thumb} alt={title} loading="lazy" />
     <span class="play-icon" aria-hidden="true">
       <svg viewBox="0 0 64 64" width="84" height="84">
         <circle cx="32" cy="32" r="30" fill="rgba(201, 169, 110, 0.95)" />

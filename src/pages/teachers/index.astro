@@ -38,14 +38,15 @@ const groups = [...grouped.entries()].map(([slug, teachers]) => ({
         <h2><a href={`/traditions/${group.slug}/`}>{group.title}</a></h2>
         <div class="teachers-grid">
           {group.teachers.map(t => (
-            <article class="teacher-card">
+            <a href={`/teachers/${t.slug}/`} class="teacher-card">
               <div class="teacher-photo" style={t.data.image ? `background-image:url(${t.data.image});` : ''}></div>
               <h3>{t.data.name}</h3>
               {(t.data.born || t.data.died) && (
                 <p class="dates">{t.data.born}{t.data.born && t.data.died ? ' – ' : ''}{t.data.died}</p>
               )}
               <p class="summary">{t.data.summary}</p>
-            </article>
+              <span class="read-more">Read more →</span>
+            </a>
           ))}
         </div>
       </div>
@@ -97,15 +98,28 @@ const groups = [...grouped.entries()].map(([slug, teachers]) => ({
     gap: 36px 28px;
   }
   .teacher-card {
+    display: flex;
+    flex-direction: column;
     background: rgba(10, 30, 45, 0.4);
     border: 1px solid var(--line);
     border-radius: 4px;
     padding: 28px 24px;
     transition: all 0.3s;
+    color: inherit;
+    text-decoration: none;
   }
   .teacher-card:hover {
     border-color: var(--accent);
     background: rgba(10, 30, 45, 0.55);
+    color: inherit;
+    transform: translateY(-2px);
+  }
+  .read-more {
+    font-family: var(--sans);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin-top: 14px;
   }
   .teacher-photo {
     width: 96px;
