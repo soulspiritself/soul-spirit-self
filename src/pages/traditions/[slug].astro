@@ -60,7 +60,7 @@ const teachers = allTeachers.filter(t => t.data.tradition.slug === tradition.slu
   {tradition.data.videos && tradition.data.videos.length > 0 && (
     <section class="section trad-videos" style="padding-top: 0;">
       <div class="section-header">
-        <span class="eyebrow">In their voice</span>
+        <span class="eyebrow">On video</span>
         <h2>{tradition.data.videos.length === 1 ? 'A talk from the lineage' : 'Talks from the lineage'}</h2>
       </div>
       <div class={`trad-videos-grid ${tradition.data.videos.length === 1 ? 'single' : ''}`}>
