@@ -602,6 +602,82 @@ IMAGES = [
         ),
     },
     # ────────────────────────────────────────────────────────────────────
+    # BUDDHIST NONDUALITY teachers + texts
+    # ────────────────────────────────────────────────────────────────────
+    {
+        "filename": "teacher-the-buddha.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A weathered stone Buddha statue seated cross-legged in meditation "
+            "under a bare bodhi tree at dusk, half-closed eyes and a faint serene "
+            "smile, one hand resting on the lap palm-up and the other touching "
+            "the earth, deep cosmic blue twilight sky scattered with faint stars "
+            "behind, soft warm gold light catching the figure from the side, "
+            "contemplative atmospheric composition, painterly minimal style, "
+            "square composition, no text, no halo, no painted features"
+        ),
+    },
+    {
+        "filename": "teacher-bankei-yotaku.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Painterly portrait of a seventeenth-century Japanese Zen master in "
+            "his sixties, shaved head, lean weathered face with the hint of a "
+            "smile, wearing a plain dark grey monk's robe with a brown rakusu, "
+            "soft warm afternoon light from a paper-screen window beside him, "
+            "contemplative atmosphere reminiscent of Edo-period sumi-e ink "
+            "portraits but in colour and softer, square composition tightly "
+            "centred on his face and shoulders, no text, no signature, no "
+            "calligraphy on screen"
+        ),
+    },
+    {
+        "filename": "teacher-longchenpa.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Painterly portrait of a fourteenth-century Tibetan Buddhist master "
+            "in his fifties, shaved head, calm peaceful broad face, wearing the "
+            "maroon and saffron robes of a Nyingma lama, soft warm afternoon "
+            "light, contemplative atmosphere reminiscent of Tibetan thangka "
+            "painting but understated and naturalistic, no halo, no nimbus, no "
+            "deities, no calligraphy, no text, square composition tightly "
+            "centred on his face and shoulders"
+        ),
+    },
+    {
+        "filename": "text-heart-sutra.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A small clear glazed pottery bowl of perfectly still water resting "
+            "on a stone surface in soft warm afternoon light, the surface of the "
+            "water reflecting an empty sky above, deep cosmic blue shadow "
+            "surrounding, contemplative atmospheric still life, painterly "
+            "minimal composition, no text"
+        ),
+    },
+    {
+        "filename": "text-diamond-sutra.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A single small uncut rough diamond resting on a worn dark stone "
+            "surface in soft warm afternoon light, the gem catching a single "
+            "shaft of golden sun and refracting it into faint rainbow points, "
+            "deep cosmic blue shadow surrounding, contemplative atmospheric "
+            "still life, painterly minimal composition, no text"
+        ),
+    },
+    {
+        "filename": "text-lankavatara-sutra.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A weathered stone temple courtyard at dusk on a small island "
+            "viewed from across calm water, soft warm gold light catching the "
+            "stones from the west, deep cosmic blue twilight sky, dark water "
+            "in the foreground, contemplative atmospheric landscape, painterly "
+            "minimal composition, no people, no text"
+        ),
+    },
+    # ────────────────────────────────────────────────────────────────────
     # MODERN NONDUALITY teacher portraits (AI placeholders for teachers
     # without an authentic photographic source on Wikimedia; Andrew to
     # replace with real photographs as they become available)
