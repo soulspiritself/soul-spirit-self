@@ -83,10 +83,10 @@ const teacherThemes = (teacher.data.themes || [])
         <div class="teacher-hero-meta">
           <div class="teacher-hero-tradition">
             {traditions.map((t, i) => (
-              <>
+              <Fragment>
                 {i > 0 && <span class="tradition-sep"> · </span>}
                 <a href={`/traditions/${t.slug}/`}>{t.data.title}</a>
-              </>
+              </Fragment>
             ))}
           </div>
           <h1>{teacher.data.name}</h1>
