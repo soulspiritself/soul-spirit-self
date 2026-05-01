@@ -13,7 +13,7 @@ const traditionTitles: Record<string, string> = Object.fromEntries(allTraditions
 type BookEntry = (typeof allBooks)[number];
 const grouped = new Map<string, BookEntry[]>();
 for (const book of allBooks) {
-  const slug = book.data.tradition?.slug || 'other';
+  const slug = book.data.tradition?.id || 'other';
   if (!grouped.has(slug)) grouped.set(slug, []);
   grouped.get(slug)!.push(book);
 }
@@ -57,9 +57,9 @@ const groups = [...grouped.entries()]
                   </p>
                 </div>
                 <p class="book-blurb">{book.data.blurb}</p>
-                {book.data.teacher && teacherNames[book.data.teacher.slug] && (
+                {book.data.teacher && teacherNames[book.data.teacher.id] && (
                   <p class="book-teacher">
-                    More from <a href={`/teachers/${book.data.teacher.slug}/`}>{teacherNames[book.data.teacher.slug]}</a>
+                    More from <a href={`/teachers/${book.data.teacher.id}/`}>{teacherNames[book.data.teacher.id]}</a>
                   </p>
                 )}
               </a>

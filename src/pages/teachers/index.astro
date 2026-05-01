@@ -12,8 +12,8 @@ const traditionOrder = new Map(allTraditions.map(t => [t.slug, t.data.order]));
 const grouped = new Map<string, typeof allTeachers>();
 for (const teacher of allTeachers) {
   for (const ref of teacher.data.traditions) {
-    if (!grouped.has(ref.slug)) grouped.set(ref.slug, []);
-    grouped.get(ref.slug)!.push(teacher);
+    if (!grouped.has(ref.id)) grouped.set(ref.id, []);
+    grouped.get(ref.id)!.push(teacher);
   }
 }
 const groups = [...grouped.entries()]

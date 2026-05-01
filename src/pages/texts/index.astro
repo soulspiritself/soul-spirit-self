@@ -8,7 +8,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
 
 const grouped = new Map<string, typeof allTexts>();
 for (const text of allTexts) {
-  const slug = text.data.tradition.slug;
+  const slug = text.data.tradition.id;
   if (!grouped.has(slug)) grouped.set(slug, []);
   grouped.get(slug)!.push(text);
 }

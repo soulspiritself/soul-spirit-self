@@ -17,12 +17,12 @@ const { Content } = await tradition.render();
 
 const allTexts = await getCollection('texts');
 const texts = allTexts
-  .filter(t => t.data.tradition.slug === tradition.slug)
+  .filter(t => t.data.tradition.id === tradition.slug)
   .sort((a, b) => a.data.order - b.data.order);
 
 const allTeachers = await getCollection('teachers');
 const teachers = allTeachers.filter(t =>
-  t.data.traditions.some(ref => ref.slug === tradition.slug)
+  t.data.traditions.some(ref => ref.id === tradition.slug)
 );
 ---
 <BaseLayout title={tradition.data.title} description={tradition.data.description} image={tradition.data.image}>

@@ -15,9 +15,10 @@ const { teacher } = Astro.props;
 const { Content } = await teacher.render();
 
 // Resolve the teacher's traditions (array; first entry is the primary).
+// Note: Astro 5 references expose `.id` (not `.slug`) on the unresolved ref.
 const allTraditions = await getCollection('traditions');
 const traditions = teacher.data.traditions
-  .map(ref => allTraditions.find(t => t.slug === ref.slug))
+  .map(ref => allTraditions.find(t => t.slug === ref.id))
   .filter(Boolean);
 const primaryTradition = traditions[0];
 const teacherTraditionSlugs = new Set(traditions.map(t => t.slug));
@@ -27,7 +28,7 @@ const allTeachers = await getCollection('teachers');
 const siblings = allTeachers
   .filter(t =>
     t.slug !== teacher.slug &&
-    t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.slug))
+    t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.id))
   )
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .slice(0, 4);
@@ -36,17 +37,17 @@ const siblings = allTeachers
 // Filter to those whose primary tradition is NOT one of this teacher's traditions.
 const crossRelated = teacher.data.related
   ? (await Promise.all(
-      teacher.data.related.map(ref => allTeachers.find(t => t.slug === ref.slug))
+      teacher.data.related.map(ref => allTeachers.find(t => t.slug === ref.id))
     ))
       .filter(Boolean)
-      .filter(t => !t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.slug)))
+      .filter(t => !t.data.traditions.some(ref => teacherTraditionSlugs.has(ref.id)))
   : [];
 
 // Texts attributed to this teacher (best-effort: text frontmatter has an
 // optional teacher reference)
 const allTexts = await getCollection('texts');
 const teacherTexts = allTexts
-  .filter(t => t.data.teacher && t.data.teacher.slug === teacher.slug)
+  .filter(t => t.data.teacher && t.data.teacher.id === teacher.slug)
   .sort((a, b) => a.data.order - b.data.order);
 
 const videoIds = teacher.data.videos || [];
@@ -57,7 +58,7 @@ const otherVideoIds = videoIds.filter(id => id !== beginHereId);
 // Themes this teacher is tagged with (for cross-axis links at the bottom)
 const allThemes = await getCollection('themes');
 const teacherThemes = (teacher.data.themes || [])
-  .map(ref => allThemes.find(t => t.slug === ref.slug))
+  .map(ref => allThemes.find(t => t.slug === ref.id))
   .filter(Boolean);
 ---
 <BaseLayout title={teacher.data.name} description={teacher.data.summary} image={teacher.data.image}>

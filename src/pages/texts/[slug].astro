@@ -18,7 +18,7 @@ const tradition = await getEntry(text.data.tradition);
 
 const allTexts = await getCollection('texts');
 const related = (text.data.related || [])
-  .map(ref => allTexts.find(t => t.slug === ref.slug))
+  .map(ref => allTexts.find(t => t.slug === ref.id))
   .filter(Boolean)
   .slice(0, 3);
 ---

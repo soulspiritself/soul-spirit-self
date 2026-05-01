@@ -17,16 +17,16 @@ const { Content } = await theme.render();
 // Find content tagged with this theme
 const allTeachers = await getCollection('teachers');
 const taggedTeachers = allTeachers
-  .filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug))
+  .filter(t => (t.data.themes || []).some(ref => ref.id === theme.slug))
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const allTexts = await getCollection('texts');
 const taggedTexts = allTexts
-  .filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug))
+  .filter(t => (t.data.themes || []).some(ref => ref.id === theme.slug))
   .sort((a, b) => a.data.order - b.data.order);
 
 const allTraditions = await getCollection('traditions');
-const taggedTraditions = allTraditions.filter(t => (t.data.themes || []).some(ref => ref.slug === theme.slug));
+const taggedTraditions = allTraditions.filter(t => (t.data.themes || []).some(ref => ref.id === theme.slug));
 
 // Aggregate videos from tagged teachers + tagged texts
 const videoIds = new Set<string>();
@@ -91,7 +91,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
                 {t.data.image && <img src={t.data.image} alt={t.data.name} />}
               </div>
               <div class="teacher-name">{t.data.name}</div>
-              <div class="teacher-tradition">{traditionMap.get(t.data.traditions[0].slug) || ''}</div>
+              <div class="teacher-tradition">{traditionMap.get(t.data.traditions[0].id) || ''}</div>
             </a>
           ))}
         </div>
@@ -111,7 +111,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
             <a href={`/texts/${t.slug}/`} class="text-card">
               {t.data.image && <div class="text-card-image" style={`background-image: url(${t.data.image});`}></div>}
               <div class="text-card-body">
-                <div class="text-card-tradition">{traditionMap.get(t.data.tradition.slug) || ''}</div>
+                <div class="text-card-tradition">{traditionMap.get(t.data.tradition.id) || ''}</div>
                 <h3>{t.data.title}</h3>
                 <p>{t.data.description.split('.').slice(0, 2).join('.')}.</p>
               </div>
