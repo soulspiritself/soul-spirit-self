@@ -1,23 +1,43 @@
 ---
-interface Props {
-  quote: string;
-  author: string;
-  source?: string;
-}
-const { quote, author, source } = Astro.props;
+import { contemplations, todaysContemplation } from '../data/contemplations';
+
+// Server-rendered initial quote (today's, picked by day-of-year).
+// Then a client script re-picks on page load against the visitor's local date,
+// so the card always shows today's quote even if the site hasn't been rebuilt.
+const initial = todaysContemplation();
 ---
 <section class="contemplation-wrap">
   <div class="contemplation">
     <div class="stars" aria-hidden="true"></div>
     <span class="eyebrow">Daily contemplation</span>
     <blockquote>
-      <p>{quote}</p>
+      <p data-quote>{initial.quote}</p>
     </blockquote>
     <div class="rule-gold-h"></div>
-    <p class="attribution">{author}</p>
-    {source && <p class="source">{source}</p>}
+    <p class="attribution" data-author>{initial.author}</p>
+    <p class="source" data-source>{initial.source ?? ''}</p>
   </div>
 </section>
+
+<script is:inline define:vars={{ contemplations }}>
+  (function () {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 0);
+    const dayOfYear = Math.floor((now - start) / 86400000);
+    const c = contemplations[dayOfYear % contemplations.length];
+
+    const quoteEl = document.querySelector('[data-quote]');
+    const authorEl = document.querySelector('[data-author]');
+    const sourceEl = document.querySelector('[data-source]');
+
+    if (quoteEl) quoteEl.textContent = c.quote;
+    if (authorEl) authorEl.textContent = c.author;
+    if (sourceEl) {
+      sourceEl.textContent = c.source || '';
+      sourceEl.style.display = c.source ? '' : 'none';
+    }
+  })();
+</script>
 
 <style>
   .contemplation-wrap {

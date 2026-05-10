@@ -42,28 +42,33 @@ const groups = [...grouped.entries()]
         <div class="trad-group">
           <h2><a href={`/traditions/${group.slug}/`}>{group.title}</a></h2>
           <div class="books-grid">
-            {group.books.map(book => (
-              <a
-                href={book.data.externalUrl || '#'}
-                target={book.data.externalUrl?.startsWith('http') ? '_blank' : '_self'}
-                rel={book.data.externalUrl?.startsWith('http') ? 'noopener' : null}
-                class="book-card"
-              >
-                <div class="book-meta">
-                  <h3>{book.data.title}</h3>
-                  <p class="book-author">
-                    {book.data.author}
-                    {book.data.year && <span class="book-year"> · {book.data.year}</span>}
-                  </p>
-                </div>
-                <p class="book-blurb">{book.data.blurb}</p>
-                {book.data.teacher && teacherNames[book.data.teacher.id] && (
-                  <p class="book-teacher">
-                    More from <a href={`/teachers/${book.data.teacher.id}/`}>{teacherNames[book.data.teacher.id]}</a>
-                  </p>
-                )}
-              </a>
-            ))}
+            {group.books.map(book => {
+              const isExternal = book.data.externalUrl?.startsWith('http');
+              return (
+                <article class="book-card">
+                  <a
+                    class="book-card-link"
+                    href={book.data.externalUrl || '#'}
+                    target={isExternal ? '_blank' : '_self'}
+                    rel={isExternal ? 'noopener' : undefined}
+                    aria-label={`Open ${book.data.title}`}
+                  ></a>
+                  <div class="book-meta">
+                    <h3>{book.data.title}</h3>
+                    <p class="book-author">
+                      {book.data.author}
+                      {book.data.year && <span class="book-year"> · {book.data.year}</span>}
+                    </p>
+                  </div>
+                  <p class="book-blurb">{book.data.blurb}</p>
+                  {book.data.teacher && teacherNames[book.data.teacher.id] && (
+                    <p class="book-teacher">
+                      More from <a href={`/teachers/${book.data.teacher.id}/`}>{teacherNames[book.data.teacher.id]}</a>
+                    </p>
+                  )}
+                </article>
+              );
+            })}
           </div>
         </div>
       ))}
@@ -94,6 +99,7 @@ const groups = [...grouped.entries()]
 
   .books-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 28px; }
   .book-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -102,7 +108,22 @@ const groups = [...grouped.entries()]
     color: inherit;
     transition: border-color 0.3s, transform 0.3s;
   }
-  .book-card:hover { border-color: var(--accent); color: inherit; transform: translateY(-2px); }
+  .book-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  /* Full-card click target sits behind the inner content so the teacher link stays clickable. */
+  .book-card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  .book-card > *:not(.book-card-link) {
+    position: relative;
+    z-index: 2;
+  }
+  .book-card .book-teacher a {
+    pointer-events: auto;
+  }
   .book-meta h3 {
     font-family: var(--serif);
     font-size: 22px;

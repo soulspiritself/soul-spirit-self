@@ -8,12 +8,6 @@ import { featuredVideos, channelUrl } from '../data/videos';
 
 const traditions = (await getCollection('traditions')).sort((a, b) => a.data.order - b.data.order);
 const homeFeatured = featuredVideos.slice(0, 6);
-
-const dailyQuote = {
-  quote: 'To be here, fully here, in this timeless moment, is the ultimate freedom.',
-  author: 'Mooji',
-  source: 'Dawn Rising',
-};
 ---
 <BaseLayout
   title="Soul Spirit Self"
@@ -79,7 +73,7 @@ const dailyQuote = {
   </section>
 
   <!-- DAILY CONTEMPLATION -->
-  <DailyContemplation quote={dailyQuote.quote} author={dailyQuote.author} source={dailyQuote.source} />
+  <DailyContemplation />
 
   <!-- EMAIL SIGNUP -->
   <EmailSignup />
