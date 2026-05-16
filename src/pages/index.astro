@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import VideoCard from '../components/VideoCard.astro';
 import DailyContemplation from '../components/DailyContemplation.astro';
 import EmailSignup from '../components/EmailSignup.astro';
+import TheSignal from '../components/TheSignal.astro';
 import { getCollection } from 'astro:content';
 import { featuredVideos, channelUrl } from '../data/videos';
 
@@ -35,6 +36,9 @@ const homeFeatured = featuredVideos.slice(0, 6);
     </div>
     <p class="hero-sub">New content coming soon</p>
   </section>
+
+  <!-- THE SIGNAL -->
+  <TheSignal />
 
   <!-- FEATURED VIDEOS -->
   <section class="section featured-videos">
