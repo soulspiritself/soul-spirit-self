@@ -85,6 +85,7 @@ npm run preview  # serves the built site
 - Daily contemplation card on homepage (currently a single Mooji quote)
 - Email signup component (Kit-ready, awaiting form ID)
 - /teachers/, /texts/, /about/ index pages
+- /timer page: fullscreen meditation timer (20/30/60 min presets, 30s preset bell after start, synthesized singing bowls via Web Audio, brand-styled, Add-to-Home-Screen friendly)
 - 42 Imagen 4 images generated and QA'd
 
 ## What's open / open decisions
