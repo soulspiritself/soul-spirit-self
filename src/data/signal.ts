@@ -16,6 +16,33 @@ export interface SignalStory {
 
 export const signalStories: SignalStory[] = [
   {
+    category: 'meditation',
+    headline: 'What master meditators\u2019 brains reveal about consciousness',
+    note: 'Matthew Sacchet\u2019s Harvard programme puts advanced meditators in the scanner during jhana absorption, cessation events, and nondual states. The states long described in the contemplative manuals turn out to have clear, repeatable neural signatures.',
+    source: 'New Scientist',
+    readTime: 11,
+    url: 'https://meditation.mgh.harvard.edu/files/Sacchet_25_NewScientist.pdf',
+    date: '2026-06-11',
+  },
+  {
+    category: 'consciousness',
+    headline: 'The science of a wandering mind',
+    note: 'A synthesis of what attention research has learned about mind-wandering and the default mode network: the untrained mind spends close to half its waking life somewhere else. The research maps, from the outside, the territory every meditation manual in this library starts from.',
+    source: 'Knowable Magazine',
+    readTime: 14,
+    url: 'https://knowablemagazine.org/content/article/mind/2022/science-wandering-mind',
+    date: '2026-06-11',
+  },
+  {
+    category: 'wisdom',
+    headline: 'Jon Kabat-Zinn on the power of awareness',
+    note: 'The man who brought mindfulness into medicine talks about what he left mostly unsaid for forty years: that the practice is nondual through and through. Awareness, he says here, is a hidden-in-plain-sight dimension of being, and the intention is also the result.',
+    source: 'Lion\u2019s Roar',
+    readTime: 16,
+    url: 'https://www.lionsroar.com/the-power-of-awareness-jon-kabat-zinn-in-conversation/',
+    date: '2026-06-11',
+  },
+  {
     category: 'consciousness',
     headline: 'The brain might not create consciousness after all',
     note: 'Christof Koch, the neuroscientist who spent decades chasing the neural correlates of consciousness, now argues that consciousness may be fundamental to reality rather than produced by the brain. He points at three places the materialist story breaks: subjective experience itself, what modern physics says reality is, and the patterns showing up in near-death and end-of-life research.',
