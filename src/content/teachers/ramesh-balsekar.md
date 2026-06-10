@@ -24,11 +24,17 @@ After Nisargadatta's death in 1981, Balsekar began teaching in his own name. Fro
 
 The central pointing in Balsekar's teaching is the recognition that *there is no doer*. The sense of being a separate self choosing among options is itself an arising in awareness, not the choosing agent it appears to be. Every action, every thought, every apparent decision is happening as a movement of the same one consciousness, and the apparent doer is part of the appearance, not its source. *Whatever happens is the will of Source*, was a phrase he used often. The recognition, when it lands, brings an extraordinary release from the strain of being responsible for one's own life.
 
-He wrote prolifically. The books are largely transcribed dialogues, edited and brought into print mostly through Wayne Liquorman's Advaita Press. They are unusually rich for transcribed material because Balsekar's spoken English was elegant and precise.
+He wrote prolifically. The books are largely transcribed dialogues, edited and brought into print mostly through Wayne Liquorman's Advaita Press. They read unusually well for transcribed material because Balsekar's spoken English was elegant and precise.
+
+## An example of the teaching
+
+The morning meetings followed a method, and the method was investigation rather than belief. He did not ask visitors to accept that there is no doer. He asked them to test it against the most ordinary material available: a single action from their own day. Take something you are sure you did, he would suggest, and trace it backward. The action followed a decision. The decision followed a thought. And the thought? It appeared. Nobody sits upstream of their own thoughts choosing which ones to have, and he liked to make the point concrete: can you say what your next thought will be?
+
+From there the dialogue widened. Whatever you did rested on equipment you never chose, the genes you were born with and the conditioning laid down by every experience since. He encouraged people to repeat the investigation daily, action by action, until the conviction of authorship wore thin in practice rather than in theory. The fruit he pointed to was practical: when doership goes, guilt about one's own actions and hatred toward the apparent doers of other actions lose their footing, and daily life becomes considerably lighter.
 
 ## Where to start
 
 - **[Pointers from Nisargadatta Maharaj](https://www.advaita.org/books)** — his first book, while Nisargadatta was still alive; the most direct record of the teaching he was translating.
 - **[A Net of Jewels](https://www.advaita.org/books)** — a daybook of short pointers, one per page; the easiest book to live with over time.
 - **[Consciousness Speaks](https://www.advaita.org/books)** — long-form transcribed dialogues from the Bombay satsangs.
-- **[The official archive (Advaita Press)](https://www.advaita.org/)** — the full bibliography, audio archive, and links to teachers in his lineage.
+- **[The Advaita Fellowship site](https://www.advaita.org/)** — the full bibliography, audio archive, and links to teachers in his lineage.

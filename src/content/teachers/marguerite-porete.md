@@ -19,4 +19,14 @@ The book was condemned and publicly burned in 1306 by the Bishop of Cambrai. Mar
 
 Her book did not die with her. Stripped of her name, it circulated anonymously through the fourteenth and fifteenth centuries and was read by Eckhart and the wider Rhineland circle. Eckhart's most radical formulations on the *Seelengrund* and the soul's freedom from creaturely will echo Marguerite's vocabulary directly. She was identified as the author only in the 1940s by the scholar Romana Guarnieri, working from inquisitorial records.
 
-Her teaching is the most apophatic in any Christian language. The soul that has gone all the way *takes leave* of the virtues, of reason, of even its own will. It is *annihilated* not in the sense of destruction but in the sense that nothing of separate self remains to be a possessor of anything. There is no public-domain English translation. The standard modern version is Edmund Colledge's *Margaret Porette: The Mirror of Simple Souls* (Notre Dame, 1999); the Paulist Press *Classics of Western Spirituality* volume translated by Ellen Babinsky (1993) is the other major edition.
+## The teaching
+
+The *Mirror* maps seven states of grace, and the drama of the book is the passage through the fifth and sixth, where the soul is *annihilated*. Annihilation here does not mean destruction. It means that the soul's own will, the small separate engine of wanting and refusing, has dissolved into the divine will so completely that nothing remains to act as an owner of the spiritual life. Such a soul, Love declares in the dialogue, takes leave of the virtues. The phrase became a charge against her, but its meaning is careful: the annihilated soul no longer labours to produce virtue under Reason's supervision, because virtue now flows through it without resistance. The virtues remain in the life; the effort of manufacturing them ends.
+
+Marguerite stages this as the long defeat of Reason, the character who interrupts Love's teaching with alarmed objections until, midway through the book, Reason dies. Readers of Eckhart will recognise the territory, the soul's freedom from will and from possession, including spiritual possession, taught here a generation before him and paid for at a higher price.
+
+## Where to start
+
+- **[The Mirror of Simple Souls](https://archive.org/details/mirrorofsimpleso00unse)** — Clare Kirchberger's 1927 edition of the medieval English translation, published while the book was still credited to an unknown French mystic, free at the Internet Archive.
+- **[The Mirror of Simple Souls, 1993](https://archive.org/details/mirrorofsimpleso0000pore)** — Ellen Babinsky's Classics of Western Spirituality translation, borrowable at the Internet Archive.
+- **[Marguerite Porete at Wikipedia](https://en.wikipedia.org/wiki/Marguerite_Porete)** — a careful account of her life, her trial, and the book's anonymous afterlife.

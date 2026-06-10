@@ -27,9 +27,16 @@ Robert Adams was born in New York in 1928. His early life, as he later told it i
 
 Only in the late 1980s, after settling in southern California and despite the steadily worsening Parkinson's disease that finally killed him, did he begin to teach openly. He held small satsangs, never larger than twenty or thirty people, in living rooms and rented halls in Hollywood, Los Angeles, and finally Sedona. The recordings of those talks, mostly preserved on cassette tape and transcribed posthumously, are notable for their pace, their long silences, and their warmth. He was, by every account, an unusually gentle presence in a tradition that has not always been gentle.
 
-His teaching is the Ramana teaching simply restated. The self-inquiry *Who am I?* is the central practice; *I-am-ness* is the immediate object of attention; the apparent person dissolves under sustained looking. He died in Sedona in 1997. *Silence of the Heart*, his only book, was assembled from the talk transcripts in the years after.
+His teaching is the Ramana teaching simply restated. The self-inquiry *Who am I?* is the central practice; *I-am-ness* is the immediate object of attention; the apparent person dissolves under sustained looking. He died in Sedona in 1997. *Silence of the Heart*, the central printed collection of his teaching, was assembled from the talk transcripts.
+
+## An example of the teaching
+
+Alongside formal self-inquiry he gave his students a practice simple enough to carry into any day: the I AM meditation, joined to the breath. Sitting quietly, with the breath moving at its own pace, you say inwardly *I* on the inhalation and *am* on the exhalation. Nothing is added to it. No visualisation, no counting, no effort to still the mind. He treated the words themselves as sacred, the first and most intimate name of the divine, and the repetition as a way of letting attention sink back into the bare sense of existence before any description attaches to it.
+
+He was explicit about the trajectory of the practice. Done patiently over months, the words grow quieter on their own, the gap between them widens, and at some point the phrase falls away entirely, leaving the silence it was pointing to. That silence, in his vocabulary, was never a blank. He used the word for the presence his satsangs were soaked in, the stillness out of which he spoke slowly and into which he often simply stopped speaking. For students who found the bare question *Who am I?* too austere, the breath-borne I AM was his gentler door into the same room.
 
 ## Where to start
 
 - **[Silence of the Heart](https://www.stillnessspeaks.com/books-and-dvds/silence-of-the-heart/)** — the central printed collection, drawn from the southern California satsangs.
-- **[The collected talks (Robert Adams Infinity Institute)](https://www.robertadamsinfinityinstitute.org/)** — the most extensive online archive of his recorded talks and transcripts.
+- **[Robert Adams Infinity Institute](https://www.robertadamsinfinityinstitute.org/)** — the institute he established in 1996; lessons, remastered recordings of his dialogues, and books.
+- **[Robert Adams at Stillness Speaks](https://www.stillnessspeaks.com/teacher/robert-adams/)** — a biographical overview with pointers to further reading and recordings.

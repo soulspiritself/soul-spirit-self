@@ -4,7 +4,7 @@ traditions:
   - advaita-vedanta
 born: "1897"
 died: "1981"
-summary: The bidi-cigarette merchant of Mumbai who became one of the most direct nondual teachers of the twentieth century. Recorded in I Am That, his teachings centre on prior-to-consciousness recognition.
+summary: The bidi-cigarette merchant of Mumbai whose recorded talks, I Am That, set the standard for plain, uncompromising nondual teaching in the twentieth century. His pointing centres on what is prior to consciousness.
 imagePrompt: Portrait of Nisargadatta Maharaj, elderly Indian man with grey hair and intense gaze, simple dhoti, soft photographic light from above, contemplative expression
 image: /images/teacher-nisargadatta-maharaj.jpg
 sourceUrl: http://nisargadatta.net/
@@ -31,6 +31,6 @@ He belonged to the Inchagiri branch of the Navnath Sampradaya, the same lineage 
 
 ## Where to start
 
-- **[I Am That](http://nisargadatta.net/publishers.html)** — the Maurice Frydman translation of the recorded talks, and one of the most influential spiritual books of the twentieth century. Start anywhere; the chapters are self-contained.
+- **[I Am That](http://nisargadatta.net/publishers.html)** — the Maurice Frydman translation of the recorded talks, the book that carried this teaching around the world. Start anywhere; the chapters are self-contained.
 - **Self Knowledge and Self Realisation** (*Atmagnana ani Paramatmayoga*) — his early, more devotional writing, for the fuller picture of where the teaching came from.
 - **[The teachers he formed](/teachers/)** — Sailor Bob Adamson, Ramesh Balsekar, and Wayne Liquorman each carried a different register of the teaching forward; their pages trace the lineage.

@@ -25,3 +25,14 @@ For the next forty-five years he travelled the dust roads of north India and tau
 What is most distinctive in the Buddha's teaching, and what made it strange in its own time and remains strange in ours, is the refusal of any positive metaphysical foundation. He declined to answer the speculative questions, declined to assert the existence of an eternal self, declined even to assert its non-existence in any final way. The teaching is offered as a raft, not a destination, and the raft is to be set down once it has carried the practitioner across. *Be a lamp unto yourselves*, he is recorded as saying near the end of his life. *Work out your liberation with diligence.*
 
 He died at eighty in a small grove near Kushinagar, surrounded by his disciples, in what the tradition calls his *parinirvana*, his complete release. His last words, recorded in the Mahaparinibbana Sutta, were a final pointing: *all conditioned things are impermanent; strive on with diligence*.
+
+## The teaching
+
+The briefest complete statement of it may be the instruction to Bahiya, a wandering ascetic who stopped the Buddha on his alms round and asked to be taught on the spot (Udana 1.10). The Buddha told him: in the seen, let there be only the seen; in the heard, only the heard; in the sensed, only the sensed; in the cognized, only the cognized. When experience is met this way, no one stands behind it as its owner. You are not "with that," not "in that," neither here nor there nor in between. Just this, he said, is the end of suffering. Bahiya understood as he listened and was freed on the spot.
+
+## Where to start
+
+- **[The Dhammapada](/texts/dhammapada/)** — the most concentrated collection of his sayings, hosted here in full.
+- **[The Heart Sutra](/texts/heart-sutra/)** — the later Mahayana distillation of the emptiness teaching, a page long, hosted here.
+- **[The Diamond Sutra](/texts/diamond-sutra/)** — the Mahayana dialogue on non-clinging that grew from his teaching on non-self, hosted here.
+- **[The Bahiya Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.10.than.html)** — the full text of the instruction above, in Thanissaro Bhikkhu's translation at Access to Insight.

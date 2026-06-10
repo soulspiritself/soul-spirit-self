@@ -20,9 +20,9 @@ To [calm down](https://www.self.com/story/silent-retreats-for-women) and reset t
 
 Silent meditation and silent prayer have shaped spiritual lives within a variety of religious traditions for thousands of years. Today, however, those practices are often being offered in secular settings.
 
-One particular form of meditative silence, the 10-day mindfulness retreat, has had an outsized impact. [Research I have carried out over the past two decades](https://www.buddhismuskunde.uni-hamburg.de/pdf/4-publikationen/hamburg-buddhist-studies/20insight.pdf) sheds light on the role of the Burmese meditation master [Sayagyi U Ba Khin](https://doi.org/10.1515/9780824864217-014?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle) in popularizing mindfulness meditation. The term “sayagyi” means “respected teacher.”
+One particular form of meditative silence, the 10-day mindfulness retreat, has had an outsized impact. [Research I have carried out over the past two decades](https://www.projektverlag.de/schriftenreihen/hamburg-buddhist-studies/Insight-in-Perspective) sheds light on the role of the Burmese meditation master [Sayagyi U Ba Khin](https://doi.org/10.1515/9780824864217-014?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle) in popularizing mindfulness meditation. The term “sayagyi” means “respected teacher.”
 
-Ba Khin was one of a small number of prominent Buddhist lay meditation teachers in late colonial and early postcolonial Burma. His silent, 10-day retreat [became a model](https://www.buddhismuskunde.uni-hamburg.de/pdf/4-publikationen/hamburg-buddhist-studies/20insight.pdf) for a wide range of intensive meditation traditions. Three of Ba Khin’s students were instrumental in bringing his teaching to the United States.
+Ba Khin was one of a small number of prominent Buddhist lay meditation teachers in late colonial and early postcolonial Burma. His silent, 10-day retreat [became a model](https://www.projektverlag.de/schriftenreihen/hamburg-buddhist-studies/Insight-in-Perspective) for a wide range of intensive meditation traditions. Three of Ba Khin’s students were instrumental in bringing his teaching to the United States.
 
 ## The emergence of mass meditation
 
@@ -58,7 +58,7 @@ He initially sought out Ba Khin for relief from severe migraine headaches; Ba Kh
 
 The experience proved transformative.
 
-From 1969 until his death in 2013, [Goenka devoted his life to spreading Ba Khin’s teachings globally](https://www.buddhismuskunde.uni-hamburg.de/pdf/4-publikationen/hamburg-buddhist-studies/20insight.pdf) while retaining his Hindu identity. Like his teacher, and his teacher’s teacher, Goenka taught practices of meditation that focused on the cultivation of continuous concentration on a single object of focus for sustained periods of time.
+From 1969 until his death in 2013, [Goenka devoted his life to spreading Ba Khin’s teachings globally](https://www.projektverlag.de/schriftenreihen/hamburg-buddhist-studies/Insight-in-Perspective) while retaining his Hindu identity. Like his teacher, and his teacher’s teacher, Goenka taught practices of meditation that focused on the cultivation of continuous concentration on a single object of focus for sustained periods of time.
 
 This was done through the observation of the breath, leading to a comprehensive awareness of bodily sensations in all postures and at all times when not sleeping.
 
@@ -80,7 +80,7 @@ This approach echoed that of Ba Khin, who spoke of teaching meditation without i
 
 Two other students of Ba Khin, rarely mentioned in historical accounts, also catalyzed the study of mindfulness in the U.S.: aerospace engineer Robert H. Hover and Leon E. Wright, a Black Christian theologian.
 
-[Robert H. Hover](https://hokku.wordpress.com/2009/10/04/robert-harry-hover/) played a crucial role in initiating the scientific study of mindfulness and in the [founding of the Insight Meditation Society in Massachusetts](https://www.buddhismuskunde.uni-hamburg.de/pdf/4-publikationen/hamburg-buddhist-studies/20insight.pdf), one of the first U.S. centers dedicated to Southeast Asian Buddhist meditation.
+[Robert H. Hover](https://hokku.wordpress.com/2009/10/04/robert-harry-hover/) played a crucial role in initiating the scientific study of mindfulness and in the [founding of the Insight Meditation Society in Massachusetts](https://www.projektverlag.de/schriftenreihen/hamburg-buddhist-studies/Insight-in-Perspective), one of the first U.S. centers dedicated to Southeast Asian Buddhist meditation.
 
 Hover’s work helped bring mindfulness into mainstream medicine and society. [Jon Kabat-Zinn](https://jonkabat-zinn.com/about/), who created the Mindfulness-Based Stress Reduction, a program at the University of Massachusetts Medical School to help patients cope with chronic pain and stress, credits Hover as [one of his primary teachers](https://journal.equinoxpub.com/ROSA/article/view/10852).
 

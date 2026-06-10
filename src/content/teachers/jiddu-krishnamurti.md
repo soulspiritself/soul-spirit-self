@@ -22,12 +22,18 @@ In August 1929, before three thousand members assembled at Ommen in the Netherla
 
 His later teaching, recorded across thousands of public talks and dialogues, is a sustained inquiry into the nature of conditioned thought, the relation between observer and observed, the question of how a mind that is itself the product of conditioning can free itself from conditioning. He refused to accept the role of guru, refused to give techniques, refused to offer any system of practice. The work, he said, was simply to look without choice at what is. *The observer is the observed.* That recognition, when it lands, is the ending of the conditioned self.
 
-He died in Ojai, California in 1986. The Krishnamurti Foundation, established in his lifetime, holds the recordings of his talks and continues to publish his books.
+He died in Ojai, California in 1986. The Krishnamurti foundations he established in his lifetime hold the recordings of his talks and continue to publish his books.
+
+## An example of the teaching
+
+His way of working is easiest to see with a single emotion, and fear was the one he returned to most often in the talks. Watch fear when it arises, he proposed, without doing any of the things the mind immediately wants to do: naming it, condemning it, explaining it, escaping it. Even the word *fear* is already the past, a label drawn from every previous fear, laid over the living movement of this one. Can you observe the sensation without the word?
+
+Then notice the one who seems to stand apart, the observer who intends to do something about the fear. Examined, that observer turns out to be made of the same material: memories of fear, conclusions about fear, the accumulated past. The division between watcher and watched is a trick of thought, and while it lasts the self spends its energy fighting what it is. This choiceless awareness, observation without an observer, was the whole of what he offered, and he refused to package it as a technique to be practised toward a result.
 
 Note: his earliest book, *[At the Feet of the Master](/texts/at-the-feet-of-the-master/)*, was published in 1910 under the pseudonym Alcyone while he was still a teenager being raised by the Theosophical Society. The work belongs to the Theosophical era he later repudiated. We carry it because it is widely known as a piece of Krishnamurtiana, while noting that it is not representative of the teaching of his maturity.
 
 ## Where to start
 
-- **[Freedom From the Known](https://www.jkrishnamurti.org/books)** — the most accessible entry to his mature teaching, edited by Mary Lutyens.
-- **[The First and Last Freedom](https://www.jkrishnamurti.org/books)** — his first major book, with Aldous Huxley's introduction.
-- **[The Krishnamurti Foundation](https://www.jkrishnamurti.org/)** — the official archive of his recorded talks, books, and biographical material.
+- **[Freedom From the Known](https://kfoundation.org/krishnamurti-books/)** — the most accessible entry to his mature teaching, edited by Mary Lutyens.
+- **[The First and Last Freedom](https://kfoundation.org/krishnamurti-books/)** — his first major book, with Aldous Huxley's foreword.
+- **[The official Krishnamurti site](https://www.jkrishnamurti.org/)** — the central archive of his recorded talks, books, and biographical material, maintained by the foundations.

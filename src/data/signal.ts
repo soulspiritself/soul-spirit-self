@@ -183,7 +183,7 @@ export const signalStories: SignalStory[] = [
     note: 'Rupert Spira on why the world’s contemplative traditions point at one shared insight: that awareness, not the body or mind, is what we essentially are, and that the apparent separation between self and world is a misreading of experience.',
     source: 'Rupert Spira',
     readTime: 8,
-    url: 'https://rupertspira.com/non-duality/blog/article/an_introduction_to_non-duality',
+    url: 'https://rupertspira.com/blog/an-introduction-to-non-duality-the-core-of-the-great-spiritual-and-religious-traditions/',
     date: '2026-05-11',
   },
   {

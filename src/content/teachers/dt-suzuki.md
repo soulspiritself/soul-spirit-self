@@ -28,6 +28,10 @@ What is sometimes forgotten about Suzuki is that he was not primarily a populari
 
 He was a quiet and warm man by every report, with an unforced humour and an extraordinary capacity for sustained work. He wrote his last book at ninety-five and died the following year. The Western nondual scene that took shape in the second half of the twentieth century (Zen practice centres in California and New York, the Mahayana literature available in paperback, the Buddhist-Christian conversation that Bede Griffiths and Thomas Merton carried forward) was built largely on groundwork Suzuki laid.
 
+## The teaching
+
+Suzuki's central term is *satori*, the sudden seeing into one's own nature that he placed at the heart of Zen. He insisted that satori is a fact of experience, and that Zen without it is an empty form. The koan, in his account, is the instrument that brings it about: a question the intellect cannot resolve, held until discursive thinking exhausts itself and the mind opens onto what was there before thought. He was careful to add that satori is a beginning. What follows is the slow work of letting the seeing soak into ordinary life, until drawing water and chopping wood are themselves its expression.
+
 ## Where to read more
 
 Most of Suzuki's books remain in print. The most useful starting points:
