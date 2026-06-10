@@ -103,7 +103,7 @@ const teachers = allTeachers.filter(t =>
         {teachers.map(teacher => (
           <a href={`/teachers/${teacher.slug}/`} class="teacher-card">
             <div class="teacher-portrait" data-initial={teacher.data.name.charAt(0)}>
-              {teacher.data.image && <img src={teacher.data.image} alt={teacher.data.name} />}
+              {teacher.data.image && <img src={teacher.data.image.replace('/images/', '/images/thumbs/')} alt={teacher.data.name} loading="lazy" width="520" height="520" />}
             </div>
             <div class="teacher-name">{teacher.data.name}</div>
             <div class="teacher-dates">

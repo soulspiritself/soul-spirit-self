@@ -38,7 +38,7 @@ const groups = [...grouped.entries()].map(([slug, texts]) => ({
         <div class="texts-list">
           {group.texts.map(text => (
             <a href={`/texts/${text.slug}/`} class="text-row">
-              <div class="text-thumb" style={text.data.image ? `background-image:url(${text.data.image});` : ''}></div>
+              <div class="text-thumb" style={text.data.image ? `background-image:url(${text.data.image.replace('/images/', '/images/thumbs/')});` : ''}></div>
               <div class="text-meta">
                 <h3>{text.data.title}</h3>
                 {text.data.subtitle && <p class="subtitle">{text.data.subtitle}</p>}

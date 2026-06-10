@@ -22,7 +22,7 @@ const themes = (await getCollection('themes')).sort((a, b) => a.data.order - b.d
       <div class="themes-grid">
         {themes.map(theme => (
           <a href={`/themes/${theme.slug}/`} class="theme-card">
-            <div class="theme-image" style={theme.data.image ? `background-image: url(${theme.data.image});` : ''}></div>
+            <div class="theme-image" style={theme.data.image ? `background-image: url(${theme.data.image.replace('/images/', '/images/thumbs/')});` : ''}></div>
             <div class="theme-card-body">
               <h2>{theme.data.title}</h2>
               <p>{theme.data.subtitle}</p>

@@ -13,7 +13,7 @@ const { href, title, originalTitle, meta, description, image, imagePrompt } = As
 <a href={href} class="text-card">
   <div class="text-card-image">
     {image
-      ? <img src={image} alt={imagePrompt || title} />
+      ? <img src={image.replace('/images/', '/images/thumbs/')} alt={title} loading="lazy" width="520" height="520" />
       : <div class="imagen-placeholder"></div>}
     <span class="text-card-image-tag">{image ? 'Imagen 4' : 'Image pending'}</span>
   </div>

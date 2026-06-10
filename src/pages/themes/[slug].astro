@@ -109,7 +109,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
         <div class="texts-list">
           {taggedTexts.map(t => (
             <a href={`/texts/${t.slug}/`} class="text-card">
-              {t.data.image && <div class="text-card-image" style={`background-image: url(${t.data.image});`}></div>}
+              {t.data.image && <div class="text-card-image" style={`background-image: url(${t.data.image.replace('/images/', '/images/thumbs/')});`}></div>}
               <div class="text-card-body">
                 <div class="text-card-tradition">{traditionMap.get(t.data.tradition.id) || ''}</div>
                 <h3>{t.data.title}</h3>

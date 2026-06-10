@@ -206,7 +206,7 @@ const teacherThemes = (teacher.data.themes || [])
           {crossRelated.map(s => (
             <a href={`/teachers/${s.slug}/`} class="sibling-card">
               <div class="sibling-portrait">
-                {s.data.image && <img src={s.data.image} alt={s.data.name} />}
+                {s.data.image && <img src={s.data.image.replace('/images/', '/images/thumbs/')} alt={s.data.name} loading="lazy" width="520" height="520" />}
               </div>
               <div class="sibling-name">{s.data.name}</div>
               <div class="sibling-dates">{s.data.born && s.data.died ? `${s.data.born} — ${s.data.died}` : (s.data.born || s.data.died || '')}</div>
@@ -228,7 +228,7 @@ const teacherThemes = (teacher.data.themes || [])
           {siblings.map(s => (
             <a href={`/teachers/${s.slug}/`} class="sibling-card">
               <div class="sibling-portrait">
-                {s.data.image && <img src={s.data.image} alt={s.data.name} />}
+                {s.data.image && <img src={s.data.image.replace('/images/', '/images/thumbs/')} alt={s.data.name} loading="lazy" width="520" height="520" />}
               </div>
               <div class="sibling-name">{s.data.name}</div>
               <div class="sibling-dates">

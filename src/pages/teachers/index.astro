@@ -45,10 +45,13 @@ const groups = [...grouped.entries()]
         <div class="teachers-grid">
           {group.teachers.map(t => (
             <a href={`/teachers/${t.slug}/`} class="teacher-card">
-              <div class="teacher-photo" style={t.data.image ? `background-image:url(${t.data.image});` : ''}></div>
+              <div class="teacher-photo" style={t.data.image ? `background-image:url(${t.data.image.replace('/images/', '/images/thumbs/')});` : ''}></div>
               <h3>{t.data.name}</h3>
               {(t.data.born || t.data.died) && (
                 <p class="dates">{t.data.born}{t.data.born && t.data.died ? ' – ' : ''}{t.data.died}</p>
+              )}
+              {t.data.traditions.length > 1 && (
+                <p class="cross-listed">Also in {t.data.traditions.filter(r => r.id !== group.slug).map(r => traditionMap.get(r.id) || r.id).join(', ')}</p>
               )}
               <p class="summary">{t.data.summary}</p>
               <span class="read-more">Read more →</span>
@@ -143,6 +146,13 @@ const groups = [...grouped.entries()]
     font-weight: 500;
     color: var(--text);
     margin-bottom: 4px;
+  }
+  .cross-listed {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--text-faint);
+    font-style: italic;
+    margin-bottom: 10px;
   }
   .dates {
     font-size: 12px;
