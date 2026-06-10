@@ -925,6 +925,95 @@ IMAGES = [
         ),
     },
 
+    # ──────────────────── Essay heroes (June 2026) ────────────────────
+    {
+        "filename": "essay-the-essentials-of-mysticism.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A loose weave of many pale linen threads on a dark wooden loom, "
+            "one single radiant gold thread drawn straight and taut out of the "
+            "weave, catching warm light against deep cosmic blue shadow, "
+            "contemplative atmospheric still life, painterly minimal "
+            "composition, no people, no text, no signature, wide cinematic"
+        ),
+    },
+    {
+        "filename": "essay-the-over-soul.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Rolling New England meadow at dawn after rain, a scattering of "
+            "small still pools across the grass, every pool holding the same "
+            "luminous gold and deep blue dawn sky, soft mist on the far "
+            "treeline, contemplative atmospheric landscape, painterly minimal "
+            "composition, no people, no text, no signature, wide cinematic"
+        ),
+    },
+    {
+        "filename": "essay-a-suggestion-about-mysticism.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single warm lantern standing on a vast dark moor at night, its "
+            "circle of golden light unusually wide so that the hidden "
+            "landscape, stones, grasses, a distant tree, is just becoming "
+            "visible at the rim of the light, deep cosmic blue darkness "
+            "beyond, contemplative atmospheric landscape, painterly minimal "
+            "composition, no people, no text, no signature, wide cinematic"
+        ),
+    },
+    {
+        "filename": "essay-the-realisation-of-the-infinite.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A wide river meeting the open sea at dawn, fresh water and tide "
+            "mingling in slow gold and deep blue currents, a single small "
+            "boat under sail far out where river becomes sea, warm light low "
+            "on the water, contemplative atmospheric landscape, painterly "
+            "minimal composition, no people visible, no text, no signature, "
+            "wide cinematic"
+        ),
+    },
+    {
+        "filename": "essay-on-beauty.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An ancient Greek sculptor's stone workshop at night, a "
+            "half-finished classical marble statue emerging from a rough "
+            "marble block on a heavy wooden workbench, iron chisel and "
+            "wooden mallet lying beside the block, one shaft of warm golden "
+            "lamplight falling across the white carved marble, deep cosmic "
+            "blue shadow everywhere else, ancient setting, no humans "
+            "present, no vehicles, no modern objects, contemplative "
+            "atmospheric still life, painterly composition, no text, no "
+            "signature, wide cinematic"
+        ),
+    },
+
+    # ──────────────────── Signal heroes (June 2026) ────────────────────
+    {
+        "filename": "signal-body-and-conscious-experience.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A pale articulated wooden artist's mannequin hand resting "
+            "palm-up on dark slate, one warm beam of golden light falling "
+            "across the open palm, deep cosmic blue shadow surrounding, a "
+            "faint second shadow of the same hand cast on the slate, "
+            "contemplative atmospheric still life, painterly minimal "
+            "composition, no real people, no text, no signature"
+        ),
+    },
+    {
+        "filename": "signal-history-of-silent-retreats.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Rows of empty round meditation cushions on the dark wooden "
+            "floor of a quiet meditation hall at dawn, one tall window "
+            "letting in a single shaft of warm golden morning light across "
+            "the floor, faint incense haze in the beam, deep cosmic blue "
+            "shadow elsewhere, contemplative atmospheric interior, painterly "
+            "minimal composition, no people, no text, no signature"
+        ),
+    },
+
     # ──────────────────── Missing text images (June 2026) ────────────────────
     {
         "filename": "text-dhammapada.jpg",

@@ -142,4 +142,28 @@ const signal = defineCollection({
   })
 });
 
-export const collections = { traditions, teachers, texts, themes, books, signal };
+// Timeless standalone essays, full text, public domain. Distinct from signal
+// (contemporary, dated) and texts (scriptures and primary contemplative works).
+const essays = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    authorDates: z.string().optional(),     // e.g. "1842\u20131910"
+    year: z.string(),                       // original publication year
+    source: z.string(),                     // original publication
+    sourceUrl: z.string().url(),            // where our text came from
+    discipline: z.string(),                 // e.g. Psychology, Philosophy
+    description: z.string(),
+    whyItMatters: z.string().optional(),    // curator's note
+    licenceNote: z.string(),
+    wordCount: z.number().optional(),
+    readingTimeMinutes: z.number().optional(),
+    image: z.string().optional(),
+    imagePrompt: z.string().optional(),
+    themes: z.array(reference('themes')).optional(),
+    order: z.number().default(99),
+  })
+});
+
+export const collections = { traditions, teachers, texts, themes, books, signal, essays };

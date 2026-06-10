@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const essays = (await getCollection('essays')).sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout
+  title="Essays"
+  description="Standalone essays on the contemplative life, hosted in full. Psychology, philosophy, poetry, and scholarship across the centuries."
+>
+  <section class="page-hero">
+    <span class="eyebrow">The long view</span>
+    <h1>Essays</h1>
+    <p class="lede">
+      Standalone essays on the contemplative life, hosted here in full. Where The Signal follows what is surfacing now, these pieces have already lasted.
+    </p>
+    <div class="rule-gold-h"></div>
+  </section>
+
+  <section class="essays-page">
+    <div class="essays-grid">
+      {essays.map(e => (
+        <a href={`/essays/${e.slug}/`} class="essay-card">
+          {e.data.image && (
+            <div class="essay-image" style={`background-image:url(${e.data.image.replace('/images/', '/images/thumbs/')});`}></div>
+          )}
+          <div class="essay-card-body">
+            <span class="essay-discipline">{e.data.discipline} · {e.data.year}</span>
+            <h2>{e.data.title}</h2>
+            <p class="essay-author">{e.data.author}{e.data.authorDates ? ` (${e.data.authorDates})` : ''}</p>
+            <p class="essay-desc">{e.data.description}</p>
+            {e.data.readingTimeMinutes && <span class="essay-time">{e.data.readingTimeMinutes} min read</span>}
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    text-align: center;
+    padding: 96px var(--gutter) 48px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .page-hero h1 {
+    font-family: var(--serif);
+    font-size: 84px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 12px 0 24px;
+  }
+  .page-hero .lede {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+  .essays-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px var(--gutter) 96px;
+  }
+  .essays-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 28px;
+  }
+  .essay-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(10, 30, 45, 0.4);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s;
+    color: inherit;
+  }
+  .essay-card:hover {
+    border-color: var(--accent);
+    background: rgba(10, 30, 45, 0.55);
+    transform: translateY(-2px);
+    color: inherit;
+  }
+  .essay-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  }
+  .essay-card-body { padding: 26px 24px; display: flex; flex-direction: column; flex: 1; }
+  .essay-discipline {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .essay-card h2 {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.25;
+    margin-bottom: 6px;
+  }
+  .essay-author {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+  .essay-desc {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    flex: 1;
+  }
+  .essay-time {
+    margin-top: 16px;
+    font-size: 12px;
+    color: var(--text-faint);
+  }
+</style>

@@ -1,0 +1,165 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const essays = await getCollection('essays');
+  return essays.map(essay => ({
+    params: { slug: essay.slug },
+    props: { essay },
+  }));
+}
+
+const { essay } = Astro.props;
+const { Content } = await essay.render();
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: essay.data.title,
+  description: essay.data.description,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': new URL(Astro.url.pathname, Astro.site).toString() },
+  image: essay.data.image ? new URL(essay.data.image, Astro.site).toString() : undefined,
+  isBasedOn: essay.data.sourceUrl,
+  citation: essay.data.sourceUrl,
+  author: { '@type': 'Person', name: essay.data.author },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Soul Spirit Self',
+    url: 'https://soulspiritself.com',
+    logo: { '@type': 'ImageObject', url: 'https://soulspiritself.com/images/soul-spirit-self-logo.png' },
+  },
+  datePublished: essay.data.year,
+  license: 'https://creativecommons.org/publicdomain/mark/1.0/',
+};
+---
+<BaseLayout title={essay.data.title} description={essay.data.description} image={essay.data.image}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+
+  <article class="essay-article">
+    {essay.data.image && (
+      <figure class="essay-hero-image">
+        <img src={essay.data.image} alt={essay.data.title} loading="eager" />
+      </figure>
+    )}
+    <header class="essay-hero">
+      <span class="essay-discipline">{essay.data.discipline}</span>
+      <h1>{essay.data.title}</h1>
+      <div class="essay-meta">
+        <span class="byline">{essay.data.author}{essay.data.authorDates ? ` (${essay.data.authorDates})` : ''}</span>
+        <span class="dot" aria-hidden="true">·</span>
+        <span>{essay.data.source}, {essay.data.year}</span>
+        {essay.data.readingTimeMinutes && (
+          <>
+            <span class="dot" aria-hidden="true">·</span>
+            <span>{essay.data.readingTimeMinutes} min read</span>
+          </>
+        )}
+      </div>
+    </header>
+
+    {essay.data.whyItMatters && (
+      <aside class="why-it-matters">
+        <span class="why-label">Why it's in the library</span>
+        <p>{essay.data.whyItMatters}</p>
+      </aside>
+    )}
+
+    <div class="essay-body prose">
+      <Content />
+    </div>
+
+    <footer class="essay-footer">
+      <p class="licence-note">{essay.data.licenceNote}</p>
+      <p class="source-link"><a href={essay.data.sourceUrl} target="_blank" rel="noopener">Source text →</a></p>
+      <p class="back-to"><a href="/essays/">← All essays</a></p>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .essay-article { max-width: 760px; margin: 0 auto; padding: 48px var(--gutter) 96px; }
+  .essay-hero-image { margin: 0 0 40px; }
+  .essay-hero-image img { width: 100%; border-radius: 4px; display: block; }
+  .essay-hero { text-align: center; margin-bottom: 40px; }
+  .essay-discipline {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .essay-hero h1 {
+    font-family: var(--serif);
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin: 16px 0 18px;
+    color: var(--text);
+  }
+  .essay-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .essay-meta .dot { color: var(--text-faint); }
+
+  .why-it-matters {
+    max-width: 680px;
+    margin: 0 auto 40px;
+    padding: 22px 26px;
+    border-left: 2px solid var(--accent);
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .why-it-matters .why-label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .why-it-matters p {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  .essay-body {
+    font-family: var(--serif);
+    font-size: 19px;
+    line-height: 1.75;
+    color: var(--text-muted);
+  }
+  .essay-body :global(p) { margin-bottom: 22px; }
+  .essay-body :global(h2) {
+    font-family: var(--serif);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text);
+    margin: 44px 0 18px;
+  }
+  .essay-body :global(blockquote) {
+    border-left: 2px solid var(--accent);
+    margin: 28px 0;
+    padding: 4px 0 4px 24px;
+    font-style: italic;
+    color: var(--text);
+  }
+  .essay-body :global(em) { color: var(--text); }
+
+  .essay-footer {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--text-faint);
+  }
+  .essay-footer .licence-note { line-height: 1.6; margin-bottom: 14px; }
+  .essay-footer a { color: var(--accent); }
+</style>
