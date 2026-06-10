@@ -82,7 +82,12 @@ const rest = allStories.slice(1, 4);
         <div class={`signal-card-image cat--${story.category}`}>
           {story.image
             ? <img src={story.image} alt={story.headline} loading="lazy" />
-            : <span class="signal-card-image-placeholder" aria-hidden="true">{story.source.charAt(0)}</span>}
+            : <svg class="signal-card-image-glyph" viewBox="0 0 64 64" aria-hidden="true">
+                <circle cx="32" cy="32" r="14" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.55"/>
+                <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.30"/>
+                <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="0.4" opacity="0.15"/>
+                <circle cx="32" cy="32" r="3" fill="currentColor" opacity="0.75"/>
+              </svg>}
         </div>
         <span class={`signal-cat signal-cat--${story.category}`}>
           {categoryLabel[story.category]}
@@ -307,12 +312,14 @@ const rest = allStories.slice(1, 4);
   .signal-card-image.cat--wisdom:not(:has(img)) {
     background: linear-gradient(135deg, rgba(180,130,50,0.35) 0%, rgba(70,50,20,0.55) 100%);
   }
-  .signal-card-image-placeholder {
-    font-family: var(--serif);
-    font-size: 48px;
-    font-weight: 400;
-    color: rgba(255,255,255,0.55);
+  .signal-card-image-glyph {
+    width: 64px;
+    height: 64px;
+    color: rgba(255, 255, 255, 0.85);
   }
+  .signal-card-image.cat--consciousness .signal-card-image-glyph { color: #c4b8f0; }
+  .signal-card-image.cat--meditation    .signal-card-image-glyph { color: #8ddec4; }
+  .signal-card-image.cat--wisdom        .signal-card-image-glyph { color: var(--accent); }
   .signal-card > .signal-cat,
   .signal-card > .hosted-tag,
   .signal-card > .signal-card-hed,
