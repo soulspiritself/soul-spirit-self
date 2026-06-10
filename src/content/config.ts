@@ -136,6 +136,8 @@ const signal = defineCollection({
     readTime: z.number(),
     date: z.string(),                  // ISO date for our feed (newest-first sort)
     originalPublishedDate: z.string().optional(),
+    image: z.string().optional(),      // hero image path under /public
+    imagePrompt: z.string().optional(),
   })
 });
 

@@ -8,6 +8,7 @@ sourceUrl: https://aeon.co/essays/the-metaphysical-claims-behind-the-injunction-
 licence: cc-by-nd
 licenceNote: "Originally published at Aeon under a Creative Commons Attribution-NoDerivatives licence. Republished here unchanged with attribution."
 readTime: 10
+image: "/images/signal-problem-of-now.jpg"
 date: "2026-05-19"
 originalPublishedDate: "2021-01-08"
 ---

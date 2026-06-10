@@ -29,11 +29,58 @@ function formatDate(iso: string) {
   const d = new Date(iso + 'T00:00:00');
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
+
+// JSON-LD Article structured data: tells Google + LLMs this is an editorial
+// article with a defined author, publisher (the original source), and licence.
+// `mainEntityOfPage` points at our hosted URL; `isBasedOn` and `citation` point
+// back at the original. This is the correct way to mark up a republished CC piece.
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: story.data.headline,
+  description: story.data.note,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': new URL(Astro.url.pathname, Astro.site).toString() },
+  image: story.data.image ? new URL(story.data.image, Astro.site).toString() : undefined,
+  isBasedOn: story.data.sourceUrl,
+  citation: story.data.sourceUrl,
+  author: story.data.author ? { '@type': 'Person', name: story.data.author } : undefined,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Soul Spirit Self',
+    url: 'https://soulspiritself.com',
+    logo: { '@type': 'ImageObject', url: 'https://soulspiritself.com/images/soul-spirit-self-logo.png' },
+  },
+  sourceOrganization: { '@type': 'Organization', name: story.data.source },
+  datePublished: story.data.originalPublishedDate || story.data.date,
+  dateModified: story.data.date,
+  license: {
+    'cc-by': 'https://creativecommons.org/licenses/by/3.0/',
+    'cc-by-nd': 'https://creativecommons.org/licenses/by-nd/4.0/',
+    'cc-by-nc': 'https://creativecommons.org/licenses/by-nc/4.0/',
+    'cc-by-nc-nd': 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
+    'cc-by-sa': 'https://creativecommons.org/licenses/by-sa/4.0/',
+    'cc0': 'https://creativecommons.org/publicdomain/zero/1.0/',
+  }[story.data.licence],
+};
+
+// Breadcrumb structured data: Teachers → The Signal → <Article>
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'The Signal', item: new URL('/signal/', Astro.site).toString() },
+    { '@type': 'ListItem', position: 2, name: story.data.headline },
+  ],
+};
 ---
 <BaseLayout
   title={`${story.data.headline} — The Signal`}
   description={story.data.note}
+  image={story.data.image}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+
   <div class="breadcrumb">
     <div class="wrapper">
       <a href="/signal/">The Signal</a>
@@ -43,6 +90,11 @@ function formatDate(iso: string) {
   </div>
 
   <article class="signal-article">
+    {story.data.image && (
+      <figure class="signal-article-image">
+        <img src={story.data.image} alt={story.data.imagePrompt || story.data.headline} loading="eager" />
+      </figure>
+    )}
     <header class="signal-article-hero">
       <span class={`signal-cat signal-cat--${story.data.category}`}>
         {categoryLabel[story.data.category]}
@@ -102,6 +154,21 @@ function formatDate(iso: string) {
     max-width: 760px;
     margin: 0 auto;
     padding: 48px var(--gutter) 96px;
+  }
+
+  .signal-article-image {
+    margin: 0 0 40px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--bg-soft);
+    aspect-ratio: 16 / 9;
+  }
+  .signal-article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .signal-article-hero {

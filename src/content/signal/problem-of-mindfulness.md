@@ -8,6 +8,7 @@ sourceUrl: https://aeon.co/essays/mindfulness-is-loaded-with-troubling-metaphysi
 licence: cc-by-nd
 licenceNote: "Originally published at Aeon under a Creative Commons Attribution-NoDerivatives licence. Republished here unchanged with attribution."
 readTime: 12
+image: "/images/signal-problem-of-mindfulness.jpg"
 date: "2026-06-06"
 originalPublishedDate: "2019-07-25"
 ---

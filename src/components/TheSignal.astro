@@ -10,13 +10,14 @@ const hosted = (await getCollection('signal')).map(s => ({
   source: s.data.source,
   readTime: s.data.readTime,
   date: s.data.date,
+  image: s.data.image,
   url: `/signal/${s.slug}/`,
   hosted: true as const,
 }));
 const hostedSourceUrls = new Set((await getCollection('signal')).map(s => s.data.sourceUrl));
 const external = signalStories
   .filter(s => !hostedSourceUrls.has(s.url))
-  .map(s => ({ ...s, hosted: false as const }));
+  .map(s => ({ ...s, image: undefined as string | undefined, hosted: false as const }));
 
 const allStories = [...hosted, ...external].sort((a, b) => b.date.localeCompare(a.date));
 const featured = allStories[0];
@@ -40,8 +41,13 @@ const rest = allStories.slice(1, 4);
     href={featured.url}
     target={featured.hosted ? '_self' : '_blank'}
     rel={featured.hosted ? null : 'noopener'}
-    class="signal-featured"
+    class={`signal-featured ${featured.image ? 'with-image' : ''}`}
   >
+    {featured.image && (
+      <div class="signal-featured-image">
+        <img src={featured.image} alt={featured.headline} loading="eager" />
+      </div>
+    )}
     <div class="signal-featured-inner">
       <span class={`signal-cat signal-cat--${featured.category}`}>
         {categoryLabel[featured.category]}
@@ -73,6 +79,11 @@ const rest = allStories.slice(1, 4);
         rel={story.hosted ? null : 'noopener'}
         class="signal-card"
       >
+        <div class={`signal-card-image cat--${story.category}`}>
+          {story.image
+            ? <img src={story.image} alt={story.headline} loading="lazy" />
+            : <span class="signal-card-image-placeholder" aria-hidden="true">{story.source.charAt(0)}</span>}
+        </div>
         <span class={`signal-cat signal-cat--${story.category}`}>
           {categoryLabel[story.category]}
         </span>
@@ -187,6 +198,30 @@ const rest = allStories.slice(1, 4);
     transition: border-color 0.25s, background 0.25s;
     color: inherit;
   }
+  .signal-featured.with-image {
+    grid-template-columns: 260px 1fr;
+    padding: 0;
+    overflow: hidden;
+    gap: 0;
+  }
+  .signal-featured.with-image .signal-featured-inner {
+    padding: 28px 32px;
+    align-self: center;
+  }
+  .signal-featured-image {
+    align-self: stretch;
+    background: var(--bg-soft);
+    overflow: hidden;
+    min-height: 200px;
+  }
+  .signal-featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+  }
+  .signal-featured.with-image:hover .signal-featured-image img { transform: scale(1.03); }
   .signal-featured:hover {
     border-color: var(--accent-deep);
     background: rgba(10, 30, 45, 0.55);
@@ -236,14 +271,58 @@ const rest = allStories.slice(1, 4);
   }
 
   .signal-card {
-    padding: 24px 26px;
+    padding: 0;
     border: 1px solid var(--line);
     border-radius: 6px;
     background: rgba(10, 30, 45, 0.28);
     transition: border-color 0.25s, background 0.25s;
     color: inherit;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
+  .signal-card-image {
+    aspect-ratio: 16 / 9;
+    background: var(--bg-soft);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .signal-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .signal-card:hover .signal-card-image img { transform: scale(1.03); }
+  .signal-card-image.cat--consciousness:not(:has(img)) {
+    background: linear-gradient(135deg, rgba(100,80,200,0.35) 0%, rgba(40,30,80,0.55) 100%);
+  }
+  .signal-card-image.cat--meditation:not(:has(img)) {
+    background: linear-gradient(135deg, rgba(30,130,100,0.35) 0%, rgba(15,55,40,0.55) 100%);
+  }
+  .signal-card-image.cat--wisdom:not(:has(img)) {
+    background: linear-gradient(135deg, rgba(180,130,50,0.35) 0%, rgba(70,50,20,0.55) 100%);
+  }
+  .signal-card-image-placeholder {
+    font-family: var(--serif);
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.55);
+  }
+  .signal-card > .signal-cat,
+  .signal-card > .hosted-tag,
+  .signal-card > .signal-card-hed,
+  .signal-card > .signal-card-note,
+  .signal-card > .signal-meta {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  .signal-card > .signal-cat { margin-top: 18px; }
+  .signal-card > .signal-meta { margin-bottom: 20px; }
   .signal-card:hover {
     border-color: var(--line-strong);
     background: rgba(10, 30, 45, 0.45);

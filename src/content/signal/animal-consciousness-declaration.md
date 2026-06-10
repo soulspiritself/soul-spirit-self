@@ -8,6 +8,7 @@ sourceUrl: https://www.quantamagazine.org/insects-and-other-animals-have-conscio
 licence: cc-by
 licenceNote: "Originally published at Quanta Magazine, an editorially independent publication of the Simons Foundation, under a Creative Commons Attribution licence. Republished here with attribution."
 readTime: 8
+image: "/images/signal-animal-consciousness-declaration.jpg"
 date: "2026-06-01"
 originalPublishedDate: "2024-04-19"
 ---

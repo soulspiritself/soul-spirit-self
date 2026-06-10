@@ -854,6 +854,76 @@ IMAGES = [
             "wide cinematic composition, evocative and serene"
         ),
     },
+
+    # ──────────────────── Signal article heroes ────────────────────────
+    {
+        "filename": "signal-problem-of-mindfulness.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Soft pale clouds drifting across a still mirror lake at dawn, "
+            "no visible horizon line where water meets sky, the clouds and "
+            "their reflections gently merging in subtle gradient, faint warm "
+            "amber tint at the edges, deep cosmic blue centre, contemplative "
+            "atmosphere, no people, no text, wide cinematic composition, "
+            "abstract and meditative, evoking the impermanence and "
+            "transparency of thought without illustrating it literally"
+        ),
+    },
+    {
+        "filename": "signal-problem-of-now.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single grain of fine golden sand caught suspended mid-fall in a "
+            "deep cosmic blue void, soft warm light from above catching the "
+            "grain in sharp focus while everything else recedes into soft "
+            "shadow, faint dust motes drifting around it, contemplative "
+            "atmosphere, no hourglass, no clock, no people, no text, "
+            "wide cinematic composition, evoking the elusive present moment"
+        ),
+    },
+    {
+        "filename": "signal-simple-shift-in-focus.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A simple unglazed clay vessel resting on a wooden table near a "
+            "tall window in early morning, soft warm golden light falling "
+            "obliquely across the room, faint visible breath-mist rising "
+            "from the vessel into a single shaft of light, the rest of the "
+            "room in deep cosmic blue shadow, no people, no text, "
+            "wide cinematic composition, contemplative atmosphere, "
+            "evoking quiet attention and embodied awareness"
+        ),
+    },
+    {
+        "filename": "signal-animal-consciousness-declaration.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A small contemplative bumblebee in mid-flight near a single "
+            "luminous warm amber flower at twilight, deep cosmic blue "
+            "background falling into soft shadow, faint warm halo around "
+            "the flower, the bee in sharp gentle focus its translucent "
+            "wings catching the warm light, no text, no captions, "
+            "wide cinematic composition, photorealistic painterly hybrid, "
+            "evoking the unexpected interior life of small creatures and "
+            "the wider scope of consciousness"
+        ),
+    },
+
+    # ──────────────────── Brand OG card ────────────────────
+    {
+        "filename": "soul-spirit-self-og.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single perfectly smooth warm golden sphere floating in deep "
+            "cosmic blue empty space, soft radiant halo expanding outward "
+            "from its surface like quiet sunlight, faint distant stars "
+            "scattered through the void, no horizon, no ground, no water, "
+            "no moon craters, abstract and geometric, the sphere clean and "
+            "uniform with subtle warm gradient on its surface, the only "
+            "subject in the frame, contemplative atmosphere, no people, "
+            "no text, wide cinematic composition, evocative and serene"
+        ),
+    },
 ]
 
 # ── Generate ──

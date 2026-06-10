@@ -13,6 +13,13 @@ interface Props {
 const { title, description = 'A library of nondual wisdom across contemplative traditions.', image, canonical } = Astro.props;
 const siteTitle = title === 'Soul Spirit Self' ? title : `${title} — Soul Spirit Self`;
 const canonicalUrl = canonical || new URL(Astro.url.pathname, Astro.site).toString();
+// Always emit an og:image. Use the page-provided one if present, else fall back
+// to the brand orb logo. Path is resolved against Astro.site to give a fully
+// qualified URL, which is what social media crawlers want.
+// TODO: Replace with a generated 1200x630 og card when one exists. Logo PNG
+// is acceptable in the meantime; Twitter/Slack/iMessage all handle it.
+const FALLBACK_OG_IMAGE = '/images/soul-spirit-self-logo.png';
+const ogImageUrl = new URL(image || FALLBACK_OG_IMAGE, Astro.site).toString();
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -27,17 +34,20 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, Astro.site).toStri
   <meta property="og:title" content={siteTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalUrl} />
-  {image && <meta property="og:image" content={image} />}
+  <meta property="og:image" content={ogImageUrl} />
+  <meta property="og:site_name" content="Soul Spirit Self" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={siteTitle} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageUrl} />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="The Signal — Soul Spirit Self" href="/signal/rss.xml" />
 </head>
 <body>
   <Nav />

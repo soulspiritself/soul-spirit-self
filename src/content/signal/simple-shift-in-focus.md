@@ -8,6 +8,7 @@ sourceUrl: https://aeon.co/essays/we-live-inside-minds-always-planning-scanning-
 licence: cc-by-nd
 licenceNote: "Originally published at Aeon under a Creative Commons Attribution-NoDerivatives licence. Republished here unchanged with attribution."
 readTime: 9
+image: "/images/signal-simple-shift-in-focus.jpg"
 date: "2026-05-24"
 originalPublishedDate: "2025-08-07"
 ---

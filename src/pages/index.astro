@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import VideoCard from '../components/VideoCard.astro';
+import VideoEmbed from '../components/VideoEmbed.astro';
 import DailyContemplation from '../components/DailyContemplation.astro';
 import EmailSignup from '../components/EmailSignup.astro';
 import TheSignal from '../components/TheSignal.astro';
@@ -48,11 +48,12 @@ const homeFeatured = featuredVideos.slice(0, 6);
     </div>
     <div class="videos-grid">
       {homeFeatured.map(v => (
-        <VideoCard youtubeId={v.id} title={v.title} caption={v.caption} />
+        <VideoEmbed youtubeId={v.id} title={v.title} caption={v.caption} />
       ))}
     </div>
     <div class="more-link">
       <a href="/watch/" class="btn">See the full library</a>
+      <a href={channelUrl} target="_blank" rel="noopener" class="btn channel-link">Watch on YouTube →</a>
     </div>
   </section>
 
@@ -156,7 +157,9 @@ const homeFeatured = featuredVideos.slice(0, 6);
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
   }
-  .more-link { text-align: center; margin-top: 56px; }
+  .more-link { text-align: center; margin-top: 56px; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+  .channel-link { color: var(--text-muted); }
+  .channel-link:hover { color: var(--accent); }
   @media (max-width: 900px) { .videos-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .videos-grid { grid-template-columns: 1fr; } }
 
