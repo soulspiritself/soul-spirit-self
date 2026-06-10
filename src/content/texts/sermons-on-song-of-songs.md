@@ -10,7 +10,7 @@ composedDate: 1135–1153
 translator: Samuel J. Eales
 translatorDates: 1837–1903
 translationYear: "1895"
-sourceUrl: https://archive.org/details/cantica00bernuoft
+sourceUrl: https://archive.org/details/LifeWorksOfSBernardClairvauxV4
 sourcePlatform: Internet Archive
 licence: public-domain
 licenceNote: Eales translated this for the Theological Library series. Strict PD.

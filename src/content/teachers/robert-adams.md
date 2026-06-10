@@ -31,5 +31,5 @@ His teaching is the Ramana teaching simply restated. The self-inquiry *Who am I?
 
 ## Where to start
 
-- **[Silence of the Heart](https://www.robertadamsmaharaj.org/the-silence-of-the-heart-book-2)** — the central printed collection, drawn from the southern California satsangs.
-- **[The collected talks (Robert Adams Infinity Institute)](https://www.robertadamsmaharaj.org/)** — the most extensive online archive of his recorded talks and transcripts.
+- **[Silence of the Heart](https://www.stillnessspeaks.com/books-and-dvds/silence-of-the-heart/)** — the central printed collection, drawn from the southern California satsangs.
+- **[The collected talks (Robert Adams Infinity Institute)](https://www.robertadamsinfinityinstitute.org/)** — the most extensive online archive of his recorded talks and transcripts.

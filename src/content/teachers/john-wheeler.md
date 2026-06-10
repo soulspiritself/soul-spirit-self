@@ -5,7 +5,7 @@ traditions:
 summary: An American teacher in the Nisargadatta lineage transmitted via Bob Adamson, with whom he sat in Melbourne over many years. Writes and teaches in plain spoken English, drawing the recognition back again and again to the simple immediacy of one's own being.
 imagePrompt: Photorealistic portrait of an American man in his sixties, calm thoughtful face, neatly trimmed grey hair and beard, soft warm intelligent eyes, wearing a simple plain shirt, soft warm window light, contemplative atmosphere, square composition tightly centred on his face and shoulders, no text, no watermarks, no signature
 image: /images/teacher-john-wheeler.jpg
-sourceUrl: https://thenaturalstate.org/
+sourceUrl: https://johnwheelernonduality.wordpress.com/
 videos:
   - sTVbOjmwvmw
 leadQuote:
@@ -27,7 +27,7 @@ He has written half a dozen short books in clear unornamented prose, and he carr
 
 ## Where to start
 
-- **[Awakening to the Natural State](https://thenaturalstate.org/books)** — his most concentrated short book.
-- **[Shining in Plain View](https://thenaturalstate.org/books)** — a longer collection of dialogues and correspondence.
-- **[The Light Behind Consciousness](https://thenaturalstate.org/books)** — pointed back at the source-awareness that even consciousness arises within.
-- **[The official site (The Natural State)](https://thenaturalstate.org/)** — books, articles, and contact details.
+- **[Awakening to the Natural State](https://johnwheelernonduality.wordpress.com/about/)** — his most concentrated short book.
+- **[Shining in Plain View](https://johnwheelernonduality.wordpress.com/about/)** — a longer collection of dialogues and correspondence.
+- **[The Light Behind Consciousness](https://johnwheelernonduality.wordpress.com/about/)** — pointed back at the source-awareness that even consciousness arises within.
+- **[The official site (The Natural State)](https://johnwheelernonduality.wordpress.com/)** — books, articles, and contact details.

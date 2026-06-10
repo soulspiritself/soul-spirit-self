@@ -7,7 +7,7 @@ died: c. 1328
 summary: The Rhineland Dominican whose sermons pushed Christian apophatic theology into territory most readily described as nondual. Eckhart's God beyond God and his teaching on the birth of the Word in the ground of the soul remain the most radical formulations in Western mysticism.
 imagePrompt: Symbolic painterly portrait of Meister Eckhart as a thirteenth-century Dominican friar in his sixties, black and white habit, lean intelligent face, deep contemplative gaze, soft golden light, painterly Gothic style
 image: /images/teacher-meister-eckhart.jpg
-sourceUrl: https://archive.org/details/meistereckhart01eckhuoft
+sourceUrl: https://archive.org/details/in.ernet.dli.2015.31707
 leadQuote:
   text: 'The eye through which I see God is the same eye through which God sees me.'
   attribution: 'Meister Eckhart'

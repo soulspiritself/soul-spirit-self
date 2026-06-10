@@ -10,7 +10,7 @@ composedDate: c. 800 CE
 translator: Swami Vimuktananda
 translatorDates: 1900s
 translationYear: '1938'
-sourceUrl: https://archive.org/details/aparokshanubhuti
+sourceUrl: https://archive.org/details/in.ernet.dli.2015.125445
 sourcePlatform: Internet Archive
 licence: free-distribution
 licenceNote: Advaita Ashrama publication, distributed widely with attribution.

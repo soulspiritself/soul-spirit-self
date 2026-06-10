@@ -9,7 +9,7 @@ composedDate: c. 1340–1361
 translator: Susanna Winkworth
 translatorDates: 1820–1884
 translationYear: "1857"
-sourceUrl: https://archive.org/details/historyandlifere00tauluoft
+sourceUrl: https://archive.org/details/historylifeofre00tauluoft
 sourcePlatform: Internet Archive
 licence: public-domain
 licenceNote: Winkworth's translation, with a long biographical introduction. Strict PD.

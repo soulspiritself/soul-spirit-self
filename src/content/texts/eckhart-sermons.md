@@ -10,7 +10,7 @@ composedDate: c. 1290–1328
 translator: C. de B. Evans
 translatorDates: 1869–1956
 translationYear: "1924"
-sourceUrl: https://archive.org/details/meistereckhart01eckhuoft
+sourceUrl: https://archive.org/details/in.ernet.dli.2015.31707
 sourcePlatform: Internet Archive
 licence: public-domain
 licenceNote: Evans's two-volume Meister Eckhart, the first major English collection. PD in US and UK.

@@ -7,7 +7,7 @@ died: "1361"
 summary: The Strasbourg Dominican who carried Eckhart's Rhineland mysticism into pastoral form. Tauler's sermons survived the condemnation that buried Eckhart and shaped the German contemplative tradition through Luther and beyond.
 imagePrompt: Symbolic painterly portrait of Johannes Tauler as a fourteenth-century Dominican friar in his fifties, black and white habit, kindly weathered face, soft contemplative expression, warm golden light, simple Gothic interior
 image: /images/teacher-johannes-tauler.jpg
-sourceUrl: https://archive.org/details/historyandlifere00tauluoft
+sourceUrl: https://archive.org/details/historylifeofre00tauluoft
 themes:
   - silence
   - love

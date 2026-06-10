@@ -924,6 +924,105 @@ IMAGES = [
             "no text, wide cinematic composition, evocative and serene"
         ),
     },
+
+    # ──────────────────── Missing text images (June 2026) ────────────────────
+    {
+        "filename": "text-dhammapada.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "Photograph of a worn stone footpath winding through a quiet misty "
+            "forest at dawn, flat stones catching soft warm golden light, deep "
+            "blue shadow between the trees, morning mist low over the path, "
+            "the way curving gently out of sight, shallow depth of field, "
+            "natural light photography, serene and contemplative, no people, "
+            "no text, no signature, no watermark, no border"
+        ),
+    },
+    {
+        "filename": "text-gateless-gate.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A single freestanding ancient weathered wooden gate frame in the "
+            "middle of an empty grassy plain at dusk, no fence or wall on "
+            "either side, open sky visible through the gateway glowing warm "
+            "amber at the horizon, deep cosmic blue twilight above, the gate "
+            "casting a long soft shadow, contemplative koan-like emptiness, "
+            "painterly minimal composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "text-gospel-of-thomas.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A tall sealed earthenware jar standing in warm lamplight at the "
+            "base of a desert cliff at dusk, pale sandstone behind it falling "
+            "into deep cosmic blue shadow, a sliver of papyrus just visible at "
+            "the jar's open mouth, fine dust hanging in the warm light, "
+            "contemplative atmospheric still life, painterly minimal "
+            "composition, no people, no text, no writing visible"
+        ),
+    },
+    {
+        "filename": "text-pistis-sophia.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A single shaft of warm golden light descending from high above "
+            "through thirteen faint translucent veils of deep blue, each veil "
+            "subtly lighter than the one below, the light growing brighter as "
+            "it falls toward a small luminous point at the bottom of the "
+            "frame, abstract contemplative composition of ascent and descent, "
+            "painterly minimal sacred geometry, no people, no text"
+        ),
+    },
+    {
+        "filename": "text-corpus-hermeticum.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A small perfectly still dark pool set in pale stone under a clear "
+            "night sky, the starfield reflected exactly in the water so that "
+            "above and below mirror one another, a faint warm golden glow at "
+            "the centre of the reflection, as above so below, deep cosmic blue "
+            "night, contemplative atmospheric still life, painterly minimal "
+            "composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "text-hymn-of-jesus.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A perfect circle of twelve small warm candle flames on a dark "
+            "stone floor seen from slightly above, deep cosmic blue darkness "
+            "around them, the centre of the circle empty and faintly glowing "
+            "with reflected gold, soft halos around each flame, evoking a "
+            "round dance at night, contemplative atmospheric still life, "
+            "painterly minimal composition, no people, no text"
+        ),
+    },
+    {
+        "filename": "text-imitation-of-christ.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A bare empty monastic cell at dawn, a plain wooden desk holding "
+            "only a single lit candle in a simple holder, warm low light "
+            "through a small deep-set window, whitewashed wall falling into "
+            "deep cosmic blue shadow, rough stone floor, quiet austerity and "
+            "peace, contemplative atmospheric interior still life, painterly "
+            "minimal composition, empty room, no people, no text, no writing, "
+            "no signature"
+        ),
+    },
+    {
+        "filename": "text-spiritual-exercises.jpg",
+        "aspect": "1:1",
+        "prompt": STYLE_PREFIX + (
+            "A simple wooden chair beside a tall narrow window in a quiet bare "
+            "retreat room, warm early light falling across the chair and the "
+            "stone floor in a long bright diagonal, the rest of the room in "
+            "deep cosmic blue shadow, stillness before prayer, contemplative "
+            "atmospheric interior, painterly minimal composition, no people, "
+            "no text"
+        ),
+    },
 ]
 
 # ── Generate ──

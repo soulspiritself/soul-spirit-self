@@ -2,7 +2,7 @@
 title: Pistis Sophia
 subtitle: The longest surviving Gnostic Christian scripture, a third-century vision-narrative of Christ teaching the disciples in the eleven years after the Resurrection
 tradition: gnostic-christianity
-period: Patristic · 3rd–4th century
+period: Early Christian · 3rd–4th century
 originalLanguage: Coptic
 composedDate: c. 250–300 CE
 translator: G. R. S. Mead
@@ -32,4 +32,4 @@ Mead translated Pistis Sophia at the height of the Theosophical engagement with 
 
 Because the work runs to roughly six hundred dense pages, we have not ingested it as a full-text page on this site. Read it in its original form here:
 
-[Pistis Sophia (Mead, 1921) on the Internet Archive](https://dn720406.ca.archive.org/0/items/pistissophia00mead/pistissophia00mead.pdf)
+[Pistis Sophia (Mead, 1921) on the Internet Archive](https://archive.org/details/pistissophia00mead)

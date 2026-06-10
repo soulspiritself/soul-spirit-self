@@ -29,6 +29,6 @@ His own teaching was direct to the point of bluntness. *Find out who you are, an
 
 ## Where to start
 
-- **[The Truth Is](https://avadhuta.com/books)** — Papaji's most concentrated published teaching.
-- **[Wake Up and Roar (Eli Jaxon-Bear, ed.)](https://avadhuta.com/books)** — transcribed dialogues from the Lucknow satsangs of the early 1990s; the easiest way to meet his voice.
+- **[The Truth Is](https://avadhuta.com/papaji-books/)** — Papaji's most concentrated published teaching.
+- **[Wake Up and Roar (Eli Jaxon-Bear, ed.)](https://avadhuta.com/papaji-books/)** — transcribed dialogues from the Lucknow satsangs of the early 1990s; the easiest way to meet his voice.
 - **[Nothing Ever Happened (David Godman, 3 vols)](https://www.davidgodman.org/papaji/)** — David Godman's monumental three-volume biography and oral history of Papaji's life.

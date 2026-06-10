@@ -1,6 +1,6 @@
 ---
 title: Awake — It's Your Turn
-author: Angelo Dilullo
+author: Angelo DiLullo
 year: '2021'
 teacher: angelo-dilullo
 tradition: modern-nonduality
