@@ -1,5 +1,5 @@
 ---
-name: Angelo Dilullo
+name: Angelo DiLullo
 traditions:
   - modern-nonduality
 summary: An American physician and contemplative teacher whose 2021 book Awake — It's Your Turn and the long-form videos on his Simply Always Awake channel have made him one of the more practically-minded nondual voices of the past decade. Writes for the reader who suspects awakening is possible and wants a concrete description of what it actually involves.
@@ -13,7 +13,7 @@ related:
   - adyashanti
 ---
 
-Angelo Dilullo is an American medical doctor, an anaesthesiologist by profession, who began teaching nondual recognition in earnest in the late 2010s after his own awakening. His teaching grew out of years of personal practice across Zen, Advaita, and the Western contemplative current associated with Adyashanti, and his framing carries a clinician's bias toward what is concretely true and verifiable in one's own immediate experience.
+Angelo DiLullo is an American medical doctor, an anaesthesiologist by profession, who began teaching nondual recognition in earnest in the late 2010s after his own awakening. His teaching grew out of years of personal practice across Zen, Advaita, and the Western contemplative current associated with Adyashanti, and his framing carries a clinician's bias toward what is concretely true and verifiable in one's own immediate experience.
 
 His central work is the 2021 book *Awake — It's Your Turn*, written for what he calls *the closet seekers*: the person who suspects awakening is possible, has read enough of the literature to know there are stages, and wants an unromantic field guide to the actual territory. The book moves from the recognition of awareness, through the dropping of the apparent self-centre, through the longer process of integration that the simpler nondual presentations sometimes skip, and into the lived shape of life on the other side. He is unusually willing to name the difficult and disorienting phases that follow a first awakening, and to give practical guidance for what to do in them.
 

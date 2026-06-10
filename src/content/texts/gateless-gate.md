@@ -24,4 +24,3 @@ wordCount: 8256
 readingTimeMinutes: 38
 ---
 
-Cowork to curate the on-page preview verses for this text in a next session.

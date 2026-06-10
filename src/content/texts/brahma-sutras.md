@@ -4,7 +4,7 @@ originalTitle: Brahma Sūtra Bhāṣya
 subtitle: The systematic Vedanta of Shankara, in commentary on the aphorisms of Badarayana
 tradition: advaita-vedanta
 teacher: shankara
-period: Classical · 8th c. CE
+period: Classical · 8th-century commentary
 originalLanguage: Sanskrit
 composedDate: c. 8th century CE (Shankara's commentary on Badarayana's c. 200 BCE sutras)
 translator: Swami Vireswarananda
@@ -28,4 +28,3 @@ themes:
   - the-witness
 ---
 
-Cowork to curate the on-page preview verses for this text in a next session.

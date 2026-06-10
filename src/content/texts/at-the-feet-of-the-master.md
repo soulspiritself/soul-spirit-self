@@ -30,7 +30,7 @@ themes:
 
 What follows is the complete text of *At the Feet of the Master*, originally published in 1910 at Adyar, India under the pen-name Alcyone, with an introduction by Annie Besant. The fourteen-year-old Jiddu Krishnamurti wrote down, from memory, teachings he had received from his Master in preparation for spiritual Initiation. The book is structured around four qualifications: Discrimination, Desirelessness, Good Conduct, and Love.
 
-The authorship is disputed. Krishnamurti himself in later life considered the book to belong to the Theosophical period he eventually repudiated, and Charles Webster Leadbeater, his Theosophical mentor, is widely understood to have shaped or co-written the manuscript. Even so, the book has remained in circulation for over a century, valued by readers across many traditions for its plain and warmly-written counsel on the contemplative disciplines.
+The authorship is disputed. Krishnamurti himself in later life considered the book to belong to the Theosophical period he eventually repudiated, and Charles Webster Leadbeater, his Theosophical mentor, is widely understood to have shaped or co-written the manuscript. Even so, the book has remained in circulation for over a century, valued by readers across many traditions for its plain and warmly-written counsel on the contemplative disciplines. It sits on the Modern Nonduality shelf as a historical hinge: the document of the Theosophical world Krishnamurti came from, and the measure of how far he travelled when he dissolved the Order of the Star in 1929 and declared that truth is a pathless land.
 
 Text from the [Wikisource transcription](https://en.wikisource.org/wiki/At_the_Feet_of_the_Master) of the 1911 American (Rajput Press) edition. Strict public domain in the United States.
 
@@ -273,6 +273,6 @@ The wisdom which enables you to help, the will which directs the wisdom, the lov
  
  
 
-Waiting the word of the Master, Watching the Hidden Light; Listening to his oedrrs In the very midst of the fight;
+Waiting the word of the Master, Watching the Hidden Light; Listening to his orders In the very midst of the fight;
 
 Seeing His slightest signal Across the heads of the throng; Hearing His faintest whisper Above earth's loudest song.

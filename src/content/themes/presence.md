@@ -6,7 +6,7 @@ order: 2
 imagePrompt: A simple wooden table by a window in late afternoon light, an empty pottery cup on the table catching the warm gold sun, deep cosmic blue shadow filling the rest of the room, contemplative atmospheric still life, painterly minimal composition
 image: /images/theme-presence.jpg
 leadQuote:
-  text: It is not needful to find God in heaven or far away, but in our own heart.
+  text: We may make an oratory of our heart, wherein to retire from time to time to converse with Him.
   attribution: Brother Lawrence
   source: The Practice of the Presence of God
 ---
@@ -17,4 +17,4 @@ Brother Lawrence, the Carmelite lay brother of seventeenth-century Paris, gave t
 
 The Cloud of Unknowing names the same recognition with apophatic precision. The practitioner sets all images and concepts aside under the *cloud of forgetting* and reaches up toward what cannot be known except through *blind love*. The reaching is not addition, it is the removal of what was always interfering with what was already there.
 
-In the modern voices the language becomes simpler still. Eckhart Tolle, the Cloud author's twenty-first-century echo, calls it the *power of now*. John Butler, the English contemplative who farms in Lincolnshire, simply calls it the Light. The recognition does not depend on belief or context. It depends on the small repeated noticing.
+In the modern voices the language becomes simpler still. Eckhart Tolle, the Cloud author's twenty-first-century echo, calls it the *power of now*. John Butler, the English contemplative and farmer, simply calls it the Light. The recognition does not depend on belief or context. It depends on the small repeated noticing.

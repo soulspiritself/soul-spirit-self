@@ -16,7 +16,7 @@ licenceNote: F. Max Müller's translation, originally published as "The Vagrakkh
 imagePrompt: A small uncut diamond resting on a worn stone surface in soft warm afternoon light, the gem catching a single shaft of golden sun and refracting it into faint rainbow points, deep cosmic blue shadow surrounding, contemplative atmospheric still life, painterly minimal composition, no text
 image: /images/text-diamond-sutra.jpg
 order: 2
-description: A dialogue between the Buddha and the elder disciple Subhuti on the nature of perception, identity, and the bodhisattva path. The Diamond Sutra is among the oldest dated printed books in human history (a 868 CE Chinese woodblock copy survives in the British Library) and remains one of the central texts of Chan and Zen.
+description: A dialogue between the Buddha and the elder disciple Subhuti on the nature of perception, identity, and the bodhisattva path. The Diamond Sutra is among the oldest dated printed books in human history (an 868 CE Chinese woodblock copy survives in the British Library) and remains one of the central texts of Chan and Zen.
 themes:
   - silence
   - self-inquiry

@@ -10,7 +10,7 @@ leadQuote:
   attribution: Ramana Maharshi
 ---
 
-Self-inquiry is the path of investigating the I-thought back to its source. The investigator looks for the one who looks. Ramana Maharshi taught it in its purest form as the question *Who am I?*, returned to again and again whenever any thought, feeling, or sensation arises. Not as an intellectual puzzle but as a practical investigation. The thought arises, and the question follows: to whom does this thought arise? When the answer comes, *to me*, the next question is *who is this me?*. The I-thought, traced back, dissolves into the awareness from which it arose.
+Self-inquiry is the path of investigating the I-thought back to its source. The investigator looks for the one who looks. Ramana Maharshi taught it in its purest form as the question *Who am I?*, returned to again and again whenever any thought, feeling, or sensation arises. Not as an intellectual puzzle but as a practical investigation. The thought arises, and the question follows: to whom does this thought arise? When the answer comes, *to me*, the next question is *who is this me?* The I-thought, traced back, dissolves into the awareness from which it arose.
 
 Nisargadatta gave the practice a slightly different shape. The question becomes the simple *I am*, held without addition. Stay with the bare sense of being, before any qualifier (*I am John*, *I am tired*, *I am happy*) attaches to it. The naked I-am, attended to with patience over months and years, eventually reveals what was always present underneath.
 

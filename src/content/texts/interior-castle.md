@@ -28,4 +28,3 @@ themes:
   - silence
 ---
 
-Cowork to curate the on-page preview verses for this text in a next session.

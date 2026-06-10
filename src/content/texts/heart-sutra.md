@@ -1,15 +1,15 @@
 ---
 title: The Heart Sutra
 originalTitle: Prajñāpāramitā Hṛdaya
-subtitle: The shortest and most concentrated of the Mahayana wisdom sutras, recited daily across the Buddhist world for seventeen centuries
+subtitle: The shortest and most concentrated of the Mahayana wisdom sutras, recited daily across the Buddhist world for well over a thousand years
 tradition: buddhist-nonduality
 period: Mahayana · 1st–7th century
 originalLanguage: Sanskrit
 composedDate: c. 100 BCE – 700 CE
-sourceUrl: https://en.wikipedia.org/wiki/Heart_Sutra
-sourcePlatform: Multiple translations in print and online
+sourceUrl: https://sacred-texts.com/bud/sbe49/sbe4931.htm
+sourcePlatform: Sacred Books of the East vol. XLIX (Max Müller, 1894)
 licence: free-distribution
-licenceNote: Many translations of the Heart Sutra circulate freely; the most widely-used contemporary versions (Edward Conze 1958; Red Pine 2004) remain in copyright. We point to the freely-available digital editions rather than reproduce a particular rendering.
+licenceNote: The most widely-used contemporary translations (Edward Conze 1958; Red Pine 2004) remain in copyright. Max Müller's 1894 translation in the Sacred Books of the East is public domain, and the source link points to it.
 imagePrompt: A small clear bowl of still water resting on a stone surface in soft warm afternoon light, reflecting an empty sky above, deep cosmic blue shadow surrounding, contemplative atmospheric still life, painterly minimal composition, no text
 image: /images/text-heart-sutra.jpg
 order: 1

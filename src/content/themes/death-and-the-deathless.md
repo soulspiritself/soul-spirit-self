@@ -8,7 +8,7 @@ image: /images/theme-death-and-the-deathless.jpg
 leadQuote:
   text: When all desires that dwell in the heart cease, then the mortal becomes immortal.
   attribution: Katha Upanishad
-  source: II.15
+  source: II.3.14
 ---
 
 Death and the deathless is the thread that takes mortality seriously and arrives, by passing through it, at what does not die.
@@ -17,6 +17,6 @@ The Katha Upanishad opens at the gate of Yama, the lord of death. The boy Nachik
 
 The Christian contemplatives work the same recognition with a different vocabulary. The Cloud of Unknowing speaks of dying to oneself. The desert fathers practised death (*meditatio mortis*) as a spiritual discipline. The medieval *ars moriendi* manuals taught the dying how to die well. Bede Griffiths, in the talk that gave its title to the video on his page, taught that *what you face at death is unconditional love*.
 
-Ramana Maharshi's awakening at sixteen was a death-experience. He lay down on the floor of his uncle's house, simulated his own death, and discovered that the body died but he did not. The recognition that survived that simulated death stayed with him for the next fifty-four years. Robert Adams returned to it again and again in the Sedona satsangs of the 1990s, suffering himself from advanced Parkinson's, teaching from inside the practical question of how to be ill and dying without losing the recognition.
+Ramana Maharshi's awakening at sixteen was a death-experience. He lay down on the floor of his uncle's house, simulated his own death, and discovered that the body died but he did not. The recognition that survived that simulated death stayed with him for the next fifty-four years. Robert Adams returned to it again and again in his satsangs of the 1990s, suffering himself from advanced Parkinson's, teaching from inside the practical question of how to be ill and dying without losing the recognition.
 
 What the death-thread teaches is that the deathless is not somewhere else. It is what one is, and the only thing that obscures the recognition is the unexamined identification with what does in fact die.

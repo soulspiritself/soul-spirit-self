@@ -2,7 +2,7 @@
 title: The Gospel of Thomas
 subtitle: A first or second-century collection of 114 sayings of Jesus, recovered in 1945 from the sands of Nag Hammadi
 tradition: gnostic-christianity
-period: Patristic · 1st–2nd century
+period: Early Christian · 1st–2nd century
 originalLanguage: Coptic (translated from Greek)
 composedDate: c. 50–150 CE
 translator: Thomas O. Lambdin (Coptic) · B. P. Grenfell and A. S. Hunt (Greek fragments)

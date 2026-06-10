@@ -95,7 +95,7 @@ npm run preview  # serves the built site
 - Daily Contemplation rotates through one quote. Could become a content collection of many quotes with random or daily rotation.
 - Whether to add Sanskrit/original-language toggles on text pages.
 - Whether to add ElevenLabs audio narration for texts.
-- Translation question for the Rhineland women mystics, Kashmir Shaivism, Inchagiri (no PD English exists for some major works).
+- Translation question for the Beguine mystics, Kashmir Shaivism, Inchagiri (no PD English exists for some major works).
 
 ## Working agreement
 

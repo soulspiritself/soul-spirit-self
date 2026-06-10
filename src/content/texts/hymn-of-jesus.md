@@ -2,7 +2,7 @@
 title: The Hymn of Jesus
 subtitle: A Gnostic liturgical hymn from the Acts of John, with G. R. S. Mead's commentary
 tradition: gnostic-christianity
-period: Patristic · 2nd century
+period: Early Christian · 2nd century
 originalLanguage: Greek
 composedDate: c. 2nd century
 translator: G. R. S. Mead
@@ -26,4 +26,3 @@ themes:
   - love
 ---
 
-Cowork to curate the on-page preview verses for this text in a next session.
