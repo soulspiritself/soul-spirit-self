@@ -4,7 +4,7 @@ author: Greg Goode
 year: '2012'
 teacher: greg-goode
 tradition: modern-nonduality
-externalUrl: https://www.heartofnow.com/books
+externalUrl: https://www.greg-goode.com/books/the-direct-path/
 blurb: 'The accessible introduction to the Direct Path: a graduated set of inquiries into body, sense, and mind that progressively dissolve the apparent boundary between subject and object.'
 order: 13
 ---
