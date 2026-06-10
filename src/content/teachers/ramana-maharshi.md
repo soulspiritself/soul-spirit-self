@@ -25,3 +25,12 @@ related:
 Ramana Maharshi awakened at the age of sixteen through a spontaneous experience of death-recognition that left him certain of the deathless awareness underlying personal experience. He left home, travelled to the sacred mountain Arunachala in Tamil Nadu, and remained there for the next fifty-four years.
 
 His teaching reduced to one question: *Who am I?* Not as an intellectual puzzle but as a practical investigation. To whom does the thought arise? Trace the I-thought back to its source. What is found is not another thought but the awareness in which all thoughts appear.
+
+For most of those fifty-four years he sat in the hall of the ashram that grew up around him at the foot of the mountain, available to anyone who came, answering questions when asked and otherwise keeping silence. The silence was not a withholding. Visitors reported again and again that the teaching happened in it, and that the answers, when they came, only confirmed what the silence had already shown. He wrote almost nothing himself; the small body of recorded dialogues and the few texts he composed or revised carry the whole teaching.
+
+## Where to start
+
+- **Who Am I?** (*Nan Yar*) — the short set of answers he gave in 1902, revised in his own hand. The whole method in a few pages, available freely from [Sri Ramanasramam](https://www.gururamana.org/).
+- **[Be As You Are](https://www.davidgodman.org/be-as-you-are-the-teachings-of-sri-ramana-maharshi/)** — David Godman's arrangement of the dialogues by topic. The standard first book, and for many people the only one needed.
+- **[Talks with Sri Ramana Maharshi](https://www.gururamana.org/)** — the fuller record of the hall conversations from 1935 to 1939.
+- **[Watch](/watch/)** — the video library includes rare footage and teachings on Ramana from the Soul Spirit Self channel.

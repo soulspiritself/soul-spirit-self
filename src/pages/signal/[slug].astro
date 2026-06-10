@@ -118,6 +118,13 @@ const breadcrumbJsonLd = {
       </div>
     </header>
 
+    {story.data.whyItMatters && (
+      <aside class="why-it-matters">
+        <span class="why-label">Why it's in the library</span>
+        <p>{story.data.whyItMatters}</p>
+      </aside>
+    )}
+
     <div class="signal-article-body prose">
       <Content />
     </div>
@@ -237,6 +244,29 @@ const breadcrumbJsonLd = {
   .signal-article-meta a:hover { color: var(--text); border-bottom-color: var(--accent); }
   .signal-dot { opacity: 0.4; }
 
+  .why-it-matters {
+    max-width: 680px;
+    margin: 0 auto 40px;
+    padding: 22px 26px;
+    border-left: 2px solid var(--accent);
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .why-it-matters .why-label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .why-it-matters p {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin: 0;
+  }
   .signal-article-body {
     font-family: var(--serif);
     font-size: 20px;

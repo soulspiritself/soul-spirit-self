@@ -11,6 +11,7 @@ readTime: 10
 image: "/images/signal-problem-of-now.jpg"
 date: "2026-05-19"
 originalPublishedDate: "2021-01-08"
+whyItMatters: "The injunction to be here now has always carried hidden metaphysics, and this piece does the work of surfacing them. Worth reading beside the Presence theme in the library, where Brother Lawrence and the Cloud author treat presence not as a doctrine about time but as a practice of attention."
 ---
 
 Many spiritual teachers have emphasised the notion of being fully present ‘in the now’. Proponents of meditative practices of various sorts tout meditation as a way of immersing oneself fully in the present moment, and not attending to the past or future. The spiritual teachers (including prominent authors) and proponents of meditation typically point to many benefits of being fully present in the now. As the influential contemporary author Eckhart Tolle puts it in his book The Power of Now (1997):

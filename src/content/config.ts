@@ -138,6 +138,7 @@ const signal = defineCollection({
     originalPublishedDate: z.string().optional(),
     image: z.string().optional(),      // hero image path under /public
     imagePrompt: z.string().optional(),
+    whyItMatters: z.string().optional(), // curator's note tying the piece to the library
   })
 });
 

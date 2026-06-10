@@ -11,6 +11,7 @@ readTime: 12
 image: "/images/signal-problem-of-mindfulness.jpg"
 date: "2026-06-06"
 originalPublishedDate: "2019-07-25"
+whyItMatters: "The critique lands exactly where the nondual traditions start. Ratnayake's worry, that secular mindfulness smuggles in a self who stands apart watching its thoughts, is the position the Bahiya Sutta and the Ashtavakra Gita dismantle: not a better-behaved witness, but the recognition that the watcher was never a separate thing at all."
 ---
 
 Three years ago, when I was studying for a Masters in Philosophy at the University of Cambridge, mindfulness was very much in the air. The Department of Psychiatry had launched a large-scale study on the effects of mindfulness in collaboration with the university’s counselling service. Everyone I knew seemed to be involved in some way: either they were attending regular mindfulness classes and dutifully filling out surveys or, like me, they were part of a control group who didn’t attend classes, but found themselves caught up in the craze even so. We gathered in strangers’ houses to meditate at odd hours, and avidly discussed our meditative experiences. It was a strange time.

@@ -27,6 +27,7 @@ leadQuote:
 themes:
   - silence
   - love
+  - death-and-the-deathless
 ---
 
 We do not know who wrote *The Cloud of Unknowing*. The author was almost certainly an English priest with formal theological training, writing in the late fourteenth century, somewhere in the East Midlands. Internal evidence suggests a Carthusian or Cistercian context. The text is addressed to a particular disciple, a young man of twenty-four who has begun the contemplative life and needs guidance.

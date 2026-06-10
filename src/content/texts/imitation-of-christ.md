@@ -24,4 +24,4 @@ wordCount: 61786
 readingTimeMinutes: 281
 ---
 
-Cowork to curate the on-page preview verses for this text in a next session.
+The Imitation is the most widely read Christian devotional book after the Bible, and it is not a nondual text: its register is humility, self-distrust, and the long discipline of detachment. It is in this library for the same reason it stayed on the desks of Eckhart's and Tauler's readers for five centuries. It comes out of the same Rhineland-Lowlands current of inward religion (the Devotio Moderna drew directly on the German mystics), and its relentless stripping away of self-will is the practical, daily-life face of what the apophatic texts state metaphysically. Whoever finishes the Theologia Germanica and wants to know what its teaching looks like as a daily practice ends up here.
