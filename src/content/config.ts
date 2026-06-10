@@ -119,4 +119,24 @@ const books = defineCollection({
   })
 });
 
-export const collections = { traditions, teachers, texts, themes, books };
+// Republished Signal articles (CC-BY or CC-BY-ND from publishers that allow it).
+// The body lives in the MD file. Frontmatter mirrors the SignalStory shape in
+// data/signal.ts so we can render the same card from either source.
+const signal = defineCollection({
+  type: 'content',
+  schema: z.object({
+    category: z.enum(['consciousness', 'meditation', 'wisdom']),
+    headline: z.string(),
+    note: z.string(),                  // the dek shown on the card
+    source: z.string(),                // publisher name, e.g. 'Aeon'
+    author: z.string().optional(),     // article author
+    sourceUrl: z.string().url(),       // canonical URL at the publisher
+    licence: z.enum(['cc-by', 'cc-by-nd', 'cc-by-nc', 'cc-by-nc-nd', 'cc-by-sa', 'cc0', 'public-domain', 'permission']).default('cc-by'),
+    licenceNote: z.string().optional(),
+    readTime: z.number(),
+    date: z.string(),                  // ISO date for our feed (newest-first sort)
+    originalPublishedDate: z.string().optional(),
+  })
+});
+
+export const collections = { traditions, teachers, texts, themes, books, signal };

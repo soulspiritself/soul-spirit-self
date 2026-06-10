@@ -1,8 +1,26 @@
 ---
+import { getCollection } from 'astro:content';
 import { signalStories, categoryLabel } from '../data/signal';
 
-const featured = signalStories[0];
-const rest = signalStories.slice(1, 4);
+// Merge hosted (republished) + external (linkout) into one feed, newest first.
+const hosted = (await getCollection('signal')).map(s => ({
+  category: s.data.category,
+  headline: s.data.headline,
+  note: s.data.note,
+  source: s.data.source,
+  readTime: s.data.readTime,
+  date: s.data.date,
+  url: `/signal/${s.slug}/`,
+  hosted: true as const,
+}));
+const hostedSourceUrls = new Set((await getCollection('signal')).map(s => s.data.sourceUrl));
+const external = signalStories
+  .filter(s => !hostedSourceUrls.has(s.url))
+  .map(s => ({ ...s, hosted: false as const }));
+
+const allStories = [...hosted, ...external].sort((a, b) => b.date.localeCompare(a.date));
+const featured = allStories[0];
+const rest = allStories.slice(1, 4);
 ---
 
 <section class="section signal-section">
@@ -18,11 +36,17 @@ const rest = signalStories.slice(1, 4);
   </div>
 
   <!-- Featured story -->
-  <a href={featured.url} target="_blank" rel="noopener" class="signal-featured">
+  <a
+    href={featured.url}
+    target={featured.hosted ? '_self' : '_blank'}
+    rel={featured.hosted ? null : 'noopener'}
+    class="signal-featured"
+  >
     <div class="signal-featured-inner">
       <span class={`signal-cat signal-cat--${featured.category}`}>
         {categoryLabel[featured.category]}
       </span>
+      {featured.hosted && <span class="hosted-tag">Read here</span>}
       <h3 class="signal-featured-hed">{featured.headline}</h3>
       <p class="signal-featured-note">{featured.note}</p>
       <p class="signal-meta">
@@ -43,10 +67,16 @@ const rest = signalStories.slice(1, 4);
   <!-- Supporting stories -->
   <div class="signal-grid">
     {rest.map(story => (
-      <a href={story.url} target="_blank" rel="noopener" class="signal-card">
+      <a
+        href={story.url}
+        target={story.hosted ? '_self' : '_blank'}
+        rel={story.hosted ? null : 'noopener'}
+        class="signal-card"
+      >
         <span class={`signal-cat signal-cat--${story.category}`}>
           {categoryLabel[story.category]}
         </span>
+        {story.hosted && <span class="hosted-tag">Read here</span>}
         <h4 class="signal-card-hed">{story.headline}</h4>
         <p class="signal-card-note">{story.note}</p>
         <p class="signal-meta">
@@ -127,6 +157,20 @@ const rest = signalStories.slice(1, 4);
     background: rgba(180, 130, 50, 0.18);
     color: #d4a95a;
     border: 1px solid rgba(200, 155, 70, 0.25);
+  }
+  .hosted-tag {
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 3px 9px;
+    margin-bottom: 14px;
+    margin-left: 6px;
+    border-radius: 20px;
+    background: rgba(201, 169, 110, 0.14);
+    color: var(--accent);
+    border: 1px solid rgba(201, 169, 110, 0.4);
   }
 
   /* Featured */

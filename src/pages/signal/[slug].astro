@@ -1,0 +1,273 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { categoryLabel } from '../../data/signal';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('signal');
+  return stories.map(story => ({
+    params: { slug: story.slug },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props;
+const { Content } = await story.render();
+
+const licenceLabel: Record<string, string> = {
+  'cc-by': 'CC BY',
+  'cc-by-nd': 'CC BY-ND',
+  'cc-by-nc': 'CC BY-NC',
+  'cc-by-nc-nd': 'CC BY-NC-ND',
+  'cc-by-sa': 'CC BY-SA',
+  'cc0': 'CC0',
+  'public-domain': 'Public domain',
+  'permission': 'With permission',
+};
+
+function formatDate(iso: string) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+---
+<BaseLayout
+  title={`${story.data.headline} — The Signal`}
+  description={story.data.note}
+>
+  <div class="breadcrumb">
+    <div class="wrapper">
+      <a href="/signal/">The Signal</a>
+      <span>/</span>
+      {story.data.headline}
+    </div>
+  </div>
+
+  <article class="signal-article">
+    <header class="signal-article-hero">
+      <span class={`signal-cat signal-cat--${story.data.category}`}>
+        {categoryLabel[story.data.category]}
+      </span>
+      <h1>{story.data.headline}</h1>
+      <p class="signal-article-deck">{story.data.note}</p>
+      <div class="signal-article-meta">
+        {story.data.author && <span class="byline">By {story.data.author}</span>}
+        <span class="signal-dot" aria-hidden="true">·</span>
+        <span class="orig-source">
+          Originally published at <a href={story.data.sourceUrl} target="_blank" rel="noopener">{story.data.source}</a>
+        </span>
+        {story.data.originalPublishedDate && (
+          <>
+            <span class="signal-dot" aria-hidden="true">·</span>
+            <span class="orig-date">{formatDate(story.data.originalPublishedDate)}</span>
+          </>
+        )}
+        <span class="signal-dot" aria-hidden="true">·</span>
+        <span class="readtime">{story.data.readTime} min read</span>
+      </div>
+    </header>
+
+    <div class="signal-article-body prose">
+      <Content />
+    </div>
+
+    <footer class="signal-article-footer">
+      <div class="licence-block">
+        <span class="licence-tag">{licenceLabel[story.data.licence] || story.data.licence}</span>
+        {story.data.licenceNote && <p class="licence-note">{story.data.licenceNote}</p>}
+      </div>
+      <a class="visit-source" href={story.data.sourceUrl} target="_blank" rel="noopener">
+        Read at {story.data.source} →
+      </a>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    padding: 32px 0 0;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--text-faint);
+  }
+  .breadcrumb .wrapper {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb span { margin: 0 12px; color: var(--text-faint); }
+
+  .signal-article {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px var(--gutter) 96px;
+  }
+
+  .signal-article-hero {
+    margin-bottom: 56px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 36px;
+  }
+
+  .signal-cat {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 22px;
+  }
+  .signal-cat--consciousness {
+    background: rgba(100, 80, 200, 0.18);
+    color: #c4b8f0;
+    border: 1px solid rgba(150, 120, 220, 0.25);
+  }
+  .signal-cat--meditation {
+    background: rgba(30, 130, 100, 0.18);
+    color: #8ddec4;
+    border: 1px solid rgba(50, 160, 120, 0.25);
+  }
+  .signal-cat--wisdom {
+    background: rgba(180, 130, 50, 0.18);
+    color: #d4a95a;
+    border: 1px solid rgba(200, 155, 70, 0.25);
+  }
+
+  .signal-article-hero h1 {
+    font-family: var(--serif);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-bottom: 22px;
+  }
+
+  .signal-article-deck {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    margin-bottom: 28px;
+    font-weight: 300;
+  }
+
+  .signal-article-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--text-faint);
+    letter-spacing: 0.04em;
+  }
+  .signal-article-meta .byline { color: var(--text-muted); }
+  .signal-article-meta a { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); }
+  .signal-article-meta a:hover { color: var(--text); border-bottom-color: var(--accent); }
+  .signal-dot { opacity: 0.4; }
+
+  .signal-article-body {
+    font-family: var(--serif);
+    font-size: 20px;
+    line-height: 1.75;
+    color: var(--text);
+    font-weight: 300;
+  }
+  .signal-article-body :global(p) { margin-bottom: 22px; }
+  .signal-article-body :global(p + p) { margin-top: 0; }
+  .signal-article-body :global(h2) {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--accent);
+    font-style: italic;
+    margin: 48px 0 20px;
+    letter-spacing: -0.005em;
+  }
+  .signal-article-body :global(h3) {
+    font-family: var(--sans);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+    margin: 36px 0 14px;
+  }
+  .signal-article-body :global(blockquote) {
+    border-left: 2px solid var(--accent);
+    padding: 4px 0 4px 24px;
+    margin: 28px 0;
+    font-style: italic;
+    color: var(--text-muted);
+  }
+  .signal-article-body :global(em) { color: var(--text-muted); }
+  .signal-article-body :global(a) {
+    color: var(--accent);
+    border-bottom: 1px solid rgba(201,169,97,0.4);
+  }
+  .signal-article-body :global(a:hover) {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+
+  .signal-article-footer {
+    margin-top: 80px;
+    padding-top: 36px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .licence-block { flex: 1; min-width: 280px; }
+  .licence-tag {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid rgba(201,169,110,0.4);
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .licence-note {
+    font-size: 13px;
+    color: var(--text-faint);
+    line-height: 1.55;
+    margin: 0;
+    font-style: italic;
+  }
+
+  .visit-source {
+    font-family: var(--sans);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    padding: 12px 20px;
+    border: 1px solid var(--accent-deep);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+  }
+  .visit-source:hover {
+    background: rgba(201,169,110,0.10);
+    color: var(--text);
+    border-color: var(--accent);
+  }
+
+  @media (max-width: 700px) {
+    .signal-article-hero h1 { font-size: 34px; }
+    .signal-article-deck { font-size: 18px; }
+    .signal-article-body { font-size: 18px; }
+    .signal-article-footer { flex-direction: column; }
+  }
+</style>

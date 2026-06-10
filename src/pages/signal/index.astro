@@ -1,9 +1,30 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 import { signalStories, categoryLabel } from '../../data/signal';
 
-// Newest first by date
-const stories = [...signalStories].sort((a, b) => b.date.localeCompare(a.date));
+// Hosted (republished CC-BY / CC-BY-ND) stories live in the `signal` content
+// collection. Card links go to /signal/<slug>/ instead of the source URL.
+const hosted = (await getCollection('signal')).map(s => ({
+  category: s.data.category,
+  headline: s.data.headline,
+  note: s.data.note,
+  source: s.data.source,
+  readTime: s.data.readTime,
+  date: s.data.date,
+  // Internal link to the on-site page (note trailing slash for our build format)
+  url: `/signal/${s.slug}/`,
+  hosted: true as const,
+}));
+
+// External (linkout-only) stories come from data/signal.ts. Skip any whose
+// canonical sourceUrl matches a hosted one so we don't double-list.
+const hostedSourceUrls = new Set((await getCollection('signal')).map(s => s.data.sourceUrl));
+const external = signalStories
+  .filter(s => !hostedSourceUrls.has(s.url))
+  .map(s => ({ ...s, hosted: false as const }));
+
+const stories = [...hosted, ...external].sort((a, b) => b.date.localeCompare(a.date));
 const featured = stories[0];
 const rest = stories.slice(1);
 
@@ -50,8 +71,8 @@ function formatDate(iso: string) {
   <section class="signal-list">
     <a
       href={featured.url}
-      target="_blank"
-      rel="noopener"
+      target={featured.hosted ? '_self' : '_blank'}
+      rel={featured.hosted ? null : 'noopener'}
       class="signal-featured story"
       data-cat={featured.category}
     >
@@ -59,6 +80,7 @@ function formatDate(iso: string) {
         <span class={`signal-cat signal-cat--${featured.category}`}>
           {categoryLabel[featured.category]}
         </span>
+        {featured.hosted && <span class="hosted-tag">Read here</span>}
         <h2 class="signal-featured-hed">{featured.headline}</h2>
         <p class="signal-featured-note">{featured.note}</p>
         <p class="signal-meta">
@@ -82,14 +104,15 @@ function formatDate(iso: string) {
       {rest.map(story => (
         <a
           href={story.url}
-          target="_blank"
-          rel="noopener"
+          target={story.hosted ? '_self' : '_blank'}
+          rel={story.hosted ? null : 'noopener'}
           class="signal-card story"
           data-cat={story.category}
         >
           <span class={`signal-cat signal-cat--${story.category}`}>
             {categoryLabel[story.category]}
           </span>
+          {story.hosted && <span class="hosted-tag">Read here</span>}
           <h3 class="signal-card-hed">{story.headline}</h3>
           <p class="signal-card-note">{story.note}</p>
           <p class="signal-meta">
@@ -222,6 +245,20 @@ function formatDate(iso: string) {
     background: rgba(180, 130, 50, 0.18);
     color: #d4a95a;
     border: 1px solid rgba(200, 155, 70, 0.25);
+  }
+  .hosted-tag {
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 3px 9px;
+    margin-bottom: 14px;
+    margin-left: 6px;
+    border-radius: 20px;
+    background: rgba(201, 169, 110, 0.14);
+    color: var(--accent);
+    border: 1px solid rgba(201, 169, 110, 0.4);
   }
 
   .signal-featured {
