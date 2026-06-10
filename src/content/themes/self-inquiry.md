@@ -16,4 +16,4 @@ Nisargadatta gave the practice a slightly different shape. The question becomes 
 
 The Direct Path teachers (Atmananda Krishna Menon, Jean Klein, Francis Lucille, Greg Goode) work the same investigation through structured contemplative experiments on the body, the senses, and the mind. Robert Adams brought it to small Los Angeles satsangs in the 1990s in a particularly gentle voice. John Wheeler carries it forward today.
 
-What unites the lineage is the recognition that no doctrine, no belief, and no future event delivers the answer. What is sought is what is already and obviously the case. The work is to notice.
+No doctrine, belief, or future event delivers the answer. What is sought is already the case, and the work of the lineage is noticing it.

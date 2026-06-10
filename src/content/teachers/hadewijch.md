@@ -33,21 +33,19 @@ She did not choose that last name lightly. For Hadewijch, the experience of divi
 
 > *Although the season is joyful everywhere, and mountain and valley are all verdant, that would seem a truly small matter to him who has met mischance in love.*
 
-That is the voice of someone who has been taken apart by what she loves, and is reporting back from the inside.
-
 ## The abyss
 
-The image that runs through Hadewijch's writing more than any other is the abyss. The soul is an abyss. God is an abyss. Love is an abyss. The meeting of the two is a falling, endless, of one bottomlessness into another.
+The image that runs through Hadewijch's writing more than any other is the abyss. Soul, God, and Love are each, in her vocabulary, an abyss, and their meeting is an endless falling of one bottomlessness into another.
 
 > *The soul is a bottomless abyss in which God suffices to himself; and his own self-sufficiency ever finds fruition to the full in this soul, as the soul, for its part, ever does in him.*
 
 She is reaching for something the rational mind cannot hold. The deeper she goes into the experience of union, the less there is to describe. Her later poems begin to use a language of nakedness, void, and pure unknowing, of stripping away every image, every form, every name, until what remains is what she calls a *wild desert* of the divine essence. She anticipates here the apophatic theology that Meister Eckhart would develop a generation later. Eckhart almost certainly read her, or read those who had read her.
 
-For anyone familiar with the language of nondual traditions, this is striking. Hadewijch is a Christian mystic, working inside the framework of a personal, Trinitarian God. And yet at the deepest reaches of her experience, she keeps describing something that is no longer two.
+Hadewijch is a Christian mystic, working inside the framework of a personal, Trinitarian God. At the deepest reaches of her experience, she keeps describing something that is no longer two.
 
 > *The loved one and the Beloved dwell one in the other, and they penetrate each other in such a way that neither of the two distinguishes himself from the other. They abide in one another in fruition, mouth in mouth, heart in heart, body in body, and soul in soul, while one sweet divine nature flows through them both, and they are both one thing through each other, but at the same time remain two different selves — yes, and remain so forever.*
 
-That last clause is what makes her writing so peculiar and so precise. One thing through each other, and yet two. She will not collapse into either pure dualism or pure monism. She holds both at once, the way only someone who has been there can.
+That last clause is what makes her writing so peculiar and so precise. One thing through each other, and yet two. She refuses to resolve the paradox in either direction.
 
 ## Noble unfaith
 
@@ -67,25 +65,25 @@ Read Hadewijch for a while and you start to notice she is much more than a love 
 
 > *Nowadays this is the way everyone loves himself; people wish to live with God in consolations and repose, in wealth and power, and to share the fruition of his glory. We all indeed wish to be God with God, but God knows there are few of us who want to live as men with his Humanity, or want to carry his cross with him.*
 
-That sentence is seven hundred years old and it still cuts. The desire to skip past suffering, past the body, past the ordinary work of being human, and arrive directly at the glory, she sees it clearly and refuses it. Real love of God, for Hadewijch, includes living the human life all the way through.
+She saw the desire to skip past suffering, past the body, past the ordinary work of being human, and arrive directly at the glory, and she refused it. Real love of God, for Hadewijch, includes living the human life all the way through.
 
 She also writes, with great clarity, about the danger of doing spiritual work for any kind of reward.
 
 > *Do good under all circumstances, but with no care for any profit, or any blessedness, or any damnation, or any salvation, or any martyrdom; but all you do or omit should be for the honor of Love.*
 
-No earning, no banking, no accumulation. Only Love, and what Love asks of you.
+There is no earning, no banking, no accumulation in her account of the spiritual life. There is Love, and what Love asks of you.
 
 ## What she leaves us
 
 Hadewijch was lost for centuries. Her manuscripts were rediscovered in the Royal Library in Brussels in the nineteenth century, and only really began to be translated and read in the twentieth. She is still less well known than Eckhart, less famous than Teresa of Avila, less quoted than John of the Cross, though she belongs in their company and arguably stands above them.
 
-What she gives us is a voice that is unmistakable. It takes the language of courtly love poetry, the language of knights and ladies and impossible longing, and turns it into theology. It refuses to choose between intimacy and abyss, between sweetness and storm, between the personal and the unspeakable.
+Her voice takes the language of courtly love poetry, of knights and ladies and impossible longing, and turns it into theology, holding intimacy and abyss, sweetness and storm, in the same line.
 
 Her last recorded words, in the closing of a letter, are these:
 
 > *Farewell and live a beautiful life.*
 
-That is what she leaves us. An invitation, and a benediction, from someone who knew exactly what she was asking for and exactly what it would cost.
+She knew what she was asking for, and what it would cost.
 
 ## Reading her
 

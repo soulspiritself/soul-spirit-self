@@ -14,4 +14,4 @@ Silence is the contemplative recognition that what is sought is reached by setti
 
 The Indian masters point to the same recognition without the apophatic vocabulary. Ramana Maharshi taught primarily through silence, sitting in the hall at the foot of Arunachala while questioners sat with him, and only occasionally answering aloud. Robert Adams, his American disciple, brought the same quality to his small Los Angeles satsangs of the late 1980s and 1990s, with long pauses between sentences in which the recognition could land without resistance. John Wheeler, in plain American English, calls the practice simply *being quiet*.
 
-What the silent contemplatives know is that words are useful for pointing but not for arriving. The arriving happens in the silence the words leave behind.
+Words can point. The arriving happens in the silence they leave behind.

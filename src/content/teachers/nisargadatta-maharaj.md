@@ -25,9 +25,9 @@ related:
 
 Nisargadatta Maharaj lived an unremarkable life as a small businessman in the Khetwadi neighbourhood of Mumbai before encountering his teacher Siddharameshwar Maharaj in 1933. Within three years he was awakened. He continued running his bidi-cigarette shop until late in life, receiving visitors in the small upper room of his apartment where the conversations later collected as I Am That were recorded.
 
-His teaching is uncompromisingly direct. The world is not what you take it to be. The body is not what you take it to be. The person is a temporary appearance in awareness, not the awareness itself. Investigate the I-am, find what is prior to it, and the question of liberation no longer arises.
+His teaching is uncompromisingly direct. Neither the world nor the body is what you take it to be, and the person is a temporary appearance in awareness rather than the awareness itself. Investigate the I-am, find what is prior to it, and the question of liberation no longer arises.
 
-He belonged to the Inchagiri branch of the Navnath Sampradaya, the same lineage that produced his teacher Siddharameshwar and, through him, Ranjit Maharaj. What he received from that lineage he passed on stripped of nearly all its devotional setting: sit with the sense *I am*, refuse every identification it offers, and stay until the question answers itself. The upstairs room in Khetwadi became, in the decade before his death in 1981, one of the most consequential rooms in twentieth-century spirituality.
+He belonged to the Inchagiri branch of the Navnath Sampradaya, the same lineage that produced his teacher Siddharameshwar and, through him, Ranjit Maharaj. What he received from that lineage he passed on stripped of nearly all its devotional setting: sit with the sense *I am*, refuse every identification it offers, and stay until the question answers itself. He taught from that small upstairs room in Khetwadi until a few weeks before his death in 1981.
 
 ## Where to start
 

@@ -26,7 +26,7 @@ Ramana Maharshi awakened at the age of sixteen through a spontaneous experience 
 
 His teaching reduced to one question: *Who am I?* Not as an intellectual puzzle but as a practical investigation. To whom does the thought arise? Trace the I-thought back to its source. What is found is not another thought but the awareness in which all thoughts appear.
 
-For most of those fifty-four years he sat in the hall of the ashram that grew up around him at the foot of the mountain, available to anyone who came, answering questions when asked and otherwise keeping silence. The silence was not a withholding. Visitors reported again and again that the teaching happened in it, and that the answers, when they came, only confirmed what the silence had already shown. He wrote almost nothing himself; the small body of recorded dialogues and the few texts he composed or revised carry the whole teaching.
+For most of those fifty-four years he sat in the hall of the ashram that grew up around him at the foot of the mountain, available to anyone who came, answering questions when asked and otherwise keeping silence. Visitors reported again and again that the teaching happened in the silence itself, and that the spoken answers, when they came, confirmed what the silence had already shown. He wrote almost nothing himself; the small body of recorded dialogues and the few texts he composed or revised carry the whole teaching.
 
 ## Where to start
 

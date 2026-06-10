@@ -11,10 +11,10 @@ leadQuote:
   source: The Practice of the Presence of God
 ---
 
-Presence is the recognition that what is sought is already and immediately here. Not later, not elsewhere, not gained by practice. The contemplatives who work this thread reduce the spiritual life to a single instruction: notice what is already the case.
+Presence is the recognition that what is sought is already and immediately here, not later, not elsewhere, not gained by practice. The contemplatives who work this thread reduce the spiritual life to a single instruction: notice what is already the case.
 
 Brother Lawrence, the Carmelite lay brother of seventeenth-century Paris, gave the teaching its plainest English name. The practice of the presence of God, he said, is no special technique. It is the small repeated turning of the attention back to God in the midst of ordinary work, washing dishes, sweeping the kitchen, walking to the chapel. Through fifty years of this turning, his consciousness of presence grew until in his last decade he wrote that he could no longer distinguish the practice from the everyday.
 
 The Cloud of Unknowing names the same recognition with apophatic precision. The practitioner sets all images and concepts aside under the *cloud of forgetting* and reaches up toward what cannot be known except through *blind love*. The reaching is not addition, it is the removal of what was always interfering with what was already there.
 
-In the modern voices the language becomes simpler still. Eckhart Tolle, the Cloud author's twenty-first-century echo, calls it the *power of now*. John Butler, the English contemplative and farmer, simply calls it the Light. The recognition does not depend on belief or context. It depends on the small repeated noticing.
+In the modern voices the language becomes simpler still. Eckhart Tolle, the Cloud author's twenty-first-century echo, calls it the *power of now*. John Butler, the English contemplative and farmer, simply calls it the Light. The recognition asks no belief and no special setting, only the small repeated noticing.

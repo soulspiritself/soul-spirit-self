@@ -11,7 +11,7 @@ readTime: 8
 image: "/images/signal-animal-consciousness-declaration.jpg"
 date: "2026-06-01"
 originalPublishedDate: "2024-04-19"
-whyItMatters: "When scientists extend the circle of consciousness to insects and cephalopods, they arrive by measurement at something the Upanishads asserted from the inside: awareness is not a human possession. The Isha Upanishad's claim that the Self resides in all beings reads differently the week the laboratories agree."
+whyItMatters: "The researchers now say insects and cephalopods are probably conscious. The Isha Upanishad, hosted in this library, made the wider claim three thousand years earlier: the Self resides in all beings."
 ---
 
 In 2022, researchers at the Bee Sensory and Behavioral Ecology Lab at Queen Mary University of London observed bumblebees doing something remarkable: the diminutive, fuzzy creatures were engaging in activity that could only be described as play. Given small wooden balls, the bees pushed them around and rotated them. The behavior had no obvious connection to mating or survival, nor was it rewarded by the scientists. It was, apparently, just for fun.

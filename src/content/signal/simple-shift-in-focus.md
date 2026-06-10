@@ -11,7 +11,7 @@ readTime: 9
 image: "/images/signal-simple-shift-in-focus.jpg"
 date: "2026-05-24"
 originalPublishedDate: "2025-08-07"
-whyItMatters: "A research result the contemplative traditions would recognise instantly: attention turned toward the field rather than the object changes the experience of the one attending. It is a laboratory echo of what the library's Witness theme traces from the Katha Upanishad to Atmananda."
+whyItMatters: "Attention turned toward the field rather than the object changes the one attending. The contemplative traditions built whole practices on this observation. The Witness theme in the library traces it from the Katha Upanishad to Atmananda Krishna Menon."
 ---
 
 Mind-body programmes are having their day. Controlled trials showing the health benefits of techniques like mindfulness-based stress reduction, yoga, tai chi, mantra and their variants have gained a respectable face in mainstream medicine. Reviews show prompt and lasting reductions in worry and stress, anxiety, depression, chronic pain and addictive behaviours across a broad demographic. Practitioners also report improved quality of life when these techniques are used as adjuncts to treatments for diseases like asthma, irritable bowel syndrome, cardiovascular disease, and cancer. Sophisticated assays and imaging also show positive biological and structural changes accompanying these programmes. And the requirement of in-person attendance that once limited their accessibility has now been eased by online availability.

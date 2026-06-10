@@ -36,7 +36,7 @@ export const signalStories: SignalStory[] = [
   {
     category: 'meditation',
     headline: 'Mindfulness is loaded with troubling metaphysical assumptions',
-    note: 'A philosopher pushes back at the secular mindfulness industry. The argument is not that meditation is wrong, but that the implicit picture under it (a self that should detach from its thoughts, a present moment that is somehow more real than memory and anticipation) is doing quiet metaphysical work most practitioners never agreed to.',
+    note: 'A philosopher pushes back at the secular mindfulness industry. The argument is not that meditation is wrong, but that the implicit picture under it (a self that should detach from its thoughts, a present moment that is somehow more real than memory and anticipation) is a metaphysical position most practitioners never knowingly signed up for.',
     source: 'Aeon',
     readTime: 12,
     url: 'https://aeon.co/essays/mindfulness-is-loaded-with-troubling-metaphysical-assumptions',

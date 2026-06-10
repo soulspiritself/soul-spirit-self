@@ -1,7 +1,7 @@
 ---
 title: The Dhammapada
 originalTitle: धम्मपद
-subtitle: The most-loved short Buddhist text — 423 verses on the path of the awakened
+subtitle: The most-loved short Buddhist text, 423 verses on the path of the awakened
 tradition: buddhist-nonduality
 period: Pre-classical · c. 3rd century BCE
 originalLanguage: Pali
@@ -16,7 +16,7 @@ licenceNote: 'From The Dhammapada and Sutta-Nipata, translated by Friedrich Max 
 imagePrompt: A path of pale stones leading away into mist, soft golden dawn breaking on the horizon, deep cosmic blue sky scattered with faint stars, contemplative painterly composition
 image: /images/text-dhammapada.jpg
 order: 2
-description: Probably the most widely read book in the Pali canon — 423 short verses gathered into twenty-six chapters on the path of the awakened. The Dhammapada is the Buddhist tradition's most concentrated source of contemplative aphorism, much as the Tao Te Ching is for the Taoist tradition.
+description: Probably the most widely read book in the Pali canon, 423 short verses gathered into twenty-six chapters on the path of the awakened. The Dhammapada is the Buddhist tradition's most concentrated source of contemplative aphorism, much as the Tao Te Ching is for the Taoist tradition.
 downloadTxt: /downloads/dhammapada.txt
 downloadPdf: /downloads/dhammapada.pdf
 downloadEpub: /downloads/dhammapada.epub

@@ -16,7 +16,7 @@ licenceNote: William Benham's translation, first published as part of George Rou
 imagePrompt: Symbolic image of an open ancient codex resting on a worn wooden surface, a single warm beam of golden light falling across its pages, the rest of the room in deep cosmic blue shadow, contemplative atmosphere, painterly style
 image: /images/text-imitation-of-christ.jpg
 order: 11
-description: Thomas à Kempis's four-book manual on the inward turn — the most-read Christian devotional text after the Bible. Composed in the Devotio Moderna communities of the Low Countries, it teaches a contemplative life rooted in self-knowledge and the imitation of Christ's poverty of spirit.
+description: Thomas à Kempis's four-book manual on the inward turn, the most-read Christian devotional text after the Bible. Composed in the Devotio Moderna communities of the Low Countries, it teaches a contemplative life rooted in self-knowledge and the imitation of Christ's poverty of spirit.
 downloadTxt: /downloads/imitation-of-christ.txt
 downloadPdf: /downloads/imitation-of-christ.pdf
 downloadEpub: /downloads/imitation-of-christ.epub
@@ -24,4 +24,4 @@ wordCount: 61786
 readingTimeMinutes: 281
 ---
 
-The Imitation is the most widely read Christian devotional book after the Bible, and it is not a nondual text: its register is humility, self-distrust, and the long discipline of detachment. It is in this library for the same reason it stayed on the desks of Eckhart's and Tauler's readers for five centuries. It comes out of the same Rhineland-Lowlands current of inward religion (the Devotio Moderna drew directly on the German mystics), and its relentless stripping away of self-will is the practical, daily-life face of what the apophatic texts state metaphysically. Whoever finishes the Theologia Germanica and wants to know what its teaching looks like as a daily practice ends up here.
+The Imitation is the most widely read Christian devotional book after the Bible. Its register is humility, self-distrust, and the long discipline of detachment, which puts it some distance from the nondual texts around it. It is in this library because it stayed on the desks of Eckhart's and Tauler's readers for five centuries. The Devotio Moderna movement it came from drew directly on the German mystics, and its stripping away of self-will is what the apophatic teaching asks of an ordinary day. Whoever finishes the Theologia Germanica and wants to know what its teaching looks like in practice ends up here.

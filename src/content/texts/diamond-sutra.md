@@ -35,7 +35,7 @@ What follows is the F. Max Müller translation of 1894, originally published in 
 
 ## A note on the central teaching
 
-The Diamond Sutra works the same recognition as the much shorter Heart Sutra, but it works it differently. Where the Heart Sutra states the recognition compactly, the Diamond Sutra performs it. Each section of the dialogue introduces a Buddhist category — the bodhisattva, the dharma, the merit of giving, the mark of a Buddha, the very idea of beings to be saved — and then, by careful argument, shows that the category contains no graspable inherent reality. *That which the Tathagata calls a bodhisattva is not a bodhisattva; therefore is it called a bodhisattva.* The formula is repeated, with subtle variation, dozens of times.
+The Diamond Sutra works the same recognition as the much shorter Heart Sutra, but it works it differently. Where the Heart Sutra states the recognition compactly, the Diamond Sutra performs it. Each section of the dialogue introduces a Buddhist category, the bodhisattva, the dharma, the merit of giving, the mark of a Buddha, the very idea of beings to be saved, and then, by careful argument, shows that the category contains no graspable inherent reality. *That which the Tathagata calls a bodhisattva is not a bodhisattva; therefore is it called a bodhisattva.* The formula is repeated, with subtle variation, dozens of times.
 
 The sutra is not nihilism. It does not assert that nothing exists. It asserts, more carefully, that nothing exists in the way the conceptual mind takes it to exist. The diamond is the wisdom that cuts through that mistake.
 

@@ -19,4 +19,4 @@ The Christian contemplatives work the same recognition with a different vocabula
 
 Ramana Maharshi's awakening at sixteen was a death-experience. He lay down on the floor of his uncle's house, simulated his own death, and discovered that the body died but he did not. The recognition that survived that simulated death stayed with him for the next fifty-four years. Robert Adams returned to it again and again in his satsangs of the 1990s, suffering himself from advanced Parkinson's, teaching from inside the practical question of how to be ill and dying without losing the recognition.
 
-What the death-thread teaches is that the deathless is not somewhere else. It is what one is, and the only thing that obscures the recognition is the unexamined identification with what does in fact die.
+The deathless is not somewhere else. It is what one is, and only the unexamined identification with what dies obscures it.
