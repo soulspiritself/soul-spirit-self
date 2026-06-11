@@ -1,0 +1,10 @@
+# Legacy URLs from the previous soulspiritself.com site -> new homes
+/the-three-principles/ /traditions/modern-nonduality/ 301
+/robert-adams-there-is-no-self-advaita-vedanta/ /teachers/robert-adams/ 301
+
+# Old WordPress conventions
+/feed/ /signal/rss.xml 301
+/feed /signal/rss.xml 301
+/category/* / 301
+/tag/* / 301
+/author/* /about/ 301

@@ -21,8 +21,48 @@ const related = (text.data.related || [])
   .map(ref => allTexts.find(t => t.slug === ref.id))
   .filter(Boolean)
   .slice(0, 3);
+
+// SEO: texts hosted in full with downloads target the queries people
+// actually use ("<text> pdf", "<text> full text").
+const hasDownloads = Boolean(text.data.downloadPdf || text.data.downloadEpub || text.data.downloadTxt);
+const seoTitle = hasDownloads
+  ? `${text.data.title}: Read Online, Free PDF & EPUB`
+  : text.data.title;
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const bookJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: text.data.title,
+  alternateName: text.data.originalTitle || undefined,
+  description: text.data.description,
+  inLanguage: 'en',
+  url: pageUrl,
+  image: text.data.image ? new URL(text.data.image, Astro.site).toString() : undefined,
+  translator: text.data.translator ? { '@type': 'Person', name: text.data.translator } : undefined,
+  datePublished: text.data.translationYear || undefined,
+  isAccessibleForFree: true,
+  publisher: { '@type': 'Organization', name: 'Soul Spirit Self', url: 'https://soulspiritself.com' },
+  potentialAction: hasDownloads ? {
+    '@type': 'ReadAction',
+    target: { '@type': 'EntryPoint', urlTemplate: pageUrl, actionPlatform: 'https://schema.org/DesktopWebPlatform' },
+    expectsAcceptanceOf: { '@type': 'Offer', price: 0, priceCurrency: 'USD', eligibleRegion: 'Earth' },
+  } : undefined,
+  workExample: hasDownloads ? [
+    text.data.downloadPdf && { '@type': 'Book', bookFormat: 'https://schema.org/EBook', fileFormat: 'application/pdf', url: new URL(text.data.downloadPdf, Astro.site).toString() },
+    text.data.downloadEpub && { '@type': 'Book', bookFormat: 'https://schema.org/EBook', fileFormat: 'application/epub+zip', url: new URL(text.data.downloadEpub, Astro.site).toString() },
+  ].filter(Boolean) : undefined,
+};
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Texts', item: 'https://soulspiritself.com/texts/' },
+    { '@type': 'ListItem', position: 2, name: tradition.data.title, item: `https://soulspiritself.com/traditions/${tradition.slug}/` },
+    { '@type': 'ListItem', position: 3, name: text.data.title, item: pageUrl },
+  ],
+};
 ---
-<BaseLayout title={text.data.title} description={text.data.description} image={text.data.image}>
+<BaseLayout title={seoTitle} description={text.data.description} image={text.data.image}>
 
   <div class="breadcrumb">
     <div class="wrapper">
@@ -185,19 +225,8 @@ const related = (text.data.related || [])
 
 </BaseLayout>
 
-<script type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": text.data.title,
-  "description": text.data.description,
-  "author": text.data.translator || "Anonymous",
-  "datePublished": text.data.translationYear || "1900",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Soul Spirit Self",
-    "url": "https://soulspiritself.com"
-  }
-})} />
+<script type="application/ld+json" set:html={JSON.stringify(bookJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
 <style>
   .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }

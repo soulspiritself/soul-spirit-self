@@ -23,6 +23,29 @@ const traditions = teacher.data.traditions
 const primaryTradition = traditions[0];
 const teacherTraditionSlugs = new Set(traditions.map(t => t.slug));
 
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: teacher.data.name,
+  description: teacher.data.summary,
+  url: pageUrl,
+  image: teacher.data.image ? new URL(teacher.data.image, Astro.site).toString() : undefined,
+  birthDate: teacher.data.born || undefined,
+  deathDate: teacher.data.died || undefined,
+  sameAs: teacher.data.sourceUrl ? [teacher.data.sourceUrl] : undefined,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+};
+const teacherBreadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Teachers', item: 'https://soulspiritself.com/teachers/' },
+    primaryTradition && { '@type': 'ListItem', position: 2, name: primaryTradition.data.title, item: `https://soulspiritself.com/traditions/${primaryTradition.slug}/` },
+    { '@type': 'ListItem', position: primaryTradition ? 3 : 2, name: teacher.data.name, item: pageUrl },
+  ].filter(Boolean),
+};
+
 // Other teachers in any of the same traditions (siblings).
 const allTeachers = await getCollection('teachers');
 const siblings = allTeachers
@@ -242,6 +265,9 @@ const teacherThemes = (teacher.data.themes || [])
   )}
 
 </BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(teacherBreadcrumbJsonLd)} />
 
 <style>
   .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }

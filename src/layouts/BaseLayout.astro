@@ -16,9 +16,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, Astro.site).toStri
 // Always emit an og:image. Use the page-provided one if present, else fall back
 // to the brand orb logo. Path is resolved against Astro.site to give a fully
 // qualified URL, which is what social media crawlers want.
-// TODO: Replace with a generated 1200x630 og card when one exists. Logo PNG
-// is acceptable in the meantime; Twitter/Slack/iMessage all handle it.
-const FALLBACK_OG_IMAGE = '/images/soul-spirit-self-logo.png';
+const FALLBACK_OG_IMAGE = '/images/soul-spirit-self-og.jpg';
 const ogImageUrl = new URL(image || FALLBACK_OG_IMAGE, Astro.site).toString();
 ---
 <!DOCTYPE html>
@@ -48,6 +46,20 @@ const ogImageUrl = new URL(image || FALLBACK_OG_IMAGE, Astro.site).toString();
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/images/soul-spirit-self-logo.png" />
   <link rel="sitemap" href="/sitemap-index.xml" />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Soul Spirit Self',
+    url: 'https://soulspiritself.com',
+    description: 'An open library of nondual wisdom across contemplative traditions.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Soul Spirit Self',
+      url: 'https://soulspiritself.com',
+      logo: { '@type': 'ImageObject', url: 'https://soulspiritself.com/images/soul-spirit-self-logo.png' },
+      sameAs: ['https://www.youtube.com/@soulspiritself'],
+    },
+  })} />
   <link rel="alternate" type="application/rss+xml" title="The Signal — Soul Spirit Self" href="/signal/rss.xml" />
 </head>
 <body>
