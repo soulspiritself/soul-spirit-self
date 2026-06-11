@@ -74,11 +74,12 @@ IMAGES = [
         "filename": "text-mandukya-upanishad.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "A single luminous concentric ring of warm gold suspended in deep cosmic blue space, "
-            "with three faint outer rings receding into shadow representing waking, dream, and "
-            "deep sleep, and a single radiant point of pure gold at the centre representing "
-            "turiya the fourth, minimalist sacred geometry composition, contemplative atmosphere, "
-            "no text, no watermarks"
+            "A large bronze temple bell hanging in a dark shrine hall, "
+            "photographed the moment after being struck, a faint blur of "
+            "vibration at its rim and warm golden light flaring along the "
+            "bronze, deep cosmic blue shadow all around, incense haze in "
+            "the single beam of light, contemplative atmospheric still "
+            "life, no people, no text, no signature"
         ),
     },
     {
@@ -100,7 +101,7 @@ IMAGES = [
             "at dusk, the chariot itself silent and unoccupied, the reins still and untouched, "
             "deep cosmic blue sky above with faint stars, soft amber dawn light breaking on the "
             "distant horizon, painterly contemplative composition, no driver, no people, no text, "
-            "no watermarks"
+            "no watermarks" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -118,22 +119,22 @@ IMAGES = [
         "filename": "text-brahma-sutras.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "A single fine golden thread descending vertically through a vast deep cosmic blue "
-            "space, passing through a series of nested concentric translucent circles each glowing "
-            "softly from within, the thread continuous and unbroken from top to bottom of the "
-            "frame, contemplative sacred geometry composition, painterly minimalist style, "
-            "no text, no watermarks"
-        ),
+            "A vast ancient banyan tree at dawn, hundreds of aerial roots "
+            "descending and merging into one immense trunk, warm golden "
+            "light low through the roots, deep cosmic blue shadow within "
+            "the canopy, many threads becoming one, contemplative "
+            "atmospheric composition, no people, no text," + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"),
     },
     {
         "filename": "text-mandukya-karika.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "Symbolic representation of the four states of consciousness, four concentric circular "
-            "rings, the outermost a faint silver representing waking, the next a deeper translucent "
-            "blue representing dream, the next a darker indigo representing deep sleep, the innermost "
-            "a single radiant gold point representing turiya, set against an infinite dark cosmic "
-            "background with subtle stars, contemplative composition, no text"
+            "Slow moonlit ocean swells seen from just above the surface at "
+            "night, each rising wave catching a line of warm gold from a "
+            "low moon before folding back into the deep cosmic blue water, "
+            "open sea to the horizon, faint stars, the water continuous "
+            "beneath every passing form, contemplative atmospheric "
+            "seascape, no people, no boats, no text, no signature"
         ),
     },
     {
@@ -173,11 +174,11 @@ IMAGES = [
         "filename": "text-tripura-rahasya.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "A glowing yantra of three nested triangles in deep gold lines, the outermost largest "
-            "and the innermost smallest, all centred on a single point, set against an infinite "
-            "dark cosmic blue background with subtle radiating soft golden light, sacred geometry "
-            "composition, contemplative atmosphere, no text"
-        ),
+            "An ornate brass oil lamp burning in the inner stone chamber "
+            "of an ancient South Indian palace at night, carved stone "
+            "lattice window casting patterned warm light across the floor, "
+            "deep cosmic blue shadow beyond, contemplative atmospheric "
+            "interior, painterly composition, no people, no text," + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"),
     },
     {
         "filename": "text-vivekachudamani.jpg",
@@ -192,18 +193,25 @@ IMAGES = [
         "filename": "text-atma-bodha.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "A single radiant point of warm golden light at the centre of an infinite dark expanse, "
-            "with subtle rays extending outward dispelling the surrounding darkness, like a sunrise "
-            "seen from far in space, minimalist contemplative composition, no text"
+            "A small brass oil lamp with a steady flame standing before a "
+            "round polished bronze mirror in a stone alcove, the flame and "
+            "its clear reflection both visible, warm gold against deep "
+            "cosmic blue shadow, ancient Indian temple setting, "
+            "contemplative atmospheric still life, painterly composition, "
+            "clean unmarked corners, no people, no text, no letters, no "
+            "signature, no watermark, no artist mark"
         ),
     },
     {
         "filename": "text-aparokshanubhuti.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "An open eye opening at the centre of a mandala of concentric golden rings against a "
-            "deep cosmic blue background, the eye itself radiant with inner light, the rings "
-            "extending outward in soft graduated luminosity, contemplative sacred geometry, no text"
+            "Heavy wooden shutters thrown wide open at first light in a "
+            "thick whitewashed stone wall, no glass in the window, the "
+            "morning landscape of hills and mist immediate and sharp "
+            "beyond the opening, warm gold dawn against the deep blue "
+            "interior shadow, contemplative atmospheric composition, no "
+            "people, no text, no signature"
         ),
     },
     {
@@ -232,10 +240,14 @@ IMAGES = [
         "filename": "teacher-shankara.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "Symbolic portrait of Adi Shankara, a young Indian monk in his late twenties, shaved "
-            "head, intense direct gaze, wearing simple saffron robes, holding a manuscript in one "
-            "hand, soft golden light from one side, painterly traditional South Asian style with "
-            "contemplative gravitas, square composition centred on the figure, no text"
+            "Symbolic portrait of a young Indian monk philosopher in "
+            "simple ochre robes holding a rolled palm-leaf manuscript, "
+            "shaved head, calm direct gaze, completely plain bare "
+            "forehead with no markings of any kind, soft warm "
+            "contemplative lighting, painterly style, square composition "
+            "centred on face and shoulders, the image filling the entire "
+            "frame edge to edge, no border, no signature, no lettering "
+            "anywhere"
         ),
     },
     {
@@ -335,11 +347,11 @@ IMAGES = [
         "filename": "text-eckhart-sermons.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "An empty vault of dark cosmic blue space with a single point of warm golden light "
-            "at its absolute centre, the light pure and silent, faint subtle stars in the "
-            "surrounding void, no walls or boundaries visible, contemplative apophatic atmosphere, "
-            "minimalist composition, no text, no watermarks"
-        ),
+            "A worn stone pulpit in a dark Gothic church, one shaft of "
+            "warm golden light falling across it from a high window, empty "
+            "wooden pews receding into deep cosmic blue shadow, dust "
+            "drifting in the beam, contemplative atmospheric interior, "
+            "painterly composition, no people, no text," + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"),
     },
     {
         "filename": "text-theologia-germanica.jpg",
@@ -368,7 +380,7 @@ IMAGES = [
             "A small hazelnut resting in an open palm, glowing faintly with warm golden inner "
             "light, the hand and forearm seen from above against a deep cosmic blue background "
             "scattered with subtle stars, contemplative tender atmosphere, painterly style, no "
-            "text, no watermarks"
+            "text, no watermarks" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -398,7 +410,7 @@ IMAGES = [
             "A faceted crystal castle suspended in a vast cosmic blue space, faint warm golden "
             "light glowing from its innermost central chamber outward through the translucent "
             "concentric walls, sacred geometry composition, contemplative atmosphere, painterly "
-            "style, no text, no watermarks"
+            "style, no text, no watermarks" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -421,7 +433,7 @@ IMAGES = [
             "trimmed dark beard, intelligent contemplative gaze with eyes raised slightly upward, "
             "wearing a simple Roman tunic and an ecclesiastical mantle, soft warm golden light, "
             "painterly classical Mediterranean style, square composition centred on his face and "
-            "shoulders, no text, no watermarks, no signature"
+            "shoulders, no text, no watermarks, no signature" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -443,7 +455,7 @@ IMAGES = [
             "Dominican friar in his sixties, lean intelligent European features, short tonsured "
             "grey hair, black and white Dominican habit, deep contemplative direct gaze, soft "
             "golden light from one side, painterly Gothic style, square composition centred on "
-            "his face and shoulders, no text, no watermarks, no signature"
+            "his face and shoulders, no text, no watermarks, no signature" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -462,11 +474,12 @@ IMAGES = [
         "filename": "teacher-julian-of-norwich.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
+            "She wears a plain dark medieval religious habit and veil, an anchoress in a bare stone cell, no jewellery, no rich fabrics, not a noblewoman, " +
             "Symbolic painterly portrait of Julian of Norwich as a fourteenth-century English "
             "anchoress in her fifties, kind weathered European features, simple grey woollen "
             "habit and white wimple, contemplative gentle gaze, soft warm light streaming through "
             "a small stone window onto her face, painterly medieval English style, square "
-            "composition centred on her face and shoulders, no text, no watermarks, no signature"
+            "composition centred on her face and shoulders, no text, no watermarks, no signature" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -490,7 +503,7 @@ IMAGES = [
             "warm face, brown Carmelite habit and black veil, contemplative direct gaze with a "
             "trace of warmth, soft warm light from one side, painterly Spanish Golden Age style, "
             "square composition centred on her face and shoulders, no text, no watermarks, no "
-            "signature"
+            "signature" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -555,7 +568,7 @@ IMAGES = [
             "covering her hair, soft warm afternoon light from a small Gothic stone window, "
             "painterly French medieval religious style, square composition tightly centred on "
             "her face and shoulders, no food, no cake, no modern objects, no text, no watermarks, "
-            "no signature"
+            "no signature" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -608,14 +621,13 @@ IMAGES = [
         "filename": "teacher-the-buddha.jpg",
         "aspect": "1:1",
         "prompt": STYLE_PREFIX + (
-            "A weathered stone Buddha statue seated cross-legged in meditation "
-            "under a bare bodhi tree at dusk, half-closed eyes and a faint serene "
-            "smile, one hand resting on the lap palm-up and the other touching "
-            "the earth, deep cosmic blue twilight sky scattered with faint stars "
-            "behind, soft warm gold light catching the figure from the side, "
-            "contemplative atmospheric composition, painterly minimal style, "
-            "square composition, no text, no halo, no painted features"
-        ),
+            "A serene ancient stone Buddha statue seated in meditation in "
+            "an open landscape at dawn, smooth weathered stone, eyes "
+            "half closed, plain sky behind the head, nothing growing from "
+            "or touching the statue, warm golden first light on one side, "
+            "deep cosmic blue shadow on the other, contemplative "
+            "atmospheric composition, no living people, no branches near "
+            "the head, no text," + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"),
     },
     {
         "filename": "teacher-bankei-yotaku.jpg",
@@ -641,7 +653,7 @@ IMAGES = [
             "light, contemplative atmosphere reminiscent of Tibetan thangka "
             "painting but understated and naturalistic, no halo, no nimbus, no "
             "deities, no calligraphy, no text, square composition tightly "
-            "centred on his face and shoulders"
+            "centred on his face and shoulders" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {
@@ -765,7 +777,7 @@ IMAGES = [
             "A still candle burning with a steady warm flame in a vast dark "
             "stone hall, the rest of the hall receding into deep cosmic blue "
             "shadow, no other light, no people, contemplative atmospheric "
-            "composition, painterly minimal style, no text"
+            "composition, painterly minimal style, no text" + "the image filling the entire frame edge to edge, no border, no frame, no matting, no signature, no artist mark, no monogram, no stamp, no watermark, no lettering anywhere"
         ),
     },
     {

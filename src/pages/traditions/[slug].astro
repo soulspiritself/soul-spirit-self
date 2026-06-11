@@ -29,9 +29,6 @@ const teachers = allTeachers.filter(t =>
 
   <section class="trad-hero">
     <div class="trad-hero-bg" style={tradition.data.image ? `background-image: url(${tradition.data.image});` : ''}></div>
-    {!tradition.data.image && import.meta.env.DEV && (
-      <span class="hero-imagen-tag">Imagen 4 hero · pending generation</span>
-    )}
     <div class="trad-hero-content">
       <span class="eyebrow">{tradition.data.eyebrow}</span>
       <h1>{tradition.data.title}</h1>
