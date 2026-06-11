@@ -1026,6 +1026,155 @@ IMAGES = [
         ),
     },
 
+    # ──────────────────── Signal story card images (June 2026) ────────────────────
+    {
+        "filename": "signal-story-master-meditators.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single round meditation cushion placed at the opening of a brain scanner bore in a dim imaging lab, the bore glowing warm gold, deep cosmic blue shadow across the room, quiet meeting of laboratory and practice, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-wandering-mind.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A small folded paper boat drifting on a dark winding stream through a misty meadow at dawn, warm gold light on the water's bends, deep blue shadow in the grass, the stream meandering out of frame, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-kabat-zinn.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A simple wooden chair facing a tall hospital window at dawn, warm light flooding across a polished floor, deep blue shadow behind, stillness in an institutional room, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-koch.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An old wooden radio on a dark table at night, its dial glowing warm gold, a vast starfield visible through the open window behind it, receiver and sky, deep cosmic blue, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-mcgilchrist.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Two halves of a single walnut on dark slate, one half lit in warm gold, the other sunk in deep blue shadow, close still life, fine detail in the folds, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-buddhanature.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A rough uncut grey stone on dark cloth, a vein of bright gold running through it and catching the light, deep cosmic blue shadow around, close contemplative still life, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-iit.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A city seen from high above at night, one district glowing in warm interconnected golden light, a denser neighbouring district almost completely dark, deep blue night, aerial contemplative composition, no people visible, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-no-self.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An empty overcoat draped over a bentwood chair in an old Viennese cafe at closing time, one warm lamp, marble table, deep blue shadow filling the room, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-spira-intro.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A plain clear glass of water on a stone windowsill in early light, the water luminous, warm gold and deep blue, minimal contemplative still life, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-idealism.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A whirlpool turning in a dark river, its spiral catching lines of warm gold light, the surrounding water deep cosmic blue and continuous with the vortex, seen from above, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-interface.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Backstage of an old theatre, painted scenery flats of a beautiful landscape leaning against a dark wall, one flat lit by a warm work lamp, ropes and shadow in deep blue, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-quantum-fields.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "Iron filings on dark paper tracing curved field lines around an unseen magnet, the lines catching faint warm gold light, deep blue shadow, close macro still life, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-dream-world.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A neatly made bed with white linen standing alone in an open moonlit meadow under a starry sky, a small warm lamp glowing on a bedside table beside it, dreamlike and calm, deep cosmic blue night, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-it-from-bit.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An old brass telescope on a dark hilltop aimed at a dense field of stars, its eyepiece glowing faintly warm as if the looking itself gave light, deep cosmic blue night, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-nonduality-intro.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A footpath that forks around a single great oak tree and rejoins beyond it, seen at dawn with warm light down the reunited way, deep blue shadow under the tree, quiet countryside, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-simulation.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "An intricately carved wooden lattice screen casting the detailed shadow of a whole landscape scene onto a plain wall, lit by one warm lamp, deep blue room, shadow-play of a world, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-hard-problem.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A heavy ornate door standing alone and slightly ajar in the middle of an open twilight field, warm light leaking through the gap, no wall around the door, deep blue dusk, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-awe.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A vast canyon rim at night under the dense band of the Milky Way, one tiny warm campfire glowing far below on the canyon floor, immense scale, deep cosmic blue, no people visible, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-dream-yoga.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A Tibetan monastery window glowing warm in a dark Himalayan night, prayer flags strung against a sky thick with stars, snow faint on the roofline, deep cosmic blue, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-heart.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A single deep red rose opening in warm lamplight on a dark stone windowsill at night, petals catching gold at the edges, deep cosmic blue darkness beyond the window, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+    {
+        "filename": "signal-story-nde.jpg",
+        "aspect": "16:9",
+        "prompt": STYLE_PREFIX + (
+            "A long dark stone corridor with low mist on the floor, ending at a doorway filled with soft overwhelming warm light, the light spilling toward the viewer, deep cosmic blue shadow, no people, contemplative atmospheric composition, the image filling the entire frame edge to edge, no border, no text, no signature, no watermark"
+        ),
+    },
+
     # ──────────────────── Missing text images (June 2026) ────────────────────
     {
         "filename": "text-dhammapada.jpg",

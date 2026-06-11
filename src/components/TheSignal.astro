@@ -17,7 +17,7 @@ const hosted = (await getCollection('signal')).map(s => ({
 const hostedSourceUrls = new Set((await getCollection('signal')).map(s => s.data.sourceUrl));
 const external = signalStories
   .filter(s => !hostedSourceUrls.has(s.url))
-  .map(s => ({ ...s, image: undefined as string | undefined, hosted: false as const }));
+  .map(s => ({ ...s, hosted: false as const }));
 
 const allStories = [...hosted, ...external].sort((a, b) => b.date.localeCompare(a.date));
 const featured = allStories[0];

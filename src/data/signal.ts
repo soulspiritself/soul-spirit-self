@@ -12,6 +12,7 @@ export interface SignalStory {
   readTime: number; // minutes
   url: string;
   date: string; // ISO date string, e.g. '2026-05-16'
+  image?: string; // optional card image under /public/images
 }
 
 export const signalStories: SignalStory[] = [
@@ -22,6 +23,7 @@ export const signalStories: SignalStory[] = [
     source: 'New Scientist',
     readTime: 11,
     url: 'https://meditation.mgh.harvard.edu/files/Sacchet_25_NewScientist.pdf',
+    image: '/images/thumbs/signal-story-master-meditators.jpg',
     date: '2026-06-11',
   },
   {
@@ -31,6 +33,7 @@ export const signalStories: SignalStory[] = [
     source: 'Knowable Magazine',
     readTime: 14,
     url: 'https://knowablemagazine.org/content/article/mind/2022/science-wandering-mind',
+    image: '/images/thumbs/signal-story-wandering-mind.jpg',
     date: '2026-06-11',
   },
   {
@@ -40,6 +43,7 @@ export const signalStories: SignalStory[] = [
     source: 'Lion\u2019s Roar',
     readTime: 16,
     url: 'https://www.lionsroar.com/the-power-of-awareness-jon-kabat-zinn-in-conversation/',
+    image: '/images/thumbs/signal-story-kabat-zinn.jpg',
     date: '2026-06-11',
   },
   {
@@ -49,6 +53,7 @@ export const signalStories: SignalStory[] = [
     source: 'ScienceDaily',
     readTime: 6,
     url: 'https://www.sciencedaily.com/releases/2026/04/260406192809.htm',
+    image: '/images/thumbs/signal-story-koch.jpg',
     date: '2026-06-09',
   },
   {
@@ -58,6 +63,7 @@ export const signalStories: SignalStory[] = [
     source: 'Beshara Magazine',
     readTime: 14,
     url: 'https://besharamagazine.org/metaphysics-spirituality/iain-mcgilchrist-the-matter-with-things/',
+    image: '/images/thumbs/signal-story-mcgilchrist.jpg',
     date: '2026-06-08',
   },
   {
@@ -76,6 +82,7 @@ export const signalStories: SignalStory[] = [
     source: 'Lion’s Roar',
     readTime: 7,
     url: 'https://www.lionsroar.com/buddhanature-beyond-mere-concept/',
+    image: '/images/thumbs/signal-story-buddhanature.jpg',
     date: '2026-06-05',
   },
   {
@@ -85,6 +92,7 @@ export const signalStories: SignalStory[] = [
     source: 'Essentia Foundation',
     readTime: 10,
     url: 'https://www.essentiafoundation.org/integrated-information-theory-explained/seeing/',
+    image: '/images/thumbs/signal-story-iit.jpg',
     date: '2026-06-03',
   },
   {
@@ -103,6 +111,7 @@ export const signalStories: SignalStory[] = [
     source: 'Aeon',
     readTime: 11,
     url: 'https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me',
+    image: '/images/thumbs/signal-story-no-self.jpg',
     date: '2026-05-29',
   },
   {
@@ -112,6 +121,7 @@ export const signalStories: SignalStory[] = [
     source: 'Rupert Spira',
     readTime: 9,
     url: 'https://rupertspira.com/blog/nonduality-consciousness-a-very-simple-introduction/',
+    image: '/images/thumbs/signal-story-spira-intro.jpg',
     date: '2026-05-27',
   },
   {
@@ -139,6 +149,7 @@ export const signalStories: SignalStory[] = [
     source: 'Essentia Foundation',
     readTime: 9,
     url: 'https://www.essentiafoundation.org/analytic-idealism-and-the-possibility-of-a-meta-conscious-cosmic-mind/reading/',
+    image: '/images/thumbs/signal-story-idealism.jpg',
     date: '2026-05-16',
   },
   {
@@ -148,6 +159,7 @@ export const signalStories: SignalStory[] = [
     source: 'Science and Nonduality',
     readTime: 6,
     url: 'https://scienceandnonduality.com/article/reality-is-a-user-interface-donald-hoffman/',
+    image: '/images/thumbs/signal-story-interface.jpg',
     date: '2026-05-15',
   },
   {
@@ -157,6 +169,7 @@ export const signalStories: SignalStory[] = [
     source: 'Essentia Foundation',
     readTime: 8,
     url: 'https://www.essentiafoundation.org/quantum-fields-are-consciousness-a-groundbreaking-new-theory-by-the-inventor-of-the-microprocessor/seeing/',
+    image: '/images/thumbs/signal-story-quantum-fields.jpg',
     date: '2026-05-14',
   },
   {
@@ -166,6 +179,7 @@ export const signalStories: SignalStory[] = [
     source: 'Tom Das',
     readTime: 5,
     url: 'https://tomdas.com/2020/03/25/ramana-maharshi-the-world-should-be-considered-like-a-dream/',
+    image: '/images/thumbs/signal-story-dream-world.jpg',
     date: '2026-05-13',
   },
   {
@@ -175,6 +189,7 @@ export const signalStories: SignalStory[] = [
     source: 'The Marginalian',
     readTime: 7,
     url: 'https://www.themarginalian.org/2016/09/02/it-from-bit-wheeler/',
+    image: '/images/thumbs/signal-story-it-from-bit.jpg',
     date: '2026-05-12',
   },
   {
@@ -184,6 +199,7 @@ export const signalStories: SignalStory[] = [
     source: 'Rupert Spira',
     readTime: 8,
     url: 'https://rupertspira.com/blog/an-introduction-to-non-duality-the-core-of-the-great-spiritual-and-religious-traditions/',
+    image: '/images/thumbs/signal-story-nonduality-intro.jpg',
     date: '2026-05-11',
   },
   {
@@ -193,6 +209,7 @@ export const signalStories: SignalStory[] = [
     source: 'Religion News Service',
     readTime: 6,
     url: 'https://religionnews.com/2025/11/17/simulation-theory-brings-an-ai-twist-out-of-the-matrix-to-ideas-mystics-and-religious-scholars-have-voiced-for-centuries/',
+    image: '/images/thumbs/signal-story-simulation.jpg',
     date: '2026-05-10',
   },
   {
@@ -202,6 +219,7 @@ export const signalStories: SignalStory[] = [
     source: 'Aeon',
     readTime: 11,
     url: 'https://aeon.co/essays/the-hard-problem-of-consciousness-is-a-distraction-from-the-real-one',
+    image: '/images/thumbs/signal-story-hard-problem.jpg',
     date: '2026-05-09',
   },
   {
@@ -211,6 +229,7 @@ export const signalStories: SignalStory[] = [
     source: 'Greater Good Science Center',
     readTime: 5,
     url: 'https://greatergood.berkeley.edu/article/item/what_awe_looks_like_in_the_brain',
+    image: '/images/thumbs/signal-story-awe.jpg',
     date: '2026-05-08',
   },
   {
@@ -220,6 +239,7 @@ export const signalStories: SignalStory[] = [
     source: 'Tricycle',
     readTime: 6,
     url: 'https://tricycle.org/magazine/tibetan-dream-yoga/',
+    image: '/images/thumbs/signal-story-dream-yoga.jpg',
     date: '2026-05-07',
   },
   {
@@ -229,6 +249,7 @@ export const signalStories: SignalStory[] = [
     source: 'The Golden Sufi Center',
     readTime: 4,
     url: 'https://goldensufi.org/article/lover-and-beloved/',
+    image: '/images/thumbs/signal-story-heart.jpg',
     date: '2026-05-06',
   },
   {
@@ -238,6 +259,7 @@ export const signalStories: SignalStory[] = [
     source: 'Science and Nonduality',
     readTime: 7,
     url: 'https://scienceandnonduality.com/article/near-death-experiences-are-real-a-rebuttal/',
+    image: '/images/thumbs/signal-story-nde.jpg',
     date: '2026-05-05',
   },
 ];
