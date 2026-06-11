@@ -70,14 +70,15 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
       <p class="result-count" id="result-count">{videos.length} videos</p>
       <div class="videos-grid" id="videos-grid">
         {videos.map(v => (
-          <a
-            href={`https://youtu.be/${v.id}`}
-            target="_blank"
-            rel="noopener"
+          <button
+            type="button"
             class="video-card"
+            data-id={v.id}
+            data-title={v.title}
             data-teacher={v.teacher ?? ''}
             data-tradition={v.tradition ?? ''}
             data-themes={(v.themes ?? []).join(',')}
+            aria-label={`Play: ${v.title}`}
           >
             <div class="thumb-wrap">
               <img
@@ -96,7 +97,7 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
               <p class="video-title">{v.title}</p>
               {v.caption && <p class="video-caption">{v.caption}</p>}
             </div>
-          </a>
+          </button>
         ))}
       </div>
       <p class="empty-state" id="empty-state" hidden>
@@ -111,6 +112,17 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
     </div>
   </section>
 
+  <div class="video-lightbox" id="video-lightbox" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-inner">
+      <button class="lightbox-close" type="button" data-close aria-label="Close video">&times;</button>
+      <div class="lightbox-frame" id="lightbox-frame"></div>
+      <p class="lightbox-meta">
+        <span id="lightbox-title"></span>
+        <a id="lightbox-yt-link" href="#" target="_blank" rel="noopener">Watch on YouTube &#8599;</a>
+      </p>
+    </div>
+  </div>
 </BaseLayout>
 
 <script>
@@ -153,6 +165,53 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
       }
       applyFilters();
     });
+  });
+</script>
+
+<script>
+  // In-site lightbox player. Click a card: the video plays here, not on
+  // YouTube. The iframe is created on open and removed on close so audio
+  // stops and nothing loads until asked for.
+  const lightbox = document.getElementById('video-lightbox') as HTMLElement;
+  const frame = document.getElementById('lightbox-frame') as HTMLElement;
+  const titleEl = document.getElementById('lightbox-title') as HTMLElement;
+  const ytLink = document.getElementById('lightbox-yt-link') as HTMLAnchorElement;
+  const closeBtn = lightbox.querySelector('.lightbox-close') as HTMLButtonElement;
+  let lastFocus: HTMLElement | null = null;
+
+  function openVideo(id: string, title: string) {
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+    iframe.title = title;
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    frame.replaceChildren(iframe);
+    titleEl.textContent = title;
+    ytLink.href = `https://youtu.be/${id}`;
+    lastFocus = document.activeElement as HTMLElement;
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeVideo() {
+    frame.replaceChildren();
+    lightbox.hidden = true;
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+
+  document.querySelectorAll<HTMLElement>('#videos-grid .video-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const id = card.dataset.id;
+      if (id) openVideo(id, card.dataset.title || 'Video');
+    });
+  });
+  lightbox.querySelectorAll('[data-close]').forEach(el =>
+    el.addEventListener('click', closeVideo)
+  );
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !lightbox.hidden) closeVideo();
   });
 </script>
 
@@ -218,7 +277,18 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
     gap: 32px 24px;
   }
 
-  .video-card { color: inherit; display: block; transition: transform 0.3s ease; }
+  .video-card {
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+    width: 100%;
+  }
   .video-card:hover { color: inherit; transform: translateY(-3px); }
   .thumb-wrap {
     position: relative;
@@ -272,4 +342,27 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
     .filter-row { flex-direction: column; gap: 8px; }
     .filter-label { padding-top: 0; }
   }
+
+  /* Lightbox player */
+  .video-lightbox { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .video-lightbox[hidden] { display: none; }
+  .lightbox-backdrop { position: absolute; inset: 0; background: rgba(8, 22, 32, 0.88); }
+  .lightbox-inner { position: relative; width: min(960px, 100%); }
+  .lightbox-frame { aspect-ratio: 16 / 9; background: #000; border-radius: 6px; overflow: hidden; box-shadow: 0 24px 80px rgba(0,0,0,0.5); }
+  .lightbox-frame :global(iframe) { width: 100%; height: 100%; border: 0; display: block; }
+  .lightbox-close {
+    position: absolute;
+    top: -44px;
+    right: 0;
+    background: none;
+    border: none;
+    color: var(--text);
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 6px 10px;
+  }
+  .lightbox-close:hover { color: var(--gold-text); }
+  .lightbox-meta { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 14px; font-size: 14px; color: var(--text-muted); }
+  .lightbox-meta a { font-size: 13px; }
 </style>
