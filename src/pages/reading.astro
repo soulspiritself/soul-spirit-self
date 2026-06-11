@@ -103,7 +103,7 @@ const groups = [...grouped.entries()]
   .trad-group h2 a { color: inherit; border: none; }
   .trad-group h2 a:hover { color: var(--accent); }
 
-  .books-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 28px; }
+  .books-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 28px; }
   .book-card {
     position: relative;
     display: flex;

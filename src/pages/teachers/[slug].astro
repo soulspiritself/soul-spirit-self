@@ -316,7 +316,7 @@ const teacherThemes = (teacher.data.themes || [])
 
   .teacher-videos { padding: 96px 0 0; }
   .teacher-videos .wrapper { max-width: 980px; }
-  .videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; }
+  .videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 32px; }
   .videos-grid.single { grid-template-columns: minmax(0, 780px); justify-content: center; }
 
   .teacher-texts { padding: 96px 0 0; }

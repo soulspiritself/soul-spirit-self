@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sss-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/andrew/Documents/soul-spirit-self-handover-bundle/soul-spirit-self",
+      "port": 4321
+    }
+  ]
+}

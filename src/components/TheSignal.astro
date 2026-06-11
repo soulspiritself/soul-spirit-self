@@ -358,6 +358,9 @@ const rest = allStories.slice(1, 4);
   }
   @media (max-width: 600px) {
     .signal-featured { grid-template-columns: 1fr; }
+    .signal-featured.with-image { grid-template-columns: 1fr; }
+    .signal-featured-image { min-height: 0; max-height: 180px; }
+    .signal-featured.with-image .signal-featured-inner { padding: 22px 20px; }
     .signal-featured-icon { display: none; }
     .signal-grid { grid-template-columns: 1fr; }
     .signal-header h2 { font-size: 34px; }

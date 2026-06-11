@@ -474,6 +474,9 @@ function formatDate(iso: string) {
   }
   @media (max-width: 600px) {
     .signal-featured { grid-template-columns: 1fr; padding: 28px 24px; }
+    .signal-featured.with-image { grid-template-columns: 1fr; padding: 0; }
+    .signal-featured-image { min-height: 0; max-height: 180px; }
+    .signal-featured.with-image .signal-featured-inner { padding: 22px 20px; }
     .signal-featured-icon { display: none; }
     .signal-featured-hed { font-size: 24px; }
     .signal-grid { grid-template-columns: 1fr; }

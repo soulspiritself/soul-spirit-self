@@ -42,7 +42,7 @@ const themes = (await getCollection('themes')).sort((a, b) => a.data.order - b.d
   .page-hero .lede { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-muted); line-height: 1.65; }
 
   .themes-grid-section { padding: 48px 0 96px; }
-  .themes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; }
+  .themes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 32px; }
   .theme-card { display: flex; flex-direction: column; border: 1px solid var(--line); color: inherit; transition: border-color 0.3s, transform 0.3s; }
   .theme-card:hover { border-color: var(--accent-deep); transform: translateY(-2px); color: inherit; }
   .theme-image { aspect-ratio: 16/9; background: var(--bg-soft); background-size: cover; background-position: center; }

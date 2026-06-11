@@ -237,7 +237,7 @@ const related = (text.data.related || [])
   .text-videos .section-header { margin-bottom: 32px; }
   .text-videos .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
   .text-videos .section-header h2 { font-family: var(--serif); font-size: 32px; font-weight: 400; color: var(--text); margin-top: 12px; }
-  .text-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px; max-width: 980px; }
+  .text-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 32px; max-width: 980px; }
   .text-videos-grid.single { grid-template-columns: minmax(0, 780px); }
 
   .text-section { padding: 80px 0 0; scroll-margin-top: 80px; }
