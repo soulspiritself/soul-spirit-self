@@ -55,7 +55,8 @@ public/images/               ← all imagery + logo
 | `--teal-light` | `#3278a0` | upper gradient |
 | `--accent` | `#c9a96e` | gold (CTAs, eyebrows, accents) |
 | `--text` | `#f1ead7` | cream type |
-| `--text-muted` | `#c9d6dd` | softer type |
+| `--text-muted` | `#dde6eb` | softer type |
+| `--gold-text` | `#e9d1a2` | gold that carries words (AA-safe) |
 | `--serif` | Cormorant Garamond | display + body serif |
 | `--sans` | Inter | UI sans |
 

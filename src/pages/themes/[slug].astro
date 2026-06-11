@@ -160,33 +160,33 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
 <style>
   .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }
   .breadcrumb a { color: var(--text-muted); }
-  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb a:hover { color: var(--gold-text); }
   .breadcrumb span { margin: 0 12px; color: var(--text-faint); }
 
   .theme-hero { position: relative; min-height: 360px; display: flex; align-items: flex-end; padding: 0; overflow: hidden; border-bottom: 1px solid var(--line); margin-top: 32px; }
   .theme-hero-bg { position: absolute; inset: 0; background-color: var(--bg-soft); background-size: cover; background-position: center; }
   .theme-hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,14,26,0.4) 0%, rgba(10,14,26,0.85) 100%); }
   .theme-hero-content { position: relative; z-index: 1; max-width: var(--max-width); width: 100%; margin: 0 auto; padding: 64px var(--gutter) 48px; }
-  .theme-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .theme-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; }
   .theme-hero h1 { font-family: var(--serif); font-size: 64px; font-weight: 400; line-height: 1; margin: 16px 0 16px; letter-spacing: -0.01em; }
   .theme-hero .subtitle { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--text-muted); max-width: 720px; line-height: 1.4; font-weight: 300; }
 
   .lead-quote-section { padding: 64px 0 0; }
   .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); }
   .lead-quote p { font-family: var(--serif); font-size: 28px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 24px; }
-  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; color: var(--accent); }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; color: var(--gold-text); }
   .lead-quote .src { color: var(--text-faint); }
 
   .theme-overview-section { padding: 64px 0 0; }
   .theme-overview { max-width: 780px; margin: 0 auto; font-family: var(--serif); font-size: 21px; line-height: 1.7; color: var(--text-muted); font-weight: 300; }
   .theme-overview :global(p + p) { margin-top: 22px; }
   .theme-overview :global(em) { color: var(--text); }
-  .theme-overview :global(a) { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
-  .theme-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
+  .theme-overview :global(a) { color: var(--gold-text); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
+  .theme-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--gold-text); }
 
   .theme-section { padding: 96px 0 0; }
   .section-header { margin-bottom: 40px; }
-  .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; }
   .section-header h2 { font-family: var(--serif); font-size: 36px; font-weight: 400; color: var(--text); margin-top: 12px; }
 
   .teachers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 32px; }
@@ -202,7 +202,7 @@ const traditionMap = new Map(allTraditions.map(t => [t.slug, t.data.title]));
   .text-card:hover { border-color: var(--accent-deep); color: inherit; }
   .text-card-image { aspect-ratio: 16/9; background: var(--bg-soft); background-size: cover; background-position: center; }
   .text-card-body { padding: 24px; }
-  .text-card-tradition { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  .text-card-tradition { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-text); margin-bottom: 10px; }
   .text-card h3 { font-family: var(--serif); font-size: 22px; font-weight: 500; color: var(--text); margin: 0 0 10px; }
   .text-card p { font-size: 14px; color: var(--text-muted); line-height: 1.55; }
 

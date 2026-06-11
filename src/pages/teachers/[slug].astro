@@ -246,7 +246,7 @@ const teacherThemes = (teacher.data.themes || [])
 <style>
   .breadcrumb { padding: 32px 0 0; font-size: 13px; letter-spacing: 0.06em; color: var(--text-faint); }
   .breadcrumb a { color: var(--text-muted); }
-  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb a:hover { color: var(--gold-text); }
   .breadcrumb span { margin: 0 12px; color: var(--text-faint); }
 
   .teacher-hero { padding: 48px 0 0; }
@@ -255,25 +255,25 @@ const teacherThemes = (teacher.data.themes || [])
   .teacher-hero-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .portrait-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 120px; font-weight: 300; color: var(--text-faint); }
   .portrait-placeholder::after { content: attr(data-initial); }
-  .teacher-hero-tradition { font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; font-weight: 500; }
+  .teacher-hero-tradition { font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); margin-bottom: 18px; font-weight: 500; }
   .teacher-hero-tradition a { color: inherit; }
   .teacher-hero-tradition a:hover { color: var(--text); }
   .teacher-hero h1 { font-size: 64px; font-weight: 400; line-height: 1; letter-spacing: -0.02em; margin: 0 0 12px; }
   .dates { font-family: var(--sans); font-size: 13px; letter-spacing: 0.12em; color: var(--text-faint); margin-bottom: 28px; }
   .summary { font-family: var(--serif); font-size: 22px; font-style: italic; color: var(--text-muted); line-height: 1.55; max-width: 640px; font-weight: 300; }
   .source-link { margin-top: 28px; font-family: var(--sans); font-size: 14px; }
-  .source-link a { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
-  .source-link a:hover { color: var(--text); border-bottom-color: var(--accent); }
+  .source-link a { color: var(--gold-text); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
+  .source-link a:hover { color: var(--text); border-bottom-color: var(--gold-text); }
 
   .lead-quote-section { padding: 64px 0 0; }
   .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); border: none; }
   .lead-quote p { font-family: var(--serif); font-size: 26px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 20px; }
-  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--accent); }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--gold-text); }
   .lead-quote .src { color: var(--text-faint); }
 
   .begin-here-section { padding: 80px 0 0; }
   .begin-here-header { margin-bottom: 32px; }
-  .begin-here-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .begin-here-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; }
   .begin-here-header h2 { font-family: var(--serif); font-size: 32px; font-weight: 400; color: var(--text); margin-top: 12px; }
   .begin-here-video { max-width: 980px; }
 
@@ -287,11 +287,11 @@ const teacherThemes = (teacher.data.themes || [])
   .teacher-body-section { padding: 80px 0 0; }
   .teacher-body { max-width: 780px; margin: 0 auto; font-family: var(--serif); font-size: 21px; line-height: 1.7; color: var(--text); font-weight: 300; }
   .teacher-body :global(p) { margin-bottom: 22px; }
-  .teacher-body :global(p:first-child::first-letter) { font-size: 64px; float: left; line-height: 0.85; margin: 8px 12px 0 0; color: var(--accent); font-weight: 500; }
-  .teacher-body :global(h2) { font-family: var(--sans); font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; margin: 48px 0 18px; }
+  .teacher-body :global(p:first-child::first-letter) { font-size: 64px; float: left; line-height: 0.85; margin: 8px 12px 0 0; color: var(--gold-text); font-weight: 500; }
+  .teacher-body :global(h2) { font-family: var(--sans); font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; margin: 48px 0 18px; }
   .teacher-body :global(h3) { font-family: var(--serif); font-size: 26px; margin: 32px 0 12px; color: var(--text); font-weight: 500; }
-  .teacher-body :global(a) { color: var(--accent); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
-  .teacher-body :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
+  .teacher-body :global(a) { color: var(--gold-text); border-bottom: 1px solid rgba(201,169,97,0.4); padding-bottom: 1px; }
+  .teacher-body :global(a:hover) { color: var(--text); border-bottom-color: var(--gold-text); }
   .teacher-body :global(ul) { padding-left: 0; list-style: none; }
   .teacher-body :global(ul li) { padding: 10px 0; border-bottom: 1px solid var(--line); margin-bottom: 0; }
   .teacher-body :global(ul li:last-child) { border-bottom: none; }
@@ -336,13 +336,13 @@ const teacherThemes = (teacher.data.themes || [])
   .sibling-dates { font-size: 11px; letter-spacing: 0.06em; color: var(--text-faint); }
 
   .section-header { margin-bottom: 40px; }
-  .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .section-header .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; }
   .section-header h2 { font-family: var(--serif); font-size: 36px; font-weight: 400; color: var(--text); margin-top: 12px; }
 
   @media (max-width: 800px) {
     .teacher-hero-grid { grid-template-columns: 1fr; gap: 32px; }
     .teacher-hero-portrait { width: 200px; height: 200px; margin: 0 auto; }
-    .teacher-hero h1 { font-size: 44px; text-align: center; }
+    .teacher-hero h1 { font-size: clamp(32px, 5.5vw, 44px); text-align: center; }
     .dates, .summary, .source-link { text-align: center; }
     .teacher-hero-tradition { text-align: center; }
   }

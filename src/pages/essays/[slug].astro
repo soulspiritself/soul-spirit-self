@@ -78,7 +78,7 @@ const articleJsonLd = {
 </BaseLayout>
 
 <style>
-  .essay-article { max-width: 760px; margin: 0 auto; padding: 48px var(--gutter) 96px; }
+  .essay-article { max-width: 700px; margin: 0 auto; padding: 48px var(--gutter) 96px; }
   .essay-hero-image { margin: 0 0 40px; }
   .essay-hero-image img { width: 100%; border-radius: 4px; display: block; }
   .essay-hero { text-align: center; margin-bottom: 40px; }
@@ -86,11 +86,11 @@ const articleJsonLd = {
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--gold-text);
   }
   .essay-hero h1 {
     font-family: var(--serif);
-    font-size: 52px;
+    font-size: clamp(34px, 6vw, 52px);
     font-weight: 400;
     line-height: 1.15;
     margin: 16px 0 18px;
@@ -118,7 +118,7 @@ const articleJsonLd = {
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--gold-text);
     margin-bottom: 10px;
   }
   .why-it-matters p {
@@ -132,9 +132,10 @@ const articleJsonLd = {
 
   .essay-body {
     font-family: var(--serif);
-    font-size: 19px;
-    line-height: 1.75;
-    color: var(--text-muted);
+    font-size: 20px;
+    line-height: 1.78;
+    color: var(--text);
+    font-weight: 400;
   }
   .essay-body :global(p) { margin-bottom: 22px; }
   .essay-body :global(h2) {
@@ -161,5 +162,5 @@ const articleJsonLd = {
     color: var(--text-faint);
   }
   .essay-footer .licence-note { line-height: 1.6; margin-bottom: 14px; }
-  .essay-footer a { color: var(--accent); }
+  .essay-footer a { color: var(--gold-text); }
 </style>

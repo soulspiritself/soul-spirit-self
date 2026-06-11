@@ -46,7 +46,7 @@ const essays = (await getCollection('essays')).sort((a, b) => a.data.order - b.d
   }
   .page-hero h1 {
     font-family: var(--serif);
-    font-size: 84px;
+    font-size: clamp(46px, 7vw, 84px);
     font-weight: 400;
     letter-spacing: 0.04em;
     margin: 12px 0 24px;
@@ -94,7 +94,7 @@ const essays = (await getCollection('essays')).sort((a, b) => a.data.order - b.d
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--gold-text);
     margin-bottom: 10px;
   }
   .essay-card h2 {

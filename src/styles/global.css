@@ -2,6 +2,29 @@
    Brand palette mirrors soulspiritself.com: deep teal gradient, cream type, warm gold accent.
    Edit colour variables here to retheme the entire site. */
 
+/* Self-hosted variable fonts (latin subset). Weight range 400-600. */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/fonts/cormorant-garamond-var.woff2') format('woff2');
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/fonts/cormorant-garamond-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-var.woff2') format('woff2');
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Brand palette (sourced from soulspiritself.com) */
   --teal-deep: #1a4a65;
@@ -16,11 +39,12 @@
 
   /* Text */
   --text: #f1ead7;
-  --text-muted: #c9d6dd;
-  --text-faint: #8aa3b1;
+  --text-muted: #dde6eb;
+  --text-faint: #a9bdc9;
 
   /* Accent (warm gold) */
-  --accent: #c9a96e;
+  --accent: #c9a96e;        /* decorative gold: borders, rules, fills */
+  --gold-text: #e9d1a2;     /* brighter gold for gold that carries words */
   --accent-soft: #b08e54;
   --accent-deep: #8a6c3a;
 
@@ -45,21 +69,28 @@ html {
 }
 
 body {
-  /* Soft radial-into-linear teal gradient mirroring the existing site */
-  background:
-    radial-gradient(ellipse at 50% 30%, var(--teal-light) 0%, var(--teal-mid) 35%, var(--teal-deep) 75%, #143a52 100%),
-    var(--teal-deep);
-  background-attachment: fixed;
+  background: var(--teal-deep);
   color: var(--text);
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
 }
 
-a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+/* Fixed gradient layer: same look as background-attachment: fixed without
+   the mobile repaint cost. Top stop kept dark enough that all text tokens
+   pass WCAG AA against it. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(ellipse at 50% 30%, #235d7a 0%, var(--teal-mid) 35%, var(--teal-deep) 75%, #143a52 100%);
+}
+
+a { color: var(--gold-text); text-decoration: none; transition: color 0.2s; }
 a:hover { color: var(--text); }
 
 img { max-width: 100%; display: block; }
@@ -74,7 +105,7 @@ h1, h2, h3, h4 {
 }
 h1.display {
   font-family: var(--serif-display);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
@@ -83,13 +114,13 @@ h1.display {
   font-size: 12px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--gold-text);
   font-weight: 500;
 }
 .tagline-italic {
   font-family: var(--serif);
   font-style: italic;
-  color: var(--accent);
+  color: var(--gold-text);
   letter-spacing: 0.12em;
 }
 
@@ -117,7 +148,7 @@ h1.display {
   padding: 14px 28px;
   border: 1px solid var(--accent);
   background: transparent;
-  color: var(--accent);
+  color: var(--gold-text);
   font-family: var(--sans);
   font-size: 13px;
   letter-spacing: 0.18em;
@@ -137,7 +168,7 @@ h1.display {
 /* Imagen placeholder backgrounds (used until real Imagen 4 images replace them) */
 .imagen-placeholder { background: var(--bg-soft); position: relative; overflow: hidden; }
 .imagen-placeholder::before {
-  content: 'Imagen 4 placeholder';
+  content: '';
   position: absolute;
   inset: 0;
   display: flex;
@@ -153,4 +184,21 @@ h1.display {
 @media (max-width: 900px) {
   :root { --gutter: 20px; }
   .section { padding: 64px var(--gutter); }
+}
+
+/* Keyboard focus */
+:focus-visible {
+  outline: 2px solid var(--gold-text);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Respect OS-level reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -122,7 +122,7 @@ const rest = allStories.slice(1, 4);
 
   .signal-header h2 {
     font-family: var(--serif);
-    font-size: 44px;
+    font-size: clamp(32px, 5.5vw, 44px);
     font-weight: 400;
     margin-top: 12px;
     letter-spacing: 0.01em;
@@ -142,7 +142,7 @@ const rest = allStories.slice(1, 4);
     font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--gold-text);
     white-space: nowrap;
     flex-shrink: 0;
     padding-bottom: 4px;
@@ -160,18 +160,18 @@ const rest = allStories.slice(1, 4);
     margin-bottom: 14px;
   }
   .signal-cat--consciousness {
-    background: rgba(100, 80, 200, 0.18);
-    color: #c4b8f0;
-    border: 1px solid rgba(150, 120, 220, 0.25);
+    background: rgba(86, 126, 196, 0.20);
+    color: #bdd3f0;
+    border: 1px solid rgba(120, 160, 220, 0.30);
   }
   .signal-cat--meditation {
-    background: rgba(30, 130, 100, 0.18);
-    color: #8ddec4;
-    border: 1px solid rgba(50, 160, 120, 0.25);
+    background: rgba(36, 134, 122, 0.20);
+    color: #97dcd2;
+    border: 1px solid rgba(70, 170, 155, 0.30);
   }
   .signal-cat--wisdom {
     background: rgba(180, 130, 50, 0.18);
-    color: #d4a95a;
+    color: var(--gold-text);
     border: 1px solid rgba(200, 155, 70, 0.25);
   }
   .hosted-tag {
@@ -185,7 +185,7 @@ const rest = allStories.slice(1, 4);
     margin-left: 6px;
     border-radius: 20px;
     background: rgba(201, 169, 110, 0.14);
-    color: var(--accent);
+    color: var(--gold-text);
     border: 1px solid rgba(201, 169, 110, 0.4);
   }
 
@@ -317,9 +317,9 @@ const rest = allStories.slice(1, 4);
     height: 64px;
     color: rgba(255, 255, 255, 0.85);
   }
-  .signal-card-image.cat--consciousness .signal-card-image-glyph { color: #c4b8f0; }
-  .signal-card-image.cat--meditation    .signal-card-image-glyph { color: #8ddec4; }
-  .signal-card-image.cat--wisdom        .signal-card-image-glyph { color: var(--accent); }
+  .signal-card-image.cat--consciousness .signal-card-image-glyph { color: #bdd3f0; }
+  .signal-card-image.cat--meditation    .signal-card-image-glyph { color: #97dcd2; }
+  .signal-card-image.cat--wisdom        .signal-card-image-glyph { color: var(--gold-text); }
   .signal-card > .signal-cat,
   .signal-card > .hosted-tag,
   .signal-card > .signal-card-hed,

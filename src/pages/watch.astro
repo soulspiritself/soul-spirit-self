@@ -163,8 +163,8 @@ const themeSlugs = unique(videos.flatMap(v => v.themes ?? [])).sort((a, b) => (t
     max-width: 760px;
     margin: 0 auto;
   }
-  .watch-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
-  .watch-hero h1 { font-family: var(--serif); font-size: 84px; font-weight: 400; letter-spacing: 0.04em; margin: 12px 0 24px; }
+  .watch-hero .eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-text); font-weight: 500; }
+  .watch-hero h1 { font-family: var(--serif); font-size: clamp(46px, 7vw, 84px); font-weight: 400; letter-spacing: 0.04em; margin: 12px 0 24px; }
   .watch-hero .lede { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-muted); line-height: 1.65; }
 
   .watch-filters {

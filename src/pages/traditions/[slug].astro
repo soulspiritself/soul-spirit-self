@@ -120,7 +120,7 @@ const teachers = allTeachers.filter(t =>
   .trad-hero-bg::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 40%, rgba(201,169,97,0.18) 0%, transparent 55%), radial-gradient(ellipse at 70% 60%, rgba(80,60,140,0.22) 0%, transparent 60%), linear-gradient(180deg, rgba(10,14,26,0.4) 0%, rgba(10,14,26,0.85) 100%); }
   .hero-imagen-tag { position: absolute; top: 24px; right: var(--gutter); padding: 6px 14px; background: rgba(10,14,26,0.6); border: 1px solid var(--line-strong); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-faint); z-index: 2; }
   .trad-hero-content { position: relative; z-index: 1; max-width: var(--max-width); width: 100%; margin: 0 auto; padding: 80px var(--gutter) 64px; }
-  .trad-hero h1 { font-size: 84px; font-weight: 400; line-height: 1; letter-spacing: -0.02em; margin: 24px 0 24px; }
+  .trad-hero h1 { font-size: clamp(46px, 7vw, 84px); font-weight: 400; line-height: 1; letter-spacing: -0.02em; margin: 24px 0 24px; }
   .trad-hero p { font-family: var(--serif); font-size: 24px; font-weight: 300; font-style: italic; color: var(--text-muted); max-width: 680px; line-height: 1.4; }
 
   .section-header { margin-bottom: 64px; max-width: 820px; }
@@ -128,15 +128,15 @@ const teachers = allTeachers.filter(t =>
 
   .trad-overview { max-width: 820px; font-family: var(--serif); font-size: 21px; font-weight: 300; line-height: 1.6; color: var(--text-muted); }
   .trad-overview :global(p + p) { margin-top: 20px; }
-  .trad-overview :global(a) { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(201,169,97,0.4); transition: border-color 0.25s ease, color 0.25s ease; }
-  .trad-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--accent); }
+  .trad-overview :global(a) { color: var(--gold-text); text-decoration: none; border-bottom: 1px solid rgba(201,169,97,0.4); transition: border-color 0.25s ease, color 0.25s ease; }
+  .trad-overview :global(a:hover) { color: var(--text); border-bottom-color: var(--gold-text); }
 
   .texts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 40px 32px; }
 
   .lead-quote-section { padding: 64px 0 0; }
   .lead-quote { max-width: 780px; margin: 0 auto; text-align: center; padding: 0 var(--gutter); border: none; }
   .lead-quote p { font-family: var(--serif); font-size: 28px; font-style: italic; line-height: 1.45; color: var(--text); font-weight: 300; margin-bottom: 20px; }
-  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--accent); }
+  .lead-quote footer { font-family: var(--sans); font-size: 13px; letter-spacing: 0.08em; color: var(--gold-text); }
   .lead-quote .src { color: var(--text-faint); }
 
   .trad-videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 32px; max-width: 980px; }

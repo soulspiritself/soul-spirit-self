@@ -229,13 +229,13 @@ function formatDate(iso: string) {
     transition: all 0.2s ease;
   }
   .filter-pill:hover {
-    color: var(--accent);
+    color: var(--gold-text);
     border-color: var(--accent);
   }
   .filter-pill.active {
     background: rgba(201, 169, 110, 0.10);
     border-color: var(--accent);
-    color: var(--accent);
+    color: var(--gold-text);
   }
 
   .signal-list {
@@ -255,18 +255,18 @@ function formatDate(iso: string) {
     margin-bottom: 14px;
   }
   .signal-cat--consciousness {
-    background: rgba(100, 80, 200, 0.18);
-    color: #c4b8f0;
-    border: 1px solid rgba(150, 120, 220, 0.25);
+    background: rgba(86, 126, 196, 0.20);
+    color: #bdd3f0;
+    border: 1px solid rgba(120, 160, 220, 0.30);
   }
   .signal-cat--meditation {
-    background: rgba(30, 130, 100, 0.18);
-    color: #8ddec4;
-    border: 1px solid rgba(50, 160, 120, 0.25);
+    background: rgba(36, 134, 122, 0.20);
+    color: #97dcd2;
+    border: 1px solid rgba(70, 170, 155, 0.30);
   }
   .signal-cat--wisdom {
     background: rgba(180, 130, 50, 0.18);
-    color: #d4a95a;
+    color: var(--gold-text);
     border: 1px solid rgba(200, 155, 70, 0.25);
   }
   .hosted-tag {
@@ -280,7 +280,7 @@ function formatDate(iso: string) {
     margin-left: 6px;
     border-radius: 20px;
     background: rgba(201, 169, 110, 0.14);
-    color: var(--accent);
+    color: var(--gold-text);
     border: 1px solid rgba(201, 169, 110, 0.4);
   }
 
@@ -408,9 +408,9 @@ function formatDate(iso: string) {
     height: 72px;
     color: rgba(255, 255, 255, 0.85);
   }
-  .signal-card-image.cat--consciousness .signal-card-image-glyph { color: #c4b8f0; }
-  .signal-card-image.cat--meditation    .signal-card-image-glyph { color: #8ddec4; }
-  .signal-card-image.cat--wisdom        .signal-card-image-glyph { color: var(--accent); }
+  .signal-card-image.cat--consciousness .signal-card-image-glyph { color: #bdd3f0; }
+  .signal-card-image.cat--meditation    .signal-card-image-glyph { color: #97dcd2; }
+  .signal-card-image.cat--wisdom        .signal-card-image-glyph { color: var(--gold-text); }
   /* Padding moves to the body */
   .signal-card > .signal-cat,
   .signal-card > .hosted-tag,
@@ -465,12 +465,12 @@ function formatDate(iso: string) {
     color: var(--text-muted);
     transition: color 0.2s ease;
   }
-  .signal-rss a:hover { color: var(--accent); }
+  .signal-rss a:hover { color: var(--gold-text); }
   .signal-rss svg { opacity: 0.7; }
 
   @media (max-width: 900px) {
     .signal-grid { grid-template-columns: repeat(2, 1fr); }
-    .signal-hero h1 { font-size: 44px; }
+    .signal-hero h1 { font-size: clamp(32px, 5.5vw, 44px); }
   }
   @media (max-width: 600px) {
     .signal-featured { grid-template-columns: 1fr; padding: 28px 24px; }

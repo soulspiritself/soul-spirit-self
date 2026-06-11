@@ -65,7 +65,7 @@ const groups = [...grouped.entries()].map(([slug, texts]) => ({
   }
   .page-hero h1 {
     font-family: var(--serif);
-    font-size: 84px;
+    font-size: clamp(46px, 7vw, 84px);
     font-weight: 400;
     letter-spacing: 0.04em;
     margin: 12px 0 24px;
@@ -93,7 +93,7 @@ const groups = [...grouped.entries()].map(([slug, texts]) => ({
     letter-spacing: 0.01em;
   }
   .tradition-group h2 a { color: var(--text); }
-  .tradition-group h2 a:hover { color: var(--accent); }
+  .tradition-group h2 a:hover { color: var(--gold-text); }
 
   .texts-list {
     display: flex;
@@ -139,7 +139,7 @@ const groups = [...grouped.entries()].map(([slug, texts]) => ({
   }
   .text-row .translator { color: var(--text-faint); }
   .text-row .text-arrow {
-    color: var(--accent);
+    color: var(--gold-text);
     font-size: 22px;
     transition: transform 0.3s ease;
   }
