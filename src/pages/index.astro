@@ -23,17 +23,6 @@ const homeFeatured = featuredVideos.slice(0, 6);
     <h1 class="display home-title">Soul Spirit Self</h1>
     <p class="tagline-italic home-tagline">A Journey Within</p>
     <div class="rule-gold"></div>
-    <p class="home-blurb">
-      Welcome to <strong>Soul Spirit Self</strong>. A collection of texts, videos and commentary from the spiritual traditions that point to the true nature of our self and the world.
-    </p>
-
-    <div class="hero-cta">
-      <a href={channelUrl} target="_blank" rel="noopener" class="btn primary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
-        Watch now
-      </a>
-      <a href="/traditions/" class="btn">Explore the library</a>
-    </div>
   </section>
 
   <!-- THE SIGNAL -->
@@ -88,7 +77,7 @@ const homeFeatured = featuredVideos.slice(0, 6);
   /* Hero */
   .home-hero {
     text-align: center;
-    padding: 96px var(--gutter) 64px;
+    padding: 88px var(--gutter) 40px;
     max-width: 820px;
     margin: 0 auto;
   }
@@ -111,24 +100,6 @@ const homeFeatured = featuredVideos.slice(0, 6);
     font-size: 28px;
     margin-bottom: 0;
     line-height: 1.4;
-  }
-  .home-blurb {
-    font-family: var(--serif);
-    font-size: 19px;
-    font-style: italic;
-    color: var(--text-muted);
-    line-height: 1.65;
-    max-width: 580px;
-    margin: 32px auto 40px;
-  }
-  .home-blurb strong { color: var(--text); font-weight: 500; }
-  .hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-  .hero-sub {
-    margin-top: 22px;
-    font-size: 11px;
-    letter-spacing: 0.32em;
-    text-transform: uppercase;
-    color: var(--text-faint);
   }
 
   /* Section header centered variant */
